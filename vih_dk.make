@@ -31,9 +31,9 @@ projects[vih_dk][download][type] = "git"
 projects[vih_dk][download][url] = "git://github.com/vih/vih.dk-theme.git"
 
 ; Modules
-projects[ding][type] = "module"
-projects[ding][download][type] = "git"
-projects[ding][download][url] = "git://github.com/vih/vih.dk-features.git"
+projects[vih_dk][type] = "module"
+projects[vih_dk][download][type] = "git"
+projects[vih_dk][download][url] = "git://github.com/vih/vih.dk-features.git"
 
 ; Libraries
 libraries[ckeditor][download][type] = "get"
