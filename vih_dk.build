@@ -12,5 +12,5 @@ projects[drupal][download][module] = "drupal"
 
 projects[vih_dk][type] = "profile"
 projects[vih_dk][download][type] = "git"
-projects[vih_dk][download][url] = "git://github.com/vih/vih.dk-theme.git"
+projects[vih_dk][download][url] = "git://github.com/vih/vih.dk-deploy.git"
 projects[vih_dk][download][branch] = "master"
