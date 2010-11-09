@@ -21,7 +21,7 @@ projects[feeds] = 2.0-alpha2
 projects[job_scheduler] = 2.0-alpha1
 projects[video_upload] = 1.0-beta1
 projects[video_upload] = 1.0-beta1
-projects[field_group] = 1.0-dev
+projects[field_group] = 1.x-dev
 projects[auto_nodetitle] = 1.0-alpha1
 
 ; Themes
