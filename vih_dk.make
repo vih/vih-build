@@ -10,8 +10,8 @@ projects[] = pathauto
 projects[] = xmlsitemap
 projects[] = devel
 projects[] = ctools
-;projects[] = styles
 projects[] = entity
+projects[] = styles
 
 ; needs to use exact versions otherwise it will not work
 projects[context] = 3.0-alpha2
@@ -23,6 +23,7 @@ projects[video_upload] = 1.0-beta1
 projects[video_upload] = 1.0-beta1
 projects[field_group] = 1.x-dev
 projects[auto_nodetitle] = 1.0-alpha1
+projects[token] = 1.0-alpha3
 
 ; Themes
 projects[vih_dk][type] = "theme"
