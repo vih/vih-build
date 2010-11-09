@@ -1,4 +1,4 @@
-vih.dk
+[vih.dk](http://vih.dk)
 ==
 
 Instructions on how to build the site from Drupal 7.
