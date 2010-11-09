@@ -11,7 +11,7 @@ projects[] = xmlsitemap
 projects[] = devel
 projects[] = ctools
 projects[] = entity
-projects[] = styles
+;projects[] = styles
 
 ; needs to use exact versions otherwise it will not work
 projects[context] = 3.0-alpha2
