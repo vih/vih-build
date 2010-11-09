@@ -10,7 +10,7 @@ projects[] = pathauto
 projects[] = xmlsitemap
 projects[] = devel
 projects[] = ctools
-projects[] = styles
+;projects[] = styles
 projects[] = entity
 
 ; needs to use exact versions otherwise it will not work
@@ -29,6 +29,12 @@ projects[vih_dk][type] = "theme"
 projects[vih_dk][download][type] = "git"
 projects[vih_dk][download][url] = "git://github.com/vih/vih.dk-theme.git"
 
+; Modules
+projects[ding][type] = "module"
+projects[ding][download][type] = "git"
+projects[ding][download][url] = "git://github.com/vih/vih.dk-features.git"
+
+; Libraries
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4.1/ckeditor_3.4.1.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
