@@ -14,6 +14,7 @@ projects[] = entity
 
 ; needs to use exact versions otherwise it will not work
 projects[styles] = 2.x-dev
+projects[styles][patch][] = "http://drupal.org/files/issues/error_4.patch"
 projects[context] = 3.0-alpha2
 projects[boxes] = 1.0-beta1
 projects[media] = 1.x-dev
