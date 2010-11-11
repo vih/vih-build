@@ -10,6 +10,8 @@ projects[] = ctools
 projects[] = entity
 
 ; needs to use exact versions otherwise it will not work
+projects[addressfield][subdir] = "contrib"
+projects[addressfield][version] = "1.0-alpha1"
 projects[context] = 3.0-alpha2
 projects[boxes] = 1.0-beta1
 projects[email] = 1.0-alpha2
