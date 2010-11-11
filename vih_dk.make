@@ -49,10 +49,10 @@ projects[styles][download][revision] = "DRUPAL-7--2"
 projects[styles][download][module] = "contributions/modules/styles"
 projects[styles][subdir] = "contrib"
 
-projects[token][subdir] = 1.0-alpha3
+projects[token][subdir] = contrib
 projects[token][version] = 1.0-alpha3
 
-projects[xmlsitemap] = 2.x-dev
+projects[xmlsitemap] = contrib
 projects[xmlsitemap] = 2.x-dev
 
 ; Themes
