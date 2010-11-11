@@ -30,9 +30,12 @@ projects[feeds][version] = 2.0-alpha2
 
 projects[features][download][type] = "cvs"
 projects[features][download][root] = ":pserver:anonymous:anonymous@cvs.drupal.org:/cvs/drupal-contrib"
-projects[features][download][revision] = "DRUPAL-7--2"
+projects[features][download][revision] = "DRUPAL-7--1"
 projects[features][download][module] = "contributions/modules/features"
 projects[features][subdir] = contrib
+
+projects[date][subdir] = contrib
+projects[date][version] = 1.x-dev
 
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha1
