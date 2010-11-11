@@ -14,6 +14,10 @@ Installation
 
     drush make vih_dk.build /var/www/vih_dk_build
     
+Now you need to apply a patch for file_styles:
+
+    http://drupal.org/files/issues/966612_file_styles.patch 
+
 Create the settings.php in sites/all/default
 Create "files" directory in sites/all/default
 
