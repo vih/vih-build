@@ -16,6 +16,7 @@ projects[styles] = 2.x-dev
 projects[styles][patch][] = "http://drupal.org/files/issues/error_4.patch"
 projects[context] = 3.0-alpha2
 projects[boxes] = 1.0-beta1
+projects[email] = 1.0-alpha2
 projects[media] = 1.x-dev
 projects[feeds] = 2.0-alpha2
 projects[job_scheduler] = 2.0-alpha1
