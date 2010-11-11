@@ -9,7 +9,6 @@ projects[devel][subdir] = contrib
 projects[ctools][subdir] = contrib
 projects[entity][subdir] = contrib
 
-; needs to use exact versions otherwise it will not work
 projects[addressfield][subdir] = "contrib"
 projects[addressfield][version] = "1.0-alpha1"
 
