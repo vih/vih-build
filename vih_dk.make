@@ -25,14 +25,14 @@ projects[token] = 1.0-alpha3
 projects[xmlsitemap] = 2.x-dev
 
 ; Themes
-projects[vih_dk][type] = "theme"
-projects[vih_dk][download][type] = "git"
-projects[vih_dk][download][url] = "git://github.com/vih/vih.dk-theme.git"
+projects[sport][type] = "theme"
+projects[sport][download][type] = "git"
+projects[sport][download][url] = "git://github.com/vih/vih.dk-theme.git"
 
 ; Modules
-projects[vih_dk][type] = "module"
-projects[vih_dk][download][type] = "git"
-projects[vih_dk][download][url] = "git://github.com/vih/vih.dk-features.git"
+projects[vih][type] = "module"
+projects[vih][download][type] = "git"
+projects[vih][download][url] = "git://github.com/vih/vih.dk-features.git"
 
 ; Libraries
 libraries[ckeditor][download][type] = "get"
