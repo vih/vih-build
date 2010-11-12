@@ -60,11 +60,14 @@ projects[styles][subdir] = "contrib"
 projects[token][subdir] = contrib
 projects[token][version] = 1.0-alpha3
 
-projects[xmlsitemap] = contrib
-projects[xmlsitemap] = 2.x-dev
+projects[xmlsitemap][subdir] = contrib
+projects[xmlsitemap][version] = 2.x-dev
 
-projects[menu_block] = contrib
-projects[menu_block] = 2.0-beta4
+projects[menu_block][subdir] = contrib
+projects[menu_block][version] = 2.0-beta4
+
+projects[strongarm][subdir] = contrib
+projects[strongarm][vesion] = 2.0-beta2
 
 ; Themes
 projects[sport][type] = "theme"
