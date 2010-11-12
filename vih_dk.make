@@ -63,6 +63,9 @@ projects[token][version] = 1.0-alpha3
 projects[xmlsitemap] = contrib
 projects[xmlsitemap] = 2.x-dev
 
+projects[menu_block] = contrib
+projects[menu_block] = 2.0-beta4
+
 ; Themes
 projects[sport][type] = "theme"
 projects[sport][download][type] = "git"
