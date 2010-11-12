@@ -1,5 +1,5 @@
 <?php
-require DRUPAL_ROOT . '/profiles/standard/standard.install';
+require '../standard/standard.install';
 
 /**
  * Implements hook_install().
