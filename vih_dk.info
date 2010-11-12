@@ -39,4 +39,4 @@ dependencies[] = styles
 dependencies[] = styles_ui
 dependencies[] = file_styles
 dependencies[] = token
-files[] = larsolesen_dk.profile
+files[] = vih_dk.profile
