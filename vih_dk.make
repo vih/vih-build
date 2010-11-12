@@ -12,11 +12,17 @@ projects[entity][subdir] = contrib
 projects[addressfield][subdir] = "contrib"
 projects[addressfield][version] = "1.0-alpha1"
 
+projects[boxes][subdir] = contrib
+projects[boxes][version] = 1.0-beta1
+
+projects[cck][subdir] = "contrib"
+projects[cck][version] = "2.x-dev"
+
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-alpha2
 
-projects[boxes][subdir] = contrib
-projects[boxes][version] = 1.0-beta1
+projects[date][subdir] = "contrib"
+projects[date][version] = "1.x-dev"
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.0-alpha2
@@ -72,3 +78,4 @@ libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4.1/ckeditor_3.4.1.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
+
