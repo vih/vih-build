@@ -14,7 +14,7 @@ Installation
 
 To build a complete site, run:
 
-    drush make vih_dk.build /var/www/vih_dk_build
+    drush make vih_dk.build ~/workspace/vih_dk_build
     
 Create the settings.php in sites/all/default
 Create "files" directory in sites/all/default
@@ -28,7 +28,14 @@ entire site, you can run this:
 
     drush make --no-core --contrib-destination=. vih_dk.make
 
-#### More information ####
+#### Rebuild everything ####
+
+If you want to force a rebuild of everything, you can run this:
+
+    drush si vih_dk
+
+More information
+--
 
 See more on [Drupal deployments & workflows with version control, drush_make, and Aegir](http://www.migueljacq.com/content/drupal-deployments-workflows-version-control-drushmake-and-aegir)
 
