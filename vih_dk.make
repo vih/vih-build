@@ -56,6 +56,7 @@ projects[styles][download][root] = ":pserver:anonymous:anonymous@cvs.drupal.org:
 projects[styles][download][revision] = "DRUPAL-7--2"
 projects[styles][download][module] = "contributions/modules/styles"
 projects[styles][subdir] = "contrib"
+projects[styles][patch][] = "http://drupal.org/files/issues/error_4.patch"
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.0-alpha3
