@@ -67,7 +67,7 @@ projects[menu_block][subdir] = contrib
 projects[menu_block][version] = 2.0-beta4
 
 projects[strongarm][subdir] = contrib
-projects[strongarm][vesion] = 2.0-beta2
+projects[strongarm][version] = 2.0-beta2
 
 ; Themes
 projects[sport][type] = "theme"
