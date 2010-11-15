@@ -10,7 +10,7 @@ projects[ctools][subdir] = contrib
 projects[entity][subdir] = contrib
 
 projects[addressfield][subdir] = "contrib"
-projects[addressfield][version] = "1.0-alpha1"
+projects[addressfield][version] = "1.x-dev"
 
 projects[boxes][subdir] = contrib
 projects[boxes][version] = 1.0-beta1
@@ -51,12 +51,8 @@ projects[field_group][version] = 1.x-dev
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0-alpha1
 
-projects[styles][download][type] = "cvs"
-projects[styles][download][root] = ":pserver:anonymous:anonymous@cvs.drupal.org:/cvs/drupal-contrib"
-projects[styles][download][revision] = "DRUPAL-7--2"
-projects[styles][download][module] = "contributions/modules/styles"
-projects[styles][subdir] = "contrib"
-projects[styles][patch][] = "http://drupal.org/files/issues/error_4.patch"
+projects[styles][subdir] = contrib
+projects[styles][version] = 2.x-dev
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.0-alpha3
