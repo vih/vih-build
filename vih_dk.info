@@ -39,4 +39,5 @@ dependencies[] = styles
 dependencies[] = styles_ui
 dependencies[] = file_styles
 dependencies[] = token
+dependencies[] = transliteration
 files[] = vih_dk.profile
