@@ -30,6 +30,7 @@ dependencies[] = entity
 dependencies[] = googleanalytics
 dependencies[] = features
 dependencies[] = feeds
+dependencies[] = feeds_ui
 dependencies[] = file_styles
 dependencies[] = job_scheduler
 dependencies[] = media

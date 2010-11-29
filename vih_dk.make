@@ -55,6 +55,7 @@ projects[menu_block][version] = 2.0-beta4
 projects[pathauto][subdir] = contrib
 
 projects[views][subdir] = contrib
+projects[views][version] = 3.x-dev
 
 projects[wysiwyg][subdir] = contrib
 
