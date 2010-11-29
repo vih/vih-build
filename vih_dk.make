@@ -71,6 +71,8 @@ projects[styles][patch][] = "http://drupal.org/files/issues/styles-error-during-
 projects[token][subdir] = contrib
 projects[token][version] = 1.0-alpha3
 
+projects[transliteration][subdir] = contrib
+
 projects[xmlsitemap][subdir] = contrib
 projects[xmlsitemap][version] = 2.x-dev
 
