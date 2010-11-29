@@ -9,12 +9,42 @@ require dirname(__FILE__) . '/../standard/standard.install';
 function vih_dk_install() {
   standard_install();
 
+  $theme = 'sport';
+
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
     ->condition('name', 'sport')
     ->execute();
-  variable_set('theme_default', 'sport');
+  variable_set('theme_default', $theme);
+
+  $values = array(
+    array(
+      'module' => 'system',
+      'delta' => 'main',
+      'theme' => $theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'content',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'system',
+      'delta' => 'main-menu',
+      'theme' => $theme,
+      'status' => 1,
+      'weight' => -10,
+      'region' => 'sidebar_first',
+      'pages' => '',
+      'cache' => -1,
+    ),
+  );
+  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
+  foreach ($values as $record) {
+    $query->values($record);
+  }
+  $query->execute();
     
   // setting up the editor
   _vih_dk_configure_wysiwyg();
