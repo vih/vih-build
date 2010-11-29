@@ -8,7 +8,14 @@ require dirname(__FILE__) . '/../standard/standard.install';
  */
 function vih_dk_install() {
   standard_install();
-  
+
+  db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', 'sport')
+    ->execute();
+  variable_set('theme_default', 'sport');
+    
   // setting up the editor
   _vih_dk_configure_wysiwyg();
   _vih_dk_configure_formatters();
