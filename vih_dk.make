@@ -4,6 +4,8 @@ core = 7.x
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-alpha1
 
+projects[admin_theme][subdir] = contrib
+
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0-alpha1
 
