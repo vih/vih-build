@@ -48,6 +48,9 @@ projects[views][subdir] = contrib
 
 projects[wysiwyg][subdir] = contrib
 
+projects[references][subdir] = contrib
+projects[references][version] = 2.x-dev
+
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0-beta2
 
