@@ -40,6 +40,7 @@ dependencies[] = views_ui
 dependencies[] = wysiwyg
 dependencies[] = pathauto
 dependencies[] = references
+dependencies[] = strongarm
 dependencies[] = styles
 dependencies[] = styles_ui
 dependencies[] = token
