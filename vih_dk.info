@@ -22,6 +22,7 @@ dependencies[] = toolbar
 dependencies[] = rdf
 
 ; contrib
+dependencies[] = admin_theme
 dependencies[] = boxes
 dependencies[] = context
 dependencies[] = context_ui
