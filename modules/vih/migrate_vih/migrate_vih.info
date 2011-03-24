@@ -1,0 +1,13 @@
+name = "Migrate VIH"
+description = "Migrate VIH."
+package = "Development"
+core = 7.x
+dependencies[] = taxonomy
+dependencies[] = image
+dependencies[] = comment
+dependencies[] = migrate
+dependencies[] = list
+dependencies[] = number
+
+files[] = MigrateNews.php
+
