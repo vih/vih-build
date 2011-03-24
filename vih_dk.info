@@ -22,6 +22,7 @@ dependencies[] = rdf
 
 ; contrib
 dependencies[] = boxes
+dependencies[] = cck
 dependencies[] = context
 dependencies[] = context_ui
 dependencies[] = ctools
