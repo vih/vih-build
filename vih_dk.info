@@ -3,7 +3,6 @@ description = Install vih.dk
 version = 0.1.0
 core = 7.x
 dependencies[] = block
-dependencies[] = color
 dependencies[] = comment
 dependencies[] = contextual
 dependencies[] = dashboard
