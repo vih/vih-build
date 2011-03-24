@@ -34,14 +34,14 @@ dependencies[] = feeds_ui
 dependencies[] = file_styles
 dependencies[] = job_scheduler
 dependencies[] = media
-dependencies[] = views
-dependencies[] = views_ui
-dependencies[] = wysiwyg
 dependencies[] = pathauto
 dependencies[] = styles
 dependencies[] = styles_ui
 dependencies[] = token
 dependencies[] = transliteration
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = wysiwyg
 dependencies[] = xmlsitemap
 
 ; custom
