@@ -6,8 +6,10 @@ projects[addressfield][subdir] = contrib
 projects[auto_nodetitle][subdir] = contrib
 
 projects[boxes][subdir] = contrib
+projects[boxes][version] = 1.0-beta2
 
 projects[cck][subdir] = contrib
+projects[cck][version] = 2.x-dev
 
 projects[context][subdir] = contrib
 
@@ -22,6 +24,7 @@ projects[email][subdir] = contrib
 projects[entity][subdir] = contrib
 
 projects[feeds][subdir] = contrib
+projects[feeds][version] = 2.0-alpha3
 
 projects[field_group][subdir] = contrib
 
@@ -30,8 +33,10 @@ projects[features][subdir] = contrib
 projects[google_analytics][subdir] = contrib 
 
 projects[job_scheduler][subdir] = contrib
+projects[job_scheduler][version] = 2.0-alpha2
 
 projects[media][subdir] = contrib
+projects[media][version] = 1.0-beta3
 
 projects[menu_block][subdir] = contrib
 
@@ -42,6 +47,7 @@ projects[views][subdir] = "contrib"
 projects[wysiwyg][subdir] = contrib
 
 projects[strongarm][subdir] = contrib
+projects[strongarm][version] = 2.0-beta2
 
 projects[styles][subdir] = contrib
 
