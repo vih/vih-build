@@ -37,6 +37,7 @@ dependencies[] = media
 dependencies[] = pathauto
 dependencies[] = styles
 dependencies[] = styles_ui
+dependencies[] = references
 dependencies[] = token
 dependencies[] = transliteration
 dependencies[] = views
