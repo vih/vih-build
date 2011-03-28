@@ -38,6 +38,9 @@ projects[job_scheduler][version] = 2.0-alpha2
 projects[media][subdir] = contrib
 projects[media][version] = 1.0-beta3
 
+projects[media_youtube][subdir] = contrib
+projects[media_youtube][version] = 1.0-alpha4
+
 projects[menu_block][subdir] = contrib
 
 projects[pathauto][subdir] = contrib
