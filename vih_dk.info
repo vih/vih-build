@@ -11,6 +11,7 @@ dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = help
 dependencies[] = image
+dependencies[] = l10n_update
 dependencies[] = locale
 dependencies[] = menu
 dependencies[] = overlay
