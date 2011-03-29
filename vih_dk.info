@@ -45,6 +45,7 @@ dependencies[] = token
 dependencies[] = transliteration
 dependencies[] = views
 dependencies[] = views_ui
+dependencies[] = views_bulk_operations
 dependencies[] = wysiwyg
 dependencies[] = xmlsitemap
 
