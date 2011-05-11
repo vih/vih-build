@@ -110,7 +110,7 @@ function _vih_dk_configure_wysiwyg() {
         'Scayt' => 0), 
       'drupal' => array (
         'media' => 0, 
-        'break' => 0)), 
+        'break' => 1)), 
       'toolbar_loc' => 'top', 
       'toolbar_align' => 'left', 
       'path_loc' => 'bottom', 
@@ -197,7 +197,7 @@ function _vih_dk_configure_wysiwyg() {
         'Scayt' => 0), 
       'drupal' => array (
         'media' => 1, 
-        'break' => 0)), 
+        'break' => 1)), 
       'toolbar_loc' => 'top', 
       'toolbar_align' => 'left', 
       'path_loc' => 'bottom', 
