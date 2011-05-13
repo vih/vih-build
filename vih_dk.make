@@ -2,15 +2,13 @@ api = 2
 core = 7.x
 
 projects[addressfield][subdir] = contrib
-projects[addressfield][version] = 1.0-alpha1
 
 projects[admin_theme][subdir] = contrib
 
 projects[auto_nodetitle][subdir] = contrib
-projects[auto_nodetitle][version] = 1.0-alpha1
 
 projects[boxes][subdir] = contrib
-projects[boxes][version] = 1.0-beta2
+projects[boxes][version] = 1.0-beta3
 
 projects[cck][subdir] = contrib
 projects[cck][version] = 2.x-dev
@@ -36,11 +34,15 @@ projects[features][subdir] = contrib
 
 projects[google_analytics][subdir] = contrib 
 
+projects[l10n_update][subdir] = contrib 
+
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha2
 
 projects[media][subdir] = contrib
-projects[media][version] = 1.0-beta3
+projects[media][version] = 1.0-beta4
+
+projects[media_youtube][subdir] = contrib
 
 projects[menu_block][subdir] = contrib
 
@@ -48,10 +50,14 @@ projects[pathauto][subdir] = contrib
 
 projects[views][subdir] = contrib
 
+projects[views_bulk_operations][subdir] = contrib
+projects[views_bulk_operations][version] = 3.x-dev
+
 projects[wysiwyg][subdir] = contrib
 
 projects[references][subdir] = contrib
-projects[references][version] = 2.x-dev
+
+projects[scribd_filter][subdir] = contrib
 
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0-beta2
