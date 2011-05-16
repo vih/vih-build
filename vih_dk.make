@@ -48,6 +48,8 @@ projects[menu_block][subdir] = contrib
 
 projects[pathauto][subdir] = contrib
 
+projects[picasa_slideshow_filter][subdir] = contrib
+
 projects[views][subdir] = contrib
 
 projects[views_bulk_operations][subdir] = contrib
