@@ -39,6 +39,9 @@ projects[l10n_update][subdir] = contrib
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha2
 
+projects[mailchimp][subdir] = contrib
+projects[mailchimp][version] = 2.0-rc1
+
 projects[media][subdir] = contrib
 projects[media][version] = 1.0-beta4
 

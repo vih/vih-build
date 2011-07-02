@@ -36,6 +36,7 @@ dependencies[] = feeds
 dependencies[] = feeds_ui
 dependencies[] = file_styles
 dependencies[] = job_scheduler
+dependencies[] = mailchimp
 dependencies[] = media
 dependencies[] = media_youtube
 dependencies[] = pathauto
