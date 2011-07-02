@@ -26,7 +26,7 @@ projects[email][subdir] = contrib
 projects[entity][subdir] = contrib
 
 projects[feeds][subdir] = contrib
-projects[feeds][version] = 2.0-alpha3
+projects[feeds][version] = 2.0-alpha4
 
 projects[field_group][subdir] = contrib
 
@@ -53,7 +53,6 @@ projects[picasa_slideshow_filter][subdir] = contrib
 projects[views][subdir] = contrib
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.x-dev
 
 projects[wysiwyg][subdir] = contrib
 
@@ -62,7 +61,6 @@ projects[references][subdir] = contrib
 projects[scribd_filter][subdir] = contrib
 
 projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0-beta2
 
 projects[styles][subdir] = contrib
 
