@@ -37,6 +37,7 @@ projects[google_analytics][subdir] = contrib
 projects[l10n_update][subdir] = contrib 
 
 projects[ideainformer_widget][subdir] = contrib
+projects[ideainformer_widget][version] = 1.0-alpha1
 
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha2
