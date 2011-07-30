@@ -7,9 +7,6 @@ projects[admin_theme][subdir] = contrib
 
 projects[auto_nodetitle][subdir] = contrib
 
-projects[boxes][subdir] = contrib
-projects[boxes][version] = 1.0-beta3
-
 projects[cck][subdir] = contrib
 projects[cck][version] = 2.x-dev
 
@@ -30,6 +27,9 @@ projects[feeds][version] = 2.0-alpha4
 
 projects[field_group][subdir] = contrib
 
+projects[filter_perms][subdir] = contrib
+projects[filter_perms][version] = 1.x-dev
+
 projects[features][subdir] = contrib
 
 projects[google_analytics][subdir] = contrib 
@@ -43,7 +43,6 @@ projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha2
 
 projects[mailchimp][subdir] = contrib
-projects[mailchimp][version] = 2.0-rc1
 
 projects[media][subdir] = contrib
 projects[media][version] = 1.0-beta5
@@ -51,6 +50,8 @@ projects[media][version] = 1.0-beta5
 projects[media_youtube][subdir] = contrib
 
 projects[menu_block][subdir] = contrib
+
+projects[module_filter][subdir] = contrib
 
 projects[pathauto][subdir] = contrib
 

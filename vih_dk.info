@@ -24,7 +24,6 @@ dependencies[] = rdf
 
 ; contrib
 dependencies[] = admin_theme
-dependencies[] = boxes
 dependencies[] = cck
 dependencies[] = context
 dependencies[] = context_ui
@@ -35,10 +34,12 @@ dependencies[] = features
 dependencies[] = feeds
 dependencies[] = feeds_ui
 dependencies[] = file_styles
+dependencies[] = filter_perms
 dependencies[] = job_scheduler
 dependencies[] = mailchimp
 dependencies[] = media
 dependencies[] = media_youtube
+dependencies[] = module_filter
 dependencies[] = pathauto
 dependencies[] = picasa_slideshow_filter
 dependencies[] = references
