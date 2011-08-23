@@ -12,6 +12,7 @@ dependencies[] = image
 dependencies[] = l10n_update
 dependencies[] = list
 dependencies[] = locale
+dependencies[] = logintoboggan
 dependencies[] = menu
 dependencies[] = number
 dependencies[] = overlay
