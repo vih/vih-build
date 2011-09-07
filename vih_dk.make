@@ -57,11 +57,15 @@ projects[module_filter][subdir] = contrib
 
 projects[pathauto][subdir] = contrib
 
+projects[panels][subdir] = contrib
+
 projects[picasa_slideshow_filter][subdir] = contrib
 
 projects[views][subdir] = contrib
 
 projects[views_bulk_operations][subdir] = contrib
+
+projects[views_slideshow][subdir] = contrib
 
 projects[wysiwyg][subdir] = contrib
 
