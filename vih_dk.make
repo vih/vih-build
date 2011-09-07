@@ -101,3 +101,9 @@ libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.1/ckeditor_3.6.1.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
+
+; Libraries
+libraries[jquery.cycle][download][type] = "get"
+libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
+libraries[jquery.cycle][directory_name] = "jquery.cycle/jquery.cycle.all.min.js"
+libraries[jquery.cycle][destination] = "libraries"
