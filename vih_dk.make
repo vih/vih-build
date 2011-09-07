@@ -105,5 +105,5 @@ libraries[ckeditor][destination] = "libraries"
 ; Libraries
 libraries[jquery.cycle][download][type] = "get"
 libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
-libraries[jquery.cycle][directory_name] = "jquery.cycle/jquery.cycle.all.min.js"
+libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[jquery.cycle][destination] = "libraries"
