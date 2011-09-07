@@ -36,6 +36,7 @@ dependencies[] = feeds_ui
 dependencies[] = file_styles
 dependencies[] = filter_perms
 dependencies[] = job_scheduler
+dependencies[] = libraries
 dependencies[] = logintoboggan
 dependencies[] = mailchimp
 dependencies[] = media

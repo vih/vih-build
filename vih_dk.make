@@ -42,6 +42,8 @@ projects[ideainformer_widget][version] = 1.0-alpha1
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha2
 
+projects[libraries][subdir] = contrib
+
 projects[logintoboggan][subdir] = contrib
 
 projects[mailchimp][subdir] = contrib
