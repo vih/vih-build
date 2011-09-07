@@ -66,6 +66,7 @@ projects[views][subdir] = contrib
 projects[views_bulk_operations][subdir] = contrib
 
 projects[views_slideshow][subdir] = contrib
+projects[views_slideshow][version] = 3.0-alpha1
 
 projects[wysiwyg][subdir] = contrib
 
