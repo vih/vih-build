@@ -10,6 +10,8 @@ projects[auto_nodetitle][subdir] = contrib
 projects[cck][subdir] = contrib
 projects[cck][version] = 2.x-dev
 
+projects[contentanalysis][subdir] = contrib
+
 projects[contentoptimizer][subdir] = contrib
 
 projects[context][subdir] = contrib
