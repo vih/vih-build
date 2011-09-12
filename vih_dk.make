@@ -10,6 +10,8 @@ projects[auto_nodetitle][subdir] = contrib
 projects[cck][subdir] = contrib
 projects[cck][version] = 2.x-dev
 
+projects[contentoptimizer][subdir] = contrib
+
 projects[context][subdir] = contrib
 
 projects[ctools][subdir] = contrib
@@ -55,7 +57,11 @@ projects[media_youtube][subdir] = contrib
 
 projects[menu_block][subdir] = contrib
 
+projects[metatags_quick][subdir] = contrib
+
 projects[module_filter][subdir] = contrib
+
+projects[page_title][subdir] = contrib
 
 projects[pathauto][subdir] = contrib
 
