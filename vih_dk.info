@@ -48,6 +48,7 @@ dependencies[] = page_title
 dependencies[] = panels
 dependencies[] = pathauto
 dependencies[] = picasa_slideshow_filter
+dependencies[] = redirect
 dependencies[] = references
 dependencies[] = scribd_filter
 dependencies[] = strongarm

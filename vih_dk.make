@@ -82,6 +82,8 @@ projects[wysiwyg][subdir] = contrib
 
 projects[references][subdir] = contrib
 
+projects[redirect][subdir] = contrib
+
 projects[scribd_filter][subdir] = contrib
 
 projects[strongarm][subdir] = contrib
