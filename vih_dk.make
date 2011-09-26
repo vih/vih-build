@@ -61,11 +61,9 @@ projects[media_youtube][subdir] = contrib
 
 projects[menu_block][subdir] = contrib
 
-projects[metatags_quick][subdir] = contrib
+projects[metatag][subdir] = contrib
 
 projects[module_filter][subdir] = contrib
-
-projects[page_title][subdir] = contrib
 
 projects[pathauto][subdir] = contrib
 
@@ -83,6 +81,8 @@ projects[views_slideshow][version] = 3.0-alpha1
 projects[wysiwyg][subdir] = contrib
 
 projects[references][subdir] = contrib
+
+projects[redirect][subdir] = contrib
 
 projects[scribd_filter][subdir] = contrib
 
