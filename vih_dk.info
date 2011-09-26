@@ -1,6 +1,6 @@
 name = vih.dk
 description = Install vih.dk
-version = 0.1.0
+version = 0.2
 core = 7.x
 dependencies[] = block
 dependencies[] = contextual
@@ -25,6 +25,7 @@ dependencies[] = rdf
 ; contrib
 dependencies[] = admin_theme
 dependencies[] = cck
+dependencies[] = chosen
 dependencies[] = context
 dependencies[] = context_ui
 dependencies[] = contentoptimizer

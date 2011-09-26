@@ -10,6 +10,8 @@ projects[auto_nodetitle][subdir] = contrib
 projects[cck][subdir] = contrib
 projects[cck][version] = 2.x-dev
 
+projects[chosen][subdir] = contrib
+
 projects[contentanalysis][subdir] = contrib
 
 projects[contentoptimizer][subdir] = contrib
@@ -110,8 +112,7 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
-; Libraries
 libraries[jquery.cycle][download][type] = "get"
-libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
-libraries[jquery.cycle][directory_name] = "jquery.cycle"
+libraries[jquery.cycle][download][url] = "https://github.com/harvesthq/chosen/zipball/master"
+libraries[jquery.cycle][directory_name] = "chosen"
 libraries[jquery.cycle][destination] = "libraries"
