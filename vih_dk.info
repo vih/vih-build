@@ -37,6 +37,7 @@ dependencies[] = feeds
 dependencies[] = feeds_ui
 dependencies[] = file_styles
 dependencies[] = filter_perms
+dependencies[] = imageapi
 dependencies[] = job_scheduler
 dependencies[] = libraries
 dependencies[] = logintoboggan

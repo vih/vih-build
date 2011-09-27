@@ -45,6 +45,9 @@ projects[l10n_update][subdir] = contrib
 projects[ideainformer_widget][subdir] = contrib
 projects[ideainformer_widget][version] = 1.0-alpha1
 
+projects[imageapi][subdir] = contrib
+projects[imageapi][version] = 1.x-dev
+
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha2
 
