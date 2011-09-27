@@ -116,7 +116,7 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
-libraries[jquery.cycle][download][type] = "get"
+libraries[jquery.cycle][download][type] = "git"
 libraries[jquery.cycle][download][url] = "https://github.com/harvesthq/chosen/zipball/master"
 libraries[jquery.cycle][directory_name] = "chosen"
 libraries[jquery.cycle][destination] = "libraries"
