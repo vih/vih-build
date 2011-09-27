@@ -32,6 +32,7 @@ dependencies[] = contentoptimizer
 dependencies[] = ctools
 dependencies[] = diff
 dependencies[] = entity
+dependencies[] = globalredirect
 dependencies[] = googleanalytics
 dependencies[] = features
 dependencies[] = feeds

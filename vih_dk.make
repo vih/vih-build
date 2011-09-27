@@ -40,6 +40,8 @@ projects[field_group][subdir] = contrib
 projects[filter_perms][subdir] = contrib
 projects[filter_perms][version] = 1.x-dev
 
+projects[globalredirect][subdir] = contrib
+
 projects[google_analytics][subdir] = contrib 
 
 projects[l10n_update][subdir] = contrib 
