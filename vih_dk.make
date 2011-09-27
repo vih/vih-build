@@ -24,6 +24,8 @@ projects[date][subdir] = contrib
 
 projects[devel][subdir] = contrib
 
+projects[diff][subdir] = contrib
+
 projects[email][subdir] = contrib
 
 projects[entity][subdir] = contrib

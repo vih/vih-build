@@ -30,6 +30,7 @@ dependencies[] = context
 dependencies[] = context_ui
 dependencies[] = contentoptimizer
 dependencies[] = ctools
+dependencies[] = diff
 dependencies[] = entity
 dependencies[] = googleanalytics
 dependencies[] = features
