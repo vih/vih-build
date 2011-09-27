@@ -28,6 +28,8 @@ projects[email][subdir] = contrib
 
 projects[entity][subdir] = contrib
 
+projects[features][subdir] = contrib
+
 projects[feeds][subdir] = contrib
 projects[feeds][version] = 2.0-alpha4
 
@@ -35,8 +37,6 @@ projects[field_group][subdir] = contrib
 
 projects[filter_perms][subdir] = contrib
 projects[filter_perms][version] = 1.x-dev
-
-projects[features][subdir] = contrib
 
 projects[google_analytics][subdir] = contrib 
 
@@ -55,7 +55,6 @@ projects[logintoboggan][subdir] = contrib
 projects[mailchimp][subdir] = contrib
 
 projects[media][subdir] = contrib
-projects[media][version] = 1.0-beta5
 
 projects[media_youtube][subdir] = contrib
 
