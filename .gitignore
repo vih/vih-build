@@ -4,3 +4,4 @@ themes/*
 .settings/*
 .buildpath
 .project
+.DS_Store
