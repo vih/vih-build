@@ -10,11 +10,10 @@ function vih_dk_install() {
   standard_install();
 
   $theme = 'sport';
-
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
-    ->condition('name', 'sport')
+    ->condition('name', $theme)
     ->execute();
   variable_set('theme_default', $theme);
 
