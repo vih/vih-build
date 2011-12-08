@@ -42,6 +42,7 @@ projects[entity][subdir] = contrib
 projects[feeds][subdir] = contrib
 projects[feeds][version] = 2.0-alpha4
 projects[features][subdir] = contrib
+projects[field_redirection][subdir] = contrib
 projects[fontyourface][subdir] = contrib
 projects[imageapi][subdir] = contrib
 projects[l10n_update][subdir] = contrib 
@@ -64,6 +65,7 @@ projects[rules][subdir] = contrib
 projects[scheduler][subdir] = contrib
 projects[strongarm][subdir] = contrib
 projects[styles][subdir] = contrib
+projects[taxonomy_display][subdir] = contrib
 projects[token][subdir] = contrib
 projects[webform][subdir] = contrib
 projects[workbench][subdir] = contrib
@@ -74,14 +76,10 @@ projects[workbench_moderation][subdir] = contrib
 ; Performance
 ;;;;;;;;;
 
-projects[entitycache][subdir] = contrib
-
 ;;;;;;;;;
 ; SEO Tools
 ;;;;;;;;;
 
-projects[contentanalysis][subdir] = contrib
-projects[contentoptimizer][subdir] = contrib
 projects[google_analytics][subdir] = contrib 
 projects[metatag][subdir] = contrib
 projects[xmlsitemap][subdir] = contrib	
@@ -91,10 +89,8 @@ projects[xmlsitemap][subdir] = contrib
 ;;;;;;;;;
 
 projects[chart][subdir] = contrib
-projects[ideainformer_widget][subdir] = contrib
-projects[ideainformer_widget][version] = 1.0-alpha1
+projects[colorbox][subdir] = contrib
 projects[mailchimp][subdir] = contrib
-projects[rpx][subdir] = contrib
 
 ;;;;;;;;;
 ; Text editor
@@ -109,10 +105,11 @@ projects[wysiwyg][subdir] = contrib
 ; UI Enhancements
 ;;;;;;;;;
 
+projects[absolute_messages][subdir] = contrib
 projects[admin_theme][subdir] = contrib
 projects[block_visibility][subdir] = contrib
 projects[block_visibility][version] = 1.0-beta2
-projects[chosen][subdir] = contrib
+projects[ccl][subdir] = contrib
 projects[filter_perms][subdir] = contrib
 projects[filter_perms][version] = 1.x-dev
 projects[module_filter][subdir] = contrib
@@ -138,10 +135,30 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
+libraries[colorbox][download][type] = "get"
+libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
+libraries[colorbox][directory_name] = ""
+libraries[colorbox][destination] = "libraries"
+
 libraries[jquery.cycle][download][type] = "get"
 libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[jquery.cycle][destination] = "libraries"
+
+; used by views_slideshow
+libraries[json2][download][type] = "get"
+libraries[json2][download][url] = "https://raw.github.com/douglascrockford/JSON-js/master/json2.js"
+libraries[json2][directory_name] = "json2"
+libraries[json2][destination] = "libraries"
+
+; used by views_slideshow
+libraries[pwi][download][type] = "get"
+libraries[pwi][download][url] = "http://pwi.googlecode.com/files/jquery.pwi-1.5.0.zip"
+libraries[pwi][directory_name] = ""
+libraries[pwi][destination] = "libraries"
+
+
+http://code.google.com/p/pwi/downloads/detail?name=jquery.pwi-1.5.0.zip
 
 ;;;;;;;;;
 ; Themes
