@@ -13,6 +13,7 @@ projects[email][subdir] = contrib
 projects[entityreference][subdir] = contrib
 projects[field_extrawidgets][subdir] = contrib
 projects[field_group][subdir] = contrib
+projects[field_redirection][subdir] = contrib
 projects[fixed_field][subdir] = contrib
 projects[link][subdir] = contrib
 projects[link][version] = 1.x-dev
@@ -42,7 +43,8 @@ projects[entity][subdir] = contrib
 projects[feeds][subdir] = contrib
 projects[feeds][version] = 2.0-alpha4
 projects[features][subdir] = contrib
-projects[field_redirection][subdir] = contrib
+projects[features_orphans][subdir] = contrib
+projects[file_lock][subdir] = contrib
 projects[fontyourface][subdir] = contrib
 projects[imageapi][subdir] = contrib
 projects[l10n_update][subdir] = contrib 
@@ -151,14 +153,10 @@ libraries[json2][download][url] = "https://raw.github.com/douglascrockford/JSON-
 libraries[json2][directory_name] = "json2"
 libraries[json2][destination] = "libraries"
 
-; used by views_slideshow
 libraries[pwi][download][type] = "get"
 libraries[pwi][download][url] = "http://pwi.googlecode.com/files/jquery.pwi-1.5.0.zip"
 libraries[pwi][directory_name] = ""
 libraries[pwi][destination] = "libraries"
-
-
-http://code.google.com/p/pwi/downloads/detail?name=jquery.pwi-1.5.0.zip
 
 ;;;;;;;;;
 ; Themes
