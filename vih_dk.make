@@ -297,11 +297,11 @@ projects[vih][download][url] = "git://github.com/vih/vih.dk-features.git"
 ; Libraries
 ;;;;;;;;;
 
-libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js
+libraries[autopager][download][type] = "get"
+libraries[autopager][download][url] = "http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js
 "
-libraries[ckeditor][directory_name] = "autopager"
-libraries[ckeditor][destination] = "libraries"
+libraries[autopager][directory_name] = "autopager"
+libraries[autopager][destination] = "libraries"
 
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.1/ckeditor_3.6.1.zip"
@@ -328,6 +328,11 @@ libraries[pwi][download][type] = "get"
 libraries[pwi][download][url] = "http://pwi.googlecode.com/files/jquery.pwi-1.5.0.zip"
 libraries[pwi][directory_name] = ""
 libraries[pwi][destination] = "libraries"
+
+libraries[tcpdf][download][type] = "get"
+libraries[tcpdf][download][url] = "http://downloads.sourceforge.net/project/tcpdf/tcpdf_5_9_144.zip"
+libraries[tcpdf][directory_name] = ""
+libraries[tcpdf][destination] = "libraries"
 
 ;;;;;;;;;
 ; Themes
