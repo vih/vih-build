@@ -133,23 +133,11 @@ projects[node_clone][version] = 1.0-beta1
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.0
 
-projects[views][subdir] = contrib
-projects[views][version] = 3.1
-
-projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.0-beta3
-
-projects[views_infinite_scroll][subdir] = contrib
-projects[views_infinite_scroll][version] = 1.0
-
-projects[views_random_seed][subdir] = contrib
-projects[views_random_seed][version] = 1.2
-
-projects[views_slideshow][subdir] = contrib
-projects[views_slideshow][version] = 3.0-alpha1
-
 projects[revision_scheduler][subdir] = contrib
 projects[revision_scheduler][version] = 1.x-dev
+
+projects[references_dialog][subdir] = contrib
+projects[references_dialog][version] = 1.0-alpha3
 
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.0
@@ -172,6 +160,24 @@ projects[token][version] = 1.0-beta7
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.15
 
+projects[webform_rules][subdir] = contrib
+projects[webform_rules][version] = 1.2
+
+projects[views][subdir] = contrib
+projects[views][version] = 3.1
+
+projects[views_bulk_operations][subdir] = contrib
+projects[views_bulk_operations][version] = 3.0-beta3
+
+projects[views_infinite_scroll][subdir] = contrib
+projects[views_infinite_scroll][version] = 1.0
+
+projects[views_random_seed][subdir] = contrib
+projects[views_random_seed][version] = 1.2
+
+projects[views_slideshow][subdir] = contrib
+projects[views_slideshow][version] = 3.0-alpha1
+
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.1
 
@@ -189,18 +195,45 @@ projects[workbench_moderation][version] = 1.1
 ; SEO Tools
 ;;;;;;;;;
 
+projects[contentanalysis][subdir] = contrib 
+projects[contentanalysis][version] = 1.0-beta4
+
+projects[contentoptimizer][subdir] = contrib 
+projects[contentoptimizer][version] = 2.0-beta4
+
 projects[google_analytics][subdir] = contrib 
 projects[google_analytics][version] = 1.2 
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = alpha4
+projects[metatag][version] = 1.0-alpha4
+
+projects[views_metatags][type] = "module"
+projects[views_metatags][download][type] = "git"
+projects[views_metatags][download][url] = "http://git.drupal.org/sandbox/davereid/1281614.git"
+projects[views_metatags][subdir] = contrib
+
+projects[site_verify][subdir] = contrib
+projects[site_verify][version] = 1.0
 
 projects[xmlsitemap][subdir] = contrib	
 projects[xmlsitemap][version] = 2.0-rc1	
 
 ;;;;;;;;;
+; Social integration
+;;;;;;;;;
+
+projects[fblikebutton][subdir] = contrib	
+projects[fblikebutton][version] = 1.2
+
+projects[google_plusone][subdir] = contrib	
+projects[google_plusone][version] = 1.3
+
+;;;;;;;;;
 ; External dependencies
 ;;;;;;;;;
+
+projects[banckle_live_chat][subdir] = contrib
+projects[banckle_live_chat][version] = 1.2
 
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.1
@@ -217,6 +250,9 @@ projects[mailchimp][version] = 2.4
 
 projects[ckeditor_link][subdir] = contrib
 projects[ckeditor_link][version] = 2.2
+
+projects[insertFrame][subdir] = contrib
+projects[insertFrame][version] = 2.1
 
 projects[picasa_slideshow_filter][subdir] = contrib
 projects[picasa_slideshow_filter][version] = 1.0-alpha3
@@ -237,11 +273,17 @@ projects[block_visibility][version] = 1.0-beta2
 projects[ccl][subdir] = contrib
 projects[ccl][version] = 1.1
 
+projects[context_inline_editor][subdir] = contrib
+projects[context_inline_editor][version] = 1.0-beta1
+
 projects[simplified_menu_admin][subdir] = contrib
 projects[simplified_menu_admin][version] = 1.0-beta2
 
 projects[simplified_modules][subdir] = contrib
 projects[simplified_modules][version] = 1.0-beta1
+
+projects[tipsy][subdir] = contrib
+projects[tipsy][version] = 1.0-rc1
 
 ;;;;;;;;;
 ; Custom modules
@@ -254,6 +296,12 @@ projects[vih][download][url] = "git://github.com/vih/vih.dk-features.git"
 ;;;;;;;;;
 ; Libraries
 ;;;;;;;;;
+
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js
+"
+libraries[ckeditor][directory_name] = "autopager"
+libraries[ckeditor][destination] = "libraries"
 
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.1/ckeditor_3.6.1.zip"
