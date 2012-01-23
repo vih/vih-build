@@ -1,5 +1,5 @@
 <?php
-require dirname(__FILE__) . '/../standard/standard.install';
+require dirname(__FILE__) . '/../minimal/minimal.install';
 
 /**
  * Implements hook_install().
@@ -7,7 +7,14 @@ require dirname(__FILE__) . '/../standard/standard.install';
  * Perform actions to set up the site for this profile.
  */
 function vih_dk_install() {
-  standard_install();
+  minimal_install();
+  
+  module_enable(
+  // core
+  'block', 'contextual', 'dblog', 'field_ui', 'locale', 'menu', 'path', 'rdf', 'search', 'shortcut', 'taxonomy', 'toolbar',
+  // contrib
+  'cck', 'context', 'context_ui', 'ctools', 'entity', 'globalredirect', 'googleanalytics', 'features', 'feeds', 'feeds_ui', 'file_styles', 'libraries', 'logintoboggan', 'mailchimp', 'metatag', 'media', 'media_youtube', 'pathauto', 'picasa_slideshow_filter', 'redirect', 'scribd_filter', 'strongarm', 'styles', 'styles_ui', 'references', 'token', 'transliteration', 'views', 'views_slideshow', 'views_ui', 'wysiwyg'
+  );
 
   $theme = 'sport';
   db_update('system')
