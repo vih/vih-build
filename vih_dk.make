@@ -68,7 +68,7 @@ projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.0-alpha2
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.x-rc1
+projects[ctools][version] = 1.0-rc1
 
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta2
@@ -92,7 +92,7 @@ projects[features_orphans][subdir] = contrib
 projects[features_orphans][version] = 1.1
 
 projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 1.0-rc3
+projects[file_entity][version] = 2.0-unstable3
 
 projects[file_lock][subdir] = contrib
 projects[file_lock][version] = 2.x-dev
