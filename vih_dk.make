@@ -127,6 +127,9 @@ projects[media_youtube][version] = 1.0-alpha4
 projects[menu_block][subdir] = contrib
 projects[menu_block][version] = 2.2
 
+projects[parser_ical][subdir] = contrib	
+projects[parser_ical][version] = 2.x-dev
+
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-beta1
 
@@ -159,6 +162,9 @@ projects[token][version] = 1.0-beta7
 
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.15
+
+projects[webform_mailchimp][subdir] = contrib
+projects[webform_mailchimp][version] = 1.x-dev
 
 projects[webform_rules][subdir] = contrib
 projects[webform_rules][version] = 1.2
@@ -333,6 +339,11 @@ libraries[tcpdf][download][type] = "get"
 libraries[tcpdf][download][url] = "http://downloads.sourceforge.net/project/tcpdf/tcpdf_5_9_144.zip"
 libraries[tcpdf][directory_name] = ""
 libraries[tcpdf][destination] = "libraries"
+
+libraries[iCalcreator][download][type] = "get"
+libraries[iCalcreator][download][url] = "http://www.kigkonsult.se/downloads/dl.php?f=iCalcreator-2.10.23"
+libraries[iCalcreator][directory_name] = ""
+libraries[iCalcreator][destination] = "libraries"
 
 ;;;;;;;;;
 ; Themes
