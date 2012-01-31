@@ -67,11 +67,14 @@ projects[backup_migrate][version] = 2.2
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.0-alpha2
 
-projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.0-rc1
-
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta2
+
+projects[custom_breadcrumbs][subdir] = contrib
+projects[custom_breadcrumbs][version] = 1.0-alpha1
+
+projects[ctools][subdir] = contrib
+projects[ctools][version] = 1.0-rc1
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.2
