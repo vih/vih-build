@@ -356,7 +356,7 @@ libraries[tcpdf][directory_name] = ""
 libraries[tcpdf][destination] = "libraries"
 
 libraries[iCalcreator][download][type] = "get"
-libraries[iCalcreator][download][url] = "http://www.kigkonsult.se/downloads/dl.php?f=iCalcreator-2.10.23"
+libraries[iCalcreator][download][url] = "http://downloads.sourceforge.net/project/icalcreator/icalcreator/2.10.23/iCalcreator-2.10.23.zip"
 libraries[iCalcreator][directory_name] = ""
 libraries[iCalcreator][destination] = "libraries"
 
