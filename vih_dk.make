@@ -128,7 +128,7 @@ projects[media][subdir] = contrib
 projects[media][version] = 1.0-rc3
 
 projects[media_youtube][subdir] = contrib
-projects[media_youtube][version] = 1.0-alpha4
+projects[media_youtube][version] = 1.0-alpha5
 
 projects[menu_block][subdir] = contrib
 projects[menu_block][version] = 2.2
@@ -197,7 +197,7 @@ projects[views_random_seed][subdir] = contrib
 projects[views_random_seed][version] = 1.2
 
 projects[views_slideshow][subdir] = contrib
-projects[views_slideshow][version] = 3.0-alpha1
+projects[views_slideshow][version] = 3.0
 
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.1
@@ -217,7 +217,7 @@ projects[workbench_moderation][version] = 1.1
 ;;;;;;;;;
 
 projects[contentanalysis][subdir] = contrib 
-projects[contentanalysis][version] = 1.0-beta4
+projects[contentanalysis][version] = 1.0-beta5
 
 projects[contentoptimizer][subdir] = contrib 
 projects[contentoptimizer][version] = 2.0-beta4
