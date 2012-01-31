@@ -175,8 +175,8 @@ projects[token][version] = 1.0-beta7
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.15
 
-projects[webform_addmore][subdir] = contrib
-projects[webform_addmore][version] = 1.01
+;projects[webform_addmore][subdir] = contrib
+;projects[webform_addmore][version] = 1.01
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 1.x-dev
