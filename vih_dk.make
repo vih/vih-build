@@ -59,7 +59,7 @@ projects[transliteration][version] = 3.0
 ;;;;;;;;;
 
 projects[apps][subdir] = contrib
-projects[apps][version] = 1.0-beta4
+projects[apps][version] = 1.0-beta5
 
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.2
@@ -179,7 +179,7 @@ projects[webform][version] = 3.15
 ;projects[webform_addmore][version] = 1.01
 
 projects[webform_mailchimp][subdir] = contrib
-projects[webform_mailchimp][version] = 1.x-dev
+projects[webform_mailchimp][version] = 1.0-alpha1
 
 projects[webform_rules][subdir] = contrib
 projects[webform_rules][version] = 1.2
