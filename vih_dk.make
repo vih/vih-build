@@ -109,6 +109,9 @@ projects[imageapi][version] = 1.x-dev
 projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.0
 
+projects[imagecrop][subdir] = contrib
+projects[imagecrop][version] = 1.0-rc3
+
 projects[l10n_update][subdir] = contrib 
 projects[l10n_update][version] = 1.0-beta2 
 
@@ -139,6 +142,9 @@ projects[node_clone][version] = 1.0-beta1
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.0
 
+projects[potx][subdir] = contrib
+projects[potx][version] = 1.0
+
 projects[revision_scheduler][subdir] = contrib
 projects[revision_scheduler][version] = 1.x-dev
 
@@ -165,6 +171,9 @@ projects[token][version] = 1.0-beta7
 
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.15
+
+projects[webform_addmore][subdir] = contrib
+projects[webform_addmore][version] = 1.01
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 1.x-dev
