@@ -371,10 +371,10 @@ libraries[iCalcreator][directory_name] = ""
 libraries[iCalcreator][destination] = "libraries"
 
 ; used by views_quicksand
-libraries[json2][download][type] = "get"
-libraries[json2][download][url] = "https://github.com/razorjack/quicksand/raw/master/jquery.quicksand.js"
-libraries[json2][directory_name] = "jquery.quicksand"
-libraries[json2][destination] = "libraries"
+libraries[quicksand][download][type] = "get"
+libraries[quicksand][download][url] = "https://github.com/razorjack/quicksand/raw/master/jquery.quicksand.js"
+libraries[quicksand][directory_name] = "jquery.quicksand"
+libraries[quicksand][destination] = "libraries"
 
 
 ;;;;;;;;;
