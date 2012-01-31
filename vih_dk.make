@@ -139,6 +139,9 @@ projects[parser_ical][version] = 2.x-dev
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-beta1
 
+projects[nodequeue][subdir] = contrib
+projects[nodequeue][version] = 2.0-beta1
+
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.0
 
