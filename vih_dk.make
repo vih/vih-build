@@ -64,6 +64,10 @@ projects[apps][version] = 1.0-beta5
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.2
 
+projects[better_exposed_filters][subdir] = contrib
+projects[better_exposed_filters[version] = 3.x-dev
+projects[better_exposed_filters][patch][1268150] = http://drupal.org/files/bef_select_as_links-1268150-20.patch
+
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.0-alpha2
 
@@ -198,6 +202,9 @@ projects[views_random_seed][version] = 1.2
 
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.0
+
+projects[views_quicksand][subdir] = contrib
+projects[views_quicksand][version] = 3.0
 
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.1
@@ -359,6 +366,13 @@ libraries[iCalcreator][download][type] = "get"
 libraries[iCalcreator][download][url] = "http://downloads.sourceforge.net/project/icalcreator/icalcreator/2.10.23/iCalcreator-2.10.23.zip"
 libraries[iCalcreator][directory_name] = ""
 libraries[iCalcreator][destination] = "libraries"
+
+; used by views_quicksand
+libraries[json2][download][type] = "get"
+libraries[json2][download][url] = "https://github.com/razorjack/quicksand/raw/master/jquery.quicksand.js"
+libraries[json2][directory_name] = "jquery.quicksand"
+libraries[json2][destination] = "libraries"
+
 
 ;;;;;;;;;
 ; Themes
