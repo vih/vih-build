@@ -64,8 +64,11 @@ projects[apps][version] = 1.0-beta5
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.2
 
+projects[better_exposed_filters][type] = "module"
+projects[better_exposed_filters][download][type] = "git"
+projects[better_exposed_filters][download][url] = "http://git.drupal.org/project/better_exposed_filters.git"
 projects[better_exposed_filters][subdir] = contrib
-projects[better_exposed_filters[version] = 3.x-dev
+;projects[better_exposed_filters[version] = 3.x-dev
 projects[better_exposed_filters][patch][1268150] = http://drupal.org/files/bef_select_as_links-1268150-20.patch
 
 projects[calendar][subdir] = contrib
@@ -204,7 +207,7 @@ projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.0
 
 projects[views_quicksand][subdir] = contrib
-projects[views_quicksand][version] = 3.0
+projects[views_quicksand][version] = 1.0-beta5
 
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.1
