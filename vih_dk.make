@@ -64,11 +64,8 @@ projects[apps][version] = 1.0-beta5
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.2
 
-projects[better_exposed_filters][type] = "module"
-projects[better_exposed_filters][download][type] = "git"
-projects[better_exposed_filters][download][url] = "http://git.drupal.org/project/better_exposed_filters.git"
 projects[better_exposed_filters][subdir] = contrib
-;projects[better_exposed_filters[version] = 3.x-dev
+projects[better_exposed_filters[version] = 3.x-dev
 projects[better_exposed_filters][patch][1268150] = http://drupal.org/files/bef_select_as_links-1268150-20.patch
 
 projects[calendar][subdir] = contrib
@@ -132,7 +129,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
 
 projects[media][subdir] = contrib
-projects[media][version] = 1.0-rc3
+projects[media][version] = 2.0-unstable3
 
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-alpha5
@@ -268,6 +265,7 @@ projects[banckle_live_chat][version] = 1.2
 
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
+projects[chart][patch][1303706] = http://drupal.org/files/chart-copy-issue-1303706.patch
 
 projects[colorbox][subdir] = contrib
 projects[colorbox][version] = 1.2
