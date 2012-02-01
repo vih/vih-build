@@ -267,7 +267,7 @@ projects[banckle_live_chat][subdir] = contrib
 projects[banckle_live_chat][version] = 1.2
 
 projects[chart][subdir] = contrib
-projects[chart][version] = 1.1
+projects[chart][version] = 1.x-dev
 
 projects[colorbox][subdir] = contrib
 projects[colorbox][version] = 1.2
