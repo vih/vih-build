@@ -327,8 +327,7 @@ projects[vih][download][url] = "git://github.com/vih/vih.dk-features.git"
 ;;;;;;;;;
 
 libraries[autopager][download][type] = "get"
-libraries[autopager][download][url] = "http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js
-"
+libraries[autopager][download][url] = "http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js"
 libraries[autopager][directory_name] = "autopager"
 libraries[autopager][destination] = "libraries"
 
@@ -359,7 +358,7 @@ libraries[pwi][directory_name] = ""
 libraries[pwi][destination] = "libraries"
 
 libraries[tcpdf][download][type] = "get"
-libraries[tcpdf][download][url] = "http://downloads.sourceforge.net/project/tcpdf/tcpdf_5_9_144.zip"
+libraries[tcpdf][download][url] = "http://downloads.sourceforge.net/project/tcpdf/tcpdf_5_9_145.zip?r=&ts=1328279405&use_mirror=dfn"
 libraries[tcpdf][directory_name] = ""
 libraries[tcpdf][destination] = "libraries"
 
