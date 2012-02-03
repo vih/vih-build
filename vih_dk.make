@@ -66,7 +66,7 @@ projects[backup_migrate][version] = 2.2
 
 projects[better_exposed_filters][subdir] = contrib
 projects[better_exposed_filters[version] = 3.x-dev
-projects[better_exposed_filters][patch][1268150] = http://drupal.org/files/bef_select_as_links-1268150-20.patch
+;projects[better_exposed_filters][patch][1268150] = http://drupal.org/files/bef_select_as_links-1268150-20.patch
 
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.0-alpha2
