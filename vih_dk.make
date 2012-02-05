@@ -239,6 +239,7 @@ projects[views_metatags][type] = "module"
 projects[views_metatags][download][type] = "git"
 projects[views_metatags][download][url] = "http://git.drupal.org/sandbox/davereid/1281614.git"
 projects[views_metatags][subdir] = contrib
+projects[views_metatags][branch] = 7.x-1.x
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
