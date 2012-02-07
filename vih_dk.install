@@ -8,13 +8,62 @@ require dirname(__FILE__) . '/../minimal/minimal.install';
  */
 function vih_dk_install() {
   minimal_install();
-  
-  module_enable(
-  // core
-  'block', 'contextual', 'dblog', 'field_ui', 'locale', 'menu', 'path', 'rdf', 'search', 'shortcut', 'taxonomy', 'toolbar',
-  // contrib
-  'cck', 'context', 'context_ui', 'ctools', 'entity', 'globalredirect', 'googleanalytics', 'features', 'feeds', 'feeds_ui', 'file_styles', 'libraries', 'logintoboggan', 'mailchimp', 'metatag', 'media', 'media_youtube', 'pathauto', 'picasa_slideshow_filter', 'redirect', 'scribd_filter', 'strongarm', 'styles', 'styles_ui', 'references', 'token', 'transliteration', 'views', 'views_slideshow', 'views_ui', 'wysiwyg'
+
+  // Add text formats.
+  $filtered_html_format = array(
+    'format' => 'filtered_html',
+    'name' => 'Filtered HTML',
+    'weight' => 0,
+    'filters' => array(
+      // URL filter.
+      'filter_url' => array(
+        'weight' => 0,
+        'status' => 1,
+      ),
+      // HTML filter.
+      'filter_html' => array(
+        'weight' => 1,
+        'status' => 1,
+      ),
+      // Line break filter.
+      'filter_autop' => array(
+        'weight' => 2,
+        'status' => 1,
+      ),
+      // HTML corrector filter.
+      'filter_htmlcorrector' => array(
+        'weight' => 10,
+        'status' => 1,
+      ),
+    ),
   );
+  $filtered_html_format = (object) $filtered_html_format;
+  filter_format_save($filtered_html_format);
+
+  $full_html_format = array(
+    'format' => 'full_html',
+    'name' => 'Full HTML',
+    'weight' => 1,
+    'filters' => array(
+      // URL filter.
+      'filter_url' => array(
+        'weight' => 0,
+        'status' => 1,
+      ),
+      // Line break filter.
+      'filter_autop' => array(
+        'weight' => 1,
+        'status' => 1,
+      ),
+      // HTML corrector filter.
+      'filter_htmlcorrector' => array(
+        'weight' => 10,
+        'status' => 1,
+      ),
+    ),
+  );
+  $full_html_format = (object) $full_html_format;
+  filter_format_save($full_html_format);
 
   $theme = 'sport';
   db_update('system')

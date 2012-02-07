@@ -4,9 +4,52 @@ version = 7.x-0.3
 core = 7.x
 
 ; core
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = taxonomy
+dependencies[] = toolbar
 ; see vih_dk.install
 
 ; contrib
+dependencies[] = cck
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = ctools
+dependencies[] = entity
+dependencies[] = globalredirect
+dependencies[] = googleanalytics
+dependencies[] = features
+dependencies[] = feeds
+dependencies[] = feeds_ui
+dependencies[] = file_styles
+dependencies[] = libraries
+dependencies[] = logintoboggan
+dependencies[] = mailchimp
+dependencies[] = metatag
+dependencies[] = media
+dependencies[] = media_youtube
+dependencies[] = pathauto
+dependencies[] = picasa_slideshow_filter
+dependencies[] = redirect
+dependencies[] = scribd_filter
+dependencies[] = strongarm
+dependencies[] = styles
+dependencies[] = styles_ui
+dependencies[] = references
+dependencies[] = token
+dependencies[] = transliteration
+dependencies[] = views
+dependencies[] = views_slideshow
+dependencies[] = views_ui
+dependencies[] = wysiwyg
 ; see vih_dk.install
 
 ; custom
