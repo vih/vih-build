@@ -100,10 +100,12 @@ function vih_dk_install() {
     $query->values($record);
   }
   $query->execute();
-    
+
   // setting up the editor
   _vih_dk_configure_wysiwyg();
   _vih_dk_configure_formatters();
+  // Set admin theme.
+  variable_set('admin_theme', 'seven');
 }
 
 function _vih_dk_configure_wysiwyg() {
