@@ -55,9 +55,6 @@ projects[transliteration][version] = 3.0
 ; Site building tools
 ;;;;;;;;;
 
-projects[apps][subdir] = contrib
-projects[apps][version] = 1.0-beta5
-
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.2
 
@@ -76,9 +73,6 @@ projects[custom_breadcrumbs][version] = 1.0-alpha1
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.0-rc1
-
-projects[devel][subdir] = contrib
-projects[devel][version] = 1.2
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 2.0
@@ -131,9 +125,6 @@ projects[media][version] = 2.0-unstable3
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-alpha5
 
-projects[menu_block][subdir] = contrib
-projects[menu_block][version] = 2.2
-
 projects[parser_ical][subdir] = contrib	
 projects[parser_ical][version] = 2.x-dev
 projects[parser_ical][patch][1415226] = http://drupal.org/files/fix-locale-integration-issue-1415226-2.patch
@@ -143,9 +134,6 @@ projects[node_clone][version] = 1.0-beta1
 
 projects[nodequeue][subdir] = contrib
 projects[nodequeue][version] = 2.0-beta1
-
-projects[panels][subdir] = contrib
-projects[panels][version] = 3.0
 
 projects[potx][subdir] = contrib
 projects[potx][version] = 1.0
@@ -232,12 +220,6 @@ projects[google_analytics][version] = 1.2
 
 projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-alpha4
-
-projects[views_metatags][type] = "module"
-projects[views_metatags][download][type] = "git"
-projects[views_metatags][download][url] = "http://git.drupal.org/sandbox/davereid/1281614.git"
-projects[views_metatags][subdir] = contrib
-projects[views_metatags][branch] = 7.x-1.x
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
@@ -371,7 +353,6 @@ libraries[quicksand][download][type] = "get"
 libraries[quicksand][download][url] = "https://github.com/razorjack/quicksand/raw/master/jquery.quicksand.js"
 libraries[quicksand][directory_name] = "jquery.quicksand"
 libraries[quicksand][destination] = "libraries"
-
 
 ;;;;;;;;;
 ; Themes
