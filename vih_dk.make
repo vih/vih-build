@@ -120,7 +120,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
 
 projects[media][subdir] = contrib
-projects[media][version] = 2.0-unstable3
+projects[media][version] = 2.0-dev
 
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-alpha5
