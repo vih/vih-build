@@ -3,7 +3,10 @@ description = Install website for Vejle Idrætshøjskole.
 version = 7.x-0.3
 core = 7.x
 
+;;;;;;;;;;;;;;;;
 ; core
+;;;;;;;;;;;;;;;;
+
 dependencies[] = block
 dependencies[] = contextual
 dependencies[] = dblog
@@ -16,9 +19,11 @@ dependencies[] = search
 dependencies[] = shortcut
 dependencies[] = taxonomy
 dependencies[] = toolbar
-; see vih_dk.install
 
+;;;;;;;;;;;;;;;;
 ; contrib
+;;;;;;;;;;;;;;;;
+
 dependencies[] = context
 dependencies[] = context_ui
 dependencies[] = ctools
@@ -49,18 +54,32 @@ dependencies[] = views
 dependencies[] = views_slideshow
 dependencies[] = views_ui
 dependencies[] = wysiwyg
-; see vih_dk.install
 
-; custom
+;;;;;;;;;;;;;;;;
+; custom modules
+;;;;;;;;;;;;;;;;
+
+dependencies[] = vih_calendar
 dependencies[] = vih_employees
 dependencies[] = vih_facilities
 dependencies[] = vih_general
+dependencies[] = vih_kalendersiden
 dependencies[] = vih_lectures
 dependencies[] = vih_lectures_pdf
 dependencies[] = vih_long_course
+dependencies[] = vih_middleman_redirect
+dependencies[] = vih_oneliners
 dependencies[] = vih_pages
+dependencies[] = vih_participant_quotes
+dependencies[] = vih_pwi
 dependencies[] = vih_short_course
 dependencies[] = vih_stories
+dependencies[] = vih_student_quotes
 dependencies[] = vih_subjects
+dependencies[] = vih_viggo
+
+;;;;;;;;;;;;;;;;
+; Files
+;;;;;;;;;;;;;;;;
 
 files[] = vih_dk.profile
