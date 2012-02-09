@@ -1,6 +1,6 @@
 name = vih.dk
 description = Install website for Vejle Idrætshøjskole.
-version = 7.x-0.3
+version = 7.x-0.4
 core = 7.x
 
 ;;;;;;;;;;;;;;;;
