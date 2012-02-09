@@ -9,7 +9,7 @@ projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta2
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.0-rc1
+projects[date][version] = 2.0-rc2
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.0
@@ -114,7 +114,7 @@ projects[imagecrop][subdir] = contrib
 projects[imagecrop][version] = 1.0-rc3
 
 projects[l10n_update][subdir] = contrib 
-projects[l10n_update][version] = 1.0-beta2 
+projects[l10n_update][version] = 1.0-beta3
 
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha2
@@ -172,7 +172,7 @@ projects[taxonomy_display][subdir] = contrib
 projects[taxonomy_display][version] = 1.0
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.0-beta7
+projects[token][version] = 1.0-rc1
 
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.15
@@ -190,7 +190,7 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.1
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.0-beta3
+projects[views_bulk_operations][version] = 3.0-rc1
 
 projects[views_infinite_scroll][subdir] = contrib
 projects[views_infinite_scroll][version] = 1.0
