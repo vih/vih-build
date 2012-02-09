@@ -8,9 +8,6 @@ api = 2
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta2
 
-projects[cck][subdir] = contrib
-projects[cck][version] = 2.x-dev
-
 projects[date][subdir] = contrib
 projects[date][version] = 2.0-rc1
 
