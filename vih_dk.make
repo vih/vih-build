@@ -135,9 +135,6 @@ projects[node_clone][version] = 1.0-beta1
 projects[nodequeue][subdir] = contrib
 projects[nodequeue][version] = 2.0-beta1
 
-projects[potx][subdir] = contrib
-projects[potx][version] = 1.0
-
 projects[revision_scheduler][subdir] = contrib
 projects[revision_scheduler][version] = 1.x-dev
 
@@ -262,7 +259,7 @@ projects[insertFrame][subdir] = contrib
 projects[insertFrame][version] = 2.1
 
 projects[picasa_slideshow_filter][subdir] = contrib
-projects[picasa_slideshow_filter][version] = 1.0-alpha3
+projects[picasa_slideshow_filter][version] = 1.0-alpha4
 
 projects[scribd_filter][subdir] = contrib
 projects[scribd_filter][version] = 1.2
