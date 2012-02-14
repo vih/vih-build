@@ -15,7 +15,7 @@ projects[email][subdir] = contrib
 projects[email][version] = 1.0
 
 projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.0-beta3
+projects[entityreference][version] = 1.0-beta4
 
 projects[field_extrawidgets][subdir] = contrib
 projects[field_extrawidgets][version] = 1.0-beta1
@@ -166,7 +166,7 @@ projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 1.0-alpha1
 
 projects[webform_rules][subdir] = contrib
-projects[webform_rules][version] = 1.2
+projects[webform_rules][version] = 1.3
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.1
