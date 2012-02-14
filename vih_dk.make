@@ -225,11 +225,11 @@ projects[xmlsitemap][version] = 2.0-rc1
 ; Social integration
 ;;;;;;;;;
 
-projects[fblikebutton][subdir] = contrib	
-projects[fblikebutton][version] = 1.2
+projects[socialmedia][subdir] = contrib	
+projects[socialmedia][version] = 1.0-beta9
 
-projects[google_plusone][subdir] = contrib	
-projects[google_plusone][version] = 1.3
+projects[widgets][subdir] = contrib	
+projects[widgets][version] = 1.0-beta5
 
 ;;;;;;;;;
 ; External dependencies
