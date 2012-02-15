@@ -9,7 +9,7 @@ projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta2
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.0-rc2
+projects[date][version] = 2.1
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.0
