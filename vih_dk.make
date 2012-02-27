@@ -63,7 +63,7 @@ projects[better_exposed_filters[version] = 3.x-dev
 ;projects[better_exposed_filters][patch][1268150] = http://drupal.org/files/bef_select_as_links-1268150-20.patch
 
 projects[calendar][subdir] = contrib
-projects[calendar][version] = 3.0-alpha2
+projects[calendar][version] = 3.0-rc1
 
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta2
@@ -96,7 +96,7 @@ projects[file_lock][subdir] = contrib
 projects[file_lock][version] = 2.x-dev
 
 projects[fontyourface][subdir] = contrib
-projects[fontyourface][version] = 2.0
+projects[fontyourface][version] = 2.1
 
 projects[imageapi][subdir] = contrib
 projects[imageapi][version] = 1.x-dev
@@ -123,7 +123,7 @@ projects[media][subdir] = contrib
 projects[media][version] = 2.0-dev
 
 projects[media_youtube][subdir] = contrib
-projects[media_youtube][version] = 1.0-alpha5
+projects[media_youtube][version] = 1.0-beta1
 
 projects[parser_ical][subdir] = contrib	
 projects[parser_ical][version] = 2.x-dev
@@ -169,7 +169,7 @@ projects[webform_rules][subdir] = contrib
 projects[webform_rules][version] = 1.3
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.1
+projects[views][version] = 3.2
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.0-rc1
@@ -214,6 +214,9 @@ projects[google_analytics][version] = 1.2
 
 projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-alpha4
+
+projects[schema][subdir] = contrib
+projects[schema][version] = 1.0-beta1
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
@@ -275,7 +278,7 @@ projects[block_visibility][subdir] = contrib
 projects[block_visibility][version] = 1.0-beta2
 
 projects[ccl][subdir] = contrib
-projects[ccl][version] = 1.1
+projects[ccl][version] = 1.2
 
 projects[context_inline_editor][subdir] = contrib
 projects[context_inline_editor][version] = 1.0-beta1
