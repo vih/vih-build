@@ -45,6 +45,9 @@ projects[globalredirect][version] = 1.3
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.0
 
+projects[pathauto_persist][subdir] = contrib
+projects[pathauto_persist][version] = 1.2
+
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-beta4
 
