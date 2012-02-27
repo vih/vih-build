@@ -9,7 +9,7 @@ projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta2
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.1
+projects[date][version] = 2.2
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.0
@@ -66,7 +66,7 @@ projects[better_exposed_filters[version] = 3.x-dev
 ;projects[better_exposed_filters][patch][1268150] = http://drupal.org/files/bef_select_as_links-1268150-20.patch
 
 projects[calendar][subdir] = contrib
-projects[calendar][version] = 3.0-rc1
+projects[calendar][version] = 3.0
 
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta2
@@ -219,7 +219,7 @@ projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-alpha4
 
 projects[schema][subdir] = contrib
-projects[schema][version] = 1.0-beta1
+projects[schema][version] = 1.0-beta2
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
