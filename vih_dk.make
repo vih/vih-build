@@ -15,7 +15,7 @@ projects[email][subdir] = contrib
 projects[email][version] = 1.0
 
 projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.0-beta4
+projects[entityreference][version] = 1.0-beta5
 
 projects[field_extrawidgets][subdir] = contrib
 projects[field_extrawidgets][version] = 1.0-beta1
@@ -126,7 +126,7 @@ projects[media][subdir] = contrib
 projects[media][version] = 2.x-dev
 
 projects[media_youtube][subdir] = contrib
-projects[media_youtube][version] = 1.0-beta1
+projects[media_youtube][version] = 1.0-beta2
 
 projects[parser_ical][subdir] = contrib	
 projects[parser_ical][version] = 2.x-dev
@@ -163,7 +163,7 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.0-rc1
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.15
+projects[webform][version] = 3.16
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 1.0-alpha1
@@ -172,7 +172,7 @@ projects[webform_rules][subdir] = contrib
 projects[webform_rules][version] = 1.3
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.2
+projects[views][version] = 3.3
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.0-rc1
@@ -218,8 +218,8 @@ projects[google_analytics][version] = 1.2
 projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-alpha4
 
-projects[schema][subdir] = contrib
-projects[schema][version] = 1.0-beta2
+projects[schemaorg][subdir] = contrib
+projects[schemaorg][version] = 1.0-beta2
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
