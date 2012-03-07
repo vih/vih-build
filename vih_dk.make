@@ -260,9 +260,6 @@ projects[mailchimp][version] = 2.4
 projects[ckeditor_link][subdir] = contrib
 projects[ckeditor_link][version] = 2.2
 
-projects[insertFrame][subdir] = contrib
-projects[insertFrame][version] = 2.1
-
 projects[picasa_slideshow_filter][subdir] = contrib
 projects[picasa_slideshow_filter][version] = 1.0-alpha4
 
