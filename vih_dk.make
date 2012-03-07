@@ -100,9 +100,6 @@ projects[file_lock][version] = 2.x-dev
 projects[fontyourface][subdir] = contrib
 projects[fontyourface][version] = 2.1
 
-projects[imageapi][subdir] = contrib
-projects[imageapi][version] = 1.x-dev
-
 projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.0
 
