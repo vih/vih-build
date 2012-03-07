@@ -124,15 +124,18 @@ projects[media][version] = 2.x-dev
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-beta2
 
-projects[parser_ical][subdir] = contrib	
-projects[parser_ical][version] = 2.x-dev
-projects[parser_ical][patch][1415226] = http://drupal.org/files/fix-locale-integration-issue-1415226-2.patch
-
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-beta1
 
 projects[nodequeue][subdir] = contrib
 projects[nodequeue][version] = 2.0-beta1
+
+projects[oembed][subdir] = contrib
+projects[oembed][version] = 0.1-beta2
+
+projects[parser_ical][subdir] = contrib	
+projects[parser_ical][version] = 2.x-dev
+projects[parser_ical][patch][1415226] = http://drupal.org/files/fix-locale-integration-issue-1415226-2.patch
 
 projects[revision_scheduler][subdir] = contrib
 projects[revision_scheduler][version] = 1.x-dev
@@ -264,7 +267,7 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.1
 
 ;;;;;;;;;
-; UI Enhancements
+; UX Enhancements
 ;;;;;;;;;
 
 projects[block_visibility][subdir] = contrib
@@ -275,6 +278,15 @@ projects[ccl][version] = 1.2
 
 projects[context_inline_editor][subdir] = contrib
 projects[context_inline_editor][version] = 1.0-beta1
+
+projects[password_hustle][subdir] = contrib
+projects[password_hustle][version] = 1.0
+
+projects[password_toggle][subdir] = contrib
+projects[password_toggle][version] = 1.0
+
+projects[shortcutperrole][subdir] = contrib
+projects[shortcutperrole][version] = 1.0
 
 projects[simplified_menu_admin][subdir] = contrib
 projects[simplified_menu_admin][version] = 1.0-beta2
