@@ -285,9 +285,6 @@ projects[simplified_menu_admin][version] = 1.0-beta2
 projects[simplified_modules][subdir] = contrib
 projects[simplified_modules][version] = 1.0-beta1
 
-projects[tipsy][subdir] = contrib
-projects[tipsy][version] = 1.0-rc1
-
 ;;;;;;;;;
 ; Custom modules
 ;;;;;;;;;
