@@ -167,9 +167,6 @@ projects[webform][version] = 3.16
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 1.0-alpha1
 
-projects[webform_rules][subdir] = contrib
-projects[webform_rules][version] = 1.3
-
 projects[views][subdir] = contrib
 projects[views][version] = 3.3
 
