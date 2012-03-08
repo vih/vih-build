@@ -338,7 +338,7 @@ libraries[pwi][directory_name] = ""
 libraries[pwi][destination] = "libraries"
 
 libraries[tcpdf][download][type] = "get"
-libraries[tcpdf][download][url] = "http://downloads.sourceforge.net/project/tcpdf/tcpdf_5_9_145.zip?r=&ts=1328279405&use_mirror=dfn"
+libraries[tcpdf][download][url] = "http://downloads.sourceforge.net/project/tcpdf/tcpdf_5_9_149.zip?r=http://sourceforge.net/projects/tcpdf/files/&ts=1331238085&use_mirror=kent"
 libraries[tcpdf][directory_name] = ""
 libraries[tcpdf][destination] = "libraries"
 
