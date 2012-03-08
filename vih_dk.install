@@ -56,7 +56,7 @@ function vih_dk_install() {
   $query->execute();
 
   // Add text formats.
-  $filtered_html_format = array(  variable_set('admin_theme', 'seven');
+  $filtered_html_format = array(
     'format' => 'filtered_html',
     'name' => 'Filtered HTML',
     'weight' => 0,
