@@ -162,7 +162,7 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.0-rc1
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.16
+projects[webform][version] = 3.17
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 1.0-alpha1
