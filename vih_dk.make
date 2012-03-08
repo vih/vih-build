@@ -242,7 +242,6 @@ projects[banckle_live_chat][version] = 1.2
 
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
-projects[chart][patch][1303706] = http://drupal.org/files/chart-copy-issue-1303706.patch
 
 projects[colorbox][subdir] = contrib
 projects[colorbox][version] = 1.2
