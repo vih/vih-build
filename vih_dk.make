@@ -79,6 +79,9 @@ projects[ctools][version] = 1.0-rc1
 projects[diff][subdir] = contrib
 projects[diff][version] = 2.0
 
+projects[draggableviews][subdir] = contrib
+projects[draggableviews][version] = 7.x-2.x-dev
+
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc1
 
