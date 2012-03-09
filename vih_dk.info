@@ -33,7 +33,6 @@ dependencies[] = googleanalytics
 dependencies[] = features
 dependencies[] = feeds
 dependencies[] = feeds_ui
-dependencies[] = file_styles
 dependencies[] = libraries
 dependencies[] = logintoboggan
 dependencies[] = mailchimp
