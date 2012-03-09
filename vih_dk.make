@@ -155,9 +155,6 @@ projects[scheduler][version] = 1.0
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0-beta5
 
-projects[styles][subdir] = contrib
-projects[styles][version] = 2.x-dev
-
 projects[taxonomy_display][subdir] = contrib
 projects[taxonomy_display][version] = 1.0
 
