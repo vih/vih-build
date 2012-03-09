@@ -109,6 +109,9 @@ projects[imagecache_profiles][version] = 1.0
 projects[imagecrop][subdir] = contrib
 projects[imagecrop][version] = 1.0-rc3
 
+projects[image_resize_filter][subdir] = contrib
+projects[image_resize_filter][version] = 1.13
+
 projects[l10n_update][subdir] = contrib 
 projects[l10n_update][version] = 1.0-beta3
 
