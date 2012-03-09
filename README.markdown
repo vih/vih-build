@@ -14,14 +14,7 @@ Installation
 
 To build a complete site, run:
 
-    drush make vih_dk.build ~/workspace/vih_dk_build
-    
-Then setup the following:
-
-    cp sites/default/default.settings.php sites/default/settings.php
-    chmod 777 sites/default/settings.php
-    mkdir sites/default/files
-    chmod 777 sites/default/files
+    drush make vih_dk.build --prepare-install ~/workspace/vih_dk_build
 
 Navigate to the root directory in a webbrowser.
 
