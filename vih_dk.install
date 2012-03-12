@@ -8,23 +8,34 @@ require dirname(__FILE__) . '/../minimal/minimal.install';
  */
 function vih_dk_install() {
   minimal_install();
-
-  // Enable standard theme
+  
   $theme = 'sport';
+  $admin_theme = 'seven';
+  
+  // Enable standard theme
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
     ->condition('name', $theme)
     ->execute();
+    
+  // disable bartik
+  db_update('system')
+    ->fields(array('status' => 0))
+    ->condition('type', 'theme')
+    ->condition('name', 'bartik')
+    ->execute();
+        
   variable_set('theme_default', $theme);
 
   // Enable the admin theme.
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
-    ->condition('name', 'seven')
-    ->execute();  
-  variable_set('admin_theme', 'seven');
+    ->condition('name', $admin_theme)
+    ->execute();
+  variable_set('admin_theme', $admin_theme);
+  variable_set('node_admin_theme', '1');
 
   // Put content and menu in regions
   $values = array(
