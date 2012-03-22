@@ -15,7 +15,7 @@ projects[email][subdir] = contrib
 projects[email][version] = 1.0
 
 projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.0-beta5
+projects[entityreference][version] = 1.0-rc1
 
 projects[field_extrawidgets][subdir] = contrib
 projects[field_extrawidgets][version] = 1.0-beta1
@@ -74,7 +74,7 @@ projects[custom_breadcrumbs][subdir] = contrib
 projects[custom_breadcrumbs][version] = 1.0-alpha1
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.0-rc1
+projects[ctools][version] = 1.0-rc2
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 2.0
@@ -89,7 +89,7 @@ projects[feeds][subdir] = contrib
 projects[feeds][version] = 2.0-alpha4
 
 projects[features][subdir] = contrib
-projects[features][version] = 1.0-beta6
+projects[features][version] = 1.0-rc1
 
 projects[features_orphans][subdir] = contrib
 projects[features_orphans][version] = 1.1
@@ -128,7 +128,7 @@ projects[media][subdir] = contrib
 projects[media][version] = 2.x-dev
 
 projects[media_youtube][subdir] = contrib
-projects[media_youtube][version] = 1.0-beta2
+projects[media_youtube][version] = 1.0-beta3
 
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-beta1
@@ -138,6 +138,9 @@ projects[nodequeue][version] = 2.0-beta1
 
 projects[oembed][subdir] = contrib
 projects[oembed][version] = 0.1-beta2
+
+projects[panels][subdir] = contrib
+projects[panels][version] = 3.2
 
 projects[parser_ical][subdir] = contrib	
 projects[parser_ical][version] = 2.x-dev
@@ -150,7 +153,7 @@ projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.0-alpha3
 
 projects[rules][subdir] = contrib
-projects[rules][version] = 2.0
+projects[rules][version] = 2.1
 
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.0
