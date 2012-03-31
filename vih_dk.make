@@ -74,7 +74,7 @@ projects[custom_breadcrumbs][subdir] = contrib
 projects[custom_breadcrumbs][version] = 1.0-alpha1
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.0-rc2
+projects[ctools][version] = 1.0
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 2.0
@@ -159,7 +159,7 @@ projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.0
 
 projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0-beta5
+projects[strongarm][version] = 2.0-rc1
 
 projects[taxonomy_display][subdir] = contrib
 projects[taxonomy_display][version] = 1.0
@@ -218,7 +218,7 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.2 
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-alpha4
+projects[metatag][version] = 1.0-alpha5
 
 projects[schemaorg][subdir] = contrib
 projects[schemaorg][version] = 1.0-beta2
