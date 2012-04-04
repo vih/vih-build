@@ -11,6 +11,9 @@ projects[addressfield][version] = 1.0-beta2
 projects[date][subdir] = contrib
 projects[date][version] = 2.3
 
+projects[date_ical][subdir] = contrib
+projects[date_ical][version] = 1.0
+
 projects[email][subdir] = contrib
 projects[email][version] = 1.0
 
