@@ -9,7 +9,7 @@ projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta2
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.2
+projects[date][version] = 2.3
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.0
@@ -80,7 +80,7 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 2.0
 
 projects[draggableviews][subdir] = contrib
-projects[draggableviews][version] = 2.x-dev
+projects[draggableviews][version] = 2.0-beta1
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc1
@@ -99,9 +99,6 @@ projects[file_entity][version] = 2.0-unstable3
 
 projects[file_lock][subdir] = contrib
 projects[file_lock][version] = 2.x-dev
-
-projects[fontyourface][subdir] = contrib
-projects[fontyourface][version] = 2.1
 
 projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.0
@@ -283,6 +280,9 @@ projects[ccl][version] = 1.2
 
 projects[context_inline_editor][subdir] = contrib
 projects[context_inline_editor][version] = 1.0-beta1
+
+projects[options_element][subdir] = contrib
+projects[options_element][version] = 1.7
 
 projects[password_hustle][subdir] = contrib
 projects[password_hustle][version] = 1.0
