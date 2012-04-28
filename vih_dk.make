@@ -342,10 +342,11 @@ libraries[pwi][download][url] = "http://pwi.googlecode.com/files/jquery.pwi-1.5.
 libraries[pwi][directory_name] = ""
 libraries[pwi][destination] = "libraries"
 
-libraries[tcpdf][download][type] = "get"
-libraries[tcpdf][download][url] = "http://downloads.sourceforge.net/project/tcpdf/tcpdf_5_9_149.zip?r=http://sourceforge.net/projects/tcpdf/files/&ts=1331238085&use_mirror=kent"
-libraries[tcpdf][directory_name] = ""
+libraries[tcpdf][download][type] = "git"
+libraries[tcpdf][download][url] = git://tcpdf.git.sourceforge.net/gitroot/tcpdf/tcpdf
 libraries[tcpdf][destination] = "libraries"
+; Download 5.9.149
+libraries[tcpdf][download][revision] = e9ebd692d5c5b1db8d9fa3a276662e75ceb9ac5a
 
 libraries[iCalcreator][download][type] = "get"
 libraries[iCalcreator][download][url] = "http://downloads.sourceforge.net/project/icalcreator/icalcreator/2.10.23/iCalcreator-2.10.23.zip"
