@@ -205,7 +205,7 @@ projects[workbench_moderation][version] = 1.1
 ;;;;;;;;;
 
 projects[apc][subdir] = contrib
-projects[apc][version] = 1-0-beta4
+projects[apc][version] = 1.0-beta4
 
 ;;;;;;;;;
 ; SEO Tools
