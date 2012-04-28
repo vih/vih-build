@@ -9,10 +9,10 @@ projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta2
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.3
+projects[date][version] = 2.5
 
 projects[date_ical][subdir] = contrib
-projects[date_ical][version] = 1.0
+projects[date_ical][version] = 1.1
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.0
@@ -68,7 +68,7 @@ projects[better_exposed_filters][subdir] = contrib
 projects[better_exposed_filters[version] = 3.x-dev
 
 projects[calendar][subdir] = contrib
-projects[calendar][version] = 3.0
+projects[calendar][version] = 3.2
 
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta2
@@ -86,13 +86,13 @@ projects[draggableviews][subdir] = contrib
 projects[draggableviews][version] = 2.0-beta1
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0-rc1
+projects[entity][version] = 1.0-rc2
 
 projects[feeds][subdir] = contrib
 projects[feeds][version] = 2.0-alpha4
 
 projects[features][subdir] = contrib
-projects[features][version] = 1.0-rc1
+projects[features][version] = 1.0-rc2
 
 projects[features_orphans][subdir] = contrib
 projects[features_orphans][version] = 1.1
@@ -165,13 +165,13 @@ projects[taxonomy_display][subdir] = contrib
 projects[taxonomy_display][version] = 1.0
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.0-rc1
+projects[token][version] = 1.0
 
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.17
 
 projects[webform_mailchimp][subdir] = contrib
-projects[webform_mailchimp][version] = 1.0-alpha2
+projects[webform_mailchimp][version] = 1.0-rc1
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.3
@@ -180,7 +180,7 @@ projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.0-rc1
 
 projects[views_infinite_scroll][subdir] = contrib
-projects[views_infinite_scroll][version] = 1.0
+projects[views_infinite_scroll][version] = 1.1
 
 projects[views_random_seed][subdir] = contrib
 projects[views_random_seed][version] = 1.2
@@ -204,12 +204,18 @@ projects[workbench_moderation][version] = 1.1
 ; Performance
 ;;;;;;;;;
 
+projects[apc][subdir] = contrib
+projects[apc][version] = 1-0-beta4
+
 ;;;;;;;;;
 ; SEO Tools
 ;;;;;;;;;
 
 projects[google_analytics][subdir] = contrib 
 projects[google_analytics][version] = 1.2 
+
+projects[google_analytics_reports][subdir] = contrib 
+projects[google_analytics_reports][version] = 1.1 
 
 projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-alpha5
@@ -225,7 +231,7 @@ projects[site_verify][version] = 1.0
 ;;;;;;;;;
 
 projects[socialmedia][subdir] = contrib	
-projects[socialmedia][version] = 1.0-beta9
+projects[socialmedia][version] = 1.0-beta11
 
 projects[widgets][subdir] = contrib	
 projects[widgets][version] = 1.0-beta5
@@ -241,7 +247,7 @@ projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
 
 projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 1.2
+projects[colorbox][version] = 1.3
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.4
