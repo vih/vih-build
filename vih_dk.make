@@ -208,12 +208,6 @@ projects[workbench_moderation][version] = 1.1
 ; SEO Tools
 ;;;;;;;;;
 
-projects[contentanalysis][subdir] = contrib 
-projects[contentanalysis][version] = 1.0-beta5
-
-projects[contentoptimizer][subdir] = contrib 
-projects[contentoptimizer][version] = 2.0-beta4
-
 projects[google_analytics][subdir] = contrib 
 projects[google_analytics][version] = 1.2 
 
@@ -225,9 +219,6 @@ projects[schemaorg][version] = 1.0-beta2
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
-
-projects[xmlsitemap][subdir] = contrib	
-projects[xmlsitemap][version] = 2.0-rc1	
 
 ;;;;;;;;;
 ; Social integration
