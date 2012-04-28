@@ -272,6 +272,9 @@ projects[wysiwyg][version] = 2.1
 ; UX Enhancements
 ;;;;;;;;;
 
+projects[backports][subdir] = contrib
+projects[backports][version] = 1.0-alpha1
+
 projects[block_visibility][subdir] = contrib
 projects[block_visibility][version] = 1.0-beta2
 
