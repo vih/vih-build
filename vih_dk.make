@@ -21,7 +21,7 @@ projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.0-rc1
 
 projects[field_extrawidgets][subdir] = contrib
-projects[field_extrawidgets][version] = 1.0-beta1
+projects[field_extrawidgets][version] = 1.0-dev
 
 projects[field_group][subdir] = contrib
 projects[field_group][version] = 1.1
@@ -34,6 +34,9 @@ projects[fixed_field][version] = 1.x-dev
 
 projects[link][subdir] = contrib
 projects[link][version] = 1.0
+
+projects[pdf_reader][subdir] = contrib
+projects[pdf_reader][version] = 1.0-rc3
 
 projects[references][subdir] = contrib
 projects[references][version] = 2.0
