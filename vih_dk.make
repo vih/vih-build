@@ -71,7 +71,7 @@ projects[better_exposed_filters][subdir] = contrib
 projects[better_exposed_filters[version] = 3.x-dev
 
 projects[calendar][subdir] = contrib
-projects[calendar][version] = 3.2
+projects[calendar][version] = 3.3
 
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta2
