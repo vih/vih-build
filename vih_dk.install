@@ -365,3 +365,13 @@ function _media_add_field_description() {
     field_create_instance($instance);
   }
 }
+
+/**
+ * Implements hook_update_N
+ *
+ * Enables pdf_reader to use with the short courses
+ */
+function vih_dk_update_7100() {
+  $modules = array('pdf_reader');
+  modules_enable($modules);
+}
