@@ -373,5 +373,5 @@ function _media_add_field_description() {
  */
 function vih_dk_update_7100() {
   $modules = array('pdf_reader');
-  modules_enable($modules);
+  module_enable($modules);
 }
