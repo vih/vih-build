@@ -180,8 +180,12 @@ projects[token][version] = 1.0
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.17
 
+projects[webform_mailchimp][type] = module
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 1.0-rc1
+projects[webform_mailchimp][type] = "git"
+projects[webform_mailchimp][download][url] = http://git.drupal.org/project/media_gallery.git
+projects[webform_mailchimp][download][revision] = a15b003490f00eb25160c0585daac372c7d449a7
 projects[webform_mailchimp][patch][1499258] = http://drupal.org/files/weight_fix-1499258.patch
 
 projects[views][subdir] = contrib
