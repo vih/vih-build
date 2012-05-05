@@ -175,6 +175,7 @@ projects[webform][version] = 3.17
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 1.0-rc1
+projects[webform_mailchimp][patch][1499258] = http://drupal.org/files/weight_fix-1499258.patch
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.3
