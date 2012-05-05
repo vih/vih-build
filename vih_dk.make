@@ -132,6 +132,7 @@ projects[media][version] = 2.x-dev
 
 projects[media_gallery][type] = module
 projects[media_gallery][subdir] = contrib
+projects[media_gallery][download][type = git
 projects[media_gallery][download][url] = http://git.drupal.org/project/media_gallery.git
 projects[media_gallery][download][revision] = a15b003490f00eb25160c0585daac372c7d449a7
 projects[media_gallery][patch][1244204] = http://drupal.org/files/fixed-media-adding-and-multedit-1244204-comment-42.patch
