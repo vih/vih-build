@@ -130,8 +130,10 @@ projects[logintoboggan][version] = 1.3
 projects[media][subdir] = contrib
 projects[media][version] = 2.x-dev
 
+projects[media_gallery][type] = module
 projects[media_gallery][subdir] = contrib
-projects[media_gallery][version] = 1.0-beta7
+projects[media_gallery][download][url] = http://git.drupal.org/project/media_gallery.git
+projects[media_gallery][download][revision] = a15b003490f00eb25160c0585daac372c7d449a7
 projects[media_gallery][patch][1244204] = http://drupal.org/files/fixed-media-adding-and-multedit-1244204-comment-42.patch
 
 projects[media_youtube][subdir] = contrib
@@ -180,12 +182,8 @@ projects[token][version] = 1.0
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.17
 
-projects[webform_mailchimp][type] = module
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 1.0-rc1
-projects[webform_mailchimp][type] = "git"
-projects[webform_mailchimp][download][url] = http://git.drupal.org/project/media_gallery.git
-projects[webform_mailchimp][download][revision] = a15b003490f00eb25160c0585daac372c7d449a7
 projects[webform_mailchimp][patch][1499258] = http://drupal.org/files/weight_fix-1499258.patch
 
 projects[views][subdir] = contrib
