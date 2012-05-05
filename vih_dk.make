@@ -161,6 +161,9 @@ projects[parser_ical][subdir] = contrib
 projects[parser_ical][version] = 2.x-dev
 projects[parser_ical][patch][1415226] = http://drupal.org/files/fix-locale-integration-issue-1415226-2.patch
 
+projects[plupload][subdir] = contrib
+projects[plupload][version] = 1.0-rc1
+
 projects[revision_scheduler][subdir] = contrib
 projects[revision_scheduler][version] = 1.x-dev
 
@@ -330,6 +333,7 @@ projects[vih][download][url] = "git://github.com/vih/vih.dk-features.git"
 ; Libraries
 ;;;;;;;;;
 
+; used by views_infinite_scroll
 libraries[autopager][download][type] = "get"
 libraries[autopager][download][url] = "http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js"
 libraries[autopager][directory_name] = "autopager"
@@ -356,17 +360,20 @@ libraries[json2][download][url] = "https://raw.github.com/douglascrockford/JSON-
 libraries[json2][directory_name] = "json2"
 libraries[json2][destination] = "libraries"
 
+; used by vih_pwi
 libraries[pwi][download][type] = "get"
 libraries[pwi][download][url] = "http://pwi.googlecode.com/files/jquery.pwi-1.5.0.zip"
 libraries[pwi][directory_name] = ""
 libraries[pwi][destination] = "libraries"
 
+; used by vih_lectures_pdf
 libraries[tcpdf][download][type] = "git"
 libraries[tcpdf][download][url] = git://tcpdf.git.sourceforge.net/gitroot/tcpdf/tcpdf
 libraries[tcpdf][destination] = "libraries"
 ; Download 5.9.149
 libraries[tcpdf][download][revision] = e9ebd692d5c5b1db8d9fa3a276662e75ceb9ac5a
 
+; used by parser_ical
 libraries[iCalcreator][download][type] = "get"
 libraries[iCalcreator][download][url] = "http://downloads.sourceforge.net/project/icalcreator/icalcreator/2.10.23/iCalcreator-2.10.23.zip"
 libraries[iCalcreator][directory_name] = ""
@@ -377,6 +384,12 @@ libraries[quicksand][download][type] = "get"
 libraries[quicksand][download][url] = "https://github.com/razorjack/quicksand/raw/master/jquery.quicksand.js"
 libraries[quicksand][directory_name] = "jquery.quicksand"
 libraries[quicksand][destination] = "libraries"
+
+; used by media gallery
+libraries[plupload][download][type] = "get"
+libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
+libraries[plupload][directory_name] = ""
+libraries[plupload][destination] = "libraries"
 
 ;;;;;;;;;
 ; Themes
