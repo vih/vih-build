@@ -45,9 +45,6 @@ projects[references][version] = 2.0
 ; Path tools
 ;;;;;;;;;
 
-projects[globalredirect][subdir] = contrib
-projects[globalredirect][version] = 1.3
-
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.0
 
@@ -66,9 +63,6 @@ projects[transliteration][version] = 3.0
 
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.2
-
-projects[better_exposed_filters][subdir] = contrib
-projects[better_exposed_filters[version] = 3.x-dev
 
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.3
