@@ -319,9 +319,6 @@ projects[shortcutperrole][version] = 1.0
 projects[simplified_menu_admin][subdir] = contrib
 projects[simplified_menu_admin][version] = 1.0-beta2
 
-projects[simplified_modules][subdir] = contrib
-projects[simplified_modules][version] = 1.0-beta1
-
 ;;;;;;;;;
 ; Custom modules
 ;;;;;;;;;
