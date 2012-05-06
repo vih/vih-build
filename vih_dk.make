@@ -208,9 +208,6 @@ projects[views_random_seed][version] = 1.2
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.0
 
-projects[views_quicksand][subdir] = contrib
-projects[views_quicksand][version] = 1.0-beta5
-
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.1
 
@@ -376,12 +373,6 @@ libraries[iCalcreator][download][type] = "get"
 libraries[iCalcreator][download][url] = "http://downloads.sourceforge.net/project/icalcreator/icalcreator/2.10.23/iCalcreator-2.10.23.zip"
 libraries[iCalcreator][directory_name] = ""
 libraries[iCalcreator][destination] = "libraries"
-
-; used by views_quicksand
-libraries[quicksand][download][type] = "get"
-libraries[quicksand][download][url] = "https://github.com/razorjack/quicksand/raw/master/jquery.quicksand.js"
-libraries[quicksand][directory_name] = "jquery.quicksand"
-libraries[quicksand][destination] = "libraries"
 
 ; used by media gallery
 libraries[plupload][download][type] = "get"
