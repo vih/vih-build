@@ -38,9 +38,6 @@ projects[link][version] = 1.0
 projects[pdf_reader][subdir] = contrib
 projects[pdf_reader][version] = 1.0-rc3
 
-projects[references][subdir] = contrib
-projects[references][version] = 2.0
-
 ;;;;;;;;;
 ; Path tools
 ;;;;;;;;;
