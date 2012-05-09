@@ -59,7 +59,7 @@ projects[transliteration][version] = 3.0
 ;;;;;;;;;
 
 projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 2.2
+projects[backup_migrate][version] = 2.3
 
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.3
@@ -92,7 +92,7 @@ projects[features_orphans][subdir] = contrib
 projects[features_orphans][version] = 1.1
 
 projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 2.x-dev
+projects[file_entity][version] = 2.0-unstable4
 
 projects[file_lock][subdir] = contrib
 projects[file_lock][version] = 2.x-dev
@@ -110,7 +110,7 @@ projects[l10n_update][subdir] = contrib
 projects[l10n_update][version] = 1.0-beta3
 
 projects[job_scheduler][subdir] = contrib
-projects[job_scheduler][version] = 2.0-alpha2
+projects[job_scheduler][version] = 2.0-alpha3
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 1.0
@@ -119,7 +119,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
 
 projects[media][subdir] = contrib
-projects[media][version] = 2.x-dev
+projects[media][version] = 2.0-unstable4
 
 projects[media_gallery][type] = module
 projects[media_gallery][subdir] = contrib
@@ -182,8 +182,7 @@ projects[webform][subdir] = contrib
 projects[webform][version] = 3.17
 
 projects[webform_mailchimp][subdir] = contrib
-projects[webform_mailchimp][version] = 1.0-rc1
-projects[webform_mailchimp][patch][1499258] = http://drupal.org/files/weight_fix-1499258.patch
+projects[webform_mailchimp][version] = 1.0-rc2
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.3
