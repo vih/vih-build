@@ -43,7 +43,7 @@ projects[pdf_reader][version] = 1.0-rc3
 ;;;;;;;;;
 
 projects[pathauto][subdir] = contrib
-projects[pathauto][version] = 1.0
+projects[pathauto][version] = 1.1
 
 projects[pathauto_persist][subdir] = contrib
 projects[pathauto_persist][version] = 1.2
@@ -155,7 +155,7 @@ projects[parser_ical][version] = 2.x-dev
 projects[parser_ical][patch][1415226] = http://drupal.org/files/fix-locale-integration-issue-1415226-2.patch
 
 projects[plupload][subdir] = contrib
-projects[plupload][version] = 1.0-rc1
+projects[plupload][version] = 1.0
 
 projects[revision_scheduler][subdir] = contrib
 projects[revision_scheduler][version] = 1.x-dev
@@ -176,10 +176,10 @@ projects[taxonomy_display][subdir] = contrib
 projects[taxonomy_display][version] = 1.0
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.0
+projects[token][version] = 1.1
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.17
+projects[webform][version] = 3.18
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 1.0-rc2
@@ -206,7 +206,7 @@ projects[workbench_files][subdir] = contrib
 projects[workbench_files][version] = 1.0
 
 projects[workbench_moderation][subdir] = contrib
-projects[workbench_moderation][version] = 1.1
+projects[workbench_moderation][version] = 1.2
 
 ;;;;;;;;;
 ; Performance
