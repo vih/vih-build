@@ -326,7 +326,7 @@ libraries[autopager][directory_name] = "autopager"
 libraries[autopager][destination] = "libraries"
 
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.1/ckeditor_3.6.1.zip"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor%20for%20Drupal/CKEditor%203.6.3%20for%20Drupal/ckeditor_3.6.3_for_drupal_7.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
