@@ -62,10 +62,10 @@ projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.3
 
 projects[calendar][subdir] = contrib
-projects[calendar][version] = 3.3
+projects[calendar][version] = 3.4
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.0-beta2
+projects[context][version] = 3.0-beta3
 
 projects[custom_breadcrumbs][subdir] = contrib
 projects[custom_breadcrumbs][version] = 1.0-alpha1
@@ -92,7 +92,7 @@ projects[features_orphans][subdir] = contrib
 projects[features_orphans][version] = 1.1
 
 projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 2.0-unstable4
+projects[file_entity][version] = 2.0-unstable5
 
 projects[file_lock][subdir] = contrib
 projects[file_lock][version] = 2.x-dev
@@ -119,7 +119,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
 
 projects[media][subdir] = contrib
-projects[media][version] = 2.0-unstable4
+projects[media][version] = 2.0-unstable5
 
 projects[media_gallery][type] = module
 projects[media_gallery][subdir] = contrib
