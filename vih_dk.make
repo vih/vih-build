@@ -330,6 +330,11 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
+libraries[tinymce][download][type] = "get"
+libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.5.0.1.zip"
+libraries[tinymce][directory_name] = "tinymce"
+libraries[tinymce][destination] = "libraries"
+
 libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
 libraries[colorbox][directory_name] = ""
