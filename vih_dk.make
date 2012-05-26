@@ -80,7 +80,7 @@ projects[draggableviews][subdir] = contrib
 projects[draggableviews][version] = 2.0-beta1
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0-rc2
+projects[entity][version] = 1.0-rc3
 
 projects[feeds][subdir] = contrib
 projects[feeds][version] = 2.0-alpha4
@@ -258,7 +258,7 @@ projects[colorbox][subdir] = contrib
 projects[colorbox][version] = 1.3
 
 projects[mailchimp][subdir] = contrib
-projects[mailchimp][version] = 2.4
+projects[mailchimp][version] = 2.5
 
 ;;;;;;;;;
 ; Text editor
@@ -287,7 +287,7 @@ projects[block_visibility][subdir] = contrib
 projects[block_visibility][version] = 1.0-beta2
 
 projects[ccl][subdir] = contrib
-projects[ccl][version] = 1.2
+projects[ccl][version] = 1.3
 
 projects[context_inline_editor][subdir] = contrib
 projects[context_inline_editor][version] = 1.0-beta1
