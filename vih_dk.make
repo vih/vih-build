@@ -330,11 +330,6 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
-libraries[tinymce][download][type] = "get"
-libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.5.0.1.zip"
-libraries[tinymce][directory_name] = "tinymce"
-libraries[tinymce][destination] = "libraries"
-
 libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
 libraries[colorbox][directory_name] = ""
@@ -350,12 +345,6 @@ libraries[json2][download][type] = "get"
 libraries[json2][download][url] = "https://raw.github.com/douglascrockford/JSON-js/master/json2.js"
 libraries[json2][directory_name] = "json2"
 libraries[json2][destination] = "libraries"
-
-; used by vih_pwi
-libraries[pwi][download][type] = "get"
-libraries[pwi][download][url] = "http://pwi.googlecode.com/files/jquery.pwi-1.5.0.zip"
-libraries[pwi][directory_name] = ""
-libraries[pwi][destination] = "libraries"
 
 ; used by vih_lectures_pdf
 libraries[tcpdf][download][type] = "git"
