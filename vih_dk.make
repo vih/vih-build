@@ -258,6 +258,9 @@ projects[chart][version] = 1.x-dev
 projects[colorbox][subdir] = contrib
 projects[colorbox][version] = 1.3
 
+projects[mandrill][subdir] = contrib
+projects[mandrill][version] = 1.0-beta1
+
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.5
 
