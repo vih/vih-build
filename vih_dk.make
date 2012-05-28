@@ -278,7 +278,7 @@ projects[picasa_slideshow_filter][subdir] = contrib
 projects[picasa_slideshow_filter][version] = 1.0-alpha4
 
 projects[scribd_filter][subdir] = contrib
-projects[scribd_filter][version] = 1.2
+projects[scribd_filter][version] = 1.3
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.1
