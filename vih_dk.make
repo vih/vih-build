@@ -83,7 +83,7 @@ projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc3
 
 projects[feeds][subdir] = contrib
-projects[feeds][version] = 2.0-alpha4
+projects[feeds][version] = 2.0-alpha5
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.0-rc2
@@ -233,7 +233,7 @@ projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-alpha6
 
 projects[schemaorg][subdir] = contrib
-projects[schemaorg][version] = 1.0-beta2
+projects[schemaorg][version] = 1.0-beta3
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
