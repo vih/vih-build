@@ -6,7 +6,7 @@ api = 2
 ;;;;;;;;;
 
 projects[addressfield][subdir] = contrib
-projects[addressfield][version] = 1.0-beta2
+projects[addressfield][version] = 1.0-beta3
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.5
@@ -18,7 +18,7 @@ projects[email][subdir] = contrib
 projects[email][version] = 1.0
 
 projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.0-rc1
+projects[entityreference][version] = 1.0-rc3
 
 projects[field_extrawidgets][subdir] = contrib
 projects[field_extrawidgets][version] = 1.x-dev
@@ -77,7 +77,7 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 2.0
 
 projects[draggableviews][subdir] = contrib
-projects[draggableviews][version] = 2.0-beta1
+projects[draggableviews][version] = 2.0
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc3
@@ -165,7 +165,7 @@ projects[revision_scheduler][subdir] = contrib
 projects[revision_scheduler][version] = 1.x-dev
 
 projects[references_dialog][subdir] = contrib
-projects[references_dialog][version] = 1.0-alpha3
+projects[references_dialog][version] = 1.0-alpha4
 
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.1
@@ -294,7 +294,7 @@ projects[block_visibility][subdir] = contrib
 projects[block_visibility][version] = 1.0-beta2
 
 projects[ccl][subdir] = contrib
-projects[ccl][version] = 1.3
+projects[ccl][version] = 1.4
 
 projects[context_inline_editor][subdir] = contrib
 projects[context_inline_editor][version] = 1.0-beta1
