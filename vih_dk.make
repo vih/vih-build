@@ -52,7 +52,7 @@ projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-beta4
 
 projects[transliteration][subdir] = contrib
-projects[transliteration][version] = 3.0
+projects[transliteration][version] = 3.1
 
 ;;;;;;;;;
 ; Site building tools
@@ -86,7 +86,7 @@ projects[feeds][subdir] = contrib
 projects[feeds][version] = 2.0-alpha5
 
 projects[features][subdir] = contrib
-projects[features][version] = 1.0-rc2
+projects[features][version] = 1.0-rc3
 
 projects[features_orphans][subdir] = contrib
 projects[features_orphans][version] = 1.1
@@ -174,7 +174,7 @@ projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.0
 
 projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0-rc1
+projects[strongarm][version] = 2.0
 
 projects[taxonomy_display][subdir] = contrib
 projects[taxonomy_display][version] = 1.0
