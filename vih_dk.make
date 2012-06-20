@@ -321,11 +321,17 @@ projects[simplified_menu_admin][version] = 1.0-beta2
 projects[commerce][subdir] = contrib  
 projects[commerce][version] = 1.3
 
+projects[commerce_registration][subdir] = contrib  
+projects[commerce_registration][version] = 2.0-beta1
+
 projects[inline_entity_form][subdir] = contrib	
 projects[inline_entity_form][version] = 1.0-beta2
 
 projects[quickpay][subdir] = contrib  
 projects[quickpay][version] = 1.1
+
+projects[registration][subdir] = contrib  
+projects[registration][version] = 1.0-beta2
 
 ;;;;;;;;;
 ; Custom modules
