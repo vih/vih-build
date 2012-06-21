@@ -321,6 +321,9 @@ projects[simplified_menu_admin][version] = 1.0-beta2
 projects[commerce][subdir] = contrib  
 projects[commerce][version] = 1.3
 
+projects[commerce_autosku][subdir] = contrib  
+projects[commerce_autosku][version] = 1.0
+
 projects[commerce_registration][subdir] = contrib  
 projects[commerce_registration][version] = 2.0-beta1
 
