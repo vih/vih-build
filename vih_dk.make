@@ -325,7 +325,7 @@ projects[commerce_autosku][subdir] = contrib
 projects[commerce_autosku][version] = 1.0
 
 projects[commerce_registration][subdir] = contrib  
-projects[commerce_registration][version] = 2.0-beta1
+projects[commerce_registration][version] = 2.0-beta2
 
 projects[inline_entity_form][subdir] = contrib	
 projects[inline_entity_form][version] = 1.0-beta2
