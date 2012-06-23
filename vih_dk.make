@@ -15,7 +15,7 @@ projects[date_ical][subdir] = contrib
 projects[date_ical][version] = 1.1
 
 projects[email][subdir] = contrib
-projects[email][version] = 1.0
+projects[email][version] = 1.1
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.0-rc3
@@ -59,7 +59,7 @@ projects[transliteration][version] = 3.1
 ;;;;;;;;;
 
 projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 2.3
+projects[backup_migrate][version] = 2.4
 
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.4
@@ -259,7 +259,7 @@ projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
 
 projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 1.3
+projects[colorbox][version] = 1.x-dev
 
 projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.0-beta1
