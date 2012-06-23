@@ -182,6 +182,10 @@ projects[taxonomy_display][version] = 1.0
 projects[token][subdir] = contrib
 projects[token][version] = 1.1
 
+; Can be removed when http://drupal.org/node/1058912 is resolved
+projects[token_tweaks][subdir] = contrib
+projects[token_tweaks][version] = 1.x-dev
+
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.18
 
