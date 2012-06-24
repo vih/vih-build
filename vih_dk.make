@@ -407,4 +407,4 @@ libraries[plupload][destination] = "libraries"
 
 projects[sport][type] = "theme"
 projects[sport][download][type] = "git"
-projects[sport][download][url] = "git://github.com/vih/vih.dk-theme.git"
+projects[sport][download][url] = "git://github.com/vih/sport-theme.git"
