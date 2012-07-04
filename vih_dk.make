@@ -270,6 +270,7 @@ projects[colorbox][version] = 1.x-dev
 
 projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.0
+projects[mandrill][patch][1594244] = http://drupal.org/files/1594244-12-drupal_http_request.patch
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.5
