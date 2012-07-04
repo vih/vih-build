@@ -27,7 +27,7 @@ projects[field_group][subdir] = contrib
 projects[field_group][version] = 1.1
 
 projects[field_redirection][subdir] = contrib
-projects[field_redirection][version] = 2.3
+projects[field_redirection][version] = 2.4
 
 projects[fixed_field][subdir] = contrib
 projects[fixed_field][version] = 1.x-dev
@@ -92,7 +92,7 @@ projects[features_orphans][subdir] = contrib
 projects[features_orphans][version] = 1.1
 
 projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 2.0-unstable5
+projects[file_entity][version] = 2.0-unstable6
 
 projects[file_lock][subdir] = contrib
 projects[file_lock][version] = 2.x-dev
@@ -122,7 +122,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
 
 projects[media][subdir] = contrib
-projects[media][version] = 2.0-unstable5
+projects[media][version] = 2.0-unstable6
 
 projects[media_gallery][type] = module
 projects[media_gallery][subdir] = contrib
@@ -269,7 +269,7 @@ projects[colorbox][subdir] = contrib
 projects[colorbox][version] = 1.x-dev
 
 projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 1.0-beta1
+projects[mandrill][version] = 1.0
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.5
@@ -332,10 +332,10 @@ projects[commerce_autosku][subdir] = contrib
 projects[commerce_autosku][version] = 1.0
 
 projects[commerce_registration][subdir] = contrib  
-projects[commerce_registration][version] = 2.0-beta2
+projects[commerce_registration][version] = 2.0-beta3
 
 projects[inline_entity_form][subdir] = contrib	
-projects[inline_entity_form][version] = 1.0-beta2
+projects[inline_entity_form][version] = 1.0-beta3
 
 projects[quickpay][subdir] = contrib  
 projects[quickpay][version] = 1.1
