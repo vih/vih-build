@@ -46,7 +46,7 @@ projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.1
 
 projects[pathauto_persist][subdir] = contrib
-projects[pathauto_persist][version] = 1.2
+projects[pathauto_persist][version] = 1.3
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-beta4
@@ -330,7 +330,7 @@ projects[commerce][subdir] = contrib
 projects[commerce][version] = 1.3
 
 projects[commerce_autosku][subdir] = contrib  
-projects[commerce_autosku][version] = 1.0
+projects[commerce_autosku][version] = 1.1
 
 projects[commerce_registration][subdir] = contrib  
 projects[commerce_registration][version] = 2.0-beta2
