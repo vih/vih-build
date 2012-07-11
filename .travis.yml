@@ -10,6 +10,7 @@ mysql:
   
 before_script:
   - "mysql -e 'create database drupal;'"
+  - sudo apt-get install drush
   - "drush make vih_dk.build --prepare-install ."
 
 script: test.sh
