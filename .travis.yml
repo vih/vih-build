@@ -10,10 +10,9 @@ mysql:
   
 before_script:
   - "mysql -e 'create database drupal;'"
-  - wget --quiet -O - http://ftp.drupal.org/files/projects/drush-7.x-4.6.tar.gz | tar -zxf - -C ~
-  - ln -s ~/drush/drush ~/bin/drush
-  - mkdir ~/.drush
-  - wget --quiet -O - http://ftp.drupal.org/files/projects/drush_make-6.x-2.3.tar.gz | tar -zxf - -C ~/.drush 
-  - "drush make vih_dk.build --prepare-install ."
+  - wget --quiet -O - http://ftp.drupal.org/files/projects/drush-7.x-4.6.tar.gz | tar -zxf - -C .
+  - ln -s drush/drush bin/drush
+  - mkdir .drush
+  - wget --quiet -O - http://ftp.drupal.org/files/projects/drush_make-6.x-2.3.tar.gz | tar -zxf - -C .drush
 
 script: test.sh
