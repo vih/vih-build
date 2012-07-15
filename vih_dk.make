@@ -223,8 +223,6 @@ projects[workbench_moderation][version] = 1.2
 ; Performance
 ;;;;;;;;;
 
-projects[apc][subdir] = contrib
-projects[apc][version] = 1.0-beta4
 
 ;;;;;;;;;
 ; SEO Tools
