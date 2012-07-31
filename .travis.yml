@@ -13,5 +13,6 @@ before_script:
   - wget --quiet -O - http://ftp.drupal.org/files/projects/drush-7.x-4.6.tar.gz | tar -zxf - -C .
   - mkdir .drush
   - wget --quiet -O - http://ftp.drupal.org/files/projects/drush_make-6.x-2.3.tar.gz | tar -zxf - -C .drush
+  - ls -l .drush
 
 script: bash test.sh
