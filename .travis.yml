@@ -10,9 +10,7 @@ mysql:
   
 before_script:
   - "mysql -e 'create database drupal;'"
-  - wget --quiet -O - http://ftp.drupal.org/files/projects/drush-7.x-4.6.tar.gz | tar -zxf - -C .
-  - mkdir .drush
-  - wget --quiet -O - http://ftp.drupal.org/files/projects/drush_make-6.x-2.3.tar.gz | tar -zxf - -C .drush
-  - ls -l .drush
+  - pear channel-discover pear.drush.org
+  - pear install drush/drush
 
 script: bash test.sh
