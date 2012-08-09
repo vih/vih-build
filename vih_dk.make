@@ -86,7 +86,7 @@ projects[feeds][subdir] = contrib
 projects[feeds][version] = 2.0-alpha5
 
 projects[features][subdir] = contrib
-projects[features][version] = 1.0-rc3
+projects[features][version] = 1.0
 
 projects[features_orphans][subdir] = contrib
 projects[features_orphans][version] = 1.1
@@ -143,7 +143,7 @@ projects[multiform][subdir] = contrib
 projects[multiform][version] = 1.0
 
 projects[node_clone][subdir] = contrib
-projects[node_clone][version] = 1.0-beta1
+projects[node_clone][version] = 1.0-rc1
 
 projects[nodequeue][subdir] = contrib
 projects[nodequeue][version] = 2.0-beta1
@@ -171,7 +171,7 @@ projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.0-alpha4
 
 projects[rules][subdir] = contrib
-projects[rules][version] = 2.1
+projects[rules][version] = 2.2
 
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.0
@@ -229,13 +229,13 @@ projects[workbench_moderation][version] = 1.2
 ;;;;;;;;;
 
 projects[google_analytics][subdir] = contrib 
-projects[google_analytics][version] = 1.2 
+projects[google_analytics][version] = 1.2
 
 projects[google_analytics_reports][subdir] = contrib 
 projects[google_analytics_reports][version] = 1.1 
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-alpha6
+projects[metatag][version] = 1.0-alpha7
 
 projects[schemaorg][subdir] = contrib
 projects[schemaorg][version] = 1.0-beta3
@@ -271,7 +271,7 @@ projects[mandrill][version] = 1.0
 projects[mandrill][patch][1594244] = http://drupal.org/files/1594244-12-drupal_http_request.patch
 
 projects[mailchimp][subdir] = contrib
-projects[mailchimp][version] = 2.5
+projects[mailchimp][version] = 2.6
 
 ;;;;;;;;;
 ; Text editor
