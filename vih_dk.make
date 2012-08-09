@@ -71,7 +71,7 @@ projects[custom_breadcrumbs][subdir] = contrib
 projects[custom_breadcrumbs][version] = 1.0-alpha1
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.0
+projects[ctools][version] = 1.1
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 2.0
@@ -234,7 +234,7 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.2
 
 projects[google_analytics_reports][subdir] = contrib 
-projects[google_analytics_reports][version] = 1.1 
+projects[google_analytics_reports][version] = 1.2
 
 projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-alpha7
