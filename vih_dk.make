@@ -139,6 +139,9 @@ projects[media_gallery][patch][1333674] = http://drupal.org/files/1333674-confli
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-beta3
 
+projects[mimemail][subdir] = contrib
+projects[mimemail][version] = 1.0-alpha1
+
 projects[multiform][subdir] = contrib
 projects[multiform][version] = 1.0
 
