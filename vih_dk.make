@@ -223,6 +223,8 @@ projects[workbench_moderation][version] = 1.2
 ; Performance
 ;;;;;;;;;
 
+projects[cdn][subdir] = contrib 
+projects[cdn][version] = 2.5
 
 ;;;;;;;;;
 ; SEO Tools
@@ -272,6 +274,9 @@ projects[mandrill][patch][1594244] = http://drupal.org/files/1594244-12-drupal_h
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.6
+
+projects[userreport][subdir] = contrib
+projects[userreport][version] = 1.0-alpha1
 
 ;;;;;;;;;
 ; Text editor
