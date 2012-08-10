@@ -37,8 +37,3 @@ If you want to force a rebuild of everything, you can run this:
 
     drush si vih_dk
 
-More information
---
-
-See more on [Drupal deployments & workflows with version control, drush_make, and Aegir](http://www.migueljacq.com/content/drupal-deployments-workflows-version-control-drushmake-and-aegir)
-
