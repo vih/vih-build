@@ -18,5 +18,7 @@ before_script:
   - sudo chmod -R 777 sites/all/modules
   - drush si vih_dk --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=VIH@2012 --site-mail=admin@example.com --site-name="Web Experience Toolkit" --yes
   - drush cc all --yes
+  - cd ./bin
 
-script: bash test.sh
+script: 
+  - bash ../../test.sh
