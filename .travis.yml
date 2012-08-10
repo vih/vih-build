@@ -10,7 +10,6 @@ mysql:
   
 before_script:
   - "mysql -e 'create database drupal;'"
-  - pear channel-discover pear.drush.org
-  - pear install drush/drush
+  - sudo apt-get install drush
 
 script: bash test.sh
