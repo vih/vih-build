@@ -11,6 +11,7 @@ mysql:
 before_script:
   - "mysql -e 'create database drupal;'"
   - sudo apt-get install drush
+  - drush --version
   - sudo drush self-update
 
 script: bash test.sh
