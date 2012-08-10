@@ -15,6 +15,5 @@ before_script:
   - sudo apt-get update
   - sudo apt-get install drush
   - drush --version
-  - sudo drush self-update
 
 script: bash test.sh
