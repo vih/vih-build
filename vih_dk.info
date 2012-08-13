@@ -38,6 +38,7 @@ dependencies[] = mailchimp
 dependencies[] = metatag
 dependencies[] = media
 dependencies[] = media_youtube
+dependencies[] = parser_ical
 dependencies[] = pathauto
 dependencies[] = picasa_slideshow_filter
 dependencies[] = redirect
