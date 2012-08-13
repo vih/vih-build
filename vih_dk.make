@@ -263,7 +263,7 @@ projects[widgets][version] = 1.0-beta5
 ;;;;;;;;;
 
 projects[banckle_live_chat][subdir] = contrib
-projects[banckle_live_chat][version] = 1.2
+projects[banckle_live_chat][version] = 1.3
 
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
@@ -279,7 +279,7 @@ projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.6
 
 projects[userreport][subdir] = contrib
-projects[userreport][version] = 1.0-alpha1
+projects[userreport][version] = 1.0-alpha2
 
 ;;;;;;;;;
 ; Text editor
