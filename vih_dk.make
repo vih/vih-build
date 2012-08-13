@@ -21,7 +21,7 @@ projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.0-rc3
 
 projects[field_extrawidgets][subdir] = contrib
-projects[field_extrawidgets][version] = 1.x-dev
+projects[field_extrawidgets][version] = 1.0
 
 projects[field_group][subdir] = contrib
 projects[field_group][version] = 1.1
@@ -43,7 +43,7 @@ projects[pdf_reader][version] = 1.0-rc3
 ;;;;;;;;;
 
 projects[pathauto][subdir] = contrib
-projects[pathauto][version] = 1.1
+projects[pathauto][version] = 1.2
 
 projects[pathauto_persist][subdir] = contrib
 projects[pathauto_persist][version] = 1.3
@@ -65,7 +65,7 @@ projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.4
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.0-beta3
+projects[context][version] = 3.0-beta4
 
 projects[custom_breadcrumbs][subdir] = contrib
 projects[custom_breadcrumbs][version] = 1.0-alpha1
@@ -155,7 +155,7 @@ projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.0
 
 projects[oembed][subdir] = contrib
-projects[oembed][version] = 0.1-beta2
+projects[oembed][version] = 0.1-beta3
 
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.2
@@ -240,7 +240,7 @@ projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 1.2
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-alpha7
+projects[metatag][version] = 1.0-alpha8
 
 projects[schemaorg][subdir] = contrib
 projects[schemaorg][version] = 1.0-beta3
