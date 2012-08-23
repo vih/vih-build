@@ -160,7 +160,7 @@ projects[oembed][version] = 0.1-beta3
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.2
 
-projects[parser_ical][subdir] = contrib	
+projects[parser_ical][subdir] = contrib  
 projects[parser_ical][version] = 2.x-dev
 projects[parser_ical][patch][1415226] = http://drupal.org/files/fix-locale-integration-issue-1415226-2.patch
 
