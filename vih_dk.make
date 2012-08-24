@@ -9,7 +9,7 @@ projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta3
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.5
+projects[date][version] = 2.6
 
 projects[date_ical][subdir] = contrib
 projects[date_ical][version] = 1.1
@@ -36,7 +36,7 @@ projects[link][subdir] = contrib
 projects[link][version] = 1.0
 
 projects[pdf_reader][subdir] = contrib
-projects[pdf_reader][version] = 1.0-rc3
+projects[pdf_reader][version] = 1.0-rc4
 
 ;;;;;;;;;
 ; Path tools
@@ -71,7 +71,7 @@ projects[custom_breadcrumbs][subdir] = contrib
 projects[custom_breadcrumbs][version] = 1.0-alpha1
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.1
+projects[ctools][version] = 1.2
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 2.0
@@ -186,7 +186,7 @@ projects[taxonomy_display][subdir] = contrib
 projects[taxonomy_display][version] = 1.0
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.1
+projects[token][version] = 1.2
 
 ; Can be removed when http://drupal.org/node/1058912 is resolved
 projects[token_tweaks][subdir] = contrib
@@ -199,7 +199,7 @@ projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 1.0-rc2
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.3
+projects[views][version] = 3.4
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.0-rc1
@@ -342,7 +342,7 @@ projects[commerce_registration][subdir] = contrib
 projects[commerce_registration][version] = 2.0-beta2
 
 projects[inline_entity_form][subdir] = contrib	
-projects[inline_entity_form][version] = 1.0-beta3
+projects[inline_entity_form][version] = 1.0-beta4
 
 projects[quickpay][subdir] = contrib  
 projects[quickpay][version] = 1.1
