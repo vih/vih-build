@@ -158,7 +158,7 @@ projects[oembed][subdir] = contrib
 projects[oembed][version] = 0.1-beta3
 
 projects[panels][subdir] = contrib
-projects[panels][version] = 3.2
+projects[panels][version] = 3.3
 
 projects[parser_ical][subdir] = contrib  
 projects[parser_ical][version] = 2.x-dev
@@ -199,7 +199,7 @@ projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 1.0-rc2
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.4
+projects[views][version] = 3.5
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.0-rc1
@@ -253,10 +253,10 @@ projects[site_verify][version] = 1.0
 ;;;;;;;;;
 
 projects[socialmedia][subdir] = contrib	
-projects[socialmedia][version] = 1.0-beta11
+projects[socialmedia][version] = 1.0-beta12
 
 projects[widgets][subdir] = contrib	
-projects[widgets][version] = 1.0-beta5
+projects[widgets][version] = 1.0-beta6
 
 ;;;;;;;;;
 ; External dependencies
@@ -345,7 +345,7 @@ projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.0-beta4
 
 projects[quickpay][subdir] = contrib  
-projects[quickpay][version] = 1.1
+projects[quickpay][version] = 1.2
 
 projects[registration][subdir] = contrib  
 projects[registration][version] = 1.0-beta3
