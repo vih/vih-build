@@ -19,7 +19,7 @@ function vih_dk_install() {
 
   $theme = 'sport';
   $admin_theme = 'seven';
-  
+
   // Enable standard theme.
   db_update('system')
     ->fields(array('status' => 1))
@@ -33,7 +33,7 @@ function vih_dk_install() {
     ->condition('type', 'theme')
     ->condition('name', 'bartik')
     ->execute();
-        
+    
   variable_set('theme_default', $theme);
 
   // Enable the admin theme.
@@ -139,7 +139,7 @@ function vih_dk_install() {
  * Sets up WYSIWYG.
  */
 function _vih_dk_configure_wysiwyg() {
-  // WYSIWYG Setup Filtered HTML
+  // WYSIWYG Setup Filtered HTML.
   $wysiwyg_setting = array(
     'default' => 1,
     'user_choose' => 0,
@@ -195,7 +195,7 @@ function _vih_dk_configure_wysiwyg() {
         'Maximize' => 0,
         'SpellChecker' => 0,
         'Scayt' => 0),
-      'drupal' => array (
+      'drupal' => array(
         'media' => 0,
         'break' => 1)),
       'toolbar_loc' => 'top',
@@ -217,7 +217,7 @@ function _vih_dk_configure_wysiwyg() {
           'Bold' => 1,
           'Italic' => 1,
           'Link' => 1),
-        'drupal' => array ('media' => 0)));
+        'drupal' => array('media' => 0)));
   db_merge('wysiwyg')
     ->key(array('format' => 'filtered_html'))
     ->fields(array(
@@ -226,15 +226,15 @@ function _vih_dk_configure_wysiwyg() {
     ))
     ->execute();
 
-  // WYSIWYG Setup Full Html
+  // WYSIWYG Setup Full Html.
   $wysiwyg_setting = array(
     'default' => 1,
     'user_choose' => 0,
     'show_toggle' => 1,
     'theme' => 'advanced',
     'language' => 'en',
-    'wysiwyg_buttons' => array (
-      'default' => array (
+    'wysiwyg_buttons' => array(
+      'default' => array(
         'Bold' => 1,
         'Italic' => 1,
         'Underline' => 0,
@@ -299,8 +299,8 @@ function _vih_dk_configure_wysiwyg() {
       'css_setting' => 'theme',
       'css_path' => '',
       'css_classes' => '',
-      'buttons' => array (
-        'default' => array (
+      'buttons' => array(
+        'default' => array(
           'Format' => 1,
           'Bold' => 1,
           'Italic' => 1,
@@ -316,7 +316,7 @@ function _vih_dk_configure_wysiwyg() {
       'editor' => 'ckeditor',
       'settings' => serialize($wysiwyg_setting),
     ))
-    ->execute();  
+    ->execute();
 }
 
 /**
@@ -334,9 +334,9 @@ function _vih_dk_configure_formatters() {
 }
 
 /**
- * Implements hook_update_N
+ * Implements hook_update_N().
  *
- * Enables pdf_reader to use with the short courses
+ * Enables pdf_reader to use with the short courses.
  */
 function vih_dk_update_7100() {
   $modules = array('pdf_reader');
