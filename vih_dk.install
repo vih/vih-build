@@ -33,7 +33,7 @@ function vih_dk_install() {
     ->condition('type', 'theme')
     ->condition('name', 'bartik')
     ->execute();
-    
+
   variable_set('theme_default', $theme);
 
   // Enable the admin theme.
@@ -282,7 +282,7 @@ function _vih_dk_configure_wysiwyg() {
         'Maximize' => 0,
         'SpellChecker' => 0,
         'Scayt' => 0),
-      'drupal' => array (
+      'drupal' => array(
         'media' => 1,
         'break' => 1)),
       'toolbar_loc' => 'top',
@@ -308,7 +308,7 @@ function _vih_dk_configure_wysiwyg() {
           'Unlink' => 1,
           'BulletedList' => 1,
           'NumberedList' => 1),
-        'drupal' => array (
+        'drupal' => array(
           'media' => 1)));
   db_merge('wysiwyg')
     ->key(array('format' => 'full_html'))
