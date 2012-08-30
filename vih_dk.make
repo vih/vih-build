@@ -18,7 +18,7 @@ projects[date_ical][subdir] = contrib
 projects[date_ical][version] = 1.1
 
 projects[email][subdir] = contrib
-projects[email][version] = 1.1
+projects[email][version] = 1.2
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.0-rc3
