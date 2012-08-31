@@ -18,7 +18,7 @@ projects[email][subdir] = contrib
 projects[email][version] = 1.1
 
 projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.0-rc3
+projects[entityreference][version] = 1.x-dev
 
 projects[field_extrawidgets][subdir] = contrib
 projects[field_extrawidgets][version] = 1.0
@@ -339,7 +339,7 @@ projects[commerce_autosku][subdir] = contrib
 projects[commerce_autosku][version] = 1.1
 
 projects[commerce_registration][subdir] = contrib  
-projects[commerce_registration][version] = 2.0-beta2
+projects[commerce_registration][version] = 2.x-dev
 
 projects[inline_entity_form][subdir] = contrib	
 projects[inline_entity_form][version] = 1.0-beta4
