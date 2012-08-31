@@ -8,6 +8,9 @@ api = 2
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta3
 
+projects[countries][subdir] = contrib
+projects[countries][version] = 2.0
+
 projects[date][subdir] = contrib
 projects[date][version] = 2.6
 
@@ -15,7 +18,7 @@ projects[date_ical][subdir] = contrib
 projects[date_ical][version] = 1.1
 
 projects[email][subdir] = contrib
-projects[email][version] = 1.1
+projects[email][version] = 1.2
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.x-dev
