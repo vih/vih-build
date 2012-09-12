@@ -240,7 +240,7 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.2
 
 projects[google_analytics_reports][subdir] = contrib 
-projects[google_analytics_reports][version] = 1.2
+projects[google_analytics_reports][version] = 1.3
 
 projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-alpha8
@@ -256,10 +256,10 @@ projects[site_verify][version] = 1.0
 ;;;;;;;;;
 
 projects[socialmedia][subdir] = contrib	
-projects[socialmedia][version] = 1.0-beta12
+projects[socialmedia][version] = 1.0-beta13
 
 projects[widgets][subdir] = contrib	
-projects[widgets][version] = 1.0-beta6
+projects[widgets][version] = 1.0-rc1
 
 ;;;;;;;;;
 ; External dependencies
@@ -275,8 +275,7 @@ projects[colorbox][subdir] = contrib
 projects[colorbox][version] = 1.x-dev
 
 projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 1.0
-projects[mandrill][patch][1594244] = http://drupal.org/files/1594244-12-drupal_http_request.patch
+projects[mandrill][version] = 1.1
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.6
@@ -342,7 +341,7 @@ projects[commerce_autosku][subdir] = contrib
 projects[commerce_autosku][version] = 1.1
 
 projects[commerce_registration][subdir] = contrib  
-projects[commerce_registration][version] = 2.x-dev
+projects[commerce_registration][version] = 2.0-beta3
 
 projects[inline_entity_form][subdir] = contrib	
 projects[inline_entity_form][version] = 1.0-beta4
