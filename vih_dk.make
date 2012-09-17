@@ -205,7 +205,7 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.5
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.0-rc1
+projects[views_bulk_operations][version] = 3.0
 
 projects[views_infinite_scroll][subdir] = contrib
 projects[views_infinite_scroll][version] = 1.1
@@ -316,7 +316,7 @@ projects[context_inline_editor][subdir] = contrib
 projects[context_inline_editor][version] = 1.0-beta1
 
 projects[options_element][subdir] = contrib
-projects[options_element][version] = 1.7
+projects[options_element][version] = 1.8
 
 projects[password_hustle][subdir] = contrib
 projects[password_hustle][version] = 1.0
