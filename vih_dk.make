@@ -21,7 +21,7 @@ projects[email][subdir] = contrib
 projects[email][version] = 1.2
 
 projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.x-dev
+projects[entityreference][version] = 1.0-rc5
 
 projects[field_extrawidgets][subdir] = contrib
 projects[field_extrawidgets][version] = 1.0
@@ -52,7 +52,7 @@ projects[pathauto_persist][subdir] = contrib
 projects[pathauto_persist][version] = 1.3
 
 projects[redirect][subdir] = contrib
-projects[redirect][version] = 1.0-beta4
+projects[redirect][version] = 1.0-rc1
 
 projects[transliteration][subdir] = contrib
 projects[transliteration][version] = 3.1
@@ -189,7 +189,7 @@ projects[taxonomy_display][subdir] = contrib
 projects[taxonomy_display][version] = 1.0
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.2
+projects[token][version] = 1.4
 
 ; Can be removed when http://drupal.org/node/1058912 is resolved
 projects[token_tweaks][subdir] = contrib
@@ -325,7 +325,7 @@ projects[password_toggle][subdir] = contrib
 projects[password_toggle][version] = 1.0
 
 projects[shortcutperrole][subdir] = contrib
-projects[shortcutperrole][version] = 1.0
+projects[shortcutperrole][version] = 1.1
 
 projects[simplified_menu_admin][subdir] = contrib
 projects[simplified_menu_admin][version] = 1.0-beta2
@@ -344,7 +344,7 @@ projects[commerce_registration][subdir] = contrib
 projects[commerce_registration][version] = 2.x-dev
 
 projects[inline_entity_form][subdir] = contrib	
-projects[inline_entity_form][version] = 1.0-beta4
+projects[inline_entity_form][version] = 1.0-rc1
 
 projects[quickpay][subdir] = contrib  
 projects[quickpay][version] = 1.2
