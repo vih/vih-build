@@ -216,15 +216,6 @@ projects[views_random_seed][version] = 1.2
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.0
 
-projects[workbench][subdir] = contrib
-projects[workbench][version] = 1.1
-
-projects[workbench_files][subdir] = contrib
-projects[workbench_files][version] = 1.0
-
-projects[workbench_moderation][subdir] = contrib
-projects[workbench_moderation][version] = 1.2
-
 ;;;;;;;;;
 ; Performance
 ;;;;;;;;;
