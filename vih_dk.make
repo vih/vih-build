@@ -274,6 +274,9 @@ projects[chart][version] = 1.x-dev
 projects[colorbox][subdir] = contrib
 projects[colorbox][version] = 1.x-dev
 
+projects[itoggle][subdir] = contrib
+projects[itoggle][version] = 2.3
+
 projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.1
 
@@ -394,6 +397,17 @@ libraries[jquery.cycle][download][type] = "get"
 libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[jquery.cycle][destination] = "libraries"
+
+; used by itoggle
+libraries[jquery.easing][download][type] = "get"
+libraries[jquery.easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
+libraries[jquery.easing][directory_name] = "jquery.easing"
+libraries[jquery.easing][destination] = "libraries"
+
+libraries[engage.itoggle][download][type] = "get"
+libraries[engage.itoggle][download][url] = "http://labs.engageinteractive.co.uk/itoggle/engage.itoggle.zip"
+libraries[engage.itoggle][directory_name] = ""
+libraries[engage.itoggle][destination] = "libraries"
 
 ; used by views_slideshow
 libraries[json2][download][type] = "get"
