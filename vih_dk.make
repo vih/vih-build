@@ -348,7 +348,7 @@ projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.0-rc1
 
 projects[quickpay][subdir] = contrib
-projects[quickpay][version] = 1.2
+projects[quickpay][version] = 1.3
 
 ;;;;;;;;;
 ; Custom modules
