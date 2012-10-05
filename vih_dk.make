@@ -340,16 +340,19 @@ projects[commerce][version] = 1.3
 projects[commerce_autosku][subdir] = contrib  
 projects[commerce_autosku][version] = 1.1
 
-projects[commerce_registration][subdir] = contrib  
+projects[commerce_features][subdir] = contrib
+projects[commerce_features][version] = 1.0-rc1
+
+projects[commerce_registration][subdir] = contrib
 projects[commerce_registration][version] = 2.x-dev
 
-projects[inline_entity_form][subdir] = contrib	
+projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.0-rc1
 
-projects[quickpay][subdir] = contrib  
+projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.2
 
-projects[registration][subdir] = contrib  
+projects[registration][subdir] = contrib
 projects[registration][version] = 1.0-beta3
 
 ;;;;;;;;;
