@@ -337,6 +337,10 @@ projects[simplified_menu_admin][version] = 1.0-beta2
 projects[commerce][subdir] = contrib  
 projects[commerce][version] = 1.3
 
+projects[commerce_add_to_cart_notification][download][type] = "git"
+projects[commerce_add_to_cart_notification][download][url] = "git://github.com/vih/commerce_add_to_cart_notification.git"
+projects[commerce_add_to_cart_notification][download][branch] = 7.x-1.x
+
 projects[commerce_autosku][subdir] = contrib  
 projects[commerce_autosku][version] = 1.1
 
@@ -345,6 +349,9 @@ projects[commerce_features][version] = 1.0-rc1
 
 projects[commerce_registration][subdir] = contrib
 projects[commerce_registration][version] = 2.x-dev
+
+projects[commerce_reports][subdir] = contrib
+projects[commerce_reports][version] = 3.0-beta1
 
 projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.0-rc1
