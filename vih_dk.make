@@ -436,6 +436,10 @@ libraries[plupload][destination] = "libraries"
 ; Themes
 ;;;;;;;;;
 
-projects[sport][type] = "theme"
+projects[sport][type] = theme
 projects[sport][download][type] = "git"
 projects[sport][download][url] = "git://github.com/vih/sport-theme.git"
+
+projects[shiny][type] = theme
+projects[shiny][subdir] = contrib
+projects[shiny][version] = 1.x-dev
