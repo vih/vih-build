@@ -70,8 +70,8 @@ projects[calendar][version] = 3.4
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta4
 
-projects[custom_breadcrumbs][subdir] = contrib
-projects[custom_breadcrumbs][version] = 1.0-alpha1
+projects[crumbs][subdir] = contrib
+projects[crumbs][version] = 1.x-dev
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
