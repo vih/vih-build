@@ -338,6 +338,12 @@ projects[commerce_add_to_cart_notification][download][branch] = 7.x-1.x
 projects[commerce_autosku][subdir] = contrib  
 projects[commerce_autosku][version] = 1.1
 
+projects[commerce_coupon][subdir] = contrib  
+projects[commerce_coupon][version] = 1.x-dev
+
+projects[commerce_discount][subdir] = contrib  
+projects[commerce_discount][version] = 1.x-dev
+
 projects[commerce_features][subdir] = contrib
 projects[commerce_features][version] = 1.0-rc1
 
