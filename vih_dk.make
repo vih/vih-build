@@ -170,9 +170,6 @@ projects[parser_ical][patch][1415226] = http://drupal.org/files/fix-locale-integ
 projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.0
 
-projects[revision_scheduler][subdir] = contrib
-projects[revision_scheduler][version] = 1.x-dev
-
 projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.0-alpha4
 
