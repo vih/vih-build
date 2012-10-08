@@ -361,6 +361,9 @@ projects[inline_entity_form][version] = 1.0-rc1
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.3
 
+projects[visualization][subdir] = contrib
+projects[visualization][version] = 1.0-alpha1
+
 ;;;;;;;;;
 ; Custom modules
 ;;;;;;;;;
