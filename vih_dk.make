@@ -346,6 +346,9 @@ projects[commerce_checkout_progress][version] = 1.2
 projects[commerce_coupon][subdir] = contrib  
 projects[commerce_coupon][version] = 1.x-dev
 
+projects[commerce_custom_product][subdir] = contrib
+projects[commerce_custom_product][version] = 1.0-beta2
+
 projects[commerce_discount][subdir] = contrib  
 projects[commerce_discount][version] = 1.x-dev
 
