@@ -53,6 +53,7 @@ projects[pathauto_persist][version] = 1.3
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.x-dev
+projects[redirect][patch][1796596] = http://drupal.org/files/redirect-circular-1796596-8.patch
 
 projects[transliteration][subdir] = contrib
 projects[transliteration][version] = 3.1
