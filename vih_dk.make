@@ -294,6 +294,9 @@ projects[wysiwyg][version] = 2.2
 ; UX Enhancements
 ;;;;;;;;;
 
+projects[admin_menu][subdir] = contrib
+projects[admin_menu][version] = 3.0-rc3
+
 projects[backports][subdir] = contrib
 projects[backports][version] = 1.0-alpha1
 
