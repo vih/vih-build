@@ -374,9 +374,125 @@ projects[visualization][version] = 1.0-alpha1
 ; Custom modules
 ;;;;;;;;;
 
-projects[vih][type] = "module"
-projects[vih][download][type] = "git"
-projects[vih][download][url] = "git://github.com/vih/vih.dk-features.git"
+projects[vih_calendar][type] = "module"
+projects[vih_calendar][subdir] = "vih"
+projects[vih_calendar][download][type] = "git"
+projects[vih_calendar][download][url] = "git://github.com/vih/vih_calendar.git"
+projects[vih_calendar][download][branch] = "7.x-1.x"
+
+projects[vih_dashboard][type] = "module"
+projects[vih_dashboard][subdir] = "vih"
+projects[vih_dashboard][download][type] = "git"
+projects[vih_dashboard][download][url] = "git://github.com/vih/vih_dashboard.git"
+projects[vih_dashboard][download][branch] = "7.x-1.x"
+
+projects[vih_employees][type] = "module"
+projects[vih_employees][subdir] = "vih"
+projects[vih_employees][download][type] = "git"
+projects[vih_employees][download][url] = "git://github.com/vih/vih_employees.git"
+projects[vih_employees][download][branch] = "7.x-1.x"
+
+projects[vih_facilities][type] = "module"
+projects[vih_facilities][subdir] = "vih"
+projects[vih_facilities][download][type] = "git"
+projects[vih_facilities][download][url] = "git://github.com/vih/vih_facilities.git"
+projects[vih_facilities][download][branch] = "7.x-1.x"
+
+projects[vih_general][type] = "module"
+projects[vih_general][subdir] = "vih"
+projects[vih_general][download][type] = "git"
+projects[vih_general][download][url] = "git://github.com/vih/vih_general.git"
+projects[vih_general][download][branch] = "7.x-1.x"
+
+projects[vih_golf_courses][type] = "module"
+projects[vih_golf_courses][subdir] = "vih"
+projects[vih_golf_courses][download][type] = "git"
+projects[vih_golf_courses][download][url] = "git://github.com/vih/vih_golf_courses.git"
+projects[vih_golf_courses][download][branch] = "7.x-1.x"
+
+projects[vih_kalendersiden][type] = "module"
+projects[vih_kalendersiden][subdir] = "vih"
+projects[vih_kalendersiden][download][type] = "git"
+projects[vih_kalendersiden][download][url] = "git://github.com/vih/vih_kalendersiden.git"
+projects[vih_kalendersiden][download][branch] = "7.x-1.x"
+
+projects[vih_lectures][type] = "module"
+projects[vih_lectures][subdir] = "vih"
+projects[vih_lectures][download][type] = "git"
+projects[vih_lectures][download][url] = "git://github.com/vih/vih_lectures.git"
+projects[vih_lectures][download][branch] = "7.x-1.x"
+
+projects[vih_lectures_pdf][type] = "module"
+projects[vih_lectures_pdf][subdir] = "vih"
+projects[vih_lectures_pdf][download][type] = "git"
+projects[vih_lectures_pdf][download][url] = "git://github.com/vih/vih_lectures_pdf.git"
+projects[vih_lectures_pdf][download][branch] = "7.x-1.x"
+
+projects[vih_long_course][type] = "module"
+projects[vih_long_course][subdir] = "vih"
+projects[vih_long_course][download][type] = "git"
+projects[vih_long_course][download][url] = "git://github.com/vih/vih_long_course.git"
+projects[vih_long_course][download][branch] = "7.x-1.x"
+
+projects[vih_middleman_redirect][type] = "module"
+projects[vih_middleman_redirect][subdir] = "vih"
+projects[vih_middleman_redirect][download][type] = "git"
+projects[vih_middleman_redirect][download][url] = "git://github.com/vih/vih_middleman_redirect.git"
+projects[vih_middleman_redirect][download][branch] = "7.x-1.x"
+
+projects[vih_oneliners][type] = "module"
+projects[vih_oneliners][subdir] = "vih"
+projects[vih_oneliners][download][type] = "git"
+projects[vih_oneliners][download][url] = "git://github.com/vih/vih_oneliners.git"
+projects[vih_oneliners][download][branch] = "7.x-1.x"
+
+projects[vih_pages][type] = "module"
+projects[vih_pages][subdir] = "vih"
+projects[vih_pages][download][type] = "git"
+projects[vih_pages][download][url] = "git://github.com/vih/vih_pages.git"
+projects[vih_pages][download][branch] = "7.x-1.x"
+
+projects[vih_particpant_quotes][type] = "module"
+projects[vih_particpant_quotes][subdir] = "vih"
+projects[vih_particpant_quotes][download][type] = "git"
+projects[vih_particpant_quotes][download][url] = "git://github.com/vih/vih_particpant_quotes.git"
+projects[vih_particpant_quotes][download][branch] = "7.x-1.x"
+
+projects[vih_short_course][type] = "module"
+projects[vih_short_course][subdir] = "vih"
+projects[vih_short_course][download][type] = "git"
+projects[vih_short_course][download][url] = "git://github.com/vih/vih_short_course.git"
+projects[vih_short_course][download][branch] = "7.x-1.x"
+
+projects[vih_short_course_commerce][type] = "module"
+projects[vih_short_course_commerce][subdir] = "vih"
+projects[vih_short_course_commerce][download][type] = "git"
+projects[vih_short_course_commerce][download][url] = "git://github.com/vih/vih_short_course_commerce.git"
+projects[vih_short_course_commerce][download][branch] = "7.x-1.x"
+
+projects[vih_stories][type] = "module"
+projects[vih_stories][subdir] = "vih"
+projects[vih_stories][download][type] = "git"
+projects[vih_stories][download][url] = "git://github.com/vih/vih_stories.git"
+projects[vih_stories][download][branch] = "7.x-1.x"
+
+projects[vih_student_quotes][type] = "module"
+projects[vih_student_quotes][subdir] = "vih"
+projects[vih_student_quotes][download][type] = "git"
+projects[vih_student_quotes][download][url] = "git://github.com/vih/vih_student_quotes.git"
+projects[vih_student_quotes][download][branch] = "7.x-1.x"
+
+projects[vih_subjects][type] = "module"
+projects[vih_subjects][subdir] = "vih"
+projects[vih_subjects][download][type] = "git"
+projects[vih_subjects][download][url] = "git://github.com/vih/vih_subjects.git"
+projects[vih_subjects][download][branch] = "7.x-1.x"
+
+projects[vih_viggo][type] = "module"
+projects[vih_viggo][subdir] = "vih"
+projects[vih_viggo][download][type] = "git"
+projects[vih_viggo][download][url] = "git://github.com/vih/vih_subjects.git"
+projects[vih_viggo][download][branch] = "7.x-1.x"
 
 ;;;;;;;;;
 ; Libraries
