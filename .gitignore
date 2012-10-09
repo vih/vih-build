@@ -1,7 +1,0 @@
-libraries/*
-modules/*
-themes/*
-.settings/*
-.buildpath
-.project
-.DS_Store
