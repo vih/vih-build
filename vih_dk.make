@@ -21,7 +21,7 @@ projects[email][subdir] = contrib
 projects[email][version] = 1.2
 
 projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.0-rc3
+projects[entityreference][version] = 1.0-rc5
 
 projects[field_extrawidgets][subdir] = contrib
 projects[field_extrawidgets][version] = 1.0
@@ -52,7 +52,7 @@ projects[pathauto_persist][subdir] = contrib
 projects[pathauto_persist][version] = 1.3
 
 projects[redirect][subdir] = contrib
-projects[redirect][version] = 1.0-beta4
+projects[redirect][version] = 1.0-rc1
 
 projects[transliteration][subdir] = contrib
 projects[transliteration][version] = 3.1
@@ -70,8 +70,8 @@ projects[calendar][version] = 3.4
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta4
 
-projects[custom_breadcrumbs][subdir] = contrib
-projects[custom_breadcrumbs][version] = 1.0-alpha1
+projects[crumbs][subdir] = contrib
+projects[crumbs][version] = 1.x-dev
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
@@ -170,9 +170,6 @@ projects[parser_ical][patch][1415226] = http://drupal.org/files/fix-locale-integ
 projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.0
 
-projects[revision_scheduler][subdir] = contrib
-projects[revision_scheduler][version] = 1.x-dev
-
 projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.0-alpha4
 
@@ -189,7 +186,7 @@ projects[taxonomy_display][subdir] = contrib
 projects[taxonomy_display][version] = 1.0
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.2
+projects[token][version] = 1.4
 
 ; Can be removed when http://drupal.org/node/1058912 is resolved
 projects[token_tweaks][subdir] = contrib
@@ -205,7 +202,7 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.5
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.0-rc1
+projects[views_bulk_operations][version] = 3.0
 
 projects[views_infinite_scroll][subdir] = contrib
 projects[views_infinite_scroll][version] = 1.1
@@ -215,15 +212,6 @@ projects[views_random_seed][version] = 1.2
 
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.0
-
-projects[workbench][subdir] = contrib
-projects[workbench][version] = 1.1
-
-projects[workbench_files][subdir] = contrib
-projects[workbench_files][version] = 1.0
-
-projects[workbench_moderation][subdir] = contrib
-projects[workbench_moderation][version] = 1.2
 
 ;;;;;;;;;
 ; Performance
@@ -240,7 +228,7 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.2
 
 projects[google_analytics_reports][subdir] = contrib 
-projects[google_analytics_reports][version] = 1.2
+projects[google_analytics_reports][version] = 1.3
 
 projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-alpha8
@@ -256,10 +244,10 @@ projects[site_verify][version] = 1.0
 ;;;;;;;;;
 
 projects[socialmedia][subdir] = contrib	
-projects[socialmedia][version] = 1.0-beta12
+projects[socialmedia][version] = 1.0-beta13
 
 projects[widgets][subdir] = contrib	
-projects[widgets][version] = 1.0-beta6
+projects[widgets][version] = 1.0-rc1
 
 ;;;;;;;;;
 ; External dependencies
@@ -274,9 +262,11 @@ projects[chart][version] = 1.x-dev
 projects[colorbox][subdir] = contrib
 projects[colorbox][version] = 1.x-dev
 
+projects[itoggle][subdir] = contrib
+projects[itoggle][version] = 2.3
+
 projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 1.0
-projects[mandrill][patch][1594244] = http://drupal.org/files/1594244-12-drupal_http_request.patch
+projects[mandrill][version] = 1.1
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.6
@@ -298,11 +288,14 @@ projects[scribd_filter][subdir] = contrib
 projects[scribd_filter][version] = 1.3
 
 projects[wysiwyg][subdir] = contrib
-projects[wysiwyg][version] = 2.1
+projects[wysiwyg][version] = 2.2
 
 ;;;;;;;;;
 ; UX Enhancements
 ;;;;;;;;;
+
+projects[admin_menu][subdir] = contrib
+projects[admin_menu][version] = 3.0-rc3
 
 projects[backports][subdir] = contrib
 projects[backports][version] = 1.0-alpha1
@@ -317,7 +310,7 @@ projects[context_inline_editor][subdir] = contrib
 projects[context_inline_editor][version] = 1.0-beta1
 
 projects[options_element][subdir] = contrib
-projects[options_element][version] = 1.7
+projects[options_element][version] = 1.8
 
 projects[password_hustle][subdir] = contrib
 projects[password_hustle][version] = 1.0
@@ -326,7 +319,7 @@ projects[password_toggle][subdir] = contrib
 projects[password_toggle][version] = 1.0
 
 projects[shortcutperrole][subdir] = contrib
-projects[shortcutperrole][version] = 1.0
+projects[shortcutperrole][version] = 1.1
 
 projects[simplified_menu_admin][subdir] = contrib
 projects[simplified_menu_admin][version] = 1.0-beta2
@@ -338,20 +331,44 @@ projects[simplified_menu_admin][version] = 1.0-beta2
 projects[commerce][subdir] = contrib  
 projects[commerce][version] = 1.3
 
+projects[commerce_addressbook][subdir] = contrib
+projects[commerce_addressbook][version] = 2.x-dev
+projects[commerce_addressbook][patch][] = "http://drupal.org/files/addressbook_menu_issues-1540624-5.patch"
+
+projects[commerce_add_to_cart_notification][type] = "module"
+projects[commerce_add_to_cart_notification][download][type] = "git"
+projects[commerce_add_to_cart_notification][download][url] = "git://github.com/vih/commerce_add_to_cart_notification.git"
+projects[commerce_add_to_cart_notification][download][branch] = 7.x-1.x
+
 projects[commerce_autosku][subdir] = contrib  
 projects[commerce_autosku][version] = 1.1
 
-projects[commerce_registration][subdir] = contrib  
-projects[commerce_registration][version] = 2.0-beta2
+projects[commerce_checkout_progress][subdir] = contrib
+projects[commerce_checkout_progress][version] = 1.2
 
-projects[inline_entity_form][subdir] = contrib	
-projects[inline_entity_form][version] = 1.0-beta4
+projects[commerce_coupon][subdir] = contrib  
+projects[commerce_coupon][version] = 1.x-dev
 
-projects[quickpay][subdir] = contrib  
-projects[quickpay][version] = 1.2
+projects[commerce_custom_product][subdir] = contrib
+projects[commerce_custom_product][version] = 1.0-beta2
 
-projects[registration][subdir] = contrib  
-projects[registration][version] = 1.0-beta3
+projects[commerce_discount][subdir] = contrib  
+projects[commerce_discount][version] = 1.x-dev
+
+projects[commerce_features][subdir] = contrib
+projects[commerce_features][version] = 1.0-rc1
+
+projects[commerce_reports][subdir] = contrib
+projects[commerce_reports][version] = 3.0-beta1
+
+projects[inline_entity_form][subdir] = contrib
+projects[inline_entity_form][version] = 1.0-rc1
+
+projects[quickpay][subdir] = contrib
+projects[quickpay][version] = 1.3
+
+projects[visualization][subdir] = contrib
+projects[visualization][version] = 1.0-alpha1
 
 ;;;;;;;;;
 ; Custom modules
@@ -386,6 +403,17 @@ libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/ma
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[jquery.cycle][destination] = "libraries"
 
+; used by itoggle
+libraries[jquery.easing][download][type] = "get"
+libraries[jquery.easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
+libraries[jquery.easing][directory_name] = "jquery.easing"
+libraries[jquery.easing][destination] = "libraries"
+
+libraries[engage.itoggle][download][type] = "get"
+libraries[engage.itoggle][download][url] = "http://labs.engageinteractive.co.uk/itoggle/engage.itoggle.zip"
+libraries[engage.itoggle][directory_name] = ""
+libraries[engage.itoggle][destination] = "libraries"
+
 ; used by views_slideshow
 libraries[json2][download][type] = "get"
 libraries[json2][download][url] = "https://raw.github.com/douglascrockford/JSON-js/master/json2.js"
@@ -415,6 +443,9 @@ libraries[plupload][destination] = "libraries"
 ; Themes
 ;;;;;;;;;
 
-projects[sport][type] = "theme"
+projects[sport][type] = theme
 projects[sport][download][type] = "git"
 projects[sport][download][url] = "git://github.com/vih/sport-theme.git"
+
+projects[shiny][subdir] = contrib
+projects[shiny][version] = 1.x-dev
