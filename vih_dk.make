@@ -52,7 +52,7 @@ projects[pathauto_persist][subdir] = contrib
 projects[pathauto_persist][version] = 1.3
 
 projects[redirect][subdir] = contrib
-projects[redirect][version] = 1.0-rc1
+projects[redirect][version] = 1.x-dev
 
 projects[transliteration][subdir] = contrib
 projects[transliteration][version] = 3.1
