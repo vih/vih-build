@@ -316,12 +316,6 @@ projects[context_inline_editor][version] = 1.0-beta1
 projects[options_element][subdir] = contrib
 projects[options_element][version] = 1.8
 
-projects[password_hustle][subdir] = contrib
-projects[password_hustle][version] = 1.0
-
-projects[password_toggle][subdir] = contrib
-projects[password_toggle][version] = 1.0
-
 projects[shortcutperrole][subdir] = contrib
 projects[shortcutperrole][version] = 1.1
 
