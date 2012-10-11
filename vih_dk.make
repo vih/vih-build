@@ -178,7 +178,7 @@ projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.0
 
 projects[references_dialog][subdir] = contrib
-projects[references_dialog][version] = 1.0-alpha4
+projects[references_dialog][version] = 1.x-dev
 
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.2
