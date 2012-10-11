@@ -296,6 +296,7 @@ projects[scribd_filter][version] = 1.3
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
+projects[wysiwyg][patch][934976] = http://drupal.org/files/wysiwyg-one-format.934976.23.patch
 
 ;;;;;;;;;
 ; UX Enhancements
