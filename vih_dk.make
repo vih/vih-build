@@ -228,6 +228,19 @@ projects[cdn][subdir] = contrib
 projects[cdn][version] = 2.5
 
 ;;;;;;;;;
+; Messages and email
+;;;;;;;;;
+
+projects[mailsystem][subdir] = contrib
+projects[mailsystem][version] = 2.0-unstable6
+
+projects[message][subdir] = contrib
+projects[message][version] = 2.0-unstable6
+
+projects[message_notify][subdir] = contrib
+projects[message_notify][version] = 2.0-unstable6
+
+;;;;;;;;;
 ; SEO Tools
 ;;;;;;;;;
 
