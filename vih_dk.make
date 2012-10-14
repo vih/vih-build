@@ -340,6 +340,16 @@ projects[simplified_menu_admin][subdir] = contrib
 projects[simplified_menu_admin][version] = 1.0-beta2
 
 ;;;;;;;;;
+; Internationalization
+;;;;;;;;;
+
+projects[variable][version] = "2.x-dev"
+projects[variable][subdir] = "contrib"
+
+projects[i18n][version] = "1.x-dev"
+projects[i18n][subdir] = "contrib"
+
+;;;;;;;;;
 ; Commerce
 ;;;;;;;;;
 
