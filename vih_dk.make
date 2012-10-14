@@ -405,6 +405,12 @@ projects[vih_calendar][download][type] = "git"
 projects[vih_calendar][download][url] = "git://github.com/vih/vih_calendar.git"
 projects[vih_calendar][download][branch] = "7.x-1.x"
 
+projects[vih_commerce_message][type] = "module"
+projects[vih_commerce_message][subdir] = "vih"
+projects[vih_commerce_message][download][type] = "git"
+projects[vih_commerce_message][download][url] = "git://github.com/vih/vih_commerce_message.git"
+projects[vih_commerce_message][download][branch] = "7.x-1.x"
+
 projects[vih_dashboard][type] = "module"
 projects[vih_dashboard][subdir] = "vih"
 projects[vih_dashboard][download][type] = "git"
