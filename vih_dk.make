@@ -391,6 +391,7 @@ projects[inline_entity_form][version] = 1.0-rc1
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.3
+projects[quickpay][patch][1813174] = http://drupal.org/files/issue-1813174.patch
 
 projects[visualization][subdir] = contrib
 projects[visualization][version] = 1.0-alpha1
