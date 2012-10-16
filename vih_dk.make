@@ -465,12 +465,6 @@ projects[vih_long_course][download][type] = "git"
 projects[vih_long_course][download][url] = "git://github.com/vih/vih_long_course.git"
 projects[vih_long_course][download][branch] = "7.x-1.x"
 
-projects[vih_middleman_redirect][type] = "module"
-projects[vih_middleman_redirect][subdir] = "vih"
-projects[vih_middleman_redirect][download][type] = "git"
-projects[vih_middleman_redirect][download][url] = "git://github.com/vih/vih_middleman_redirect.git"
-projects[vih_middleman_redirect][download][branch] = "7.x-1.x"
-
 projects[vih_oneliners][type] = "module"
 projects[vih_oneliners][subdir] = "vih"
 projects[vih_oneliners][download][type] = "git"
