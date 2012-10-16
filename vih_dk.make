@@ -119,6 +119,9 @@ projects[jquery_update][version] = 2.2
 projects[l10n_update][subdir] = contrib 
 projects[l10n_update][version] = 1.0-beta3
 
+projects[l18n][subdir] = contrib 
+projects[l18n][version] = 1.x-dev
+
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha3
 
