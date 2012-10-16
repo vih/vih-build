@@ -90,7 +90,7 @@ projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc3
 
 projects[feeds][subdir] = contrib
-projects[feeds][version] = 2.0-alpha5
+projects[feeds][version] = 2.0-alpha6
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.0
@@ -147,7 +147,7 @@ projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-beta3
 
 projects[mimemail][subdir] = contrib
-projects[mimemail][version] = 1.0-alpha1
+projects[mimemail][version] = 1.0-alpha2
 
 projects[multiform][subdir] = contrib
 projects[multiform][version] = 1.0
@@ -271,7 +271,7 @@ projects[widgets][version] = 1.0-rc1
 ;;;;;;;;;
 
 projects[banckle_live_chat][subdir] = contrib
-projects[banckle_live_chat][version] = 1.3
+projects[banckle_live_chat][version] = 1.4
 
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
@@ -283,7 +283,7 @@ projects[itoggle][subdir] = contrib
 projects[itoggle][version] = 2.3
 
 projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 1.1
+projects[mandrill][version] = 1.2
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.6
@@ -322,7 +322,7 @@ projects[block_visibility][subdir] = contrib
 projects[block_visibility][version] = 1.0-beta2
 
 projects[ccl][subdir] = contrib
-projects[ccl][version] = 1.4
+projects[ccl][version] = 1.5
 
 projects[context_inline_editor][subdir] = contrib
 projects[context_inline_editor][version] = 1.0-beta1
