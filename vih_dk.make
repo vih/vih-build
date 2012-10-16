@@ -396,6 +396,12 @@ projects[visualization][version] = 1.0-alpha1
 ; Custom modules
 ;;;;;;;;;
 
+projects[vih_ad_push][type] = "module"
+projects[vih_ad_push][subdir] = "vih"
+projects[vih_ad_push][download][type] = "git"
+projects[vih_ad_push][download][url] = "git://github.com/vih/vih_ad_push.git"
+projects[vih_ad_push][download][branch] = "7.x-1.x"
+
 projects[vih_calendar][type] = "module"
 projects[vih_calendar][subdir] = "vih"
 projects[vih_calendar][download][type] = "git"
