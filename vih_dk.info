@@ -55,6 +55,7 @@ dependencies[] = wysiwyg
 ; custom modules
 ;;;;;;;;;;;;;;;;
 
+dependencies[] = vih_ad_push
 dependencies[] = vih_calendar
 dependencies[] = vih_employees
 dependencies[] = vih_facilities
@@ -63,7 +64,6 @@ dependencies[] = vih_kalendersiden
 dependencies[] = vih_lectures
 dependencies[] = vih_lectures_pdf
 dependencies[] = vih_long_course
-dependencies[] = vih_middleman_redirect
 dependencies[] = vih_oneliners
 dependencies[] = vih_pages
 dependencies[] = vih_participant_quotes
