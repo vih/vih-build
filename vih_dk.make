@@ -134,17 +134,8 @@ projects[logintoboggan][version] = 1.3
 projects[media][subdir] = contrib
 projects[media][version] = 2.0-unstable6
 
-projects[media_gallery][type] = module
 projects[media_gallery][subdir] = contrib
-projects[media_gallery][download][type] = git
-projects[media_gallery][download][url] = http://git.drupal.org/project/media_gallery.git
-projects[media_gallery][download][revision] = a15b003490f00eb25160c0585daac372c7d449a7
-projects[media_gallery][patch][1244204] = http://drupal.org/files/fixed-media-adding-and-multedit-1244204-comment-42.patch
-projects[media_gallery][patch][1564338] = http://drupal.org/files/fixed-undefined-offset-1564338_1.patch
-projects[media_gallery][patch][1459594] = http://drupal.org/files/media-gallery-add-libraries-support-1459594-1.patch
-
-; used for a custom view
-projects[media_gallery][patch][1333674] = http://drupal.org/files/1333674-conflicts-16.patch
+projects[media_gallery][version] = 1.x-dev
 
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-beta3
