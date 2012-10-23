@@ -156,7 +156,7 @@ projects[oembed][subdir] = contrib
 projects[oembed][version] = 0.1-beta3
 
 projects[panels][subdir] = contrib
-projects[panels][version] = 3.3
+projects[panels][version] = 3.x-dev
 
 projects[parser_ical][subdir] = contrib  
 projects[parser_ical][version] = 2.x-dev
