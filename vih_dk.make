@@ -138,7 +138,7 @@ projects[media_gallery][subdir] = contrib
 projects[media_gallery][version] = 1.x-dev
 
 projects[media_youtube][subdir] = contrib
-projects[media_youtube][version] = 1.0-beta3
+projects[media_youtube][version] = 2.x-dev
 
 projects[mimemail][subdir] = contrib
 projects[mimemail][version] = 1.0-alpha2
