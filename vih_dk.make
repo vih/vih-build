@@ -75,7 +75,7 @@ projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta4
 
 projects[crumbs][subdir] = contrib
-projects[crumbs][version] = 1.x-dev
+projects[crumbs][version] = 1.5
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
@@ -90,7 +90,7 @@ projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc3
 
 projects[feeds][subdir] = contrib
-projects[feeds][version] = 2.0-alpha6
+projects[feeds][version] = 2.0-alpha7
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.0
@@ -280,7 +280,7 @@ projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.2
 
 projects[mailchimp][subdir] = contrib
-projects[mailchimp][version] = 2.6
+projects[mailchimp][version] = 2.7
 
 projects[userreport][subdir] = contrib
 projects[userreport][version] = 1.0-alpha2
@@ -345,7 +345,7 @@ projects[i18n][subdir] = "contrib"
 ;;;;;;;;;
 
 projects[commerce][subdir] = contrib  
-projects[commerce][version] = 1.3
+projects[commerce][version] = 1.4
 
 projects[commerce_addressbook][subdir] = contrib
 projects[commerce_addressbook][version] = 2.x-dev
@@ -590,4 +590,4 @@ projects[sport][download][url] = "git://github.com/vih/sport-theme.git"
 projects[sport][download][branch] = "7.x-1.x"
 
 projects[shiny][subdir] = contrib
-projects[shiny][version] = 1.x-dev
+projects[shiny][version] = 1.0-rc1
