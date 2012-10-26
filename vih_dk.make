@@ -359,6 +359,9 @@ projects[commerce_add_to_cart_notification][download][branch] = 7.x-1.x
 projects[commerce_autosku][subdir] = contrib  
 projects[commerce_autosku][version] = 1.1
 
+projects[ccommerce_cart_expiration][subdir] = contrib  
+projects[commerce_cart_expiration][version] = 1.0
+
 projects[commerce_checkout_progress][subdir] = contrib
 projects[commerce_checkout_progress][version] = 1.2
 
