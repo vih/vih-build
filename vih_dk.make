@@ -182,7 +182,7 @@ projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
 
 projects[taxonomy_display][subdir] = contrib
-projects[taxonomy_display][version] = 1.0
+projects[taxonomy_display][version] = 1.1
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.4
@@ -243,7 +243,7 @@ projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 1.3
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.x-dev
+projects[metatag][version] = 1.0-beta2
 
 projects[schemaorg][subdir] = contrib
 projects[schemaorg][version] = 1.0-beta3
