@@ -21,7 +21,8 @@ projects[email][subdir] = contrib
 projects[email][version] = 1.2
 
 projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.0-rc5
+projects[entityreference][version] = 1.x-dev
+projects[entityreference][patch][1699378] = http://drupal.org/files/view-argument-as-token-1699378-41.patch
 
 projects[field_extrawidgets][subdir] = contrib
 projects[field_extrawidgets][version] = 1.0
