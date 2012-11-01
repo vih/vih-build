@@ -356,6 +356,7 @@ projects[commerce_addressbook][version] = 2.x-dev
 projects[commerce_addressbook][patch][] = "http://drupal.org/files/addressbook_menu_issues-1540624-5.patch"
 
 projects[commerce_add_to_cart_notification][type] = "module"
+projects[commerce_add_to_cart_notification][subdir] = "contrib"
 projects[commerce_add_to_cart_notification][download][type] = "git"
 projects[commerce_add_to_cart_notification][download][url] = "git://github.com/vih/commerce_add_to_cart_notification.git"
 projects[commerce_add_to_cart_notification][download][branch] = 7.x-1.x
