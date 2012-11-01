@@ -137,6 +137,7 @@ projects[media][version] = 2.x-dev
 
 projects[media_gallery][subdir] = contrib
 projects[media_gallery][version] = 1.x-dev
+projects[media_gallery][patch][1244204] = http://drupal.org/files/support_media_2.x-1244204-90.patch
 
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 2.x-dev
@@ -383,7 +384,7 @@ projects[commerce_features][subdir] = contrib
 projects[commerce_features][version] = 1.0-rc1
 
 projects[commerce_reports][subdir] = contrib
-projects[commerce_reports][version] = 3.0-beta1
+projects[commerce_reports][version] = 3.x-dev
 
 projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.0-rc1
