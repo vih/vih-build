@@ -31,7 +31,7 @@ projects[field_group][subdir] = contrib
 projects[field_group][version] = 1.1
 
 projects[field_redirection][subdir] = contrib
-projects[field_redirection][version] = 2.4
+projects[field_redirection][version] = 2.5
 
 projects[fixed_field][subdir] = contrib
 projects[fixed_field][version] = 1.x-dev
