@@ -76,7 +76,7 @@ projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta4
 
 projects[crumbs][subdir] = contrib
-projects[crumbs][version] = 1.5
+projects[crumbs][version] = 1.6
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
@@ -231,7 +231,7 @@ projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
 projects[message][subdir] = contrib
-projects[message][version] = 1.x-dev
+projects[message][version] = 1.6
 
 projects[message_notify][subdir] = contrib
 projects[message_notify][version] = 2.x-dev
@@ -241,7 +241,7 @@ projects[message_notify][version] = 2.x-dev
 ;;;;;;;;;
 
 projects[google_analytics][subdir] = contrib 
-projects[google_analytics][version] = 1.2
+projects[google_analytics][version] = 1.3
 
 projects[google_analytics_reports][subdir] = contrib 
 projects[google_analytics_reports][version] = 1.3
@@ -353,8 +353,7 @@ projects[commerce][subdir] = contrib
 projects[commerce][version] = 1.4
 
 projects[commerce_addressbook][subdir] = contrib
-projects[commerce_addressbook][version] = 2.x-dev
-projects[commerce_addressbook][patch][] = "http://drupal.org/files/addressbook_menu_issues-1540624-5.patch"
+projects[commerce_addressbook][version] = 2.0-rc3
 
 projects[commerce_add_to_cart_notification][type] = "module"
 projects[commerce_add_to_cart_notification][subdir] = "contrib"
@@ -596,4 +595,4 @@ projects[sport][download][url] = "git://github.com/vih/sport-theme.git"
 projects[sport][download][branch] = "7.x-1.x"
 
 projects[shiny][subdir] = contrib
-projects[shiny][version] = 1.0-rc1
+projects[shiny][version] = 1.0-rc2
