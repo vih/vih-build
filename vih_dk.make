@@ -373,6 +373,12 @@ projects[commerce_checkout_progress][version] = 1.2
 projects[commerce_coupon][subdir] = contrib  
 projects[commerce_coupon][version] = 1.x-dev
 
+projects[commerce_coupon_fixed_amount][subdir] = contrib  
+projects[commerce_coupon_fixed_amount][version] = 1.x-dev
+
+projects[commerce_coupon_pct][subdir] = contrib  
+projects[commerce_coupon_pct][version] = 1.x-dev
+
 projects[commerce_custom_product][subdir] = contrib
 projects[commerce_custom_product][version] = 1.0-beta2
 
@@ -384,6 +390,9 @@ projects[commerce_features][version] = 1.0-rc1
 
 projects[commerce_reports][subdir] = contrib
 projects[commerce_reports][version] = 3.x-dev
+
+projects[commerce_stock][subdir] = contrib
+projects[commerce_stock][version] = 1.x-dev
 
 projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.0-rc1
