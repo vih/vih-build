@@ -96,9 +96,6 @@ projects[feeds][version] = 2.0-alpha7
 projects[features][subdir] = contrib
 projects[features][version] = 1.0
 
-projects[features_orphans][subdir] = contrib
-projects[features_orphans][version] = 1.1
-
 projects[file_entity][subdir] = contrib
 projects[file_entity][version] = 2.x-dev
 
@@ -322,9 +319,6 @@ projects[block_visibility][version] = 1.0-beta2
 
 projects[ccl][subdir] = contrib
 projects[ccl][version] = 1.5
-
-projects[context_inline_editor][subdir] = contrib
-projects[context_inline_editor][version] = 1.0-beta1
 
 projects[options_element][subdir] = contrib
 projects[options_element][version] = 1.8
