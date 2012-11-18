@@ -9,7 +9,7 @@ projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta3
 
 projects[countries][subdir] = contrib
-projects[countries][version] = 2.x-dev
+projects[countries][version] = 2.1
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.6
@@ -76,13 +76,13 @@ projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta4
 
 projects[crumbs][subdir] = contrib
-projects[crumbs][version] = 1.6
+projects[crumbs][version] = 1.7
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
 
 projects[diff][subdir] = contrib
-projects[diff][version] = 2.0
+projects[diff][version] = 3.2
 
 projects[draggableviews][subdir] = contrib
 projects[draggableviews][version] = 2.0
@@ -244,7 +244,7 @@ projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 1.3
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-beta2
+projects[metatag][version] = 1.0-beta4
 
 projects[schemaorg][subdir] = contrib
 projects[schemaorg][version] = 1.0-beta3
