@@ -361,9 +361,6 @@ projects[commerce_autosku][version] = 1.1
 projects[commerce_cart_expiration][subdir] = contrib  
 projects[commerce_cart_expiration][version] = 1.0
 
-projects[commerce_cart_view_override][subdir] = contrib  
-projects[commerce_cart_view_override][version] = 1.x-dev
-
 projects[commerce_checkout_progress][subdir] = contrib
 projects[commerce_checkout_progress][version] = 1.2
 
