@@ -311,6 +311,9 @@ projects[wysiwyg][patch][934976] = http://drupal.org/files/wysiwyg-one-format.93
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc3
 
+projects[advanced_help][subdir] = contrib
+projects[advanced_help][version] = 1.0
+
 projects[backports][subdir] = contrib
 projects[backports][version] = 1.0-alpha1
 
