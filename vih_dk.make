@@ -389,7 +389,7 @@ projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.0-rc2
 
 projects[commerce_reports][subdir] = contrib
-projects[commerce_reports][version] = 3.x-dev
+projects[commerce_reports][version] = 3.0-beta2
 
 projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.x-dev
