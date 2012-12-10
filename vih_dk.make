@@ -21,11 +21,11 @@ projects[email][subdir] = contrib
 projects[email][version] = 1.2
 
 projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.x-dev
+projects[entityreference][version] = 1.0
 projects[entityreference][patch][1699378] = http://drupal.org/files/view-argument-as-token-1699378-41.patch
 
 projects[field_extrawidgets][subdir] = contrib
-projects[field_extrawidgets][version] = 1.0
+projects[field_extrawidgets][version] = 1.1
 
 projects[field_group][subdir] = contrib
 projects[field_group][version] = 1.1
@@ -73,7 +73,7 @@ projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.4
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.0-beta4
+projects[context][version] = 3.0-beta5
 
 projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.7
@@ -199,7 +199,7 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.5
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.0
+projects[views_bulk_operations][version] = 3.1
 
 projects[views_infinite_scroll][subdir] = contrib
 projects[views_infinite_scroll][version] = 1.1
