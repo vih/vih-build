@@ -96,6 +96,9 @@ projects[feeds][version] = 2.0-alpha7
 projects[features][subdir] = contrib
 projects[features][version] = 1.0
 
+projects[fences][subdir] = contrib
+projects[fences][version] = 1.0
+
 projects[file_entity][subdir] = contrib
 projects[file_entity][version] = 2.x-dev
 
