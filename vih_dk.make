@@ -117,6 +117,9 @@ projects[image_resize_filter][version] = 1.13
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.2
 
+projects[l10n_client][subdir] = contrib 
+projects[l10n_client][version] = 1.1
+
 projects[l10n_update][subdir] = contrib 
 projects[l10n_update][version] = 1.0-beta3
 
