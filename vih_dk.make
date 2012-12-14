@@ -394,6 +394,9 @@ projects[commerce_features][version] = 1.0-rc1
 projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.0-rc2
 
+projects[commerce_message][subdir] = contrib
+projects[commerce_message][version] = 1.x-dev
+
 projects[commerce_reports][subdir] = contrib
 projects[commerce_reports][version] = 3.0-beta2
 
@@ -424,12 +427,6 @@ projects[vih_calendar][subdir] = "vih"
 projects[vih_calendar][download][type] = "git"
 projects[vih_calendar][download][url] = "git://github.com/vih/vih_calendar.git"
 projects[vih_calendar][download][branch] = "7.x-1.x"
-
-projects[vih_commerce_message][type] = "module"
-projects[vih_commerce_message][subdir] = "vih"
-projects[vih_commerce_message][download][type] = "git"
-projects[vih_commerce_message][download][url] = "git://github.com/vih/vih_commerce_message.git"
-projects[vih_commerce_message][download][branch] = "7.x-1.x"
 
 projects[vih_dashboard][type] = "module"
 projects[vih_dashboard][subdir] = "vih"
