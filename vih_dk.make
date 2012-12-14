@@ -461,6 +461,12 @@ projects[vih_golf_courses][download][type] = "git"
 projects[vih_golf_courses][download][url] = "git://github.com/vih/vih_golf_courses.git"
 projects[vih_golf_courses][download][branch] = "7.x-1.x"
 
+projects[vih_help][type] = "module"
+projects[vih_help][subdir] = "vih"
+projects[vih_help][download][type] = "git"
+projects[vih_help][download][url] = "git://github.com/vih/vih_help.git"
+projects[vih_help][download][branch] = "7.x-1.x"
+
 projects[vih_kalendersiden][type] = "module"
 projects[vih_kalendersiden][subdir] = "vih"
 projects[vih_kalendersiden][download][type] = "git"
