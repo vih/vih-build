@@ -182,6 +182,9 @@ projects[rules][version] = 2.2
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.0
 
+projects[smartcrop][subdir] = contrib
+projects[smartcrop][version] = 1.0-beta2
+
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
 
