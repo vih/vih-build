@@ -402,7 +402,7 @@ projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.0-rc2
 
 projects[commerce_message][subdir] = contrib
-projects[commerce_message][version] = 1.x-dev
+projects[commerce_message][version] = 1.0-beta1
 
 projects[commerce_reports][subdir] = contrib
 projects[commerce_reports][version] = 3.0-beta2
@@ -411,7 +411,7 @@ projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.x-dev
 
 projects[inline_entity_form][subdir] = contrib
-projects[inline_entity_form][version] = 1.0-rc1
+projects[inline_entity_form][version] = 1.0
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.5
@@ -620,4 +620,4 @@ projects[sport][download][url] = "git://github.com/vih/sport-theme.git"
 projects[sport][download][branch] = "7.x-1.x"
 
 projects[shiny][subdir] = contrib
-projects[shiny][version] = 1.0-rc3
+projects[shiny][version] = 1.0-rc5
