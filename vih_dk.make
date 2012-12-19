@@ -108,8 +108,9 @@ projects[file_lock][version] = 2.x-dev
 projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.0
 
-projects[imagecrop][subdir] = contrib
-projects[imagecrop][version] = 1.0-rc3
+projects[imagefield_focus][subdir] = contrib
+projects[imagefield_focus][version] = 1.x-dev
+projects[imagefield_focus][patch][1781778] = http://drupal.org/files/iff-media_1.patch
 
 projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
