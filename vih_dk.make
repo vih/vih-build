@@ -73,7 +73,7 @@ projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.4
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.0-beta5
+projects[context][version] = 3.0-beta6
 
 projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.8
@@ -88,7 +88,7 @@ projects[draggableviews][subdir] = contrib
 projects[draggableviews][version] = 2.0
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0-rc3
+projects[entity][version] = 1.0
 
 projects[feeds][subdir] = contrib
 projects[feeds][version] = 2.0-alpha7
@@ -292,7 +292,7 @@ projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.2
 
 projects[mailchimp][subdir] = contrib
-projects[mailchimp][version] = 2.7
+projects[mailchimp][version] = 2.8
 
 projects[userreport][subdir] = contrib
 projects[userreport][version] = 1.0-alpha2
@@ -399,7 +399,7 @@ projects[commerce_features][subdir] = contrib
 projects[commerce_features][version] = 1.0-rc1
 
 projects[commerce_google_analytics][subdir] = contrib
-projects[commerce_google_analytics][version] = 1.0-rc2
+projects[commerce_google_analytics][version] = 1.0-rc3
 
 projects[commerce_message][subdir] = contrib
 projects[commerce_message][version] = 1.0-beta1
