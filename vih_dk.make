@@ -131,7 +131,7 @@ projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha3
 
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 1.0
+projects[libraries][version] = 2.0
 
 projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
@@ -283,7 +283,7 @@ projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
 
 projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 1.x-dev
+projects[colorbox][version] = 2.0
 
 projects[itoggle][subdir] = contrib
 projects[itoggle][version] = 2.3
@@ -293,6 +293,11 @@ projects[mandrill][version] = 1.2
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.8
+
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
+libraries[mailchimp][directory_name] = "mailchimp"
+libraries[mailchimp][destination] = "libraries"
 
 projects[userreport][subdir] = contrib
 projects[userreport][version] = 1.0-alpha2
