@@ -292,7 +292,7 @@ projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.2
 
 projects[mailchimp][subdir] = contrib
-projects[mailchimp][version] = 2.8
+projects[mailchimp][version] = 2.9
 
 libraries[mailchimp][download][type] = "get"
 libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
@@ -307,7 +307,7 @@ projects[userreport][version] = 1.0-alpha2
 ;;;;;;;;;
 
 projects[ckeditor_link][subdir] = contrib
-projects[ckeditor_link][version] = 2.2
+projects[ckeditor_link][version] = 2.3
 
 projects[picasa_slideshow_filter][subdir] = contrib
 projects[picasa_slideshow_filter][version] = 1.0-alpha4
@@ -354,10 +354,10 @@ projects[simplified_menu_admin][version] = 1.0-beta2
 ; Internationalization
 ;;;;;;;;;
 
-projects[variable][version] = "2.x-dev"
+projects[variable][version] = "2.2"
 projects[variable][subdir] = "contrib"
 
-projects[i18n][version] = "1.x-dev"
+projects[i18n][version] = "1.8"
 projects[i18n][subdir] = "contrib"
 
 ;;;;;;;;;
