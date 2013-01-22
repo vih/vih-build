@@ -283,7 +283,7 @@ projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
 
 projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 2.0
+projects[colorbox][version] = 2.2
 
 projects[itoggle][subdir] = contrib
 projects[itoggle][version] = 2.3
@@ -366,6 +366,7 @@ projects[i18n][subdir] = "contrib"
 
 projects[commerce][subdir] = contrib  
 projects[commerce][version] = 1.4
+projects[commerce][patch][840786] = http://drupal.org/files/840786-add-account-info-2.patch
 
 projects[commerce_addressbook][subdir] = contrib
 projects[commerce_addressbook][version] = 2.0-rc3
