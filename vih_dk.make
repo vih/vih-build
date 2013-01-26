@@ -172,7 +172,7 @@ projects[publishcontent][subdir] = contrib
 projects[publishcontent][version] = 1.0
 
 projects[plupload][subdir] = contrib
-projects[plupload][version] = 1.0
+projects[plupload][version] = 1.1
 
 projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.x-dev
@@ -417,7 +417,7 @@ projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.x-dev
 
 projects[inline_entity_form][subdir] = contrib
-projects[inline_entity_form][version] = 1.0
+projects[inline_entity_form][version] = 1.1
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.5
