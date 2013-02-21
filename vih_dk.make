@@ -276,8 +276,8 @@ projects[widgets][version] = 1.0-rc1
 ; External dependencies
 ;;;;;;;;;
 
-projects[banckle_live_chat][subdir] = contrib
-projects[banckle_live_chat][version] = 1.4
+;projects[banckle_live_chat][subdir] = contrib
+;projects[banckle_live_chat][version] = 1.4
 
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
