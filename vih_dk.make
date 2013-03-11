@@ -37,7 +37,7 @@ projects[fixed_field][subdir] = contrib
 projects[fixed_field][version] = 1.x-dev
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.0
+projects[link][version] = 1.1
 
 projects[pdf_reader][subdir] = contrib
 projects[pdf_reader][version] = 1.0-rc4
@@ -76,7 +76,7 @@ projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta6
 
 projects[crumbs][subdir] = contrib
-projects[crumbs][version] = 1.8
+projects[crumbs][version] = 1.9
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
@@ -116,10 +116,10 @@ projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
 
 projects[jquery_update][subdir] = contrib
-projects[jquery_update][version] = 2.2
+projects[jquery_update][version] = 2.3
 
 projects[l10n_client][subdir] = contrib 
-projects[l10n_client][version] = 1.1
+projects[l10n_client][version] = 1.2
 
 projects[l10n_update][subdir] = contrib 
 projects[l10n_update][version] = 1.0-beta3
@@ -131,7 +131,7 @@ projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha3
 
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 2.0
+projects[libraries][version] = 2.1
 
 projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
@@ -156,7 +156,7 @@ projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
 
 projects[oauth][subdir] = contrib
-projects[oauth][version] = 3.0
+projects[oauth][version] = 3.1
 
 projects[oembed][subdir] = contrib
 projects[oembed][version] = 0.1-beta3
@@ -193,7 +193,7 @@ projects[taxonomy_display][subdir] = contrib
 projects[taxonomy_display][version] = 1.1
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.4
+projects[token][version] = 1.5
 
 ; Can be removed when http://drupal.org/node/1058912 is resolved
 projects[token_tweaks][subdir] = contrib
@@ -228,7 +228,7 @@ projects[views_slideshow][version] = 3.0
 ;;;;;;;;;
 
 projects[cdn][subdir] = contrib 
-projects[cdn][version] = 2.5
+projects[cdn][version] = 2.6
 
 ;;;;;;;;;
 ; Messages and email
@@ -241,7 +241,7 @@ projects[message][subdir] = contrib
 projects[message][version] = 1.7
 
 projects[message_notify][subdir] = contrib
-projects[message_notify][version] = 2.3
+projects[message_notify][version] = 2.4
 
 ;;;;;;;;;
 ; SEO Tools
@@ -283,7 +283,7 @@ projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
 
 projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 2.2
+projects[colorbox][version] = 2.3
 
 projects[itoggle][subdir] = contrib
 projects[itoggle][version] = 2.3
@@ -324,7 +324,7 @@ projects[wysiwyg][patch][934976] = http://drupal.org/files/wysiwyg-one-format.93
 ;;;;;;;;;
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc3
+projects[admin_menu][version] = 3.0-rc4
 
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0
@@ -365,7 +365,7 @@ projects[i18n][subdir] = "contrib"
 ;;;;;;;;;
 
 projects[commerce][subdir] = contrib  
-projects[commerce][version] = 1.4
+projects[commerce][version] = 1.5
 projects[commerce][patch][840786] = http://drupal.org/files/840786-add-account-info-2.patch
 
 projects[commerce_addressbook][subdir] = contrib
@@ -405,7 +405,7 @@ projects[commerce_features][subdir] = contrib
 projects[commerce_features][version] = 1.0-rc1
 
 projects[commerce_google_analytics][subdir] = contrib
-projects[commerce_google_analytics][version] = 1.0-rc3
+projects[commerce_google_analytics][version] = 1.0
 
 projects[commerce_message][subdir] = contrib
 projects[commerce_message][version] = 1.0-beta1
@@ -626,4 +626,4 @@ projects[sport][download][url] = "git://github.com/vih/sport-theme.git"
 projects[sport][download][branch] = "7.x-1.x"
 
 projects[shiny][subdir] = contrib
-projects[shiny][version] = 1.0-rc5
+projects[shiny][version] = 1.0
