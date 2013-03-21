@@ -206,7 +206,7 @@ projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 1.0-rc2
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.5
+projects[views][version] = 3.6
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
@@ -289,7 +289,7 @@ projects[itoggle][subdir] = contrib
 projects[itoggle][version] = 2.3
 
 projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 1.2
+projects[mandrill][version] = 1.4
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.x-dev
@@ -369,7 +369,7 @@ projects[commerce][version] = 1.5
 projects[commerce][patch][840786] = http://drupal.org/files/840786-add-account-info-2.patch
 
 projects[commerce_addressbook][subdir] = contrib
-projects[commerce_addressbook][version] = 2.0-rc3
+projects[commerce_addressbook][version] = 2.0-rc4
 
 projects[commerce_add_to_cart_notification][type] = "module"
 projects[commerce_add_to_cart_notification][subdir] = "contrib"
@@ -387,13 +387,13 @@ projects[commerce_checkout_progress][subdir] = contrib
 projects[commerce_checkout_progress][version] = 1.2
 
 projects[commerce_coupon][subdir] = contrib  
-projects[commerce_coupon][version] = 1.x-dev
+projects[commerce_coupon][version] = 1.0-beta7
 
 projects[commerce_coupon_fixed_amount][subdir] = contrib  
-projects[commerce_coupon_fixed_amount][version] = 1.x-dev
+projects[commerce_coupon_fixed_amount][version] = 1.0-beta7
 
 projects[commerce_coupon_pct][subdir] = contrib  
-projects[commerce_coupon_pct][version] = 1.x-dev
+projects[commerce_coupon_pct][version] = 1.0-beta7
 
 projects[commerce_custom_product][subdir] = contrib
 projects[commerce_custom_product][version] = 1.0-beta2
@@ -626,4 +626,4 @@ projects[sport][download][url] = "git://github.com/vih/sport-theme.git"
 projects[sport][download][branch] = "7.x-1.x"
 
 projects[shiny][subdir] = contrib
-projects[shiny][version] = 1.0
+projects[shiny][version] = 1.1
