@@ -178,7 +178,7 @@ projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.x-dev
 
 projects[rules][subdir] = contrib
-projects[rules][version] = 2.2
+projects[rules][version] = 2.3
 
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.0
