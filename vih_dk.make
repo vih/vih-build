@@ -79,7 +79,7 @@ projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.9
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.2
+projects[ctools][version] = 1.3
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
