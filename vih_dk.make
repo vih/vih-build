@@ -64,7 +64,7 @@ projects[transliteration][version] = 3.1
 ;;;;;;;;;
 
 projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 2.4
+projects[backup_migrate][version] = 2.5
 
 projects[better_formats][subdir] = contrib
 projects[better_formats][version] = 1.0-beta1
@@ -88,10 +88,10 @@ projects[draggableviews][subdir] = contrib
 projects[draggableviews][version] = 2.0
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0
+projects[entity][version] = 1.1
 
 projects[feeds][subdir] = contrib
-projects[feeds][version] = 2.0-alpha7
+projects[feeds][version] = 2.0-alpha8
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.0
@@ -144,7 +144,7 @@ projects[media_gallery][version] = 1.x-dev
 projects[media_gallery][patch][1244204] = http://drupal.org/files/support_media_2.x-1244204-90.patch
 
 projects[media_youtube][subdir] = contrib
-projects[media_youtube][version] = 2.x-dev
+projects[media_youtube][version] = 2.0-rc3
 
 projects[mimemail][subdir] = contrib
 projects[mimemail][version] = 1.0-alpha2
@@ -181,7 +181,7 @@ projects[rules][subdir] = contrib
 projects[rules][version] = 2.3
 
 projects[scheduler][subdir] = contrib
-projects[scheduler][version] = 1.0
+projects[scheduler][version] = 1.1
 
 projects[smartcrop][subdir] = contrib
 projects[smartcrop][version] = 1.0-beta2
@@ -206,7 +206,7 @@ projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 1.0-rc2
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.6
+projects[views][version] = 3.7
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
@@ -238,10 +238,10 @@ projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
 projects[message][subdir] = contrib
-projects[message][version] = 1.7
+projects[message][version] = 1.8
 
 projects[message_notify][subdir] = contrib
-projects[message_notify][version] = 2.4
+projects[message_notify][version] = 2.5
 
 ;;;;;;;;;
 ; SEO Tools
@@ -254,7 +254,7 @@ projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 1.3
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-beta5
+projects[metatag][version] = 1.0-beta7
 
 projects[schemaorg][subdir] = contrib
 projects[schemaorg][version] = 1.0-beta3
@@ -283,7 +283,7 @@ projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
 
 projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 2.3
+projects[colorbox][version] = 2.4
 
 projects[itoggle][subdir] = contrib
 projects[itoggle][version] = 2.3
@@ -342,7 +342,7 @@ projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.7
 
 projects[options_element][subdir] = contrib
-projects[options_element][version] = 1.8
+projects[options_element][version] = 1.9
 
 projects[shortcutperrole][subdir] = contrib
 projects[shortcutperrole][version] = 1.1
@@ -365,7 +365,7 @@ projects[i18n][subdir] = "contrib"
 ;;;;;;;;;
 
 projects[commerce][subdir] = contrib  
-projects[commerce][version] = 1.5
+projects[commerce][version] = 1.7
 projects[commerce][patch][840786] = http://drupal.org/files/840786-add-account-info-2.patch
 
 projects[commerce_addressbook][subdir] = contrib
@@ -405,7 +405,7 @@ projects[commerce_features][subdir] = contrib
 projects[commerce_features][version] = 1.0-rc1
 
 projects[commerce_google_analytics][subdir] = contrib
-projects[commerce_google_analytics][version] = 1.0
+projects[commerce_google_analytics][version] = 1.1
 
 projects[commerce_message][subdir] = contrib
 projects[commerce_message][version] = 1.0-beta1
