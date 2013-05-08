@@ -6,7 +6,7 @@ api = 2
 ;;;;;;;;;
 
 projects[addressfield][subdir] = contrib
-projects[addressfield][version] = 1.0-beta3
+projects[addressfield][version] = 1.0-beta4
 
 projects[countries][subdir] = contrib
 projects[countries][version] = 2.1
@@ -369,7 +369,7 @@ projects[commerce][version] = 1.7
 projects[commerce][patch][840786] = http://drupal.org/files/840786-add-account-info-2.patch
 
 projects[commerce_addressbook][subdir] = contrib
-projects[commerce_addressbook][version] = 2.0-rc4
+projects[commerce_addressbook][version] = 2.0-rc5
 
 projects[commerce_add_to_cart_notification][type] = "module"
 projects[commerce_add_to_cart_notification][subdir] = "contrib"
