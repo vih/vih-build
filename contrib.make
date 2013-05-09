@@ -139,10 +139,6 @@ projects[logintoboggan][version] = 1.3
 projects[media][subdir] = contrib
 projects[media][version] = 2.x-dev
 
-projects[media_gallery][subdir] = contrib
-projects[media_gallery][version] = 1.x-dev
-projects[media_gallery][patch][1244204] = http://drupal.org/files/support_media_2.x-1244204-90.patch
-
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 2.0-rc3
 
