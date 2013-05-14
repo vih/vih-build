@@ -214,7 +214,7 @@ projects[views_random_seed][subdir] = contrib
 projects[views_random_seed][version] = 1.2
 
 projects[views_send][subdir] = contrib
-projects[views_send][version] = 1.x-dev
+projects[views_send][version] = 1.0-rc3
 
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.0
