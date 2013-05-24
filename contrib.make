@@ -6,7 +6,7 @@ api = 2
 ;;;;;;;;;
 
 projects[addressfield][subdir] = contrib
-projects[addressfield][version] = 1.0-beta4
+projects[addressfield][version] = 1.0-beta5
 
 projects[countries][subdir] = contrib
 projects[countries][version] = 2.1
@@ -64,7 +64,7 @@ projects[transliteration][version] = 3.1
 ;;;;;;;;;
 
 projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 2.5
+projects[backup_migrate][version] = 2.7
 
 projects[better_formats][subdir] = contrib
 projects[better_formats][version] = 1.0-beta1
@@ -365,7 +365,7 @@ projects[commerce][version] = 1.7
 projects[commerce][patch][840786] = http://drupal.org/files/840786-add-account-info-2.patch
 
 projects[commerce_addressbook][subdir] = contrib
-projects[commerce_addressbook][version] = 2.0-rc5
+projects[commerce_addressbook][version] = 2.0-rc7
 
 projects[commerce_add_to_cart_notification][type] = "module"
 projects[commerce_add_to_cart_notification][subdir] = "contrib"
@@ -404,19 +404,19 @@ projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.1
 
 projects[commerce_message][subdir] = contrib
-projects[commerce_message][version] = 1.0-beta1
+projects[commerce_message][version] = 1.0-rc1
 
 projects[commerce_reports][subdir] = contrib
 projects[commerce_reports][version] = 3.0-beta2
 
 projects[commerce_stock][subdir] = contrib
-projects[commerce_stock][version] = 1.x-dev
+projects[commerce_stock][version] = 1.2
 
 projects[inline_entity_form][subdir] = contrib
-projects[inline_entity_form][version] = 1.1
+projects[inline_entity_form][version] = 1.2
 
 projects[quickpay][subdir] = contrib
-projects[quickpay][version] = 1.5
+projects[quickpay][version] = 1.6
 
 projects[visualization][subdir] = contrib
 projects[visualization][version] = 1.0-alpha1
@@ -480,4 +480,4 @@ libraries[plupload][destination] = "libraries"
 ;;;;;;;;;
 
 projects[shiny][subdir] = contrib
-projects[shiny][version] = 1.1
+projects[shiny][version] = 1.2
