@@ -6,7 +6,7 @@ api = 2
 ;;;;;;;;;
 
 projects[addressfield][subdir] = contrib
-projects[addressfield][version] = 1.0-beta5
+projects[addressfield][version] = 1.0-beta4
 
 projects[countries][subdir] = contrib
 projects[countries][version] = 2.1
