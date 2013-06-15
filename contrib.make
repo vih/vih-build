@@ -293,7 +293,7 @@ libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
 
 projects[userreport][subdir] = contrib
-projects[userreport][version] = 1.0-alpha3
+projects[userreport][version] = 1.0-alpha4
 
 ;;;;;;;;;
 ; Text editor
@@ -413,7 +413,7 @@ projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.2
 
 projects[quickpay][subdir] = contrib
-projects[quickpay][version] = 1.7
+projects[quickpay][version] = 1.8
 
 projects[visualization][subdir] = contrib
 projects[visualization][version] = 1.0-alpha1
