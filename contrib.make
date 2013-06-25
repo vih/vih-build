@@ -224,6 +224,9 @@ projects[views_slideshow][version] = 3.0
 ; Performance
 ;;;;;;;;;
 
+projects[advagg][subdir] = contrib 
+projects[advagg][version] = 2.0-beta1
+
 projects[cdn][subdir] = contrib 
 projects[cdn][version] = 2.6
 
