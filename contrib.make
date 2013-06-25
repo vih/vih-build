@@ -104,6 +104,7 @@ projects[file_entity][version] = 2.x-dev
 
 projects[file_lock][subdir] = contrib
 projects[file_lock][version] = 2.x-dev
+projects[file_lock][patch][1514378] = https://drupal.org/files/file-lock-temporary-files-1514378-1.patch
 
 projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.0
