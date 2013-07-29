@@ -174,6 +174,9 @@ projects[plupload][version] = 1.1
 projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.x-dev
 
+projects[robotstxt][subdir] = contrib 
+projects[robotstxt][version] = 1.x-dev
+
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.3
 
@@ -229,6 +232,9 @@ projects[advagg][version] = 2.0-beta1
 
 projects[cdn][subdir] = contrib 
 projects[cdn][version] = 2.6
+
+projects[entitycache][subdir] = contrib 
+projects[entitycache][version] = 1.x-dev
 
 ;;;;;;;;;
 ; Messages and email
