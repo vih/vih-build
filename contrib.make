@@ -289,8 +289,8 @@ projects[chart][version] = 1.x-dev
 projects[colorbox][subdir] = contrib
 projects[colorbox][version] = 2.4
 
-projects[itoggle][subdir] = contrib
-projects[itoggle][version] = 2.3
+projects[content_experiments][subdir] = contrib
+projects[content_experiments][version] = 1.4
 
 projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.4
@@ -305,6 +305,12 @@ libraries[mailchimp][destination] = "libraries"
 
 projects[userreport][subdir] = contrib
 projects[userreport][version] = 1.0-alpha4
+
+projects[visual_website_optimizer][subdir] = contrib
+projects[visual_website_optimizer][version] = 1.3
+
+projects[zopim][subdir] = contrib
+projects[zopim][version] = 1.x-dev
 
 ;;;;;;;;;
 ; Text editor
@@ -462,11 +468,6 @@ libraries[jquery.easing][download][type] = "get"
 libraries[jquery.easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
 libraries[jquery.easing][directory_name] = "jquery.easing"
 libraries[jquery.easing][destination] = "libraries"
-
-libraries[engage.itoggle][download][type] = "get"
-libraries[engage.itoggle][download][url] = "http://labs.engageinteractive.co.uk/itoggle/engage.itoggle.zip"
-libraries[engage.itoggle][directory_name] = ""
-libraries[engage.itoggle][destination] = "libraries"
 
 ; used by views_slideshow
 libraries[json2][download][type] = "get"
