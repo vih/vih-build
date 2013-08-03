@@ -166,7 +166,7 @@ projects[parser_ical][version] = 2.x-dev
 projects[parser_ical][patch][1415226] = http://drupal.org/files/fix-locale-integration-issue-1415226-2.patch
 
 projects[publishcontent][subdir] = contrib
-projects[publishcontent][version] = 1.1
+projects[publishcontent][version] = 1.x-dev
 
 projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.1
