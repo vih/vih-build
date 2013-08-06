@@ -15,7 +15,7 @@ projects[date][subdir] = contrib
 projects[date][version] = 2.6
 
 projects[date_ical][subdir] = contrib
-projects[date_ical][version] = 1.1
+projects[date_ical][version] = 2.x-dev
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.2
@@ -160,10 +160,6 @@ projects[oembed][version] = 0.1-beta3
 
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.x-dev
-
-projects[parser_ical][subdir] = contrib  
-projects[parser_ical][version] = 2.x-dev
-projects[parser_ical][patch][1415226] = http://drupal.org/files/fix-locale-integration-issue-1415226-2.patch
 
 projects[publishcontent][subdir] = contrib
 projects[publishcontent][version] = 1.x-dev
@@ -477,7 +473,7 @@ libraries[json2][destination] = "libraries"
 
 ; used by parser_ical
 libraries[iCalcreator][download][type] = "get"
-libraries[iCalcreator][download][url] = "http://downloads.sourceforge.net/project/icalcreator/icalcreator/2.10.23/iCalcreator-2.10.23.zip"
+libraries[iCalcreator][download][url] = "http://sourceforge.net/projects/icalcreator/files/icalcreator/2.18/iCalcreator-2.18.zip/download"
 libraries[iCalcreator][directory_name] = ""
 libraries[iCalcreator][destination] = "libraries"
 
