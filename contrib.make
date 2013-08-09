@@ -12,7 +12,7 @@ projects[countries][subdir] = contrib
 projects[countries][version] = 2.1
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.6
+projects[date][version] = 2.x-dev
 
 projects[date_ical][subdir] = contrib
 projects[date_ical][version] = 2.x-dev
@@ -91,7 +91,7 @@ projects[entity][subdir] = contrib
 projects[entity][version] = 1.1
 
 projects[feeds][subdir] = contrib
-projects[feeds][version] = 2.0-alpha8
+projects[feeds][version] = 2.x-dev
 
 projects[features][subdir] = contrib
 projects[features][version] = 2.x-dev
