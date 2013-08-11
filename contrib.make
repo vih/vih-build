@@ -73,7 +73,7 @@ projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.4
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.0-beta6
+projects[context][version] = 3.0-beta7
 
 projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.9
@@ -306,7 +306,7 @@ projects[visual_website_optimizer][subdir] = contrib
 projects[visual_website_optimizer][version] = 1.3
 
 projects[zopim][subdir] = contrib
-projects[zopim][version] = 1.x-dev
+projects[zopim][version] = 1.2
 
 ;;;;;;;;;
 ; Text editor
@@ -363,18 +363,18 @@ projects[simplified_menu_admin][version] = 1.0-beta2
 ; Internationalization
 ;;;;;;;;;
 
-projects[variable][version] = "2.2"
-projects[variable][subdir] = "contrib"
+projects[variable][version] = 2.3
+projects[variable][subdir] = contrib
 
-projects[i18n][version] = "1.8"
-projects[i18n][subdir] = "contrib"
+projects[i18n][version] = 1.8
+projects[i18n][subdir] = contrib
 
 ;;;;;;;;;
 ; Commerce
 ;;;;;;;;;
 
 projects[commerce][subdir] = contrib  
-projects[commerce][version] = 1.7
+projects[commerce][version] = 1.8
 projects[commerce][patch][840786] = http://drupal.org/files/840786-add-account-info-2.patch
 
 projects[commerce_addressbook][subdir] = contrib
