@@ -88,19 +88,19 @@ projects[draggableviews][subdir] = contrib
 projects[draggableviews][version] = 2.0
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.1
+projects[entity][version] = 1.2
 
 projects[feeds][subdir] = contrib
 projects[feeds][version] = 2.x-dev
 
 projects[features][subdir] = contrib
-projects[features][version] = 2.x-dev
+projects[features][version] = 2.0-rc2
 
 projects[fences][subdir] = contrib
 projects[fences][version] = 1.0
 
 projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 2.x-dev
+projects[file_entity][version] = 2.0-alpha2
 
 projects[file_lock][subdir] = contrib
 projects[file_lock][version] = 2.x-dev
@@ -138,7 +138,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
 
 projects[media][subdir] = contrib
-projects[media][version] = 2.x-dev
+projects[media][version] = 2.0-alpha1
 
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 2.0-rc3
@@ -165,7 +165,7 @@ projects[publishcontent][subdir] = contrib
 projects[publishcontent][version] = 1.x-dev
 
 projects[plupload][subdir] = contrib
-projects[plupload][version] = 1.1
+projects[plupload][version] = 1.2
 
 projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.x-dev
@@ -240,7 +240,7 @@ projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
 projects[message][subdir] = contrib
-projects[message][version] = 1.8
+projects[message][version] = 1.9
 
 projects[message_notify][subdir] = contrib
 projects[message_notify][version] = 2.5
@@ -348,7 +348,7 @@ projects[ccl][subdir] = contrib
 projects[ccl][version] = 1.5
 
 projects[module_filter][subdir] = contrib
-projects[module_filter][version] = 1.7
+projects[module_filter][version] = 1.8
 
 projects[options_element][subdir] = contrib
 projects[options_element][version] = 1.9
@@ -366,7 +366,7 @@ projects[simplified_menu_admin][version] = 1.0-beta2
 projects[variable][version] = 2.3
 projects[variable][subdir] = contrib
 
-projects[i18n][version] = 1.8
+projects[i18n][version] = 1.9
 projects[i18n][subdir] = contrib
 
 ;;;;;;;;;
@@ -426,7 +426,7 @@ projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.2
 
 projects[inline_entity_form][subdir] = contrib
-projects[inline_entity_form][version] = 1.2
+projects[inline_entity_form][version] = 1.3
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.8
@@ -488,4 +488,4 @@ libraries[plupload][destination] = "libraries"
 ;;;;;;;;;
 
 projects[shiny][subdir] = contrib
-projects[shiny][version] = 1.2
+projects[shiny][version] = 1.3
