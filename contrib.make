@@ -411,7 +411,7 @@ projects[commerce_discount][subdir] = contrib
 projects[commerce_discount][version] = 1.x-dev
 
 projects[commerce_features][subdir] = contrib
-projects[commerce_features][version] = 1.0-rc1
+projects[commerce_features][version] = 1.x-dev
 
 projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.1
