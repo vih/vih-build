@@ -76,7 +76,7 @@ projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta7
 
 projects[crumbs][subdir] = contrib
-projects[crumbs][version] = 1.9
+projects[crumbs][version] = 1.10
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.3
@@ -138,7 +138,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
 
 projects[media][subdir] = contrib
-projects[media][version] = 2.0-alpha1
+projects[media][version] = 2.0-alpha2
 
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 2.0-rc3
@@ -224,7 +224,7 @@ projects[views_slideshow][version] = 3.0
 ;;;;;;;;;
 
 projects[advagg][subdir] = contrib 
-projects[advagg][version] = 2.0-beta1
+projects[advagg][version] = 2.0-rc2
 
 projects[cdn][subdir] = contrib 
 projects[cdn][version] = 2.6
@@ -366,7 +366,7 @@ projects[simplified_menu_admin][version] = 1.0-beta2
 projects[variable][version] = 2.3
 projects[variable][subdir] = contrib
 
-projects[i18n][version] = 1.9
+projects[i18n][version] = 1.10
 projects[i18n][subdir] = contrib
 
 ;;;;;;;;;
