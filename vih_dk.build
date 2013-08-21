@@ -3,7 +3,7 @@ api = 2
 
 core = 7.x
 projects[drupal][type] = "core"
-projects[drupal][version] = "7.22"
+projects[drupal][version] = "7.23"
 
 includes[] = https://github.com/vih/vih.dk-deploy/raw/7.x-1.x/contrib.make
 
