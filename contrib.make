@@ -5,7 +5,7 @@ projects[breakpoints][subdir] = contrib
 projects[breakpoints][version] = 1.1
 
 projects[navbar][subdir] = contrib
-projects[navbar][version] = 1.1
+projects[navbar][version] = 1.0-alpha7
 
 projects[vars][subdir] = contrib
 projects[vars][version] = 2.0-alpha10
