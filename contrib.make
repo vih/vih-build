@@ -1,6 +1,47 @@
 core = 7.x
 api = 2
 
+;;;;;;;;;
+; Panopoly
+;;;;;;;;;
+
+; The Panopoly Foundation
+
+projects[panopoly_core][version] = 1.0-rc5
+projects[panopoly_core][subdir] = panopoly
+
+projects[panopoly_images][version] = 1.0-rc5
+projects[panopoly_images][subdir] = panopoly
+
+projects[panopoly_theme][version] = 1.0-rc5
+projects[panopoly_theme][subdir] = panopoly
+
+projects[panopoly_magic][version] = 1.0-rc5
+projects[panopoly_magic][subdir] = panopoly
+
+projects[panopoly_widgets][version] = 1.0-rc5
+projects[panopoly_widgets][subdir] = panopoly
+
+projects[panopoly_admin][version] = 1.0-rc5
+projects[panopoly_admin][subdir] = panopoly
+
+projects[panopoly_users][version] = 1.0-rc5
+projects[panopoly_users][subdir] = panopoly
+
+; The Panopoly Toolset
+
+projects[panopoly_pages][version] = 1.0-rc5
+projects[panopoly_pages][subdir] = panopoly
+
+projects[panopoly_wysiwyg][version] = 1.0-rc5
+projects[panopoly_wysiwyg][subdir] = panopoly
+
+projects[panopoly_search][version] = 1.0-rc5
+projects[panopoly_search][subdir] = panopoly
+projects[panopoly_search][patch][1976178] = http://drupal.org/files/1976178-disable-solr-on-pantheon-1.patch
+
+; Panopoly Recommended Admin
+
 projects[breakpoints][subdir] = contrib
 projects[breakpoints][version] = 1.1
 
@@ -9,6 +50,18 @@ projects[navbar][version] = 1.0-alpha7
 
 projects[vars][subdir] = contrib
 projects[vars][version] = 2.0-alpha10
+
+projects[save_draft][subdir] = contrib
+projects[save_draft][version] = 1.4
+
+projects[devel][subdir] = contrib
+projects[devel][version] = 1.3
+
+projects[date_popup_authored][subdir] = contrib
+projects[date_popup_authored][version] = 1.1
+
+projects[uuid][subdir] = contrib
+projects[uuid][version] = 1.0-alpha5
 
 ;;;;;;;;;
 ; Fields
