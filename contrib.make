@@ -37,7 +37,7 @@ projects[field_extrawidgets][subdir] = contrib
 projects[field_extrawidgets][version] = 1.1
 
 projects[field_group][subdir] = contrib
-projects[field_group][version] = 1.1
+projects[field_group][version] = 1.2
 
 projects[field_redirection][subdir] = contrib
 projects[field_redirection][version] = 2.5
@@ -103,7 +103,7 @@ projects[feeds][subdir] = contrib
 projects[feeds][version] = 2.x-dev
 
 projects[features][subdir] = contrib
-projects[features][version] = 2.0-rc2
+projects[features][version] = 2.0-rc3
 
 projects[fences][subdir] = contrib
 projects[fences][version] = 1.0
@@ -129,7 +129,7 @@ projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.3
 
 projects[l10n_client][subdir] = contrib 
-projects[l10n_client][version] = 1.2
+projects[l10n_client][version] = 1.3
 
 projects[l10n_update][subdir] = contrib 
 projects[l10n_update][version] = 1.0-beta3
@@ -174,7 +174,7 @@ projects[publishcontent][subdir] = contrib
 projects[publishcontent][version] = 1.x-dev
 
 projects[plupload][subdir] = contrib
-projects[plupload][version] = 1.2
+projects[plupload][version] = 1.3
 
 projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.x-dev
@@ -233,7 +233,7 @@ projects[views_slideshow][version] = 3.0
 ;;;;;;;;;
 
 projects[advagg][subdir] = contrib 
-projects[advagg][version] = 2.0-rc2
+projects[advagg][version] = 2.0-rc3
 
 projects[cdn][subdir] = contrib 
 projects[cdn][version] = 2.6
