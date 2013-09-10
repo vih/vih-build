@@ -5,9 +5,9 @@ core = 7.x
 projects[drupal][type] = "core"
 projects[drupal][version] = "7.23"
 
-includes[] = https://github.com/vih/vih.dk-deploy/raw/7.x-1.x/contrib.make
+includes[] = https://github.com/vih/vih.dk-deploy/raw/panopoly/contrib.make
 
 projects[vih_dk][type] = "profile"
 projects[vih_dk][download][type] = "git"
 projects[vih_dk][download][url] = "git://github.com/vih/vih.dk-deploy.git"
-projects[vih_dk][download][branch] = "7.x-1.x"
+projects[vih_dk][download][branch] = "panopoly"
