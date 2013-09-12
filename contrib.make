@@ -24,7 +24,7 @@ projects[date][subdir] = contrib
 projects[date][version] = 2.x-dev
 
 projects[date_ical][subdir] = contrib
-projects[date_ical][version] = 2.x-dev
+projects[date_ical][version] = 2.12
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.2
@@ -479,12 +479,6 @@ libraries[json2][download][type] = "get"
 libraries[json2][download][url] = "https://raw.github.com/douglascrockford/JSON-js/master/json2.js"
 libraries[json2][directory_name] = "json2"
 libraries[json2][destination] = "libraries"
-
-; used by parser_ical
-libraries[iCalcreator][download][type] = "get"
-libraries[iCalcreator][download][url] = "http://sourceforge.net/projects/icalcreator/files/icalcreator/2.18/iCalcreator-2.18.zip/download"
-libraries[iCalcreator][directory_name] = ""
-libraries[iCalcreator][destination] = "libraries"
 
 ; used by media gallery
 libraries[plupload][download][type] = "get"
