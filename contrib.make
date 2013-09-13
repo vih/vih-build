@@ -9,6 +9,7 @@ api = 2
 
 projects[panopoly_core][version] = 1.0-rc5
 projects[panopoly_core][subdir] = panopoly
+projects[panopoly_core][patch][2087414] = https://drupal.org/files/issue-2087414.patch
 
 projects[panopoly_images][version] = 1.0-rc5
 projects[panopoly_images][subdir] = panopoly
@@ -38,7 +39,6 @@ projects[panopoly_wysiwyg][subdir] = panopoly
 
 projects[panopoly_search][version] = 1.0-rc5
 projects[panopoly_search][subdir] = panopoly
-projects[panopoly_search][patch][1976178] = http://drupal.org/files/1976178-disable-solr-on-pantheon-1.patch
 
 ; Panopoly Recommended Admin
 
@@ -500,7 +500,7 @@ projects[visualization][version] = 1.0-alpha1
 ; Libraries
 ;;;;;;;;;
 
-; used by views_infinite_scroll
+; used by views_infinite_scroll - see https://drupal.org/node/1956462 so this is not needed
 libraries[autopager][download][type] = "get"
 libraries[autopager][download][url] = "http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js"
 libraries[autopager][directory_name] = "autopager"
@@ -511,29 +511,24 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
+; http://drupal.org/node/2088137 for this to be not needed
 libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/master.zip"
 libraries[colorbox][directory_name] = ""
 libraries[colorbox][destination] = "libraries"
 
+; used by views_slideshow
 libraries[jquery.cycle][download][type] = "get"
 libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[jquery.cycle][destination] = "libraries"
 
-; used by itoggle
-libraries[jquery.easing][download][type] = "get"
-libraries[jquery.easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
-libraries[jquery.easing][directory_name] = "jquery.easing"
-libraries[jquery.easing][destination] = "libraries"
-
-; used by views_slideshow
 libraries[json2][download][type] = "get"
 libraries[json2][download][url] = "https://raw.github.com/douglascrockford/JSON-js/master/json2.js"
 libraries[json2][directory_name] = "json2"
 libraries[json2][destination] = "libraries"
 
-; used by media gallery
+; used by plupload - see http://drupal.org/node/2088143
 libraries[plupload][download][type] = "get"
 libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
 libraries[plupload][directory_name] = ""
