@@ -87,7 +87,7 @@ projects[field_extrawidgets][subdir] = contrib
 projects[field_extrawidgets][version] = 1.1
 
 projects[field_group][subdir] = contrib
-projects[field_group][version] = 1.2
+projects[field_group][version] = 1.3
 
 projects[field_redirection][subdir] = contrib
 projects[field_redirection][version] = 2.5
@@ -233,7 +233,7 @@ projects[robotstxt][subdir] = contrib
 projects[robotstxt][version] = 1.x-dev
 
 projects[rules][subdir] = contrib
-projects[rules][version] = 2.3
+projects[rules][version] = 2.5
 
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.1
