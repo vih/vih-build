@@ -287,6 +287,7 @@ projects[advagg][version] = 2.0-rc3
 
 projects[cdn][subdir] = contrib 
 projects[cdn][version] = 2.6
+projects[cdn][patch][1942230] = https://drupal.org/files/cdn-1942230-12-advagg-hooks.patch
 
 projects[entitycache][subdir] = contrib 
 projects[entitycache][version] = 1.x-dev
