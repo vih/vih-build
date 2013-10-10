@@ -132,7 +132,7 @@ projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.4
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.0-beta7
+projects[context][version] = 3.0-rc1
 
 projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.10
@@ -153,7 +153,7 @@ projects[feeds][subdir] = contrib
 projects[feeds][version] = 2.x-dev
 
 projects[features][subdir] = contrib
-projects[features][version] = 2.0-rc3
+projects[features][version] = 2.0-rc5
 
 projects[fences][subdir] = contrib
 projects[fences][version] = 1.0
@@ -203,7 +203,7 @@ projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 2.0-rc3
 
 projects[mimemail][subdir] = contrib
-projects[mimemail][version] = 1.0-alpha2
+projects[mimemail][version] = 1.0-beta1
 
 projects[multiform][subdir] = contrib
 projects[multiform][version] = 1.0
@@ -233,7 +233,7 @@ projects[robotstxt][subdir] = contrib
 projects[robotstxt][version] = 1.x-dev
 
 projects[rules][subdir] = contrib
-projects[rules][version] = 2.5
+projects[rules][version] = 2.3
 
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.1
