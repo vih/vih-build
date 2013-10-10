@@ -264,7 +264,7 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.7
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.1
+projects[views_bulk_operations][version] = 3.x-dev
 
 projects[views_infinite_scroll][subdir] = contrib
 projects[views_infinite_scroll][version] = 1.1
@@ -451,6 +451,15 @@ projects[commerce_add_to_cart_notification][download][branch] = 7.x-1.x
 
 projects[commerce_autosku][subdir] = contrib  
 projects[commerce_autosku][version] = 1.1
+
+projects[commerce_backoffice][subdir] = contrib
+projects[commerce_backoffice][version] = 1.x-dev
+
+projects[eva][subdir] = contrib
+projects[eva][version] = 1.x-dev
+
+projects[views_megarows][subdir] = contrib
+projects[views_megarows][version] = 1.x-dev
 
 projects[commerce_cart_expiration][subdir] = contrib  
 projects[commerce_cart_expiration][version] = 1.0
