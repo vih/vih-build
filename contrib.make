@@ -458,8 +458,8 @@ projects[commerce_backoffice][version] = 1.x-dev
 projects[eva][subdir] = contrib
 projects[eva][version] = 1.x-dev
 
-projects[views_megarows][subdir] = contrib
-projects[views_megarows][version] = 1.x-dev
+projects[views_megarow][subdir] = contrib
+projects[views_megarow][version] = 1.x-dev
 
 projects[commerce_cart_expiration][subdir] = contrib  
 projects[commerce_cart_expiration][version] = 1.0
