@@ -283,7 +283,7 @@ projects[views_slideshow][version] = 3.0
 ;;;;;;;;;
 
 projects[advagg][subdir] = contrib 
-projects[advagg][version] = 2.x-dev
+projects[advagg][version] = 2.0
 
 projects[cdn][subdir] = contrib 
 projects[cdn][version] = 2.6
