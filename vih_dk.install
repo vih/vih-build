@@ -68,7 +68,8 @@ function vih_dk_install() {
       'cache' => -1,
     ),
   );
-  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
+  $blocks = array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache');
+  $query = db_insert('block')->fields($blocks);
   foreach ($values as $record) {
     $query->values($record);
   }
@@ -136,22 +137,21 @@ function vih_dk_install() {
 }
 
 /**
-* Implements hook_install_tasks_alter()
-*/
+ * Implements hook_install_tasks_alter().
+ */
 function vih_dk_install_tasks_alter(&$tasks, $install_state) {
-
   // Magically go one level deeper in solving years of dependency problems
   require_once drupal_get_path('module', 'panopoly_core') . '/panopoly_core.profile.inc';
   $tasks['install_load_profile']['function'] = 'panopoly_core_install_load_profile';
 }
 
 /**
-* Implements hook_install_tasks().
-*/
+ * Implements hook_install_tasks().
+ */
 function vih_dk_install_tasks($install_state) {
   $tasks = array();
 
-  // Add the Panopoly App Server to the Installation Process
+  // Add the Panopoly App Server to the Installation Process.
   require_once drupal_get_path('module', 'apps') . '/apps.profile.inc';
   $tasks = $tasks + apps_profile_install_tasks($install_state, array('machine name' => 'panopoly', 'default apps' => array()));
 
@@ -358,14 +358,15 @@ function _vih_dk_configure_formatters() {
 
 /**
  * Implements hook_update_N().
- *
- * Enables pdf_reader to use with the short courses.
  */
 function vih_dk_update_7100() {
   $modules = array('pdf_reader');
   module_enable($modules);
 }
 
+/**
+ * Implements hook_update_N().
+ */
 function vih_dk_update_7101() {
   $modules = array('commerce_message');
   module_enable($modules);
