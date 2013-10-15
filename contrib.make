@@ -132,7 +132,7 @@ projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.4
 
 projects[content_type_groups][subdir] = contrib
-projects[content_type_groups][version] = 1.3
+projects[content_type_groups][version] = 1.x-dev
 
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-rc1
