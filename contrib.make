@@ -236,7 +236,7 @@ projects[robotstxt][subdir] = contrib
 projects[robotstxt][version] = 1.x-dev
 
 projects[rules][subdir] = contrib
-projects[rules][version] = 2.3
+projects[rules][version] = 2.5
 
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.1
