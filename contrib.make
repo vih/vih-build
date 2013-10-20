@@ -156,7 +156,7 @@ projects[feeds][subdir] = contrib
 projects[feeds][version] = 2.x-dev
 
 projects[features][subdir] = contrib
-projects[features][version] = 2.0-rc5
+projects[features][version] = 2.0
 
 projects[fences][subdir] = contrib
 projects[fences][version] = 1.0
