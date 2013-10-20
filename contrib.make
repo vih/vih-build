@@ -135,7 +135,7 @@ projects[content_type_groups][subdir] = contrib
 projects[content_type_groups][version] = 1.x-dev
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.0-rc1
+projects[context][version] = 3.1
 
 projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.10
@@ -465,7 +465,7 @@ projects[views_megarow][subdir] = contrib
 projects[views_megarow][version] = 1.x-dev
 
 projects[commerce_cart_expiration][subdir] = contrib  
-projects[commerce_cart_expiration][version] = 1.0
+projects[commerce_cart_expiration][version] = 1.1
 
 projects[commerce_checkout_progress][subdir] = contrib
 projects[commerce_checkout_progress][version] = 1.2
