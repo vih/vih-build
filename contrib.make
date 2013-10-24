@@ -28,6 +28,7 @@ projects[panopoly_admin][subdir] = panopoly
 
 projects[panopoly_users][version] = 1.0-rc5
 projects[panopoly_users][subdir] = panopoly
+projects[panopoly_users][patch][2023433] = https://drupal.org/files/panopoly_users-2023433-14.patch
 
 ; The Panopoly Toolset
 
