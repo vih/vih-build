@@ -32,11 +32,14 @@ projects[panopoly_users][patch][2023433] = https://drupal.org/files/panopoly_use
 
 ; The Panopoly Toolset
 
-projects[panopoly_wysiwyg][version] = 1.0-rc5
-projects[panopoly_wysiwyg][subdir] = panopoly
+projects[panopoly_news][version] = 1.0-rc2
+projects[panopoly_news][subdir] = panopoly
 
 projects[panopoly_search][version] = 1.0-rc5
 projects[panopoly_search][subdir] = panopoly
+
+projects[panopoly_wysiwyg][version] = 1.0-rc5
+projects[panopoly_wysiwyg][subdir] = panopoly
 
 ; Panopoly Recommended Admin
 
