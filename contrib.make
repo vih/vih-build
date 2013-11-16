@@ -127,7 +127,7 @@ projects[transliteration][version] = 3.1
 ;;;;;;;;;
 
 projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 2.7
+projects[backup_migrate][version] = 2.8
 
 projects[better_formats][subdir] = contrib
 projects[better_formats][version] = 1.0-beta1
@@ -173,7 +173,7 @@ projects[file_lock][version] = 2.x-dev
 projects[file_lock][patch][1514378] = https://drupal.org/files/file-lock-temporary-files-1514378-1.patch
 
 projects[imagecache_profiles][subdir] = contrib
-projects[imagecache_profiles][version] = 1.0
+projects[imagecache_profiles][version] = 1.1
 
 projects[imagefield_focus][subdir] = contrib
 projects[imagefield_focus][version] = 1.x-dev
@@ -207,7 +207,7 @@ projects[media][subdir] = contrib
 projects[media][version] = 2.0-alpha3
 
 projects[media_youtube][subdir] = contrib
-projects[media_youtube][version] = 2.0-rc3
+projects[media_youtube][version] = 2.0-rc4
 
 projects[mimemail][subdir] = contrib
 projects[mimemail][version] = 1.0-beta1
@@ -231,7 +231,7 @@ projects[publishcontent][subdir] = contrib
 projects[publishcontent][version] = 1.x-dev
 
 projects[plupload][subdir] = contrib
-projects[plupload][version] = 1.3
+projects[plupload][version] = 1.4
 
 projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.x-dev
@@ -290,7 +290,7 @@ projects[views_slideshow][version] = 3.0
 ;;;;;;;;;
 
 projects[advagg][subdir] = contrib 
-projects[advagg][version] = 2.1
+projects[advagg][version] = 2.2
 
 projects[cdn][subdir] = contrib 
 projects[cdn][version] = 2.6
@@ -359,7 +359,7 @@ projects[content_experiments][subdir] = contrib
 projects[content_experiments][version] = 1.4
 
 projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 1.4
+projects[mandrill][version] = 1.5
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.12
@@ -472,7 +472,7 @@ projects[commerce_cart_expiration][subdir] = contrib
 projects[commerce_cart_expiration][version] = 1.1
 
 projects[commerce_checkout_progress][subdir] = contrib
-projects[commerce_checkout_progress][version] = 1.2
+projects[commerce_checkout_progress][version] = 1.3
 
 projects[commerce_coupon][subdir] = contrib  
 projects[commerce_coupon][version] = 1.0-beta7
@@ -556,4 +556,4 @@ libraries[plupload][destination] = "libraries"
 ;;;;;;;;;
 
 projects[shiny][subdir] = contrib
-projects[shiny][version] = 1.3
+projects[shiny][version] = 1.4
