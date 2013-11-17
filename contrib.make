@@ -204,7 +204,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
 
 projects[media][subdir] = contrib
-projects[media][version] = 2.0-alpha3
+projects[media][version] = 2.x-dev
 
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 2.0-rc4
