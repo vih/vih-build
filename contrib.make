@@ -290,7 +290,7 @@ projects[views_slideshow][version] = 3.0
 ;;;;;;;;;
 
 projects[advagg][subdir] = contrib 
-projects[advagg][version] = 2.2
+projects[advagg][version] = 2.3
 
 projects[cdn][subdir] = contrib 
 projects[cdn][version] = 2.6
