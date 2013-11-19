@@ -392,8 +392,7 @@ projects[scribd_filter][subdir] = contrib
 projects[scribd_filter][version] = 1.3
 
 projects[wysiwyg][subdir] = contrib
-projects[wysiwyg][version] = 2.2
-projects[wysiwyg][patch][934976] = http://drupal.org/files/wysiwyg-one-format.934976.23.patch
+projects[wysiwyg][version] = 2.x-dev
 
 projects[wysiwyg_filter][subdir] = contrib
 projects[wysiwyg_filter][version] = 1.6-rc2
