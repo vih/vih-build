@@ -22,6 +22,6 @@ before_script:
 
 script: 
   - test -d ../vih.dk/profiles/vih_dk
-  - test -d ../vih.dk/profiles/vih_dk/modules/contrib
+  - test -d ../vih.dk/sites/all/modules/contrib
   - test -d ../vih.dk/profiles/vih_dk/modules/vih
   - test -d ../vih.dk/profiles/vih_dk/themes
