@@ -12,10 +12,6 @@ before_script:
   - "mysql -e 'create database drupal;'"
   - pear channel-discover pear.drush.org
   - pear install drush/drush
-  - pear install PHP_CodeSniffer
-  - wget http://ftp.drupal.org/files/projects/drupalcs-7.x-1.0-beta1.tar.gz -O ../drupalcs.tar.gz
-  - tar -xvzf ../drupalcs.tar.gz -C ../
-  - pwd
   - phpenv rehash
   - drush make vih_dk.build ../vih.dk
   - cd ../vih.dk
@@ -29,4 +25,3 @@ script:
   - test -d ../vih.dk/profiles/vih_dk/modules/contrib
   - test -d ../vih.dk/profiles/vih_dk/modules/vih
   - test -d ../vih.dk/profiles/vih_dk/themes
-  - phpcs . --standard=../drupalcs/Drupal/ruleset.xml --extensions=php,module,inc,install,test,profile,theme
