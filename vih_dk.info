@@ -9,7 +9,6 @@ core = 7.x
 
 dependencies[] = block
 dependencies[] = contextual
-dependencies[] = dblog
 dependencies[] = field_ui
 dependencies[] = locale
 dependencies[] = menu
@@ -18,14 +17,11 @@ dependencies[] = rdf
 dependencies[] = search
 dependencies[] = shortcut
 dependencies[] = taxonomy
-dependencies[] = toolbar
 
 ;;;;;;;;;;;;;;;;
 ; contrib
 ;;;;;;;;;;;;;;;;
 
-dependencies[] = context
-dependencies[] = context_ui
 dependencies[] = ctools
 dependencies[] = entity
 dependencies[] = googleanalytics
@@ -40,7 +36,6 @@ dependencies[] = media
 dependencies[] = media_youtube
 dependencies[] = pathauto
 dependencies[] = redirect
-dependencies[] = scribd_filter
 dependencies[] = strongarm
 dependencies[] = token
 dependencies[] = transliteration
