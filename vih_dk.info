@@ -37,8 +37,6 @@ dependencies[] = strongarm
 dependencies[] = token
 dependencies[] = transliteration
 dependencies[] = views
-dependencies[] = views_slideshow
-dependencies[] = views_ui
 dependencies[] = wysiwyg
 
 ;;;;;;;;;;;;;;;;
