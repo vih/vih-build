@@ -14,7 +14,7 @@ Installation
 
 To build a complete site, run:
 
-    drush make vih_dk.build --prepare-install ~/workspace/vih_dk_build
+    drush make build-vih.make --prepare-install ~/workspace/vih_dk_build
 
 Then check permissions
     
