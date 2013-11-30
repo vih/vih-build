@@ -18,6 +18,14 @@ dependencies[] = shortcut
 dependencies[] = taxonomy
 
 ;;;;;;;;;;;;;;;;
+; Admin stuff
+;;;;;;;;;;;;;;;;
+
+dependencies[] = panopoly_admin
+dependencies[] = panopoly_core
+dependencies[] = navbar
+
+;;;;;;;;;;;;;;;;
 ; contrib
 ;;;;;;;;;;;;;;;;
 
