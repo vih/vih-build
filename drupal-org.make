@@ -78,13 +78,13 @@ projects[date][subdir] = contrib
 projects[date][version] = 2.x-dev
 
 projects[date_ical][subdir] = contrib
-projects[date_ical][version] = 2.12
+projects[date_ical][version] = 2.13
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.2
 
 projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.0
+projects[entityreference][version] = 1.1
 projects[entityreference][patch][1699378] = http://drupal.org/files/view-argument-as-token-1699378-41.patch
 
 projects[field_extrawidgets][subdir] = contrib
@@ -100,7 +100,7 @@ projects[fixed_field][subdir] = contrib
 projects[fixed_field][version] = 1.x-dev
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.1
+projects[link][version] = 1.2
 
 projects[pdf_reader][subdir] = contrib
 projects[pdf_reader][version] = 1.0-rc4
@@ -283,7 +283,7 @@ projects[views_send][subdir] = contrib
 projects[views_send][version] = 1.0-rc3
 
 projects[views_slideshow][subdir] = contrib
-projects[views_slideshow][version] = 3.0
+projects[views_slideshow][version] = 3.1
 
 ;;;;;;;;;
 ; Performance
@@ -420,7 +420,7 @@ projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.8
 
 projects[options_element][subdir] = contrib
-projects[options_element][version] = 1.9
+projects[options_element][version] = 1.10
 
 projects[shortcutperrole][subdir] = contrib
 projects[shortcutperrole][version] = 1.1
@@ -507,7 +507,7 @@ projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.3
 
 projects[quickpay][subdir] = contrib
-projects[quickpay][version] = 1.8
+projects[quickpay][version] = 1.9
 
 projects[visualization][subdir] = contrib
 projects[visualization][version] = 1.0-alpha1
