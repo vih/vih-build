@@ -216,7 +216,7 @@ projects[multiform][subdir] = contrib
 projects[multiform][version] = 1.0
 
 projects[node_clone][subdir] = contrib
-projects[node_clone][version] = 1.0-rc1
+projects[node_clone][version] = 1.0-rc2
 
 projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.1
@@ -353,7 +353,7 @@ projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
 
 projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 2.4
+projects[colorbox][version] = 2.5
 
 projects[content_experiments][subdir] = contrib
 projects[content_experiments][version] = 1.4
