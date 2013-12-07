@@ -69,7 +69,7 @@ projects[uuid][version] = 1.0-alpha5
 ;;;;;;;;;
 
 projects[addressfield][subdir] = contrib
-projects[addressfield][version] = 1.0-beta4
+projects[addressfield][version] = 1.0-beta5
 
 projects[countries][subdir] = contrib
 projects[countries][version] = 2.1
@@ -330,7 +330,7 @@ projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta7
 
 projects[schemaorg][subdir] = contrib
-projects[schemaorg][version] = 1.0-beta3
+projects[schemaorg][version] = 1.0-beta4
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
@@ -489,7 +489,7 @@ projects[commerce_discount][subdir] = contrib
 projects[commerce_discount][version] = 1.x-dev
 
 projects[commerce_features][subdir] = contrib
-projects[commerce_features][version] = 1.x-dev
+projects[commerce_features][version] = 1.0
 
 projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.1
