@@ -1,27 +1,61 @@
 language: php
 
 php:
-  - 5.3
+  - 5.4
 
 mysql:
   database: drupal
   username: root
   encoding: utf8
-  
-before_script:
-  - "mysql -e 'create database drupal;'"
-  - pear channel-discover pear.drush.org
-  - pear install drush/drush
-  - phpenv rehash
-  - drush make --prepare-install build-vih.make ../vih.dk --yes
-  - cd ../vih.dk
-  - sudo chmod -R 777 sites/all/modules
-  - php -d sendmail_path=/dev/null `which drush` si vih_dk --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=VIH@2012 --site-mail=admin@example.com --site-name="vih.dk" --yes
-  - drush cc all --yes
-  - cd ../vih.dk-deploy
 
-script: 
-  - test -d ../vih.dk/profiles/vih_dk
-  - test -d ../vih.dk/sites/all/modules/contrib
-  - test -d ../vih.dk/profiles/vih_dk/modules/vih
-  - test -d ../vih.dk/profiles/vih_dk/themes
+install:
+  - sudo apt-get update > /dev/null
+  - "mysql -e 'create database drupal;'"
+
+  - pear channel-discover pear.drush.org
+  - pear install drush/drush-6.1.0.0
+  - phpenv rehash
+
+  # Build Behat dependencies
+  - cd ./tests/behat
+  - composer install
+  - cd ../../../
+
+  # Build Codebase
+  - mkdir private_files
+  - mkdir profiles
+  - mv vih.dk-deploy profiles/vih_dk
+  - mkdir drupal
+  - mv profiles drupal/
+
+  # Test the current branch
+  - cd drupal
+  - drush make --prepare-install profiles/vih_dk/build-vih.make --yes
+  - cd ../
+
+  # Setup files
+  - sudo chmod -R 777 drupal/sites/all
+
+  # Setup display for Selenium
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+  - sleep 5
+
+  # Get Selenium
+  - wget http://selenium.googlecode.com/files/selenium-server-standalone-2.37.0.jar
+  - java -jar selenium-server-standalone-2.37.0.jar > /dev/null 2>&1 &
+  - sleep 5
+
+before_script:
+
+  - cd drupal
+  - echo sendmail_path=`which true` >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+  - php `pear config-get php_dir`/drush/drush.php si vih_dk --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=admin --site-mail=admin@example.com --site-name="vih.dk" --yes
+  - drush runserver --server=builtin 8888 > /dev/null 2>&1 &
+  - sleep 3
+  - cd profiles/vih_dk/tests/behat
+
+script:
+
+  - ./bin/behat --config behat.travis.yml
+
