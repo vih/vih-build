@@ -12,7 +12,7 @@ Requirements
 Installation
 ------------
 
-To build a complete site, run:
+To download a complete site, run:
 
     drush make build-vih.make --prepare-install ~/workspace/vih_dk_build
 
@@ -22,7 +22,11 @@ Then check permissions
     chmod 777 sites/default/settings.php
     chmod 777 sites/default/files
 
-Navigate to the root directory in a webbrowser.
+Now you can build the site using drush:
+
+    drush si vih_dk --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=admin --site-mail=admin@example.com --site-name="vih.dk" --yes
+
+Or you can navigate to the root directory in a webbrowser and start the installation process.
 
 #### Update existing install profile ####
 
