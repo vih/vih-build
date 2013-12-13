@@ -53,6 +53,7 @@ dependencies[] = wysiwyg
 
 dependencies[] = vih_ad_push
 dependencies[] = vih_calendar
+dependencies[] = vih_core
 dependencies[] = vih_employees
 dependencies[] = vih_facilities
 dependencies[] = vih_general
