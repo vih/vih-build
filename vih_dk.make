@@ -29,6 +29,12 @@ projects[vih_dashboard][download][type] = "git"
 projects[vih_dashboard][download][url] = "git://github.com/vih/vih_dashboard.git"
 projects[vih_dashboard][download][branch] = "7.x-1.x"
 
+projects[vih_deploy][type] = "module"
+projects[vih_deploy][subdir] = "vih"
+projects[vih_deploy][download][type] = "git"
+projects[vih_deploy][download][url] = "git://github.com/vih/vih_deploy.git"
+projects[vih_deploy][download][branch] = "7.x-1.x"
+
 projects[vih_employees][type] = "module"
 projects[vih_employees][subdir] = "vih"
 projects[vih_employees][download][type] = "git"

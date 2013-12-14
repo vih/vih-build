@@ -156,3 +156,11 @@ function vih_dk_update_7102() {
   module_enable($modules);
 }
 
+/**
+ * Implements hook_update_N().
+ */
+function vih_dk_update_7103() {
+  $modules = array('vih_deploy');
+  module_enable($modules);
+}
+
