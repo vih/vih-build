@@ -7,37 +7,36 @@ api = 2
 
 ; The Panopoly Foundation
 
-projects[panopoly_core][version] = 1.0-rc5
+projects[panopoly_core][version] = 1.0
 projects[panopoly_core][subdir] = panopoly
 
-projects[panopoly_images][version] = 1.0-rc5
+projects[panopoly_images][version] = 1.0
 projects[panopoly_images][subdir] = panopoly
 
-projects[panopoly_theme][version] = 1.0-rc5
+projects[panopoly_theme][version] = 1.0
 projects[panopoly_theme][subdir] = panopoly
 
-projects[panopoly_magic][version] = 1.0-rc5
+projects[panopoly_magic][version] = 1.0
 projects[panopoly_magic][subdir] = panopoly
 
-projects[panopoly_widgets][version] = 1.0-rc5
+projects[panopoly_widgets][version] = 1.0
 projects[panopoly_widgets][subdir] = panopoly
 
-projects[panopoly_admin][version] = 1.0-rc5
+projects[panopoly_admin][version] = 1.0
 projects[panopoly_admin][subdir] = panopoly
 
-projects[panopoly_users][version] = 1.0-rc5
+projects[panopoly_users][version] = 1.0
 projects[panopoly_users][subdir] = panopoly
-projects[panopoly_users][patch][2023433] = https://drupal.org/files/panopoly_users-2023433-14.patch
 
 ; The Panopoly Toolset
 
-projects[panopoly_news][version] = 1.0-rc2
+projects[panopoly_news][version] = 1.0
 projects[panopoly_news][subdir] = panopoly
 
-projects[panopoly_search][version] = 1.0-rc5
+projects[panopoly_search][version] = 1.0
 projects[panopoly_search][subdir] = panopoly
 
-projects[panopoly_wysiwyg][version] = 1.0-rc5
+projects[panopoly_wysiwyg][version] = 1.0
 projects[panopoly_wysiwyg][subdir] = panopoly
 
 ; Panopoly Recommended Admin
@@ -404,7 +403,7 @@ projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc4
 
 projects[advanced_help][subdir] = contrib
-projects[advanced_help][version] = 1.0
+projects[advanced_help][version] = 1.1
 
 projects[backports][subdir] = contrib
 projects[backports][version] = 1.0-alpha1
