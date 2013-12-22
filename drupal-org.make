@@ -363,7 +363,7 @@ projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.x-dev
 
 libraries[mailchimp][download][type] = "get"
-libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
+libraries[mailchimp][download][url] = "https://github.com/lsolesen/mailchimp-api-class/archive/v.1.3.2.zip"
 libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
 
