@@ -9,7 +9,6 @@ api = 2
 
 projects[panopoly_core][version] = 1.0-rc5
 projects[panopoly_core][subdir] = panopoly
-projects[panopoly_core][patch][2087414] = https://drupal.org/files/issue-2087414.patch
 
 projects[panopoly_images][version] = 1.0-rc5
 projects[panopoly_images][subdir] = panopoly
@@ -75,7 +74,7 @@ projects[countries][subdir] = contrib
 projects[countries][version] = 2.1
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.x-dev
+projects[date][version] = 2.7
 
 projects[date_ical][subdir] = contrib
 projects[date_ical][version] = 2.13
