@@ -265,7 +265,7 @@ projects[webform][subdir] = contrib
 projects[webform][version] = 3.19
 
 projects[webform_mailchimp][subdir] = contrib
-projects[webform_mailchimp][version] = 1.0-rc2
+projects[webform_mailchimp][version] = 1.x-dev
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.7
@@ -362,7 +362,7 @@ projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.5
 
 projects[mailchimp][subdir] = contrib
-projects[mailchimp][version] = 2.12
+projects[mailchimp][version] = 2.x-dev
 
 libraries[mailchimp][download][type] = "get"
 libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
