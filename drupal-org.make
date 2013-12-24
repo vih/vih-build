@@ -59,14 +59,19 @@ projects[vars][version] = 2.0-alpha10
 projects[save_draft][subdir] = contrib
 projects[save_draft][version] = 1.4
 
-projects[devel][subdir] = contrib
-projects[devel][version] = 1.3
-
 projects[date_popup_authored][subdir] = contrib
 projects[date_popup_authored][version] = 1.1
 
-projects[uuid][subdir] = contrib
-projects[uuid][version] = 1.0-alpha5
+;;;;;;;:; 
+; SHOULD BE MOVED WHEN PANOPOLY CATCHES UP
+;;;;;;;;;
+
+projects[date][subdir] = contrib
+projects[date][version] = 2.7
+
+projects[entityreference][subdir] = contrib
+projects[entityreference][version] = 1.1
+projects[entityreference][patch][1699378] = http://drupal.org/files/view-argument-as-token-1699378-41.patch
 
 ;;;;;;;;;
 ; Fields
@@ -78,24 +83,14 @@ projects[addressfield][version] = 1.0-beta5
 projects[countries][subdir] = contrib
 projects[countries][version] = 2.1
 
-projects[date][subdir] = contrib
-projects[date][version] = 2.7
-
 projects[date_ical][subdir] = contrib
 projects[date_ical][version] = 2.13
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.2
 
-projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.1
-projects[entityreference][patch][1699378] = http://drupal.org/files/view-argument-as-token-1699378-41.patch
-
 projects[field_extrawidgets][subdir] = contrib
 projects[field_extrawidgets][version] = 1.1
-
-projects[field_group][subdir] = contrib
-projects[field_group][version] = 1.3
 
 projects[field_redirection][subdir] = contrib
 projects[field_redirection][version] = 2.5
@@ -103,18 +98,12 @@ projects[field_redirection][version] = 2.5
 projects[fixed_field][subdir] = contrib
 projects[fixed_field][version] = 1.x-dev
 
-projects[link][subdir] = contrib
-projects[link][version] = 1.2
-
 projects[pdf_reader][subdir] = contrib
 projects[pdf_reader][version] = 1.0-rc4
 
 ;;;;;;;;;
 ; Path tools
 ;;;;;;;;;
-
-projects[pathauto][subdir] = contrib
-projects[pathauto][version] = 1.2
 
 projects[pathauto_persist][subdir] = contrib
 projects[pathauto_persist][version] = 1.3
@@ -148,23 +137,14 @@ projects[context][version] = 3.1
 projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.10
 
-projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.3
-
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
 projects[draggableviews][subdir] = contrib
 projects[draggableviews][version] = 2.0
 
-projects[entity][subdir] = contrib
-projects[entity][version] = 1.2
-
 projects[feeds][subdir] = contrib
 projects[feeds][version] = 2.x-dev
-
-projects[features][subdir] = contrib
-projects[features][version] = 2.0
 
 projects[fences][subdir] = contrib
 projects[fences][version] = 1.0
@@ -201,9 +181,6 @@ projects[i18n][version] = 1.x-dev
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha3
 
-projects[libraries][subdir] = contrib
-projects[libraries][version] = 2.1
-
 projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
 
@@ -228,9 +205,6 @@ projects[oauth][version] = 3.1
 projects[oembed][subdir] = contrib
 projects[oembed][version] = 0.1-beta3
 
-projects[panels][subdir] = contrib
-projects[panels][version] = 3.x-dev
-
 projects[publishcontent][subdir] = contrib
 projects[publishcontent][version] = 1.x-dev
 
@@ -252,14 +226,8 @@ projects[scheduler][version] = 1.1
 projects[smartcrop][subdir] = contrib
 projects[smartcrop][version] = 1.0-beta2
 
-projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0
-
 projects[taxonomy_display][subdir] = contrib
 projects[taxonomy_display][version] = 1.1
-
-projects[token][subdir] = contrib
-projects[token][version] = 1.5
 
 ; Can be removed when http://drupal.org/node/1058912 is resolved
 projects[token_tweaks][subdir] = contrib
@@ -270,12 +238,6 @@ projects[webform][version] = 3.19
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 1.x-dev
-
-projects[views][subdir] = contrib
-projects[views][version] = 3.7
-
-projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.x-dev
 
 projects[views_infinite_scroll][subdir] = contrib
 projects[views_infinite_scroll][version] = 1.1
