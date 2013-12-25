@@ -39,14 +39,6 @@ projects[panopoly_search][subdir] = panopoly
 projects[panopoly_wysiwyg][version] = 1.0
 projects[panopoly_wysiwyg][subdir] = panopoly
 
-; Panopoly Recommended Admin
-
-projects[breakpoints][subdir] = contrib
-projects[breakpoints][version] = 1.1
-
-projects[navbar][subdir] = contrib
-projects[navbar][version] = 1.0-beta1
-
 ; Modernizr
 libraries[modernizr][directory_name] = modernizr
 libraries[modernizr][download][type] = get
@@ -55,12 +47,6 @@ libraries[modernizr][overwrite] = TRUE
 
 projects[vars][subdir] = contrib
 projects[vars][version] = 2.0-alpha10
-
-projects[save_draft][subdir] = contrib
-projects[save_draft][version] = 1.4
-
-projects[date_popup_authored][subdir] = contrib
-projects[date_popup_authored][version] = 1.1
 
 ;;;;;;;:; 
 ; SHOULD BE MOVED WHEN PANOPOLY CATCHES UP
@@ -367,14 +353,8 @@ projects[wysiwyg_filter][version] = 1.6-rc2
 ; UX Enhancements
 ;;;;;;;;;
 
-projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc4
-
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.1
-
-projects[backports][subdir] = contrib
-projects[backports][version] = 1.0-alpha1
 
 projects[block_visibility][subdir] = contrib
 projects[block_visibility][version] = 1.0-beta2
@@ -382,17 +362,11 @@ projects[block_visibility][version] = 1.0-beta2
 projects[ccl][subdir] = contrib
 projects[ccl][version] = 1.5
 
-projects[module_filter][subdir] = contrib
-projects[module_filter][version] = 1.8
-
 projects[options_element][subdir] = contrib
 projects[options_element][version] = 1.10
 
 projects[shortcutperrole][subdir] = contrib
 projects[shortcutperrole][version] = 1.1
-
-projects[simplified_menu_admin][subdir] = contrib
-projects[simplified_menu_admin][version] = 1.0-beta2
 
 ;;;;;;;;;
 ; Internationalization
