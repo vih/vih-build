@@ -59,6 +59,25 @@ projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
 projects[entityreference][patch][1699378] = http://drupal.org/files/view-argument-as-token-1699378-41.patch
 
+;;;;;;;:; 
+; BOA
+;;;;;;;;;
+
+projects[expire][subdir] = contrib
+projects[expire][version] = 1.x-dev
+
+projects[filefield_nginx_progress][subdir] = contrib
+projects[filefield_nginx_progress][version] = 2.x-dev
+
+projects[purge][subdir] = contrib
+projects[purge][version] = 1.6
+
+projects[readonlymode][subdir] = contrib
+projects[readonlymode][version] = 1.1
+
+projects[seckit][subdir] = contrib
+projects[seckit][version] = 1.8
+
 ;;;;;;;;;
 ; Fields
 ;;;;;;;;;
@@ -113,6 +132,9 @@ projects[better_formats][version] = 1.0-beta1
 
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.4
+
+projects[coffee][subdir] = contrib
+projects[coffee][version] = 2.x-dev
 
 projects[content_type_groups][subdir] = contrib
 projects[content_type_groups][version] = 1.x-dev
@@ -193,6 +215,9 @@ projects[oembed][version] = 0.1-beta3
 
 projects[publishcontent][subdir] = contrib
 projects[publishcontent][version] = 1.x-dev
+
+projects[publish_button][subdir] = contrib
+projects[publish_button][version] = 1.x-dev
 
 projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.4
