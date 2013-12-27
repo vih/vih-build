@@ -222,6 +222,12 @@ projects[publish_button][version] = 1.x-dev
 projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.4
 
+projects[plupload_lib][type] = library
+projects[plupload_lib][download][type] = get
+projects[plupload_lib][download][url] = http://plupload.com/downloads/plupload_1_5_6.zip
+projects[plupload_lib][directory_name] = plupload
+projects[plupload_lib][patch][] = http://drupal.org/files/plupload-1_5_6-rm_examples-1903850-5.patch
+
 projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.x-dev
 
@@ -508,12 +514,6 @@ libraries[json2][download][type] = "get"
 libraries[json2][download][url] = "https://raw.github.com/douglascrockford/JSON-js/master/json2.js"
 libraries[json2][directory_name] = "json2"
 libraries[json2][destination] = "libraries"
-
-; used by plupload - see http://drupal.org/node/2088143
-libraries[plupload][download][type] = "get"
-libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
-libraries[plupload][directory_name] = ""
-libraries[plupload][destination] = "libraries"
 
 ;;;;;;;;;
 ; Themes
