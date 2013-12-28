@@ -251,10 +251,10 @@ projects[token_tweaks][subdir] = contrib
 projects[token_tweaks][version] = 1.x-dev
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.19
+projects[webform][version] = 4.0-beta1
 
 projects[webform_mailchimp][subdir] = contrib
-projects[webform_mailchimp][version] = 1.x-dev
+projects[webform_mailchimp][version] = 2.0-beta1
 
 projects[views_infinite_scroll][subdir] = contrib
 projects[views_infinite_scroll][version] = 1.1
