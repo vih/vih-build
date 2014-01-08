@@ -221,12 +221,7 @@ projects[publish_button][version] = 1.x-dev
 
 projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.4
-
-projects[plupload_lib][type] = library
-projects[plupload_lib][download][type] = get
-projects[plupload_lib][download][url] = https://github.com/moxiecode/plupload/archive/1.5.6.zip
-projects[plupload_lib][directory_name] = plupload
-projects[plupload_lib][patch][] = http://drupal.org/files/plupload-1_5_6-rm_examples-1903850-5.patch
+projects[plupload][patch][2088143] = https://drupal.org/files/issues/plupload-drush_make-2088143-2.patch
 
 projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.x-dev
