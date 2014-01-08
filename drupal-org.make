@@ -332,6 +332,7 @@ projects[chart][version] = 1.x-dev
 
 projects[colorbox][subdir] = contrib
 projects[colorbox][version] = 2.5
+projects[colorbox][patch][2088137] = https://drupal.org/files/issues/colorbox-drush_make_example_fix.patch
 
 projects[content_experiments][subdir] = contrib
 projects[content_experiments][version] = 1.4
@@ -492,12 +493,6 @@ libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
-
-; http://drupal.org/node/2088137 for this to be not needed
-libraries[colorbox][download][type] = "get"
-libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/master.zip"
-libraries[colorbox][directory_name] = ""
-libraries[colorbox][destination] = "libraries"
 
 ; used by views_slideshow
 libraries[jquery.cycle][download][type] = "get"
