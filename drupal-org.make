@@ -331,8 +331,7 @@ projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
 
 projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 2.5
-projects[colorbox][patch][2088137] = https://drupal.org/files/issues/colorbox-drush_make_example_fix.patch
+projects[colorbox][version] = 2.x-dev
 
 projects[content_experiments][subdir] = contrib
 projects[content_experiments][version] = 1.4
