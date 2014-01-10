@@ -132,35 +132,4 @@ function vih_dk_install() {
   filter_format_save($full_html_format);
 }
 
-/**
- * Implements hook_update_N().
- */
-function vih_dk_update_7100() {
-  $modules = array('pdf_reader');
-  module_enable($modules);
-}
-
-/**
- * Implements hook_update_N().
- */
-function vih_dk_update_7101() {
-  $modules = array('commerce_message');
-  module_enable($modules);
-}
-
-/**
- * Implements hook_update_N().
- */
-function vih_dk_update_7102() {
-  $modules = array('content_type_groups');
-  module_enable($modules);
-}
-
-/**
- * Implements hook_update_N().
- */
-function vih_dk_update_7103() {
-  $modules = array('vih_deploy');
-  module_enable($modules);
-}
 
