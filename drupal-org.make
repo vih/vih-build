@@ -30,7 +30,7 @@ projects[panopoly_users][subdir] = panopoly
 
 ; The Panopoly Toolset
 
-projects[panopoly_news][version] = 1.0
+projects[panopoly_news][version] = 1.1
 projects[panopoly_news][subdir] = panopoly
 
 projects[panopoly_search][version] = 1.0
@@ -220,7 +220,7 @@ projects[publish_button][subdir] = contrib
 projects[publish_button][version] = 1.x-dev
 
 projects[plupload][subdir] = contrib
-projects[plupload][version] = 1.4
+projects[plupload][version] = 1.5
 projects[plupload][patch][2088143] = https://drupal.org/files/issues/plupload-drush_make-2088143-2.patch
 
 projects[references_dialog][subdir] = contrib
@@ -268,14 +268,14 @@ projects[views_slideshow][version] = 3.1
 ;;;;;;;;;
 
 projects[advagg][subdir] = contrib 
-projects[advagg][version] = 2.3
+projects[advagg][version] = 2.4
 
 projects[cdn][subdir] = contrib 
 projects[cdn][version] = 2.6
 projects[cdn][patch][1942230] = https://drupal.org/files/cdn-1942230-18-advagg-hooks.patch
 
 projects[httprl][subdir] = contrib 
-projects[httprl][version] = 1.13
+projects[httprl][version] = 1.14
 
 projects[entitycache][subdir] = contrib 
 projects[entitycache][version] = 1.2
@@ -425,7 +425,7 @@ projects[commerce_autosku][subdir] = contrib
 projects[commerce_autosku][version] = 1.1
 
 projects[commerce_backoffice][subdir] = contrib
-projects[commerce_backoffice][version] = 1.x-dev
+projects[commerce_backoffice][version] = 1.4
 
 projects[eva][subdir] = contrib
 projects[eva][version] = 1.x-dev
@@ -470,7 +470,7 @@ projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.2
 
 projects[inline_entity_form][subdir] = contrib
-projects[inline_entity_form][version] = 1.3
+projects[inline_entity_form][version] = 1.4
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.9
