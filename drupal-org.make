@@ -69,6 +69,9 @@ projects[expire][version] = 1.x-dev
 projects[filefield_nginx_progress][subdir] = contrib
 projects[filefield_nginx_progress][version] = 2.x-dev
 
+projects[login_security][subdir] = contrib
+projects[login_security][version] = 1.8
+
 projects[purge][subdir] = contrib
 projects[purge][version] = 1.6
 
@@ -77,6 +80,9 @@ projects[readonlymode][version] = 1.1
 
 projects[seckit][subdir] = contrib
 projects[seckit][version] = 1.8
+
+projects[taxonomy_edge][subdir] = contrib
+projects[taxonomy_edge][version] = 1.x-dev
 
 ;;;;;;;;;
 ; Fields
