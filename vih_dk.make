@@ -149,8 +149,8 @@ projects[vih_viggo][download][branch] = "7.x-1.x"
 ; Themes
 ;;;;;;;;;
 
-projects[sport][type] = theme
+projects[sport][type] = "theme"
 projects[sport][download][type] = "git"
 projects[sport][download][url] = "git://github.com/vih/sport-theme.git"
 projects[sport][download][branch] = "7.x-1.x"
-
+projects[sport][download][revision] = "3425e9d32d41513e0823b6282243bcb8ea30d73b"
