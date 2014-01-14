@@ -57,7 +57,6 @@ dependencies[] = vih_core
 dependencies[] = vih_deploy
 dependencies[] = vih_employees
 dependencies[] = vih_facilities
-dependencies[] = vih_general
 dependencies[] = vih_kalendersiden
 dependencies[] = vih_lectures
 dependencies[] = vih_lectures_pdf
