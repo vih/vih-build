@@ -130,6 +130,9 @@ projects[transliteration][version] = 3.1
 ; Site building tools
 ;;;;;;;;;
 
+projects[adminrole][subdir] = contrib
+projects[adminrole][version] = 1.0
+
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.8
 
