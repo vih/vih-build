@@ -84,6 +84,9 @@ projects[seckit][version] = 1.8
 projects[taxonomy_edge][subdir] = contrib
 projects[taxonomy_edge][version] = 1.x-dev
 
+projects[views_cache_bully][subdir] = contrib
+projects[views_cache_bully][version] = 3.1
+
 ;;;;;;;;;
 ; Fields
 ;;;;;;;;;
@@ -214,7 +217,7 @@ projects[oembed][subdir] = contrib
 projects[oembed][version] = 0.1-beta3
 
 projects[plupload][subdir] = contrib
-projects[plupload][version] = 1.5
+projects[plupload][version] = 1.6
 projects[plupload][patch][2088143] = https://drupal.org/files/issues/plupload-drush_make-2088143-2.patch
 
 projects[references_dialog][subdir] = contrib
@@ -300,7 +303,7 @@ projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 1.3
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-beta7
+projects[metatag][version] = 1.0-beta9
 
 projects[schemaorg][subdir] = contrib
 projects[schemaorg][version] = 1.0-beta4
@@ -381,7 +384,7 @@ projects[options_element][version] = 1.10
 ; Internationalization
 ;;;;;;;;;
 
-projects[variable][version] = 2.3
+projects[variable][version] = 2.4
 projects[variable][subdir] = contrib
 
 projects[i18n][version] = 1.10
@@ -453,7 +456,7 @@ projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.2
 
 projects[inline_entity_form][subdir] = contrib
-projects[inline_entity_form][version] = 1.4
+projects[inline_entity_form][version] = 1.5
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.9
