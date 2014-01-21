@@ -495,11 +495,6 @@ libraries[autopager][download][url] = "http://jquery-autopager.googlecode.com/fi
 libraries[autopager][directory_name] = "autopager"
 libraries[autopager][destination] = "libraries"
 
-libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
-libraries[ckeditor][directory_name] = "ckeditor"
-libraries[ckeditor][destination] = "libraries"
-
 ; used by views_slideshow
 libraries[jquery.cycle][download][type] = "get"
 libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
