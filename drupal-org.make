@@ -472,14 +472,4 @@ libraries[autopager][download][url] = "http://jquery-autopager.googlecode.com/fi
 libraries[autopager][directory_name] = "autopager"
 libraries[autopager][destination] = "libraries"
 
-; used by views_slideshow
-libraries[jquery.cycle][download][type] = "get"
-libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
-libraries[jquery.cycle][directory_name] = "jquery.cycle"
-libraries[jquery.cycle][destination] = "libraries"
-
-libraries[json2][download][type] = "get"
-libraries[json2][download][url] = "https://raw.github.com/douglascrockford/JSON-js/master/json2.js"
-libraries[json2][directory_name] = "json2"
-libraries[json2][destination] = "libraries"
 
