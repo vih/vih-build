@@ -106,9 +106,6 @@ projects[field_extrawidgets][version] = 1.1
 projects[field_redirection][subdir] = contrib
 projects[field_redirection][version] = 2.5
 
-projects[fixed_field][subdir] = contrib
-projects[fixed_field][version] = 1.x-dev
-
 projects[pdf_reader][subdir] = contrib
 projects[pdf_reader][version] = 1.0-rc4
 
@@ -163,9 +160,6 @@ projects[draggableviews][version] = 2.0
 projects[feeds][subdir] = contrib
 projects[feeds][version] = 2.x-dev
 
-projects[fences][subdir] = contrib
-projects[fences][version] = 1.0
-
 projects[file_entity][subdir] = contrib
 projects[file_entity][version] = 2.0-alpha3
 
@@ -218,12 +212,6 @@ projects[oauth][version] = 3.1
 
 projects[oembed][subdir] = contrib
 projects[oembed][version] = 0.1-beta3
-
-projects[publishcontent][subdir] = contrib
-projects[publishcontent][version] = 1.x-dev
-
-projects[publish_button][subdir] = contrib
-projects[publish_button][version] = 1.x-dev
 
 projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.5
@@ -340,9 +328,6 @@ projects[chart][version] = 1.x-dev
 projects[colorbox][subdir] = contrib
 projects[colorbox][version] = 2.x-dev
 
-projects[content_experiments][subdir] = contrib
-projects[content_experiments][version] = 1.4
-
 projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.5
 
@@ -357,18 +342,12 @@ libraries[mailchimp][destination] = "libraries"
 projects[userreport][subdir] = contrib
 projects[userreport][version] = 1.0-alpha4
 
-projects[visual_website_optimizer][subdir] = contrib
-projects[visual_website_optimizer][version] = 1.3
-
 projects[zopim][subdir] = contrib
 projects[zopim][version] = 1.2
 
 ;;;;;;;;;
 ; Text editor
 ;;;;;;;;;
-
-projects[ckeditor_link][subdir] = contrib
-projects[ckeditor_link][version] = 2.3
 
 projects[picasa_slideshow_filter][subdir] = contrib
 projects[picasa_slideshow_filter][version] = 1.0-alpha4
@@ -397,9 +376,6 @@ projects[ccl][version] = 1.5
 
 projects[options_element][subdir] = contrib
 projects[options_element][version] = 1.10
-
-projects[shortcutperrole][subdir] = contrib
-projects[shortcutperrole][version] = 1.1
 
 ;;;;;;;;;
 ; Internationalization
