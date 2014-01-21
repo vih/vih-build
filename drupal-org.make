@@ -511,9 +511,3 @@ libraries[json2][download][url] = "https://raw.github.com/douglascrockford/JSON-
 libraries[json2][directory_name] = "json2"
 libraries[json2][destination] = "libraries"
 
-;;;;;;;;;
-; Themes
-;;;;;;;;;
-
-projects[shiny][subdir] = contrib
-projects[shiny][version] = 1.4
