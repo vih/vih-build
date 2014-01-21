@@ -9,6 +9,7 @@ api = 2
 
 projects[panopoly_core][version] = 1.0
 projects[panopoly_core][subdir] = panopoly
+projects[panopoly_core][patch][2161429] = panopoly = https://drupal.org/files/issues/panopoly_core-update-date-2161429-1.patch
 
 projects[panopoly_images][version] = 1.0
 projects[panopoly_images][subdir] = panopoly
@@ -51,9 +52,6 @@ projects[vars][version] = 2.0-alpha10
 ;;;;;;;:; 
 ; SHOULD BE MOVED WHEN PANOPOLY CATCHES UP
 ;;;;;;;;;
-
-projects[date][subdir] = contrib
-projects[date][version] = 2.7
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
