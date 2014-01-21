@@ -55,7 +55,7 @@ projects[vars][version] = 2.0-alpha10
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
-projects[entityreference][patch][1699378] = http://drupal.org/files/view-argument-as-token-1699378-41.patch
+projects[entityreference][patch][1699378] = https://drupal.org/files/view-argument-as-token-1699378-46.patch
 
 ;;;;;;;:; 
 ; BOA
