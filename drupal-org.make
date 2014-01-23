@@ -9,7 +9,7 @@ api = 2
 
 projects[panopoly_core][version] = 1.0
 projects[panopoly_core][subdir] = panopoly
-projects[panopoly_core][patch][2161429] = panopoly = https://drupal.org/files/issues/panopoly_core-update-date-2161429-1.patch
+projects[panopoly_core][patch][2161429] = https://drupal.org/files/issues/panopoly_core-update-date-2161429-1.patch
 
 projects[panopoly_images][version] = 1.0
 projects[panopoly_images][subdir] = panopoly
