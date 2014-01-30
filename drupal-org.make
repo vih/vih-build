@@ -7,26 +7,26 @@ api = 2
 
 ; The Panopoly Foundation
 
-projects[panopoly_core][version] = 1.0
+projects[panopoly_core][version] = 1.1
 projects[panopoly_core][subdir] = panopoly
 projects[panopoly_core][patch][2161429] = https://drupal.org/files/issues/panopoly_core-update-date-2161429-1.patch
 
-projects[panopoly_images][version] = 1.0
+projects[panopoly_images][version] = 1.1
 projects[panopoly_images][subdir] = panopoly
 
-projects[panopoly_theme][version] = 1.0
+projects[panopoly_theme][version] = 1.1
 projects[panopoly_theme][subdir] = panopoly
 
-projects[panopoly_magic][version] = 1.0
+projects[panopoly_magic][version] = 1.1
 projects[panopoly_magic][subdir] = panopoly
 
-projects[panopoly_widgets][version] = 1.0
+projects[panopoly_widgets][version] = 1.1
 projects[panopoly_widgets][subdir] = panopoly
 
-projects[panopoly_admin][version] = 1.0
+projects[panopoly_admin][version] = 1.1
 projects[panopoly_admin][subdir] = panopoly
 
-projects[panopoly_users][version] = 1.0
+projects[panopoly_users][version] = 1.1
 projects[panopoly_users][subdir] = panopoly
 
 ; The Panopoly Toolset
@@ -34,10 +34,10 @@ projects[panopoly_users][subdir] = panopoly
 projects[panopoly_news][version] = 1.1
 projects[panopoly_news][subdir] = panopoly
 
-projects[panopoly_search][version] = 1.0
+projects[panopoly_search][version] = 1.1
 projects[panopoly_search][subdir] = panopoly
 
-projects[panopoly_wysiwyg][version] = 1.0
+projects[panopoly_wysiwyg][version] = 1.1
 projects[panopoly_wysiwyg][subdir] = panopoly
 
 ; Modernizr
