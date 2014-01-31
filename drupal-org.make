@@ -216,7 +216,7 @@ projects[oembed][version] = 0.1-beta3
 
 projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.6
-projects[plupload][patch][2088143] = https://drupal.org/files/issues/plupload-drush_make-2088143-2.patch
+projects[plupload][patch][2088143] = https://drupal.org/files/issues/plupload-1_5_8-drush_make-2088143-7.patch
 
 projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.x-dev
