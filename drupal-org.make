@@ -79,29 +79,17 @@ projects[wysiwyg][download][branch] = 7.x-2.x
 ; BOA
 ;;;;;;;;;
 
-projects[expire][subdir] = contrib
-projects[expire][version] = 1.x-dev
-
-projects[filefield_nginx_progress][subdir] = contrib
 projects[filefield_nginx_progress][version] = 2.x-dev
+projects[filefield_nginx_progress][subdir] = contrib
+projects[filefield_nginx_progress][download][type] = git
+projects[filefield_nginx_progress][download][revision] = ca4d303754218325f49f84e1f5091108911ecb41
+projects[filefield_nginx_progress][download][branch] = 7.x-2.x
 
 projects[login_security][subdir] = contrib
 projects[login_security][version] = 1.8
 
-projects[purge][subdir] = contrib
-projects[purge][version] = 1.6
-
-projects[readonlymode][subdir] = contrib
-projects[readonlymode][version] = 1.1
-
 projects[seckit][subdir] = contrib
 projects[seckit][version] = 1.8
-
-projects[taxonomy_edge][subdir] = contrib
-projects[taxonomy_edge][version] = 1.x-dev
-
-projects[views_cache_bully][subdir] = contrib
-projects[views_cache_bully][version] = 3.1
 
 ;;;;;;;;;
 ; Fields
@@ -135,8 +123,11 @@ projects[pdf_reader][version] = 1.0-rc4
 projects[pathauto_persist][subdir] = contrib
 projects[pathauto_persist][version] = 1.3
 
-projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.x-dev
+projects[redirect][subdir] = contrib
+projects[redirect][download][type] = git
+projects[redirect][download][revision] = 0b7b8dc2d58cb277874d87c91c45f0a361e148f7
+projects[redirect][download][branch] = 7.x-1.x
 projects[redirect][patch][1796596] = http://drupal.org/files/redirect-circular-1796596-8.patch
 
 projects[transliteration][subdir] = contrib
@@ -158,11 +149,17 @@ projects[better_formats][version] = 1.0-beta1
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.4
 
-projects[coffee][subdir] = contrib
 projects[coffee][version] = 2.x-dev
+projects[coffee][subdir] = contrib
+projects[coffee][download][type] = git
+projects[coffee][download][revision] = e726e1270e45470430d2216eaf29efc2af56d555
+projects[coffee][download][branch] = 7.x-2.x
 
+projects[content_type_groups][version] = 2.x-dev
 projects[content_type_groups][subdir] = contrib
-projects[content_type_groups][version] = 1.x-dev
+projects[content_type_groups][download][type] = git
+projects[content_type_groups][download][revision] = afd6b0b5711437df05c6c862801b04ea2479bd50
+projects[content_type_groups][download][branch] = 7.x-2.x
 
 projects[context][subdir] = contrib
 projects[context][version] = 3.2
@@ -176,21 +173,30 @@ projects[diff][version] = 3.2
 projects[draggableviews][subdir] = contrib
 projects[draggableviews][version] = 2.0
 
-projects[feeds][subdir] = contrib
 projects[feeds][version] = 2.x-dev
+projects[feeds][subdir] = contrib
+projects[feeds][download][type] = git
+projects[feeds][download][revision] = bd71821a84740a21075e49f5b23a250da586bb67
+projects[feeds][download][branch] = 7.x-2.x
 
 projects[file_entity][subdir] = contrib
 projects[file_entity][version] = 2.0-alpha3
 
-projects[file_lock][subdir] = contrib
 projects[file_lock][version] = 2.x-dev
+projects[file_lock][subdir] = contrib
+projects[file_lock][download][type] = git
+projects[file_lock][download][revision] = a84c0ed970fdd6e2d992d2ae50a5a13ce494f537
+projects[file_lock][download][branch] = 7.x-2.x
 projects[file_lock][patch][1514378] = https://drupal.org/files/file-lock-temporary-files-1514378-1.patch
 
 projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.1
 
-projects[imagefield_focus][subdir] = contrib
 projects[imagefield_focus][version] = 1.x-dev
+projects[imagefield_focus][subdir] = contrib
+projects[imagefield_focus][download][type] = git
+projects[imagefield_focus][download][revision] = fd5c5df29575b32f08638321abcf02a3fca4d83f
+projects[imagefield_focus][download][branch] = 7.x-1.x
 projects[imagefield_focus][patch][1781778] = http://drupal.org/files/iff-media_1.patch
 
 projects[image_resize_filter][subdir] = contrib
@@ -230,8 +236,11 @@ projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.6
 projects[plupload][patch][2088143] = https://drupal.org/files/issues/plupload-1_5_8-drush_make-2088143-7.patch
 
-projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.x-dev
+projects[references_dialog][subdir] = contrib
+projects[references_dialog][download][type] = git
+projects[references_dialog][download][revision] = c2457782d07791a2263574c979d0f4b1765a85c2
+projects[references_dialog][download][branch] = 7.x-1.x
 
 projects[robotstxt][subdir] = contrib 
 projects[robotstxt][version] = 1.x-dev
@@ -249,8 +258,11 @@ projects[taxonomy_display][subdir] = contrib
 projects[taxonomy_display][version] = 1.1
 
 ; Can be removed when http://drupal.org/node/1058912 is resolved
-projects[token_tweaks][subdir] = contrib
 projects[token_tweaks][version] = 1.x-dev
+projects[token_tweaks][subdir] = contrib
+projects[token_tweaks][download][type] = git
+projects[token_tweaks][download][revision] = 75818fbfb97bf8882ca106e6af703be7644b11bb
+projects[token_tweaks][download][branch] = 7.x-1.x
 
 projects[webform][subdir] = contrib
 projects[webform][version] = 4.0-beta1
@@ -337,17 +349,26 @@ projects[widgets][version] = 1.0-rc1
 ; External dependencies
 ;;;;;;;;;
 
-projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
+projects[chart][subdir] = contrib
+projects[chart][download][type] = git
+projects[chart][download][revision] = 860c75c27c296a4135ac1efac773ba1cdf7edf7c
+projects[chart][download][branch] = 7.x-1.x
 
-projects[colorbox][subdir] = contrib
 projects[colorbox][version] = 2.x-dev
+projects[colorbox][subdir] = contrib
+projects[colorbox][download][type] = git
+projects[colorbox][download][revision] = ce90f5dc259793c6762185091320cc5af169ae77
+projects[colorbox][download][branch] = 7.x-2.x
 
 projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.5
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.x-dev
+projects[mailchimp][download][type] = git
+projects[mailchimp][download][revision] = 28dc12ab0078ac52a48dabf42d40524c78d4c304
+projects[mailchimp][download][branch] = 7.x-2.x
 
 libraries[mailchimp][download][type] = "get"
 libraries[mailchimp][download][url] = "https://github.com/lsolesen/mailchimp-api-class/archive/v.1.3.2.zip"
@@ -412,6 +433,7 @@ projects[commerce_add_to_cart_notification][subdir] = "contrib"
 projects[commerce_add_to_cart_notification][download][type] = "git"
 projects[commerce_add_to_cart_notification][download][url] = "git://github.com/vih/commerce_add_to_cart_notification.git"
 projects[commerce_add_to_cart_notification][download][branch] = 7.x-1.x
+projects[commerce_add_to_cart_notification][download][revision] = f28de0f5cfb193c98b7b8559ea7d001a2f01bb2f
 
 projects[commerce_autosku][subdir] = contrib  
 projects[commerce_autosku][version] = 1.1
@@ -421,9 +443,15 @@ projects[commerce_backoffice][version] = 1.4
 
 projects[eva][subdir] = contrib
 projects[eva][version] = 1.x-dev
+projects[eva][download][type] = "git"
+projects[eva][download][branch] = 7.x-1.x
+projects[eva][download][revision] = 43eaba47defcf62cd6cff48c819689b68befa59a
 
 projects[views_megarow][subdir] = contrib
 projects[views_megarow][version] = 1.x-dev
+projects[views_megarow][download][type] = "git"
+projects[views_megarow][download][branch] = 7.x-1.x
+projects[views_megarow][download][revision] = 992bf4a66b2106aacdc1f8fccee7391b2ed81265
 
 projects[commerce_cart_expiration][subdir] = contrib  
 projects[commerce_cart_expiration][version] = 1.1
