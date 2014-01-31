@@ -155,11 +155,11 @@ projects[coffee][download][type] = git
 projects[coffee][download][revision] = e726e1270e45470430d2216eaf29efc2af56d555
 projects[coffee][download][branch] = 7.x-2.x
 
-projects[content_type_groups][version] = 2.x-dev
+projects[content_type_groups][version] = 1.x-dev
 projects[content_type_groups][subdir] = contrib
 projects[content_type_groups][download][type] = git
 projects[content_type_groups][download][revision] = afd6b0b5711437df05c6c862801b04ea2479bd50
-projects[content_type_groups][download][branch] = 7.x-2.x
+projects[content_type_groups][download][branch] = 7.x-1.x
 
 projects[context][subdir] = contrib
 projects[context][version] = 3.2
