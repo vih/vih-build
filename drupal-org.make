@@ -140,9 +140,6 @@ projects[transliteration][version] = 3.1
 projects[adminrole][subdir] = contrib
 projects[adminrole][version] = 1.0
 
-projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 2.8
-
 projects[better_formats][subdir] = contrib
 projects[better_formats][version] = 1.0-beta1
 
