@@ -268,10 +268,6 @@ projects[views_slideshow][version] = 3.1
 ; Performance
 ;;;;;;;;;
 
-projects[advagg][subdir] = contrib 
-projects[advagg][version] = 2.4
-projects[advagg][patch][2171325] = https://drupal.org/files/issues/advagg-2171325-1-fix-drush-update.patch
-
 projects[cdn][subdir] = contrib 
 projects[cdn][version] = 2.6
 projects[cdn][patch][1942230] = https://drupal.org/files/cdn-1942230-18-advagg-hooks.patch
