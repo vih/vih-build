@@ -16,6 +16,7 @@ projects[vih_calendar][subdir] = "vih"
 projects[vih_calendar][download][type] = "git"
 projects[vih_calendar][download][url] = "git://github.com/vih/vih_calendar.git"
 projects[vih_calendar][download][branch] = "7.x-1.x"
+projects[vih_calendar][download][revision] = "19531a9afb795bc49d8f97332db7b934a163fed0"
 
 projects[vih_core][type] = "module"
 projects[vih_core][subdir] = "vih"
