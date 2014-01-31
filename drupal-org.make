@@ -165,7 +165,7 @@ projects[content_type_groups][subdir] = contrib
 projects[content_type_groups][version] = 1.x-dev
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.1
+projects[context][version] = 3.2
 
 projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.10
