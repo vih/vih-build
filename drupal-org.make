@@ -471,9 +471,6 @@ projects[commerce_coupon_pct][version] = 1.0-beta7
 projects[commerce_custom_product][subdir] = contrib
 projects[commerce_custom_product][version] = 1.0-beta2
 
-projects[commerce_discount][subdir] = contrib  
-projects[commerce_discount][version] = 1.x-dev
-
 projects[commerce_features][subdir] = contrib
 projects[commerce_features][version] = 1.0
 
@@ -497,6 +494,3 @@ projects[quickpay][version] = 1.9
 
 projects[visualization][subdir] = contrib
 projects[visualization][version] = 1.0-alpha1
-
-
-
