@@ -57,6 +57,12 @@ projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
 projects[entityreference][patch][1699378] = https://drupal.org/files/view-argument-as-token-1699378-46.patch
 
+projects[media][subdir] = contrib
+projects[media][version] = 2.x-dev
+
+projects[media_youtube][subdir] = contrib
+projects[media_youtube][version] = 2.x-dev
+
 ;;;;;;;:; 
 ; BOA
 ;;;;;;;;;
@@ -192,12 +198,6 @@ projects[job_scheduler][version] = 2.0-alpha3
 
 projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
-
-projects[media][subdir] = contrib
-projects[media][version] = 2.0-alpha3+40-dev
-
-projects[media_youtube][subdir] = contrib
-projects[media_youtube][version] = 2.0-rc4+1-dev
 
 projects[mimemail][subdir] = contrib
 projects[mimemail][version] = 1.0-beta1
