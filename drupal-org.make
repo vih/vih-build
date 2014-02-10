@@ -115,6 +115,7 @@ projects[field_redirection][version] = 2.5
 
 projects[pdf_reader][subdir] = contrib
 projects[pdf_reader][version] = 1.0-rc4
+projects[pdf_reader][patch][2193091] = https://drupal.org/files/issues/issue-2193091.patch
 
 ;;;;;;;;;
 ; Path tools
