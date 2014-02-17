@@ -194,7 +194,7 @@ projects[imagefield_focus][subdir] = contrib
 projects[imagefield_focus][download][type] = git
 projects[imagefield_focus][download][revision] = fd5c5df29575b32f08638321abcf02a3fca4d83f
 projects[imagefield_focus][download][branch] = 7.x-1.x
-projects[imagefield_focus][patch][1781778] = http://drupal.org/files/iff-media_1.patch
+projects[imagefield_focus][patch][1781778] = https://drupal.org/files/issues/imagefield-focus-media-integration-1781778-35.patch
 
 projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
