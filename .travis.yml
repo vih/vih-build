@@ -12,13 +12,14 @@ install:
   - sudo apt-get update > /dev/null
   - "mysql -e 'create database drupal;'"
 
-  - pear channel-discover pear.drush.org
-  - pear install drush/drush-6.1.0.0
+  # Install the latest Drush 6.
+  - export PATH="$HOME/.composer/vendor/bin:$PATH"
+  - composer global require drush/drush:6.*
   - phpenv rehash
 
   # Build Behat dependencies
   - cd ./tests/behat
-  - composer install
+  - composer install --no-interaction
   - cd ../../../
 
   # Build Codebase
