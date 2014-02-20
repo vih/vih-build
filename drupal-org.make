@@ -224,7 +224,7 @@ projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc2
 
 projects[oauth][subdir] = contrib
-projects[oauth][version] = 3.1
+projects[oauth][version] = 3.2
 
 projects[oembed][subdir] = contrib
 projects[oembed][version] = 0.1-beta3
@@ -246,7 +246,7 @@ projects[rules][subdir] = contrib
 projects[rules][version] = 2.6
 
 projects[scheduler][subdir] = contrib
-projects[scheduler][version] = 1.1
+projects[scheduler][version] = 1.2
 
 projects[smartcrop][subdir] = contrib
 projects[smartcrop][version] = 1.0-beta2
@@ -262,7 +262,7 @@ projects[token_tweaks][download][revision] = 75818fbfb97bf8882ca106e6af703be7644
 projects[token_tweaks][download][branch] = 7.x-1.x
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 4.0-beta1
+projects[webform][version] = 4.0-beta3
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 2.0-beta1
