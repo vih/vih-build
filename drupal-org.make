@@ -239,9 +239,6 @@ projects[references_dialog][download][type] = git
 projects[references_dialog][download][revision] = c2457782d07791a2263574c979d0f4b1765a85c2
 projects[references_dialog][download][branch] = 7.x-1.x
 
-projects[robotstxt][subdir] = contrib 
-projects[robotstxt][version] = 1.x-dev
-
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.6
 
@@ -288,13 +285,6 @@ projects[views_slideshow][version] = 3.1
 ;;;;;;;;;
 ; Performance
 ;;;;;;;;;
-
-projects[cdn][subdir] = contrib 
-projects[cdn][version] = 2.6
-projects[cdn][patch][1942230] = https://drupal.org/files/cdn-1942230-18-advagg-hooks.patch
-
-projects[httprl][subdir] = contrib 
-projects[httprl][version] = 1.14
 
 projects[entitycache][subdir] = contrib 
 projects[entitycache][version] = 1.2
