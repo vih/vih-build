@@ -323,16 +323,6 @@ projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
 
 ;;;;;;;;;
-; Social integration
-;;;;;;;;;
-
-projects[socialmedia][subdir] = contrib	
-projects[socialmedia][version] = 1.0-beta13
-
-projects[widgets][subdir] = contrib	
-projects[widgets][version] = 1.0-rc1
-
-;;;;;;;;;
 ; External dependencies
 ;;;;;;;;;
 
