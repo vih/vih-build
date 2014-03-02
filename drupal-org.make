@@ -75,22 +75,6 @@ projects[wysiwyg][download][type] = git
 projects[wysiwyg][download][revision] = ee64524b3edb2aa21098a2309b0736e292010247
 projects[wysiwyg][download][branch] = 7.x-2.x
 
-;;;;;;;:; 
-; BOA
-;;;;;;;;;
-
-projects[filefield_nginx_progress][version] = 2.x-dev
-projects[filefield_nginx_progress][subdir] = contrib
-projects[filefield_nginx_progress][download][type] = git
-projects[filefield_nginx_progress][download][revision] = ca4d303754218325f49f84e1f5091108911ecb41
-projects[filefield_nginx_progress][download][branch] = 7.x-2.x
-
-projects[login_security][subdir] = contrib
-projects[login_security][version] = 1.8
-
-projects[seckit][subdir] = contrib
-projects[seckit][version] = 1.8
-
 ;;;;;;;;;
 ; Fields
 ;;;;;;;;;
