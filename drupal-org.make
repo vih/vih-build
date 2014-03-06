@@ -197,7 +197,7 @@ projects[l10n_client][subdir] = contrib
 projects[l10n_client][version] = 1.3
 
 projects[l10n_update][subdir] = contrib 
-projects[l10n_update][version] = 1.0-beta3
+projects[l10n_update][version] = 1.0-rc1
 
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha3
@@ -206,7 +206,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
 
 projects[mimemail][subdir] = contrib
-projects[mimemail][version] = 1.0-beta1
+projects[mimemail][version] = 1.0-beta3
 
 projects[multiform][subdir] = contrib
 projects[multiform][version] = 1.0
@@ -390,7 +390,7 @@ projects[i18n][subdir] = contrib
 ;;;;;;;;;
 
 projects[commerce][subdir] = contrib  
-projects[commerce][version] = 1.8
+projects[commerce][version] = 1.9
 projects[commerce][patch][840786] = http://drupal.org/files/840786-add-account-info-2.patch
 
 projects[commerce_addressbook][subdir] = contrib
