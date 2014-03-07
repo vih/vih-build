@@ -52,7 +52,7 @@ projects[vih_facilities][subdir] = "vih"
 projects[vih_facilities][download][type] = "git"
 projects[vih_facilities][download][url] = "git://github.com/vih/vih_facilities.git"
 projects[vih_facilities][download][branch] = "7.x-1.x"
-projects[vih_facilities][download][revision] = "2eaf144f033469ea0273c4046a44f468317fe410"
+projects[vih_facilities][download][revision] = "cb281c2564c8d500b3c05eafe484e8f13397e491"
 
 projects[vih_general][type] = "module"
 projects[vih_general][subdir] = "vih"
