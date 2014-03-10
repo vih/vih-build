@@ -128,9 +128,6 @@ projects[transliteration][version] = 3.1
 projects[adminrole][subdir] = contrib
 projects[adminrole][version] = 1.0
 
-projects[better_formats][subdir] = contrib
-projects[better_formats][version] = 1.0-beta1
-
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.4
 
