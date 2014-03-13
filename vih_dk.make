@@ -10,7 +10,7 @@ projects[vih_ad_push][subdir] = "vih"
 projects[vih_ad_push][download][type] = "git"
 projects[vih_ad_push][download][url] = "git://github.com/vih/vih_ad_push.git"
 projects[vih_ad_push][download][branch] = "7.x-1.x"
-projects[vih_ad_push][download][revision] = "dfad03125ec0d708b5ef3a33838046dd98300692"
+projects[vih_ad_push][download][revision] = "dd118d517dab5d1c3465f6f6260ce0eb841826cf"
 
 projects[vih_calendar][type] = "module"
 projects[vih_calendar][subdir] = "vih"
