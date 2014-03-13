@@ -17,7 +17,7 @@ projects[vih_calendar][subdir] = "vih"
 projects[vih_calendar][download][type] = "git"
 projects[vih_calendar][download][url] = "git://github.com/vih/vih_calendar.git"
 projects[vih_calendar][download][branch] = "7.x-1.x"
-projects[vih_calendar][download][revision] = "b5b88a5ff819f29251ef8bcb1c386580af33b3b1"
+projects[vih_calendar][download][revision] = "ec298fbcd48b5f3079153901543d8657a36bb22c"
 
 projects[vih_core][type] = "module"
 projects[vih_core][subdir] = "vih"
@@ -150,7 +150,7 @@ projects[vih_viggo][subdir] = "vih"
 projects[vih_viggo][download][type] = "git"
 projects[vih_viggo][download][url] = "git://github.com/vih/vih_viggo.git"
 projects[vih_viggo][download][branch] = "7.x-1.x"
-projects[vih_viggo][download][revision] = "4b5c30c74e04204bb18e636a9ebf62f64dec2c93"
+projects[vih_viggo][download][revision] = "f18c049f0605b2678a2e0ae128b3b34c2be5ac57"
 
 ;;;;;;;;;
 ; Themes
