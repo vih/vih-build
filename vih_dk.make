@@ -96,13 +96,6 @@ projects[vih_long_course][download][url] = "git://github.com/vih/vih_long_course
 projects[vih_long_course][download][branch] = "7.x-1.x"
 projects[vih_long_course][download][revision] = "88f559ecc49becc330971d5377ca65b5976b9dce"
 
-projects[vih_oneliners][type] = "module"
-projects[vih_oneliners][subdir] = "vih"
-projects[vih_oneliners][download][type] = "git"
-projects[vih_oneliners][download][url] = "git://github.com/vih/vih_oneliners.git"
-projects[vih_oneliners][download][branch] = "7.x-1.x"
-projects[vih_oneliners][download][revision] = "38cb6b5050f848f3f64498d6cdfaea68e3a356cf"
-
 projects[vih_pages][type] = "module"
 projects[vih_pages][subdir] = "vih"
 projects[vih_pages][download][type] = "git"
