@@ -94,7 +94,7 @@ projects[vih_long_course][subdir] = "vih"
 projects[vih_long_course][download][type] = "git"
 projects[vih_long_course][download][url] = "git://github.com/vih/vih_long_course.git"
 projects[vih_long_course][download][branch] = "7.x-1.x"
-projects[vih_long_course][download][revision] = "88f559ecc49becc330971d5377ca65b5976b9dce"
+projects[vih_long_course][download][revision] = "7e824f40b26c445115c711fd3d5cf4f3926fc5d8"
 
 projects[vih_pages][type] = "module"
 projects[vih_pages][subdir] = "vih"
