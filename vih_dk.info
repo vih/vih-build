@@ -62,7 +62,6 @@ dependencies[] = vih_kalendersiden
 dependencies[] = vih_lectures
 dependencies[] = vih_lectures_pdf
 dependencies[] = vih_long_course
-dependencies[] = vih_pages
 dependencies[] = vih_participant_quotes
 dependencies[] = vih_short_course_commerce
 dependencies[] = vih_short_course_kayak
