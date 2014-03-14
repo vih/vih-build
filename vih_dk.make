@@ -150,7 +150,7 @@ projects[vih_subjects][subdir] = "vih"
 projects[vih_subjects][download][type] = "git"
 projects[vih_subjects][download][url] = "git://github.com/vih/vih_subjects.git"
 projects[vih_subjects][download][branch] = "7.x-1.x"
-projects[vih_subjects][download][revision] = "209924a389633d3ad570793d8568f0ce17dfa11f"
+projects[vih_subjects][download][revision] = "4f0f322a5a85b0f09152e96e0da0ab0c561f165c"
 
 projects[vih_viggo][type] = "module"
 projects[vih_viggo][subdir] = "vih"
