@@ -31,7 +31,7 @@ projects[vih_dashboard][subdir] = "vih"
 projects[vih_dashboard][download][type] = "git"
 projects[vih_dashboard][download][url] = "git://github.com/vih/vih_dashboard.git"
 projects[vih_dashboard][download][branch] = "7.x-1.x"
-projects[vih_dashboard][download][revision] = "95d71339d9e8c92f11c4f22bf318a208d0507924"
+projects[vih_dashboard][download][revision] = "b01b3f8265b4e1182258a337d3fea867792d6074"
 
 projects[vih_deploy][type] = "module"
 projects[vih_deploy][subdir] = "vih"
