@@ -272,13 +272,6 @@ projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.1
 
 ;;;;;;;;;
-; Performance
-;;;;;;;;;
-
-projects[entitycache][subdir] = contrib 
-projects[entitycache][version] = 1.2
-
-;;;;;;;;;
 ; Messages and email
 ;;;;;;;;;
 
