@@ -108,9 +108,6 @@ projects[pdf_reader][version] = 1.0-rc5
 ; Path tools
 ;;;;;;;;;
 
-projects[pathauto_persist][subdir] = contrib
-projects[pathauto_persist][version] = 1.3
-
 projects[redirect][version] = 1.x-dev
 projects[redirect][subdir] = contrib
 projects[redirect][download][type] = git
