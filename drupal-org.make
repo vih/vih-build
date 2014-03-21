@@ -119,7 +119,7 @@ projects[redirect][download][branch] = 7.x-1.x
 projects[redirect][patch][1796596] = http://drupal.org/files/redirect-circular-1796596-8.patch
 
 projects[transliteration][subdir] = contrib
-projects[transliteration][version] = 3.1
+projects[transliteration][version] = 3.2
 
 ;;;;;;;;;
 ; Site building tools
@@ -195,7 +195,7 @@ projects[l10n_client][subdir] = contrib
 projects[l10n_client][version] = 1.3
 
 projects[l10n_update][subdir] = contrib 
-projects[l10n_update][version] = 1.0-rc1
+projects[l10n_update][version] = 1.0-rc2
 
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha3
