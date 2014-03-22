@@ -24,12 +24,12 @@ if [ -f drupal-org.make ]; then
 
   if [ $SELECTION = "1" ]; then
 
-    echo "Building Panopoly install profile..."
+    echo "Building VIH install profile..."
     drush make --no-core --no-gitinfofile --contrib-destination=. drupal-org.make
 
   elif [ $SELECTION = "2" ]; then
 
-    echo "Building Panopoly install profile..."
+    echo "Building VIH install profile..."
     drush make --working-copy --no-core --no-gitinfofile --contrib-destination=. drupal-org.make
 
   else
