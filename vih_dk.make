@@ -59,7 +59,7 @@ projects[vih_golf_courses][subdir] = "vih"
 projects[vih_golf_courses][download][type] = "git"
 projects[vih_golf_courses][download][url] = "https://github.com/vih/vih_golf_courses.git"
 projects[vih_golf_courses][download][branch] = "7.x-1.x"
-projects[vih_golf_courses][download][revision] = "858c554c4aa0c9d16f76fd8061d31e012cabb4ea"
+projects[vih_golf_courses][download][revision] = "ac2c97b"
 
 projects[vih_help][type] = "module"
 projects[vih_help][subdir] = "vih"
