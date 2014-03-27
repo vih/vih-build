@@ -134,11 +134,11 @@ projects[coffee][download][type] = git
 projects[coffee][download][revision] = e726e1270e45470430d2216eaf29efc2af56d555
 projects[coffee][download][branch] = 7.x-2.x
 
-projects[coffee_commerce][version] = 1.x-dev
-projects[coffee_commerce][subdir] = contrib
-projects[coffee_commerce][download][type] = git
-projects[coffee_commerce][download][revision] = 1342d68
-projects[coffee_commerce][download][branch] = 7.x-1.x
+projects[commerce_coffee][version] = 1.x-dev
+projects[commerce_coffee][subdir] = contrib
+projects[commerce_coffee][download][type] = git
+projects[commerce_coffee][download][revision] = 1342d68
+projects[commerce_coffee][download][branch] = 7.x-1.x
 
 projects[content_type_groups][version] = 1.x-dev
 projects[content_type_groups][subdir] = contrib
