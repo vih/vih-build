@@ -143,9 +143,6 @@ projects[content_type_groups][download][branch] = 7.x-1.x
 projects[context][subdir] = contrib
 projects[context][version] = 3.2
 
-projects[crumbs][subdir] = contrib
-projects[crumbs][version] = 1.10
-
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
