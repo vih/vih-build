@@ -16,21 +16,26 @@ if [ -f drupal-org.make ]; then
   echo '       VIH       '
   echo '================='
 
-  echo "\nThis command can be used to rebuild the installation profile in place.\n"
+  echo "This command can be used to rebuild the installation profile in place."
   echo "  [1] Rebuild profile in place in release mode"
-  echo "  [2] Rebuild profile in place in development mode (with .git working-copy)\n"
-  echo "Selection: \c"
+  echo "  [2] Rebuild profile in place in development mode (with .git working-copy)"
+  echo "  [3] Exit without rebuilding"
+  echo "Selection:"
   read SELECTION
 
   if [ $SELECTION = "1" ]; then
 
-    echo "Building VIH install profile..."
+    echo "Rebuilding VIH install profile..."
     drush make --no-core --no-gitinfofile --contrib-destination=. drupal-org.make
 
   elif [ $SELECTION = "2" ]; then
 
-    echo "Building VIH install profile..."
+    echo "Rebuilding VIH install profile as a working-copy..."
     drush make --working-copy --no-core --no-gitinfofile --contrib-destination=. drupal-org.make
+
+  elif [ $SELECTION = "3" ]; then
+
+    echo "Exiting without rebuilding..."
 
   else
    echo "Invalid selection."
