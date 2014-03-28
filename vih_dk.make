@@ -122,7 +122,7 @@ projects[vih_short_course_commerce][subdir] = "vih"
 projects[vih_short_course_commerce][download][type] = "git"
 projects[vih_short_course_commerce][download][url] = "https://github.com/vih/vih_short_course_commerce.git"
 projects[vih_short_course_commerce][download][branch] = "7.x-1.x"
-projects[vih_short_course_commerce][download][revision] = "74fe2399d1f69b2e91afbcdec290ce143ab70cea"
+projects[vih_short_course_commerce][download][revision] = "52626f2925f44284976b98415cbf475f2cd8faf7"
 
 projects[vih_short_course_kayak][type] = "module"
 projects[vih_short_course_kayak][subdir] = "vih"
