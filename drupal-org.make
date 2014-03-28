@@ -354,9 +354,6 @@ projects[scribd_filter][version] = 1.4
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.1
 
-projects[block_visibility][subdir] = contrib
-projects[block_visibility][version] = 1.0-beta2
-
 projects[ccl][subdir] = contrib
 projects[ccl][version] = 1.5
 
