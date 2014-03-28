@@ -165,13 +165,6 @@ projects[features_override][version] = 2.0-rc1
 projects[file_entity][subdir] = contrib
 projects[file_entity][version] = 2.0-alpha3
 
-projects[file_lock][version] = 2.x-dev
-projects[file_lock][subdir] = contrib
-projects[file_lock][download][type] = git
-projects[file_lock][download][revision] = a84c0ed970fdd6e2d992d2ae50a5a13ce494f537
-projects[file_lock][download][branch] = 7.x-2.x
-projects[file_lock][patch][1514378] = https://drupal.org/files/file-lock-temporary-files-1514378-1.patch
-
 projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.1
 
