@@ -33,7 +33,7 @@ Or you can navigate to the root directory in a webbrowser and start the installa
 If you want to update just the install profile instead of rebuilding the
 entire site, you can run this:
 
-    drush make --no-core --contrib-destination=. vih_dk.make
+    drush make --no-core --contrib-destination=. drupal-org.make
 
 #### Rebuild everything ####
 
