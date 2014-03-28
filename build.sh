@@ -30,10 +30,11 @@ echo '================='
 echo '       VIH       '
 echo '================='
 
-echo "\nThis command can be used to build the distribution.\n"
+echo "This command can be used to build the distribution."
 echo "  [1] Build distribution at $TARGET (in release mode)"
-echo "  [2] Build distribution at $TARGET (in development mode)\n"
-echo "Selection: \c"
+echo "  [2] Build distribution at $TARGET (in development mode)"
+echo "  [3] Exit without building"
+echo "Selection:"
 read SELECTION
 
 if [ $SELECTION = "1" ]; then
@@ -46,6 +47,10 @@ elif [ $SELECTION = "2" ]; then
   echo "Building VIH distrbution..."
   DRUSH_OPTS='--working-copy --no-gitinfofile --no-cache'
 
+elif [ $SELECTION = "3" ]; then
+
+  echo "Exiting without building..."
+  exit 1
 else
  echo "Invalid selection."
  exit 0
