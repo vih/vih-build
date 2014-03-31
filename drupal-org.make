@@ -540,6 +540,13 @@ projects[vih_long_course][download][url] = "https://github.com/vih/vih_long_cour
 projects[vih_long_course][download][branch] = "7.x-1.x"
 projects[vih_long_course][download][revision] = "0660f4dc3e5e90aa94fb63c6b8ef250a1b40a1d1"
 
+projects[vih_migrate][type] = "module"
+projects[vih_migrate][subdir] = "vih"
+projects[vih_migrate][download][type] = "git"
+projects[vih_migrate][download][url] = "https://github.com/vih/vih_migrate.git"
+projects[vih_migrate][download][branch] = "7.x-1.x"
+projects[vih_migrate][download][revision] = "ce47aaba756e7fe95d01154c719a7b0c44503022"
+
 projects[vih_participant_quotes][type] = "module"
 projects[vih_participant_quotes][subdir] = "vih"
 projects[vih_participant_quotes][download][type] = "git"
