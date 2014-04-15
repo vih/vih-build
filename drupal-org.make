@@ -93,7 +93,7 @@ projects[date_ical][subdir] = contrib
 projects[date_ical][version] = 2.13
 
 projects[email][subdir] = contrib
-projects[email][version] = 1.2
+projects[email][version] = 1.3
 
 projects[field_extrawidgets][subdir] = contrib
 projects[field_extrawidgets][version] = 1.1
