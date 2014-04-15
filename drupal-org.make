@@ -286,7 +286,7 @@ projects[schemaorg][subdir] = contrib
 projects[schemaorg][version] = 1.0-beta4
 
 projects[site_verify][subdir] = contrib
-projects[site_verify][version] = 1.0
+projects[site_verify][version] = 1.1
 
 ;;;;;;;;;
 ; External dependencies
