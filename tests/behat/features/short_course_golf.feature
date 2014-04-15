@@ -4,7 +4,7 @@ Feature: Anonymous user can buy a course
   I want to be able to buy a course
 
   @api
-  Scenario: An adminitrator can create a course
+  Scenario: An administrator can create a course
     Given I am logged in as a user with the "administrator" role
     When I am on "node/add/vih-short-course-golf"
     And I fill in the following:
