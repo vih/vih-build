@@ -388,10 +388,7 @@ projects[eva][download][branch] = 7.x-1.x
 projects[eva][download][revision] = 43eaba47defcf62cd6cff48c819689b68befa59a
 
 projects[views_megarow][subdir] = contrib
-projects[views_megarow][version] = 1.x-dev
-projects[views_megarow][download][type] = "git"
-projects[views_megarow][download][branch] = 7.x-1.x
-projects[views_megarow][download][revision] = 992bf4a66b2106aacdc1f8fccee7391b2ed81265
+projects[views_megarow][version] = 1.3
 
 projects[commerce_cart_expiration][subdir] = contrib  
 projects[commerce_cart_expiration][version] = 1.1
