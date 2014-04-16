@@ -455,7 +455,7 @@ projects[vih_commerce][subdir] = "vih"
 projects[vih_commerce][download][type] = "git"
 projects[vih_commerce][download][url] = "https://github.com/vih/vih_commerce.git"
 projects[vih_commerce][download][branch] = "7.x-1.x"
-projects[vih_commerce][download][revision] = "b389890"
+projects[vih_commerce][download][revision] = "e0e34f2"
 
 projects[vih_core][type] = "module"
 projects[vih_core][subdir] = "vih"
