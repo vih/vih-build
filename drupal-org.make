@@ -248,7 +248,7 @@ projects[views_send][version] = 1.0
 
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.1
-projects[views_slideshow][patch][2252161] = http://drupal.org/files/issues/issue-2252161.patch
+projects[views_slideshow][patch][2252161] = https://drupal.org/files/issues/issue-2252161_0.patch
 
 ;;;;;;;;;
 ; Messages and email
