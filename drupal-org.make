@@ -226,7 +226,7 @@ projects[token_tweaks][download][revision] = 75818fbfb97bf8882ca106e6af703be7644
 projects[token_tweaks][download][branch] = 7.x-1.x
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 4.0-rc1
+projects[webform][version] = 4.0-rc3
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 2.0-beta1
@@ -244,7 +244,7 @@ projects[views_random_seed][subdir] = contrib
 projects[views_random_seed][version] = 1.2
 
 projects[views_send][subdir] = contrib
-projects[views_send][version] = 1.0-rc3
+projects[views_send][version] = 1.0
 
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.1
@@ -339,16 +339,16 @@ projects[ccl][subdir] = contrib
 projects[ccl][version] = 1.5
 
 projects[options_element][subdir] = contrib
-projects[options_element][version] = 1.10
+projects[options_element][version] = 1.12
 
 ;;;;;;;;;
 ; Internationalization
 ;;;;;;;;;
 
-projects[variable][version] = 2.4
+projects[variable][version] = 2.5
 projects[variable][subdir] = contrib
 
-projects[i18n][version] = 1.10
+projects[i18n][version] = 1.11
 projects[i18n][subdir] = contrib
 
 ;;;;;;;;;
