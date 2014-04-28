@@ -12,7 +12,7 @@ I want to be able to login
 
   @drush
   Scenario: User can change password after using one-time-login-url
-    Given I log in with the One Time Login Url
+    Given I log in "administrator" user with the One Time Login Url
     Then I should see "You have just used your one-time login link. It is no longer necessary to use this link to log in. Please change your password."
     When I fill in "mycoolpassword" for "Password"
     And I fill in "mycoolpassword" for "Confirm password"

@@ -32,9 +32,9 @@ class FeatureContext extends DrupalContext
   }
 
   /**
-   * @Given /^I log in with the One Time Login Url$/
+   * @Given /^I log in "([^"]*)" user with the One Time Login Url$/
    */
-  public function iLogInWithTheOneTimeLoginUrl() {
+  public function iLogInUserWithTheOneTimeLoginUrl($role) {
     if ($this->loggedIn()) {
       $this->logOut();
     }
@@ -43,12 +43,19 @@ class FeatureContext extends DrupalContext
     $user = (object) array(
       'name' => Random::name(8),
       'pass' => Random::name(16),
-      'role' => 'authenticated user',
+      'role' => $role,
     );
     $user->mail = "{$user->name}@example.com";
 
     // Create a new user.
     $this->getDriver()->userCreate($user);
+
+    if ($role == 'authenticated user') {
+      // Nothing to do.
+    }
+    else {
+      $this->getDriver()->userAddRole($user, $role);
+    }
 
     $this->users[$user->name] = $this->user = $user;
 
