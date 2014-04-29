@@ -629,6 +629,6 @@ projects[sport][download][revision] = "ca1b6ba"
 projects[ember][subdir] = contrib
 projects[ember][version] = 2.x-dev
 projects[ember][download][type] = git
-projects[ember][download][revision] = caf4df7
+projects[ember][download][revision] = 805e27b
 projects[ember][download][branch] = 7.x-2.x
 projects[ember][patch][2227293] = https://drupal.org/files/issues/issue-2227293.patch
