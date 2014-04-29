@@ -181,6 +181,9 @@ projects[job_scheduler][version] = 2.0-alpha3
 projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
 
+projects[login_destination][subdir] = contrib
+projects[login_destination][version] = 1.1
+
 projects[mimemail][subdir] = contrib
 projects[mimemail][version] = 1.0-beta3
 
