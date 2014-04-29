@@ -67,6 +67,7 @@ class FeatureContext extends DrupalContext
     ));
     // Trim EOL characters. Required or else visiting the link won't work.
     $login_link = trim($login_link);
+    $login_link = str_replace("/login", "", $login_link);
     $this->getSession()->visit($this->locatePath($login_link));
     return TRUE;
   }
