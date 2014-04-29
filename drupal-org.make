@@ -181,9 +181,6 @@ projects[job_scheduler][version] = 2.0-alpha3
 projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
 
-projects[login_destination][subdir] = contrib
-projects[login_destination][version] = 1.1
-
 projects[mimemail][subdir] = contrib
 projects[mimemail][version] = 1.0-beta3
 
@@ -473,7 +470,7 @@ projects[vih_dashboard][subdir] = "vih"
 projects[vih_dashboard][download][type] = "git"
 projects[vih_dashboard][download][url] = "https://github.com/vih/vih_dashboard.git"
 projects[vih_dashboard][download][branch] = "7.x-1.x"
-projects[vih_dashboard][download][revision] = "b01b3f8265b4e1182258a337d3fea867792d6074"
+projects[vih_dashboard][download][revision] = "35d5c5c"
 
 projects[vih_demo][type] = "module"
 projects[vih_demo][subdir] = "vih"
