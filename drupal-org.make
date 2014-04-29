@@ -412,6 +412,12 @@ projects[commerce_google_analytics][version] = 1.1
 projects[commerce_message][subdir] = contrib
 projects[commerce_message][version] = 1.0-rc1
 
+projects[commerce_migrate][subdir] = contrib
+projects[commerce_migrate][version] = 1.x-dev
+projects[commerce_migrate][download][type] = git
+projects[commerce_migrate][download][branch] = 1.x-dev
+projects[commerce_migrate][download][revision] = 46a8c0c
+
 projects[commerce_reports][subdir] = contrib
 projects[commerce_reports][version] = 3.0-beta2
 
