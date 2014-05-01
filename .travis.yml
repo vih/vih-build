@@ -25,7 +25,7 @@ install:
   # Build Codebase
   - mkdir private_files
   - mkdir profiles
-  - mv vih.dk-deploy profiles/vih_dk
+  - mv vih-build profiles/vih_dk
   - mkdir drupal
   - mv profiles drupal/
 
