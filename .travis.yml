@@ -52,6 +52,8 @@ install:
 
 before_script:
 
+  - echo "[server]\nmax_allowed_packet=64M" | sudo tee -a /etc/my.cnf
+  - sudo service mysql reload
   - cd drupal
   - drush si vih_dk --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=admin --site-mail=admin@example.com --site-name="vih.dk" --yes
   - drush runserver --server=builtin 8888 > /dev/null 2>&1 &
