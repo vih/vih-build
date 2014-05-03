@@ -571,7 +571,7 @@ projects[vih_short_course_commerce][download][branch] = "7.x-1.x"
 projects[vih_short_course_commerce][download][revision] = "7255253"
 
 projects[vih_short_course_family][type] = "module"
-projects[vih_short_course_family[subdir] = "vih"
+projects[vih_short_course_family][subdir] = "vih"
 projects[vih_short_course_family][download][type] = "git"
 projects[vih_short_course_family][download][url] = "https://github.com/vih/vih_short_course_family.git"
 projects[vih_short_course_family][download][branch] = "7.x-1.x"
