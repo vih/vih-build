@@ -23,6 +23,7 @@ dependencies[] = taxonomy
 
 dependencies[] = panopoly_admin
 dependencies[] = panopoly_core
+dependencies[] = panopoly_widgets
 dependencies[] = navbar
 
 ;;;;;;;;;;;;;;;;
