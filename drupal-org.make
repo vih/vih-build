@@ -521,6 +521,13 @@ projects[vih_kalendersiden][download][url] = "https://github.com/vih/vih_kalende
 projects[vih_kalendersiden][download][branch] = "7.x-1.x"
 projects[vih_kalendersiden][download][revision] = "993012627508a2e83d4e5181068bae82d244c4a4"
 
+projects[vih_landing_pages][type] = "module"
+projects[vih_landing_pages][subdir] = "vih"
+projects[vih_landing_pages][download][type] = "git"
+projects[vih_landing_pages][download][url] = "https://github.com/vih/vih_landing_pages.git"
+projects[vih_landing_pages][download][branch] = "7.x-1.x"
+projects[vih_landing_pages][download][revision] = "149046505d971d0b9bfedbdf4941709b2009891c"
+
 projects[vih_lectures][type] = "module"
 projects[vih_lectures][subdir] = "vih"
 projects[vih_lectures][download][type] = "git"
