@@ -522,7 +522,7 @@ projects[vih_landing_pages][subdir] = "vih"
 projects[vih_landing_pages][download][type] = "git"
 projects[vih_landing_pages][download][url] = "https://github.com/vih/vih_landing_pages.git"
 projects[vih_landing_pages][download][branch] = "7.x-1.x"
-projects[vih_landing_pages][download][revision] = "149046505d971d0b9bfedbdf4941709b2009891c"
+projects[vih_landing_pages][download][revision] = "5d00f69"
 
 projects[vih_lectures][type] = "module"
 projects[vih_lectures][subdir] = "vih"
