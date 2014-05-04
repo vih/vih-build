@@ -1,10 +1,10 @@
-Feature: Anonymous user can buy a course
-  In order to sell a course online
-  As an anonymous user
-  I want to be able to buy a course
+Feature: Office employees can create a short course with basic products
+  In order to sell short courses
+  As an office user
+  I want to be able to create short courses
 
   @api
-  Scenario: An administrator can create a course
+  Scenario: An office employee can create a course
     Given I am logged in as a user with the "office" role
     When I am on "node/add/short-course-basic"
     And I fill in the following:

@@ -4,7 +4,7 @@ Feature: Administrator can create employees
   I want to be able to create employees
 
   @api
-  Scenario: An administrator can create a employees
+  Scenario: An office employee can create a employees
     Given I am logged in as a user with the "office" role
     When I am on "node/add/employee"
     And I fill in the following:
@@ -14,7 +14,7 @@ Feature: Administrator can create employees
     Then I should see the text "Employee Employee has been created."
 
   @api
-  Scenario: An administrator can create a context description of an employee
+  Scenario: An office employee can create a context description of an employee
     Given I am logged in as a user with the "office" role
     When I am on "node/add/employee-context"
     And I fill in the following:

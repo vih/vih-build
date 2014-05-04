@@ -4,7 +4,7 @@ Feature: Administrator can create long courses
   I want to be able to create long courses
 
   @api
-  Scenario: An administrator can create a course
+  Scenario: An office employee can create a course
     Given I am logged in as a user with the "office" role
     When I am on "node/add/vih-long-course"
     And I fill in the following:

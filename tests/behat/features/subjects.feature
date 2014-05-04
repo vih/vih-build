@@ -4,7 +4,7 @@ Feature: Administrators can create subjects
   I want to be able to create subjects
 
   @api
-  Scenario: An administrator can create a subject
+  Scenario: An office employee can create a subject
     Given I am logged in as a user with the "office" role
     When I am on "node/add/subject"
     And I fill in the following:

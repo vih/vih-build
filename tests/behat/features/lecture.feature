@@ -4,7 +4,7 @@ Feature: Administrator can create lectures
   I want to be able to create and edit lectures
 
   @api
-  Scenario: An editor can create a lecture
+  Scenario: An office employee can create a lecture
     Given I am logged in as a user with the "office" role
     When I am on "node/add/vih-lecture"
     And I fill in the following:
@@ -14,7 +14,7 @@ Feature: Administrator can create lectures
     Then I should see the text "Foredrag My awesome lecture has been created."
 
   @api
-  Scenario: An editor can create a booklet with lectures
+  Scenario: An office employee can create a booklet with lectures
     Given I am logged in as a user with the "office" role
     When I am on "node/add/vih-lectures"
     And I fill in the following:

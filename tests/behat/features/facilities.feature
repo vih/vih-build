@@ -4,7 +4,7 @@ Feature: Administrator can create facilities
   I want to be able to create facilities
 
   @api
-  Scenario: An administrator can create a facility
+  Scenario: An office employee can create a facility
     Given I am logged in as a user with the "office" role
     When I am on "node/add/vih-facilities"
     And I fill in the following:
