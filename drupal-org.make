@@ -646,5 +646,5 @@ projects[sport][download][revision] = "ca1b6ba"
 projects[ember][subdir] = contrib
 projects[ember][version] = 2.x-dev
 projects[ember][download][type] = git
-projects[ember][download][revision] = 805e27b
+projects[ember][download][revision] = c109fdd
 projects[ember][download][branch] = 7.x-2.x
