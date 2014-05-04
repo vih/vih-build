@@ -487,7 +487,7 @@ projects[vih_employees][subdir] = "vih"
 projects[vih_employees][download][type] = "git"
 projects[vih_employees][download][url] = "https://github.com/vih/vih_employees.git"
 projects[vih_employees][download][branch] = "7.x-1.x"
-projects[vih_employees][download][revision] = "74edafd"
+projects[vih_employees][download][revision] = "5dff451"
 
 projects[vih_facilities][type] = "module"
 projects[vih_facilities][subdir] = "vih"
