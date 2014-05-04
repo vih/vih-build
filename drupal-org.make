@@ -44,6 +44,12 @@ projects[panopoly_wysiwyg][subdir] = panopoly
 projects[panopoly_news][version] = 1.2
 projects[panopoly_news][subdir] = panopoly
 
+projects[panopoly_seo][version] = 1.x-dev
+projects[panopoly_seo][subdir] = panopoly
+projects[panopoly_seo][download][type] = git
+projects[panopoly_seo][download][revision] = 5fd8cc4
+projects[panopoly_seo][download][branch] = 7.x-1.x
+
 ;;;;;;;:; 
 ; SHOULD BE MOVED WHEN PANOPOLY CATCHES UP
 ;;;;;;;;;
@@ -101,13 +107,6 @@ projects[pdf_reader][version] = 1.0-rc5
 ;;;;;;;;;
 ; Path tools
 ;;;;;;;;;
-
-projects[redirect][version] = 1.x-dev
-projects[redirect][subdir] = contrib
-projects[redirect][download][type] = git
-projects[redirect][download][revision] = 0b7b8dc2d58cb277874d87c91c45f0a361e148f7
-projects[redirect][download][branch] = 7.x-1.x
-projects[redirect][patch][1796596] = http://drupal.org/files/redirect-circular-1796596-8.patch
 
 projects[transliteration][subdir] = contrib
 projects[transliteration][version] = 3.2
@@ -273,9 +272,6 @@ projects[google_analytics][patch][1833578] = https://drupal.org/files/google_ana
 
 projects[google_analytics_reports][subdir] = contrib 
 projects[google_analytics_reports][version] = 1.3
-
-projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-beta9
 
 projects[schemaorg][subdir] = contrib
 projects[schemaorg][version] = 1.0-beta4

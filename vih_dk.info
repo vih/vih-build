@@ -24,6 +24,7 @@ dependencies[] = taxonomy
 dependencies[] = panopoly_admin
 dependencies[] = panopoly_core
 dependencies[] = panopoly_widgets
+dependencies[] = panopoly_seo
 dependencies[] = navbar
 
 ;;;;;;;;;;;;;;;;
@@ -35,7 +36,6 @@ dependencies[] = entity
 dependencies[] = features
 dependencies[] = libraries
 dependencies[] = logintoboggan
-dependencies[] = metatag
 dependencies[] = media
 dependencies[] = media_youtube
 dependencies[] = pathauto
