@@ -564,7 +564,7 @@ projects[vih_short_course][subdir] = "vih"
 projects[vih_short_course][download][type] = "git"
 projects[vih_short_course][download][url] = "https://github.com/vih/vih_short_course.git"
 projects[vih_short_course][download][branch] = "7.x-1.x"
-projects[vih_short_course][download][revision] = "e626fa9"
+projects[vih_short_course][download][revision] = "6cf0548"
 
 projects[vih_short_course_commerce][type] = "module"
 projects[vih_short_course_commerce][subdir] = "vih"
