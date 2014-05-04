@@ -115,3 +115,20 @@ Feature: Anonymous user can buy a course
     When I press "Continue to next step"
     #Then I should see the heading "Payment"
     Then I should see the heading "Checkout complete"
+
+  @demo
+  Scenario: Can only sign up for one course at a time
+    Given I am on "/kortekurser"
+    When I click "Golf course normal"
+    And I fill in the following:
+      | Navn              | Svend Aage Thomsen |
+      | CPR-nummer        | 101010-1942        |
+      | Golf handicap     | 20                 |
+      | Klub              | Vejle Golfklub     |
+      | DGU-medlemsnummer | 10                 |
+      | Sambo             | Vennerne           |
+    And I press "Sign up"
+    Then I should see "You already added some people."
+    Given I am on "/kortekurser"
+    When I click "Basic course normal"
+    Then I should see "You have already started a registration. Please finish that registration before proceding."
