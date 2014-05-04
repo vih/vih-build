@@ -5,7 +5,7 @@ Feature: Administrator can create lectures
 
   @api
   Scenario: An editor can create a lecture
-    Given I am logged in as a user with the "administrator" role
+    Given I am logged in as a user with the "office" role
     When I am on "node/add/vih-lecture"
     And I fill in the following:
       | Title | My awesome lecture         |
@@ -15,7 +15,7 @@ Feature: Administrator can create lectures
 
   @api
   Scenario: An editor can create a booklet with lectures
-    Given I am logged in as a user with the "administrator" role
+    Given I am logged in as a user with the "office" role
     When I am on "node/add/vih-lectures"
     And I fill in the following:
       | Title | Lecture booklet           |
