@@ -7,12 +7,14 @@ Feature: Anonymous user can buy a course
     Given I am on "/kortekurser"
     Then I should see "Korte kurser"
 
+  @demo
   Scenario: When viewing a course the prices are readily available for all room types
     Given I am on "/kortekurser"
     When I follow "Basic course more rooms"
     Then I should see "Enkeltværelse - hvor to enkeltværelser deler bad og toilet i fælles forgang ($2,000.00)"
     And I should see "Dobbeltværelse - to indkvarteres på dobbeltværelse med bad og toilet ($4,000.00)"
 
+  @demo
   Scenario: Buy a golf short course and pay online
     Given I am on "/kortekurser"
     When I click "Golf course normal"
@@ -40,6 +42,7 @@ Feature: Anonymous user can buy a course
     #Then I should see the heading "Payment"
     Then I should see the heading "Checkout complete"
 
+  @demo
   Scenario: Buy a basic short course and pay online
     Given I am on "/kortekurser"
     When I follow "Basic course normal"
@@ -63,6 +66,7 @@ Feature: Anonymous user can buy a course
     #Then I should see the heading "Payment"
     Then I should see the heading "Checkout complete"
 
+  @demo
   Scenario: Buy a kayak course without renting a kayak and pay online
     Given I am on "/kortekurser"
     When I follow "Kayak course normal"
@@ -88,6 +92,7 @@ Feature: Anonymous user can buy a course
     #Then I should see the heading "Payment"
     Then I should see the heading "Checkout complete"
 
+  @demo
   Scenario: Buy a family course and pay online
     Given I am on "/kortekurser"
     When I follow "Family course normal"
