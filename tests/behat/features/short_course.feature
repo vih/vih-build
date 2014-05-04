@@ -8,8 +8,8 @@ Feature: Office employees can create a short course with external links
     Given I am logged in as a user with the "office" role
     When I am on "node/add/short-course"
     And I fill in the following:
-      | Title | Test course            |
-      | Body  | This is a test course. |
-      | Pris  | 2000                   |
+      | Title               | Test course            |
+      | body[und][0][value] | This is a test course. |
+      | Pris                | 2000                   |
     And I press "Save"
     Then I should see the text "Short Course Test course has been created."

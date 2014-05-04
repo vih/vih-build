@@ -9,6 +9,6 @@ Feature: Office employees can create a short golf courses
     When I am on "node/add/vih-short-course-golf"
     And I fill in the following:
       | Title | Test course |
-      | Body | This is a test course. |
+      | body[und][0][value] | This is a test course. |
     And I press "Save"
     Then I should see the text "Short Course Golf Test course has been created."

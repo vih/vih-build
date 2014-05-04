@@ -9,6 +9,6 @@ Feature: Office employees can create a short course with extra products and opti
     When I am on "node/add/vih-short-course-sport-camp"
     And I fill in the following:
       | Title | Test course |
-      | Body | This is a test course. |
+      | body[und][0][value] | This is a test course. |
     And I press "Save"
     Then I should see the text "Short Course Sport Camp Test course has been created."

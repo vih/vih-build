@@ -4,10 +4,7 @@ version = 7.x-0.4
 core = 7.x
 exclusive = 1
 
-;;;;;;;;;;;;;;;;
-; core
-;;;;;;;;;;;;;;;;
-
+; Core
 dependencies[] = block
 dependencies[] = contextual
 dependencies[] = locale
@@ -17,39 +14,38 @@ dependencies[] = search
 dependencies[] = shortcut
 dependencies[] = taxonomy
 
-;;;;;;;;;;;;;;;;
-; Admin stuff
-;;;;;;;;;;;;;;;;
-
-dependencies[] = panopoly_admin
+; Panopoly Foundation
 dependencies[] = panopoly_core
+dependencies[] = panopoly_images
+dependencies[] = panopoly_theme
+dependencies[] = panopoly_magic
 dependencies[] = panopoly_widgets
+dependencies[] = panopoly_admin
+dependencies[] = panopoly_users
+
+; Panopoly Toolset
+dependencies[] = panopoly_pages
+dependencies[] = panopoly_search
+dependencies[] = panopoly_wysiwyg
+
+; Panopoly Contrib
 dependencies[] = panopoly_seo
+
+; Panopoly Recommended - Admin & UI
 dependencies[] = navbar
+dependencies[] = breakpoints
+dependencies[] = backports
+dependencies[] = simplified_menu_admin
+dependencies[] = save_draft
+dependencies[] = module_filter
+dependencies[] = date_popup_authored
 
-;;;;;;;;;;;;;;;;
-; contrib
-;;;;;;;;;;;;;;;;
-
-dependencies[] = ctools
-dependencies[] = entity
-dependencies[] = features
-dependencies[] = libraries
+; Contrib
 dependencies[] = logintoboggan
-dependencies[] = media
-dependencies[] = media_youtube
-dependencies[] = pathauto
-dependencies[] = redirect
-dependencies[] = strongarm
 dependencies[] = token
 dependencies[] = transliteration
-dependencies[] = views
-dependencies[] = wysiwyg
 
-;;;;;;;;;;;;;;;;
-; custom modules
-;;;;;;;;;;;;;;;;
-
+;Custom modules
 dependencies[] = vih_ad_push
 dependencies[] = vih_calendar
 dependencies[] = vih_core
