@@ -41,6 +41,9 @@ projects[panopoly_wysiwyg][subdir] = panopoly
 
 ; Panopoly Contrib
 
+projects[panopoly_demo][version] = 1.5
+projects[panopoly_demo][subdir] = panopoly
+
 projects[panopoly_news][version] = 1.2
 projects[panopoly_news][subdir] = panopoly
 
@@ -473,7 +476,7 @@ projects[vih_demo][subdir] = "vih"
 projects[vih_demo][download][type] = "git"
 projects[vih_demo][download][url] = "https://github.com/vih/vih_demo.git"
 projects[vih_demo][download][branch] = "7.x-1.x"
-projects[vih_demo][download][revision] = "89daaa8"
+projects[vih_demo][download][revision] = "8ee03cb"
 
 projects[vih_deploy][type] = "module"
 projects[vih_deploy][subdir] = "vih"
@@ -550,7 +553,7 @@ projects[vih_migrate][subdir] = "vih"
 projects[vih_migrate][download][type] = "git"
 projects[vih_migrate][download][url] = "https://github.com/vih/vih_migrate.git"
 projects[vih_migrate][download][branch] = "7.x-1.x"
-projects[vih_migrate][download][revision] = "ce47aaba756e7fe95d01154c719a7b0c44503022"
+projects[vih_migrate][download][revision] = "960457d"
 
 projects[vih_participant_quotes][type] = "module"
 projects[vih_participant_quotes][subdir] = "vih"
