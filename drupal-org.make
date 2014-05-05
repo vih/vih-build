@@ -168,9 +168,6 @@ projects[imagefield_focus][download][revision] = fd5c5df29575b32f08638321abcf02a
 projects[imagefield_focus][download][branch] = 7.x-1.x
 projects[imagefield_focus][patch][1781778] = https://drupal.org/files/issues/imagefield-focus-media-integration-1781778-35.patch
 
-projects[jquery_update][subdir] = contrib
-projects[jquery_update][version] = 2.4
-
 projects[l10n_client][subdir] = contrib 
 projects[l10n_client][version] = 1.3
 
