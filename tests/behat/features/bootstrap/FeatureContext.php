@@ -39,10 +39,12 @@ class FeatureContext extends DrupalContext
       $this->logOut();
     }
 
+    $random = new Random;
+
     // Create user (and project)
     $user = (object) array(
-      'name' => Random::name(8),
-      'pass' => Random::name(16),
+      'name' => $random->name(8),
+      'pass' => $random->name(16),
       'role' => $role,
     );
     $user->mail = "{$user->name}@example.com";
