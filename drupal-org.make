@@ -620,7 +620,7 @@ projects[vih_subjects][subdir] = "vih"
 projects[vih_subjects][download][type] = "git"
 projects[vih_subjects][download][url] = "https://github.com/vih/vih_subjects.git"
 projects[vih_subjects][download][branch] = "7.x-1.x"
-projects[vih_subjects][download][revision] = "d0e8ed6"
+projects[vih_subjects][download][revision] = "f88549a"
 
 projects[vih_viggo][type] = "module"
 projects[vih_viggo][subdir] = "vih"
