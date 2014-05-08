@@ -206,7 +206,7 @@ projects[references_dialog][download][revision] = c2457782d07791a2263574c979d0f4
 projects[references_dialog][download][branch] = 7.x-1.x
 
 projects[rules][subdir] = contrib
-projects[rules][version] = 2.6
+projects[rules][version] = 2.7
 
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.2
