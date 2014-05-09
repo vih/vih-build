@@ -53,7 +53,7 @@ projects[panopoly_seo][download][type] = git
 projects[panopoly_seo][download][revision] = bb46d46
 projects[panopoly_seo][download][branch] = 7.x-1.x
 
-;;;;;;;:; 
+;;;;;;;:;
 ; SHOULD BE MOVED WHEN PANOPOLY CATCHES UP
 ;;;;;;;;;
 
@@ -168,10 +168,17 @@ projects[imagefield_focus][download][revision] = fd5c5df29575b32f08638321abcf02a
 projects[imagefield_focus][download][branch] = 7.x-1.x
 projects[imagefield_focus][patch][1781778] = https://drupal.org/files/issues/imagefield-focus-media-integration-1781778-35.patch
 
-projects[l10n_client][subdir] = contrib 
+<<<<<<< HEAD
+projects[l10n_client][subdir] = contrib
+=======
+projects[jquery_update][subdir] = contrib
+projects[jquery_update][version] = 2.4
+
+projects[l10n_client][subdir] = contrib
+>>>>>>> Update vih_short_course_sport revision to include work on additional products and options.
 projects[l10n_client][version] = 1.3
 
-projects[l10n_update][subdir] = contrib 
+projects[l10n_update][subdir] = contrib
 projects[l10n_update][version] = 1.0
 
 projects[job_scheduler][subdir] = contrib
@@ -266,11 +273,11 @@ projects[message_notify][version] = 2.5
 ; SEO Tools
 ;;;;;;;;;
 
-projects[google_analytics][subdir] = contrib 
+projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.4
 projects[google_analytics][patch][1833578] = https://drupal.org/files/google_analytics-enhanced_link_attribution-1833578-26.patch
 
-projects[google_analytics_reports][subdir] = contrib 
+projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 1.3
 
 projects[schemaorg][subdir] = contrib
@@ -352,7 +359,7 @@ projects[i18n][subdir] = contrib
 ; Commerce
 ;;;;;;;;;
 
-projects[commerce][subdir] = contrib  
+projects[commerce][subdir] = contrib
 projects[commerce][version] = 1.9
 projects[commerce][patch][840786] = http://drupal.org/files/840786-add-account-info-2.patch
 
@@ -366,7 +373,7 @@ projects[commerce_add_to_cart_notification][download][url] = "git://github.com/v
 projects[commerce_add_to_cart_notification][download][branch] = 7.x-1.x
 projects[commerce_add_to_cart_notification][download][revision] = f28de0f5cfb193c98b7b8559ea7d001a2f01bb2f
 
-projects[commerce_autosku][subdir] = contrib  
+projects[commerce_autosku][subdir] = contrib
 projects[commerce_autosku][version] = 1.1
 
 projects[commerce_backoffice][subdir] = contrib
@@ -381,19 +388,19 @@ projects[eva][download][revision] = 43eaba47defcf62cd6cff48c819689b68befa59a
 projects[views_megarow][subdir] = contrib
 projects[views_megarow][version] = 1.3
 
-projects[commerce_cart_expiration][subdir] = contrib  
+projects[commerce_cart_expiration][subdir] = contrib
 projects[commerce_cart_expiration][version] = 1.1
 
 projects[commerce_checkout_progress][subdir] = contrib
 projects[commerce_checkout_progress][version] = 1.3
 
-projects[commerce_coupon][subdir] = contrib  
+projects[commerce_coupon][subdir] = contrib
 projects[commerce_coupon][version] = 1.0-beta7
 
-projects[commerce_coupon_fixed_amount][subdir] = contrib  
+projects[commerce_coupon_fixed_amount][subdir] = contrib
 projects[commerce_coupon_fixed_amount][version] = 1.0-beta7
 
-projects[commerce_coupon_pct][subdir] = contrib  
+projects[commerce_coupon_pct][subdir] = contrib
 projects[commerce_coupon_pct][version] = 1.0-beta7
 
 projects[commerce_custom_product][subdir] = contrib
@@ -592,7 +599,7 @@ projects[vih_short_course_sport][subdir] = "vih"
 projects[vih_short_course_sport][download][type] = "git"
 projects[vih_short_course_sport][download][url] = "https://github.com/vih/vih_short_course_sport.git"
 projects[vih_short_course_sport][download][branch] = "7.x-1.x"
-projects[vih_short_course_sport][download][revision] = "2d6afb2"
+projects[vih_short_course_sport][download][revision] = "a916ba383d6f2dd67cd20489e9eebda4f3e65650"
 
 projects[vih_golf_courses][type] = "module"
 projects[vih_golf_courses][subdir] = "vih"
