@@ -20,3 +20,13 @@ I want to be able to login
     And I fill in "mycoolpassword" for "Confirm password"
     And I press "Save"
     Then I should see "The changes have been saved."
+
+  @drush
+  Scenario: Office can use navbar
+    Given I am logged in as a user with the "office" role
+    Then I should see the link "Log out"
+
+  @drush
+  Scenario: Teacher can use navbar
+    Given I am logged in as a user with the "teacher" role
+    Then I should see the link "Log out"
