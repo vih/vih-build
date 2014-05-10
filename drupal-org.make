@@ -61,6 +61,9 @@ projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
 projects[entityreference][patch][1699378] = https://drupal.org/files/view-argument-as-token-1699378-46.patch
 
+projects[file_entity][subdir] = contrib
+projects[file_entity][version] = 2.0-alpha3
+
 projects[media][version] = 2.x-dev
 projects[media][subdir] = contrib
 projects[media][download][type] = git
@@ -155,18 +158,8 @@ projects[feeds][download][branch] = 7.x-2.x
 projects[features_override][subdir] = contrib
 projects[features_override][version] = 2.0-rc1
 
-projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 2.0-alpha3
-
 projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.1
-
-projects[imagefield_focus][version] = 1.x-dev
-projects[imagefield_focus][subdir] = contrib
-projects[imagefield_focus][download][type] = git
-projects[imagefield_focus][download][revision] = fd5c5df29575b32f08638321abcf02a3fca4d83f
-projects[imagefield_focus][download][branch] = 7.x-1.x
-projects[imagefield_focus][patch][1781778] = https://drupal.org/files/issues/imagefield-focus-media-integration-1781778-35.patch
 
 projects[l10n_client][subdir] = contrib
 projects[l10n_client][version] = 1.3
@@ -211,9 +204,7 @@ projects[rules][version] = 2.7
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.2
 
-projects[smartcrop][subdir] = contrib
-projects[smartcrop][version] = 1.0-beta2
-
+; This can probably be removed as panels are used for Taxonomy pages
 projects[taxonomy_display][subdir] = contrib
 projects[taxonomy_display][version] = 1.1
 
