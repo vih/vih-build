@@ -185,8 +185,6 @@ projects[node_clone][version] = 1.0-rc2
 projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.2
 
-projects[oembed][subdir] = contrib
-projects[oembed][version] = 0.1-beta3
 
 projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.6
