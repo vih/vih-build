@@ -202,10 +202,6 @@ projects[rules][version] = 2.7
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.2
 
-; This can probably be removed as panels are used for Taxonomy pages
-projects[taxonomy_display][subdir] = contrib
-projects[taxonomy_display][version] = 1.1
-
 ; Can be removed when http://drupal.org/node/1058912 is resolved
 projects[token_tweaks][version] = 1.x-dev
 projects[token_tweaks][subdir] = contrib
