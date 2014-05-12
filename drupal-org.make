@@ -381,7 +381,10 @@ projects[commerce_coupon_pct][subdir] = contrib
 projects[commerce_coupon_pct][version] = 1.0-beta7
 
 projects[commerce_custom_product][subdir] = contrib
-projects[commerce_custom_product][version] = 1.0-beta2
+projects[commerce_custom_product][version] = 1.x-dev
+projects[commerce_custom_product][download][type] = git
+projects[commerce_custom_product][download][branch] = 1.x-dev
+projects[commerce_custom_product][download][revision] = 30de35e
 
 projects[commerce_features][subdir] = contrib
 projects[commerce_features][version] = 1.0
