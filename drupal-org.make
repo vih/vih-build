@@ -185,9 +185,6 @@ projects[node_clone][version] = 1.0-rc2
 projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.2
 
-projects[oembed][subdir] = contrib
-projects[oembed][version] = 0.1-beta3
-
 projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.6
 projects[plupload][patch][2088143] = https://drupal.org/files/issues/plupload-1_5_8-drush_make-2088143-7.patch
@@ -203,10 +200,6 @@ projects[rules][version] = 2.7
 
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.2
-
-; This can probably be removed as panels are used for Taxonomy pages
-projects[taxonomy_display][subdir] = contrib
-projects[taxonomy_display][version] = 1.1
 
 ; Can be removed when http://drupal.org/node/1058912 is resolved
 projects[token_tweaks][version] = 1.x-dev
@@ -417,8 +410,6 @@ projects[inline_entity_form][version] = 1.5
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.9
 
-projects[visualization][subdir] = contrib
-projects[visualization][version] = 1.0-alpha1
 
 ;;;;;;;;;
 ; Custom modules
@@ -583,7 +574,7 @@ projects[vih_short_course_sport][subdir] = "vih"
 projects[vih_short_course_sport][download][type] = "git"
 projects[vih_short_course_sport][download][url] = "https://github.com/vih/vih_short_course_sport.git"
 projects[vih_short_course_sport][download][branch] = "7.x-1.x"
-projects[vih_short_course_sport][download][revision] = "a916ba383d6f2dd67cd20489e9eebda4f3e65650"
+projects[vih_short_course_sport][download][revision] = "2d36e732510deb78987eaaa947f09e805178a512"
 
 projects[vih_golf_courses][type] = "module"
 projects[vih_golf_courses][subdir] = "vih"
