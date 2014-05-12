@@ -574,7 +574,7 @@ projects[vih_short_course_sport][subdir] = "vih"
 projects[vih_short_course_sport][download][type] = "git"
 projects[vih_short_course_sport][download][url] = "https://github.com/vih/vih_short_course_sport.git"
 projects[vih_short_course_sport][download][branch] = "7.x-1.x"
-projects[vih_short_course_sport][download][revision] = "a916ba383d6f2dd67cd20489e9eebda4f3e65650"
+projects[vih_short_course_sport][download][revision] = "2d36e732510deb78987eaaa947f09e805178a512"
 
 projects[vih_golf_courses][type] = "module"
 projects[vih_golf_courses][subdir] = "vih"
