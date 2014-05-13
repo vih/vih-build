@@ -11,6 +11,7 @@ default:
       blackbox: ~
       drush:
         alias: self
-      drupal:
-        drupal_root: "/home/travis/build/vih/drupal"
-
+      # This will be setup by .travis.yml like so:
+      # export BEHAT_PARAMS="extensions[Drupal\\DrupalExtension\\Extension][drupal][drupal_root]=$DRUPAL_ROOT"
+      #drupal:
+      #  drupal_root: "/path/to/drupal/root"
