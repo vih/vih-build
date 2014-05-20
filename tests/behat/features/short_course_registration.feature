@@ -93,6 +93,60 @@ Feature: Anonymous user can buy a course
     Then I should see the heading "Checkout complete"
 
   @demo
+  Scenario: Buy a sport course without renting a kayak and pay online
+    Given I am on "/kortekurser"
+    When I follow "Sport course extra kayak"
+    Then I should see "Additional products"
+    #TODO: Then I should see "Equipment"
+    When I fill in the following:
+      | Navn       | Svend Aage Thomsen |
+      | CPR-nummer | 101010-1942        |
+      | Sambo      | Knud Lundberg      |
+    And I press "Sign up"
+    Then I should see "You already added some people."
+    When I follow "go to checkout"
+    And I fill in the following:
+      | E-mail address | svend@example.dk   |
+      | Full name      | Svend Aage Thomsen |
+      | Country        | DK                 |
+      | Address 1      | Ørnebjergvej 28    |
+      | Postal code    | 7100               |
+      | City           | Vejle              |
+      #| Telefon        | 75820811           |
+    And I press "Continue to next step"
+    Then I should see the heading "Review order"
+    When I press "Continue to next step"
+    #Then I should see the heading "Payment"
+    Then I should see the heading "Checkout complete"
+
+  @demo
+  Scenario: Buy a sport course without extra products and pay online
+    Given I am on "/kortekurser"
+    When I follow "Sport course normal"
+    Then I should not see "Additional products"
+#TODO: Then I should see "Equipment"
+    When I fill in the following:
+      | Navn       | Svend Aage Thomsen |
+      | CPR-nummer | 101010-1942        |
+      | Sambo      | Knud Lundberg      |
+    And I press "Sign up"
+    Then I should see "You already added some people."
+    When I follow "go to checkout"
+    And I fill in the following:
+      | E-mail address | svend@example.dk   |
+      | Full name      | Svend Aage Thomsen |
+      | Country        | DK                 |
+      | Address 1      | Ørnebjergvej 28    |
+      | Postal code    | 7100               |
+      | City           | Vejle              |
+  #| Telefon        | 75820811           |
+    And I press "Continue to next step"
+    Then I should see the heading "Review order"
+    When I press "Continue to next step"
+#Then I should see the heading "Payment"
+    Then I should see the heading "Checkout complete"
+
+  @demo
   Scenario: Buy a family course and pay online
     Given I am on "/kortekurser"
     When I follow "Family course normal"
