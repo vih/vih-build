@@ -50,7 +50,7 @@ projects[panopoly_news][subdir] = panopoly
 projects[panopoly_seo][version] = 1.x-dev
 projects[panopoly_seo][subdir] = panopoly
 projects[panopoly_seo][download][type] = git
-projects[panopoly_seo][download][revision] = a36fd3b
+projects[panopoly_seo][download][revision] = d2bf485
 projects[panopoly_seo][download][branch] = 7.x-1.x
 
 ;;;;;;;:;
@@ -280,7 +280,7 @@ projects[colorbox][download][revision] = ce90f5dc259793c6762185091320cc5af169ae7
 projects[colorbox][download][branch] = 7.x-2.x
 
 projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 1.5
+projects[mandrill][version] = 1.6
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.x-dev
