@@ -465,7 +465,7 @@ projects[vih_deploy][subdir] = "vih"
 projects[vih_deploy][download][type] = "git"
 projects[vih_deploy][download][url] = "https://github.com/vih/vih_deploy.git"
 projects[vih_deploy][download][branch] = "7.x-1.x"
-projects[vih_deploy][download][revision] = "40b859561ba715684dd30c3993ecc48202947e0e"
+projects[vih_deploy][download][revision] = "edb4185"
 
 projects[vih_employees][type] = "module"
 projects[vih_employees][subdir] = "vih"
