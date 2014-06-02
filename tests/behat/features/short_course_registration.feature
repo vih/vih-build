@@ -97,6 +97,7 @@ Feature: Anonymous user can buy a course
     Given I am on "/kortekurser"
     When I follow "Sport course extra kayak"
     Then I should see "Equipment"
+    Then I should not see "Extra choices"
     When I fill in the following:
       | Navn       | Svend Aage Thomsen |
       | CPR-nummer | 101010-1942        |
@@ -123,6 +124,7 @@ Feature: Anonymous user can buy a course
     Given I am on "/kortekurser"
     When I follow "Sport course normal"
     Then I should not see "Equipment"
+    Then I should not see "Extra choices"
     When I fill in the following:
       | Navn       | Svend Aage Thomsen |
       | CPR-nummer | 101010-1942        |
@@ -154,6 +156,7 @@ Feature: Anonymous user can buy a course
       | Navn       | Svend Aage Thomsen |
       | CPR-nummer | 101010-1942        |
       | Sambo      | Knud Lundberg      |
+    # TODO Select an option also
     And I press "Sign up"
     Then I should see "You already added some people."
     When I follow "go to checkout"
