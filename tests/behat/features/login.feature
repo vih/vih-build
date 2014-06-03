@@ -30,3 +30,8 @@ I want to be able to login
   Scenario: Teacher can use navbar
     Given I am logged in as a user with the "teacher" role
     Then I should see the link "Log out"
+
+  @drush
+  Scenario: Editor can use navbar
+    Given I am logged in as a user with the "editor" role
+    Then I should see the link "Log out"
