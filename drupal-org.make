@@ -393,8 +393,7 @@ projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.1
 
 projects[commerce_message][subdir] = contrib
-projects[commerce_message][version] = 1.0-rc1
-projects[commerce_message][patch][] =  https://drupal.org/files/issues/commerce_message-2175855-payment-rules.diff
+projects[commerce_message][version] = 1.0-rc2
 
 projects[commerce_migrate][subdir] = contrib
 projects[commerce_migrate][version] = 1.x-dev
