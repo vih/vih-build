@@ -10,5 +10,4 @@ default:
     Drupal\DrupalExtension\Extension:
       blackbox: ~
       drush:
-        root: ${drush.root}
-
+        alias: self
