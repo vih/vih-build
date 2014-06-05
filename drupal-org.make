@@ -185,6 +185,9 @@ projects[node_clone][version] = 1.0-rc2
 projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.2
 
+projects[optimizely][subdir] = contrib
+projects[optimizely][version] = 2.14
+
 projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.6
 projects[plupload][patch][2088143] = https://drupal.org/files/issues/plupload-1_5_8-drush_make-2088143-7.patch
