@@ -554,6 +554,13 @@ projects[vih_participant_quotes][download][url] = "https://github.com/vih/vih_pa
 projects[vih_participant_quotes][download][branch] = "7.x-1.x"
 projects[vih_participant_quotes][download][revision] = "30cc8ae"
 
+projects[vih_plugins][type] = "module"
+projects[vih_plugins][subdir] = "vih"
+projects[vih_plugins][download][type] = "git"
+projects[vih_plugins][download][url] = "https://github.com/vih/vih_plugins.git"
+projects[vih_plugins][download][branch] = "7.x-1.x"
+projects[vih_plugins][download][revision] = "3ecc8438c687be9771428383baaec194df731d45"
+
 projects[vih_short_course][type] = "module"
 projects[vih_short_course][subdir] = "vih"
 projects[vih_short_course][download][type] = "git"
@@ -632,7 +639,7 @@ projects[sport][type] = "theme"
 projects[sport][download][type] = "git"
 projects[sport][download][url] = "https://github.com/vih/sport-theme.git"
 projects[sport][download][branch] = "7.x-1.x"
-projects[sport][download][revision] = "ca1b6ba"
+projects[sport][download][revision] = "13804bc"
 
 ;;;;;;;;;
 ; Themes
