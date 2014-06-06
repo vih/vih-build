@@ -1,4 +1,4 @@
-[vih.dk](http://vih.dk) [![Build Status](https://secure.travis-ci.org/vih/vih-build.png?branch=7.x-1.x)](http://travis-ci.org/vih/vih.dk-deploy)
+[vih.dk](http://vih.dk) [![Build Status](https://secure.travis-ci.org/vih/vih-build.png?branch=7.x-1.x)](http://travis-ci.org/vih/vih-build)
 ==
 
 Instructions on how to build the site from Drupal 7.
