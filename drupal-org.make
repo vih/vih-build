@@ -559,7 +559,7 @@ projects[vih_plugins][subdir] = "vih"
 projects[vih_plugins][download][type] = "git"
 projects[vih_plugins][download][url] = "https://github.com/vih/vih_plugins.git"
 projects[vih_plugins][download][branch] = "7.x-1.x"
-projects[vih_plugins][download][revision] = "c0dfead"
+projects[vih_plugins][download][revision] = "56e02c8"
 
 projects[vih_short_course][type] = "module"
 projects[vih_short_course][subdir] = "vih"
