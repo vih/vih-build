@@ -7,41 +7,41 @@ api = 2
 
 ; The Panopoly Foundation
 
-projects[panopoly_core][version] = 1.6
+projects[panopoly_core][version] = 1.8
 projects[panopoly_core][subdir] = panopoly
 
-projects[panopoly_images][version] = 1.6
+projects[panopoly_images][version] = 1.8
 projects[panopoly_images][subdir] = panopoly
 
-projects[panopoly_theme][version] = 1.6
+projects[panopoly_theme][version] = 1.8
 projects[panopoly_theme][subdir] = panopoly
 
-projects[panopoly_magic][version] = 1.6
+projects[panopoly_magic][version] = 1.8
 projects[panopoly_magic][subdir] = panopoly
 
-projects[panopoly_widgets][version] = 1.6
+projects[panopoly_widgets][version] = 1.8
 projects[panopoly_widgets][subdir] = panopoly
 
-projects[panopoly_admin][version] = 1.6
+projects[panopoly_admin][version] = 1.8
 projects[panopoly_admin][subdir] = panopoly
 
-projects[panopoly_users][version] = 1.6
+projects[panopoly_users][version] = 1.8
 projects[panopoly_users][subdir] = panopoly
 
-projects[panopoly_pages][version] = 1.6
+projects[panopoly_pages][version] = 1.8
 projects[panopoly_pages][subdir] = panopoly
 
 ; The Panopoly Toolset
 
-projects[panopoly_search][version] = 1.6
+projects[panopoly_search][version] = 1.8
 projects[panopoly_search][subdir] = panopoly
 
-projects[panopoly_wysiwyg][version] = 1.6
+projects[panopoly_wysiwyg][version] = 1.8
 projects[panopoly_wysiwyg][subdir] = panopoly
 
 ; Panopoly Contrib
 
-projects[panopoly_demo][version] = 1.6
+projects[panopoly_demo][version] = 1.8
 projects[panopoly_demo][subdir] = panopoly
 
 projects[panopoly_news][version] = 1.2
@@ -50,7 +50,7 @@ projects[panopoly_news][subdir] = panopoly
 projects[panopoly_seo][version] = 1.x-dev
 projects[panopoly_seo][subdir] = panopoly
 projects[panopoly_seo][download][type] = git
-projects[panopoly_seo][download][revision] = d2bf485
+projects[panopoly_seo][download][revision] = 5d0f180
 projects[panopoly_seo][download][branch] = 7.x-1.x
 
 ;;;;;;;:;
@@ -254,8 +254,7 @@ projects[message_notify][version] = 2.5
 ;;;;;;;;;
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 1.4
-projects[google_analytics][patch][1833578] = https://drupal.org/files/google_analytics-enhanced_link_attribution-1833578-26.patch
+projects[google_analytics][version] = 2.0
 
 projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 1.3
@@ -405,7 +404,7 @@ projects[commerce_migrate][download][branch] = 1.x-dev
 projects[commerce_migrate][download][revision] = 46a8c0c
 
 projects[commerce_reports][subdir] = contrib
-projects[commerce_reports][version] = 3.0-beta2
+projects[commerce_reports][version] = 4.0-alpha3
 
 projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.2
