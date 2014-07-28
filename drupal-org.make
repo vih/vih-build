@@ -147,7 +147,7 @@ projects[draggableviews][version] = 2.0
 
 projects[emogrifier][subdir] = contrib
 projects[emogrifier][version] = 1.18
-projects[emogrifier][patch][2200267] = https://drupal.org/files/issues/issue-2200267_0.patch
+projects[emogrifier][patch][2200267] = https://www.drupal.org/files/issues/issue-2200267_0.patch
 
 projects[feeds][version] = 2.x-dev
 projects[feeds][subdir] = contrib
