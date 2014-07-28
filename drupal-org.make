@@ -59,7 +59,7 @@ projects[panopoly_seo][download][branch] = 7.x-1.x
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
-projects[entityreference][patch][1699378] = https://drupal.org/files/view-argument-as-token-1699378-46.patch
+projects[entityreference][patch][1699378] = https://www.drupal.org/files/view-argument-as-token-1699378-46.patch
 
 projects[file_entity][subdir] = contrib
 projects[file_entity][version] = 2.0-alpha3
