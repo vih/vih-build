@@ -61,15 +61,6 @@ projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
 projects[entityreference][patch][1699378] = https://www.drupal.org/files/view-argument-as-token-1699378-46.patch
 
-projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 2.0-alpha3
-
-projects[media][version] = 2.x-dev
-projects[media][subdir] = contrib
-projects[media][download][type] = git
-projects[media][download][revision] = 2f828ea761103c49197a50aaeac9b98a350a559b
-projects[media][download][branch] = 7.x-2.x
-
 projects[wysiwyg][version] = 2.x-dev
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][download][type] = git
