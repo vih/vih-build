@@ -102,13 +102,6 @@ projects[pdf_reader][subdir] = contrib
 projects[pdf_reader][version] = 1.0-rc5
 
 ;;;;;;;;;
-; Path tools
-;;;;;;;;;
-
-projects[transliteration][subdir] = contrib
-projects[transliteration][version] = 3.2
-
-;;;;;;;;;
 ; Site building tools
 ;;;;;;;;;
 
