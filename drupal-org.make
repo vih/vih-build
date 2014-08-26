@@ -50,7 +50,7 @@ projects[panopoly_news][subdir] = panopoly
 projects[panopoly_seo][version] = 1.x-dev
 projects[panopoly_seo][subdir] = panopoly
 projects[panopoly_seo][download][type] = git
-projects[panopoly_seo][download][revision] = 5d0f180
+projects[panopoly_seo][download][revision] = b94e9ba
 projects[panopoly_seo][download][branch] = 7.x-1.x
 
 ;;;;;;;:;
@@ -151,7 +151,7 @@ projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha3
 
 projects[logintoboggan][subdir] = contrib
-projects[logintoboggan][version] = 1.3
+projects[logintoboggan][version] = 1.4
 
 projects[mimemail][subdir] = contrib
 projects[mimemail][version] = 1.0-beta3
@@ -192,7 +192,7 @@ projects[token_tweaks][download][revision] = 75818fbfb97bf8882ca106e6af703be7644
 projects[token_tweaks][download][branch] = 7.x-1.x
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 4.0-rc3
+projects[webform][version] = 4.0-rc6
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 2.0-beta1
