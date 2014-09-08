@@ -80,7 +80,7 @@ projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta5
 
 projects[countries][subdir] = contrib
-projects[countries][version] = 2.1
+projects[countries][version] = 2.3
 
 projects[date_ical][subdir] = contrib
 projects[date_ical][version] = 2.13
