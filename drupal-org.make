@@ -319,7 +319,7 @@ projects[i18n][subdir] = contrib
 ;;;;;;;;;
 
 projects[commerce][subdir] = contrib
-projects[commerce][version] = 1.9
+projects[commerce][version] = 1.10
 projects[commerce][patch][840786] = https://www.drupal.org/files/840786-add-account-info-2.patch
 
 projects[commerce_addressbook][subdir] = contrib
