@@ -538,7 +538,7 @@ projects[vih_plugins][subdir] = "vih"
 projects[vih_plugins][download][type] = "git"
 projects[vih_plugins][download][url] = "https://github.com/vih/vih_plugins.git"
 projects[vih_plugins][download][branch] = "7.x-1.x"
-projects[vih_plugins][download][revision] = "56e02c8"
+projects[vih_plugins][download][revision] = "d30ab9c"
 
 projects[vih_short_course][type] = "module"
 projects[vih_short_course][subdir] = "vih"
@@ -618,7 +618,7 @@ projects[sport][type] = "theme"
 projects[sport][download][type] = "git"
 projects[sport][download][url] = "https://github.com/vih/sport-theme.git"
 projects[sport][download][branch] = "7.x-1.x"
-projects[sport][download][revision] = "a0a8895"
+projects[sport][download][revision] = "71a87ad"
 
 ;;;;;;;;;
 ; Themes
