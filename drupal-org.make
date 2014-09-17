@@ -618,7 +618,7 @@ projects[sport][type] = "theme"
 projects[sport][download][type] = "git"
 projects[sport][download][url] = "https://github.com/vih/sport-theme.git"
 projects[sport][download][branch] = "7.x-1.x"
-projects[sport][download][revision] = "6f0c943"
+projects[sport][download][revision] = "a0a8895"
 
 ;;;;;;;;;
 ; Themes
