@@ -619,13 +619,3 @@ projects[sport][download][type] = "git"
 projects[sport][download][url] = "https://github.com/vih/sport-theme.git"
 projects[sport][download][branch] = "7.x-1.x"
 projects[sport][download][revision] = "71a87ad"
-
-;;;;;;;;;
-; Themes
-;;;;;;;;;
-
-projects[ember][subdir] = contrib
-projects[ember][version] = 2.x-dev
-projects[ember][download][type] = git
-projects[ember][download][revision] = aef6d5d
-projects[ember][download][branch] = 7.x-2.x
