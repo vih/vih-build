@@ -255,11 +255,8 @@ projects[chart][download][type] = git
 projects[chart][download][revision] = 860c75c27c296a4135ac1efac773ba1cdf7edf7c
 projects[chart][download][branch] = 7.x-1.x
 
-projects[colorbox][version] = 2.x-dev
 projects[colorbox][subdir] = contrib
-projects[colorbox][download][type] = git
-projects[colorbox][download][revision] = ce90f5dc259793c6762185091320cc5af169ae77
-projects[colorbox][download][branch] = 7.x-2.x
+projects[colorbox][version] = 2.8
 
 projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.6
