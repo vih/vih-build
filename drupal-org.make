@@ -598,7 +598,7 @@ projects[vih_subjects][subdir] = "vih"
 projects[vih_subjects][download][type] = "git"
 projects[vih_subjects][download][url] = "https://github.com/vih/vih_subjects.git"
 projects[vih_subjects][download][branch] = "7.x-1.x"
-projects[vih_subjects][download][revision] = "1259e8e"
+projects[vih_subjects][download][revision] = "c3bedbd"
 
 projects[vih_viggo][type] = "module"
 projects[vih_viggo][subdir] = "vih"
