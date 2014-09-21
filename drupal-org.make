@@ -564,7 +564,7 @@ projects[vih_short_course_kayak][subdir] = "vih"
 projects[vih_short_course_kayak][download][type] = "git"
 projects[vih_short_course_kayak][download][url] = "https://github.com/vih/vih_short_course_kayak.git"
 projects[vih_short_course_kayak][download][branch] = "7.x-1.x"
-projects[vih_short_course_kayak][download][revision] = "2f9b647"
+projects[vih_short_course_kayak][download][revision] = "810ff99"
 
 projects[vih_short_course_sport][type] = "module"
 projects[vih_short_course_sport][subdir] = "vih"
