@@ -367,6 +367,7 @@ projects[commerce_custom_product][download][revision] = 30de35e
 
 projects[commerce_features][subdir] = contrib
 projects[commerce_features][version] = 1.0
+projects[commerce_features][patch][2342121] = https://www.drupal.org/files/issues/provide_translatables-2342121-1.patch
 
 projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.1
