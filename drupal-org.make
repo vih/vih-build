@@ -136,7 +136,7 @@ projects[feeds][download][revision] = bd71821a84740a21075e49f5b23a250da586bb67
 projects[feeds][download][branch] = 7.x-2.x
 
 projects[features_override][subdir] = contrib
-projects[features_override][version] = 2.0-rc1
+projects[features_override][version] = 2.0-rc2
 
 projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.1
@@ -166,7 +166,7 @@ projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.2
 
 projects[optimizely][subdir] = contrib
-projects[optimizely][version] = 2.14
+projects[optimizely][version] = 2.17
 
 projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.6
@@ -210,7 +210,7 @@ projects[views_random_seed][subdir] = contrib
 projects[views_random_seed][version] = 1.2
 
 projects[views_send][subdir] = contrib
-projects[views_send][version] = 1.0
+projects[views_send][version] = 1.1
 
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.1
@@ -342,7 +342,7 @@ projects[eva][download][branch] = 7.x-1.x
 projects[eva][download][revision] = 43eaba47defcf62cd6cff48c819689b68befa59a
 
 projects[views_megarow][subdir] = contrib
-projects[views_megarow][version] = 1.3
+projects[views_megarow][version] = 1.4
 
 projects[commerce_cart_expiration][subdir] = contrib
 projects[commerce_cart_expiration][version] = 1.1
@@ -366,6 +366,7 @@ projects[commerce_custom_product][download][branch] = 1.x-dev
 projects[commerce_custom_product][download][revision] = 30de35e
 
 projects[commerce_features][subdir] = contrib
+projects[commerce_features][version] = 1.x-dev
 projects[commerce_features][version] = 1.0
 projects[commerce_features][patch][2342121] = https://www.drupal.org/files/issues/provide_translatables-2342121-2.patch
 
@@ -373,7 +374,7 @@ projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.1
 
 projects[commerce_message][subdir] = contrib
-projects[commerce_message][version] = 1.0-rc2
+projects[commerce_message][version] = 1.0-rc3
 
 projects[commerce_migrate][subdir] = contrib
 projects[commerce_migrate][version] = 1.x-dev
@@ -382,7 +383,7 @@ projects[commerce_migrate][download][branch] = 1.x-dev
 projects[commerce_migrate][download][revision] = 46a8c0c
 
 projects[commerce_reports][subdir] = contrib
-projects[commerce_reports][version] = 4.0-alpha3
+projects[commerce_reports][version] = 4.0-beta1
 
 projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.2
