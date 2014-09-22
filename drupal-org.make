@@ -329,6 +329,12 @@ projects[commerce_add_to_cart_notification][download][url] = "git://github.com/v
 projects[commerce_add_to_cart_notification][download][branch] = 7.x-1.x
 projects[commerce_add_to_cart_notification][download][revision] = f28de0f5cfb193c98b7b8559ea7d001a2f01bb2f
 
+projects[commerce_discount][type] = "module"
+projects[commerce_discount][subdir] = "contrib"
+projects[commerce_discount][download][type] = "git"
+projects[commerce_discount][download][branch] = 7.x-1.x
+projects[commerce_discount][download][revision] = a00d929
+
 projects[commerce_autosku][subdir] = contrib
 projects[commerce_autosku][version] = 1.1
 
