@@ -11,8 +11,8 @@ Feature: Anonymous user can buy a course
   Scenario: When viewing a course the prices are readily available for all room types
     Given I am on "/kortekurser"
     When I follow "Basic course more rooms"
-    Then I should see "Enkeltværelse - hvor to enkeltværelser deler bad og toilet i fælles forgang ($2,000.00)"
-    And I should see "Dobbeltværelse - to indkvarteres på dobbeltværelse med bad og toilet ($4,000.00)"
+    Then I should see "Enkeltværelse - to enkeltværelser deler bad og toilet i fælles forgang ($2,000.00)"
+    And I should see "Dobbeltværelse - to bor på dobbeltværelse med bad og toilet ($4,000.00)"
 
   @demo
   Scenario: Buy a golf short course and pay online
