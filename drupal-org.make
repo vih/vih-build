@@ -329,26 +329,11 @@ projects[commerce_add_to_cart_notification][download][url] = "git://github.com/v
 projects[commerce_add_to_cart_notification][download][branch] = 7.x-1.x
 projects[commerce_add_to_cart_notification][download][revision] = f28de0f5cfb193c98b7b8559ea7d001a2f01bb2f
 
-projects[commerce_discount][type] = "module"
-projects[commerce_discount][subdir] = "contrib"
-projects[commerce_discount][download][type] = "git"
-projects[commerce_discount][download][branch] = 7.x-1.x
-projects[commerce_discount][download][revision] = a00d929
-
 projects[commerce_autosku][subdir] = contrib
 projects[commerce_autosku][version] = 1.1
 
 projects[commerce_backoffice][subdir] = contrib
 projects[commerce_backoffice][version] = 1.4
-
-projects[eva][subdir] = contrib
-projects[eva][version] = 1.x-dev
-projects[eva][download][type] = "git"
-projects[eva][download][branch] = 7.x-1.x
-projects[eva][download][revision] = 43eaba47defcf62cd6cff48c819689b68befa59a
-
-projects[views_megarow][subdir] = contrib
-projects[views_megarow][version] = 1.4
 
 projects[commerce_cart_expiration][subdir] = contrib
 projects[commerce_cart_expiration][version] = 1.1
@@ -370,6 +355,12 @@ projects[commerce_custom_product][version] = 1.x-dev
 projects[commerce_custom_product][download][type] = git
 projects[commerce_custom_product][download][branch] = 1.x-dev
 projects[commerce_custom_product][download][revision] = 30de35e
+
+projects[commerce_discount][subdir] = contrib
+projects[commerce_discount][version] = 1.x-dev
+projects[commerce_discount][download][type] = git
+projects[commerce_discount][download][branch] = 1.x-dev
+projects[commerce_discount][download][revision] = a00d929
 
 projects[commerce_features][subdir] = contrib
 projects[commerce_features][version] = 1.x-dev
@@ -394,12 +385,20 @@ projects[commerce_reports][version] = 4.0-beta1
 projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.2
 
+projects[eva][subdir] = contrib
+projects[eva][version] = 1.x-dev
+projects[eva][download][type] = "git"
+projects[eva][download][branch] = 7.x-1.x
+projects[eva][download][revision] = 43eaba47defcf62cd6cff48c819689b68befa59a
+
 projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.5
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.9
 
+projects[views_megarow][subdir] = contrib
+projects[views_megarow][version] = 1.4
 
 ;;;;;;;;;
 ; Custom modules
