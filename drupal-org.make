@@ -379,6 +379,9 @@ projects[commerce_migrate][download][type] = git
 projects[commerce_migrate][download][branch] = 1.x-dev
 projects[commerce_migrate][download][revision] = 46a8c0c
 
+projects[commerce_price_savings_formatter][subdir] = contrib
+projects[commerce_price_savings_formatter][version] = 1.4
+
 projects[commerce_reports][subdir] = contrib
 projects[commerce_reports][version] = 4.0-beta1
 
@@ -393,6 +396,9 @@ projects[eva][download][revision] = 43eaba47defcf62cd6cff48c819689b68befa59a
 
 projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.5
+
+projects[inline_conditions][subdir] = contrib
+projects[inline_conditions][version] = 1.0-alpha4
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.9
@@ -423,7 +429,7 @@ projects[vih_commerce][subdir] = "vih"
 projects[vih_commerce][download][type] = "git"
 projects[vih_commerce][download][url] = "https://github.com/vih/vih_commerce.git"
 projects[vih_commerce][download][branch] = "7.x-1.x"
-projects[vih_commerce][download][revision] = "c972433"
+projects[vih_commerce][download][revision] = "b91ded5"
 
 projects[vih_core][type] = "module"
 projects[vih_core][subdir] = "vih"
