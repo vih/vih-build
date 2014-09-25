@@ -541,7 +541,7 @@ projects[vih_participant_quotes][subdir] = "vih"
 projects[vih_participant_quotes][download][type] = "git"
 projects[vih_participant_quotes][download][url] = "https://github.com/vih/vih_participant_quotes.git"
 projects[vih_participant_quotes][download][branch] = "7.x-1.x"
-projects[vih_participant_quotes][download][revision] = "30cc8ae"
+projects[vih_participant_quotes][download][revision] = "dcd2cc9"
 
 projects[vih_plugins][type] = "module"
 projects[vih_plugins][subdir] = "vih"
