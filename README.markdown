@@ -16,17 +16,15 @@ To download a complete site, run:
 
     drush make build-vih.make --prepare-install ~/workspace/vih_dk_build
 
-Then check permissions
-    
-    cd ~/workspace/vih_dk_build
-    chmod 777 sites/default/settings.php
-    chmod 777 sites/default/files
-
 Now you can build the site using drush:
 
-    drush si vih_dk --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=admin --site-mail=admin@example.com --site-name="vih.dk" --yes
+    drush si vih_dk --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=admin --site-mail=admin@example.com -y
 
 Or you can navigate to the root directory in a webbrowser and start the installation process.
+
+#### Demo content ####
+
+    drush en vih_demo -y
 
 #### Update existing install profile ####
 
