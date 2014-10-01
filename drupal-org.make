@@ -24,6 +24,7 @@ projects[panopoly_widgets][subdir] = panopoly
 
 projects[panopoly_admin][version] = 1.11
 projects[panopoly_admin][subdir] = panopoly
+projects[panopoly_admin][patch][2228033] = https://www.drupal.org/files/issues/issue-2228033-hide-navbar_0.patch
 
 projects[panopoly_users][version] = 1.11
 projects[panopoly_users][subdir] = panopoly
