@@ -604,7 +604,7 @@ projects[vih_student_quotes][subdir] = "vih"
 projects[vih_student_quotes][download][type] = "git"
 projects[vih_student_quotes][download][url] = "https://github.com/vih/vih_student_quotes.git"
 projects[vih_student_quotes][download][branch] = "7.x-1.x"
-projects[vih_student_quotes][download][revision] = "cbc9efd"
+projects[vih_student_quotes][download][revision] = "6a1c09b"
 
 projects[vih_subjects][type] = "module"
 projects[vih_subjects][subdir] = "vih"
