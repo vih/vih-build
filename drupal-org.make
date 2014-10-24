@@ -106,7 +106,7 @@ projects[adminrole][subdir] = contrib
 projects[adminrole][version] = 1.0
 
 projects[calendar][subdir] = contrib
-projects[calendar][version] = 3.4
+projects[calendar][version] = 3.5
 
 projects[coffee][version] = 2.2
 projects[coffee][subdir] = contrib
@@ -321,7 +321,7 @@ projects[commerce][version] = 1.10
 projects[commerce][patch][840786] = https://www.drupal.org/files/840786-add-account-info-2.patch
 
 projects[commerce_addressbook][subdir] = contrib
-projects[commerce_addressbook][version] = 2.0-rc7
+projects[commerce_addressbook][version] = 2.0-rc8
 
 projects[commerce_add_to_cart_notification][type] = "module"
 projects[commerce_add_to_cart_notification][subdir] = "contrib"
