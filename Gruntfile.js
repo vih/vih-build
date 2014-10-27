@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     phantomas: {
       default: {
         options: {
-          url: 'http://gruntjs.com/'
+          url: 'http://anvil-first.codio.io:3000'
         }
       }
     }

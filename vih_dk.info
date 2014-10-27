@@ -6,12 +6,10 @@ exclusive = 1
 
 ; Core
 dependencies[] = block
-dependencies[] = contextual
 dependencies[] = locale
 dependencies[] = menu
 dependencies[] = path
 dependencies[] = search
-dependencies[] = shortcut
 dependencies[] = taxonomy
 
 ; Panopoly Foundation
@@ -45,7 +43,7 @@ dependencies[] = logintoboggan
 dependencies[] = token
 dependencies[] = transliteration
 
-;Custom modules
+; Custom modules
 dependencies[] = vih_ad_push
 dependencies[] = vih_calendar
 dependencies[] = vih_core
