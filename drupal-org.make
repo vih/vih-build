@@ -158,7 +158,7 @@ projects[mimemail][subdir] = contrib
 projects[mimemail][version] = 1.0-beta3
 
 projects[multiform][subdir] = contrib
-projects[multiform][version] = 1.0
+projects[multiform][version] = 1.1
 
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc2
