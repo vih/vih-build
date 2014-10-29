@@ -54,6 +54,13 @@ projects[panopoly_seo][download][type] = git
 projects[panopoly_seo][download][revision] = 78a6472
 projects[panopoly_seo][download][branch] = 7.x-1.x
 
+projects[radix_layouts][version] = 1.13
+projects[radix_layouts][subdir] = contrib
+projects[radix_layouts][patch][] = https://www.drupal.org/files/issues/radix_layouts-remove_container_classes-2334871-9.patch
+
+projects[picture][version] = 2.7
+projects[picture][subdir] = contrib
+
 ;;;;;;;:;
 ; SHOULD BE MOVED WHEN PANOPOLY CATCHES UP
 ;;;;;;;;;
