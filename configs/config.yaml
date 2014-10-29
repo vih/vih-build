@@ -27,6 +27,10 @@ screen_widths:
 #Type page URL paths below, here are a couple of examples
 paths:
   home: /
+  kortekurser: /kortekurser
+  langekurser: /langekurser
+  fag: /fag
+  underviser: /underviser
 
 #Amount of fuzz ImageMagick will use
 fuzz: '20%'
