@@ -632,6 +632,9 @@ projects[vih_viggo][download][revision] = "f18c049f0605b2678a2e0ae128b3b34c2be5a
 ; Custom Themes
 ;;;;;;;;;
 
+projects[radix][version] = 3.0-beta1
+projects[radix][subdir] = contrib
+
 projects[sport][type] = "theme"
 projects[sport][download][type] = "git"
 projects[sport][download][url] = "https://github.com/vih/sport-theme.git"
