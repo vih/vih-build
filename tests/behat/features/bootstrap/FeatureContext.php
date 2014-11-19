@@ -1,13 +1,18 @@
 <?php
 
+use Behat\Behat\Context\Context;
+use Behat\Behat\Context\SnippetAcceptingContext;
+use Behat\Gherkin\Node\PyStringNode;
+use Behat\Gherkin\Node\TableNode;
+use Drupal\DrupalExtension\Context\RawDrupalContext;
 use Behat\Behat\Context\ClosuredContextInterface,
     Behat\Behat\Context\TranslatedContextInterface,
-    Behat\Behat\Context\BehatContext,
+    Behat\Behat\Event\ScenarioEvent,
     Behat\Behat\Exception\PendingException;
-use Behat\Gherkin\Node\PyStringNode,
-    Behat\Gherkin\Node\TableNode;
-use Drupal\DrupalExtension\Context\DrupalContext;
 use Drupal\Component\Utility\Random;
+
+require 'vendor/autoload.php';
+
 //
 // Require 3rd-party libraries here:
 //
@@ -18,15 +23,14 @@ use Drupal\Component\Utility\Random;
 /**
  * Features context.
  */
-class FeatureContext extends DrupalContext
-{
+class FeatureContext extends RawDrupalContext implements SnippetAcceptingContext {
   /**
    * Initializes context.
    * Every scenario gets it's own context object.
    *
    * @param array $parameters context parameters (set them up through behat.yml)
    */
-  public function __construct(array $parameters)
+  public function __construct()
   {
     $this->useContext('panels', new PanelsSubContext());
   }
