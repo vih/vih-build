@@ -61,6 +61,12 @@ projects[picture][subdir] = contrib
 ; SHOULD BE MOVED WHEN PANOPOLY CATCHES UP
 ;;;;;;;;;
 
+projects[wysiwyg][version] = 2.x-dev
+projects[wysiwyg][subdir] = contrib
+projects[wysiwyg][download][type] = git
+projects[wysiwyg][download][revision] = ee64524b3edb2aa21098a2309b0736e292010247
+projects[wysiwyg][download][branch] = 7.x-2.x
+
 ; Modernizr
 libraries[modernizr][directory_name] = modernizr
 libraries[modernizr][download][type] = get
