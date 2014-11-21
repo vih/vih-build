@@ -87,7 +87,7 @@ projects[countries][subdir] = contrib
 projects[countries][version] = 2.3
 
 projects[date_ical][subdir] = contrib
-projects[date_ical][version] = 2.13
+projects[date_ical][version] = 3.3
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.3
@@ -622,7 +622,7 @@ projects[vih_viggo][subdir] = "vih"
 projects[vih_viggo][download][type] = "git"
 projects[vih_viggo][download][url] = "https://github.com/vih/vih_viggo.git"
 projects[vih_viggo][download][branch] = "7.x-1.x"
-projects[vih_viggo][download][revision] = "f18c049f0605b2678a2e0ae128b3b34c2be5ac57"
+projects[vih_viggo][download][revision] = "c33a1b0"
 
 ;;;;;;;;;
 ; Custom Themes
