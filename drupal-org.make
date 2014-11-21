@@ -96,7 +96,7 @@ projects[field_extrawidgets][subdir] = contrib
 projects[field_extrawidgets][version] = 1.1
 
 projects[field_redirection][subdir] = contrib
-projects[field_redirection][version] = 2.5
+projects[field_redirection][version] = 2.6
 
 projects[pdf_reader][subdir] = contrib
 projects[pdf_reader][version] = 1.0-rc5
@@ -149,7 +149,7 @@ projects[l10n_client][subdir] = contrib
 projects[l10n_client][version] = 1.3
 
 projects[l10n_update][subdir] = contrib
-projects[l10n_update][version] = 1.0
+projects[l10n_update][version] = 2.0
 
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha3
@@ -186,7 +186,7 @@ projects[rules][subdir] = contrib
 projects[rules][version] = 2.7
 
 projects[scheduler][subdir] = contrib
-projects[scheduler][version] = 1.2
+projects[scheduler][version] = 1.3
 
 ; Can be removed when http://drupal.org/node/1058912 is resolved
 projects[token_tweaks][version] = 1.x-dev
@@ -628,7 +628,7 @@ projects[vih_viggo][download][revision] = "f18c049f0605b2678a2e0ae128b3b34c2be5a
 ; Custom Themes
 ;;;;;;;;;
 
-projects[radix][version] = 3.0-beta1
+projects[radix][version] = 3.0-beta2
 projects[radix][subdir] = contrib
 
 projects[sport][type] = "theme"
