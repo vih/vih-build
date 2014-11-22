@@ -181,6 +181,7 @@ projects[references_dialog][subdir] = contrib
 projects[references_dialog][download][type] = git
 projects[references_dialog][download][revision] = c2457782d07791a2263574c979d0f4b1765a85c2
 projects[references_dialog][download][branch] = 7.x-1.x
+projects[references_dialog][patch][2315905] = https://www.drupal.org/files/issues/references_dialog_fix_theme_links-2315905-5.patch.patch
 
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.7
