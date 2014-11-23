@@ -7,42 +7,42 @@ api = 2
 
 ; The Panopoly Foundation
 
-projects[panopoly_core][version] = 1.13
+projects[panopoly_core][version] = 1.14
 projects[panopoly_core][subdir] = panopoly
 
-projects[panopoly_images][version] = 1.13
+projects[panopoly_images][version] = 1.14
 projects[panopoly_images][subdir] = panopoly
 
-projects[panopoly_theme][version] = 1.13
+projects[panopoly_theme][version] = 1.14
 projects[panopoly_theme][subdir] = panopoly
 
-projects[panopoly_magic][version] = 1.13
+projects[panopoly_magic][version] = 1.14
 projects[panopoly_magic][subdir] = panopoly
 
-projects[panopoly_widgets][version] = 1.13
+projects[panopoly_widgets][version] = 1.14
 projects[panopoly_widgets][subdir] = panopoly
 
-projects[panopoly_admin][version] = 1.13
+projects[panopoly_admin][version] = 1.14
 projects[panopoly_admin][subdir] = panopoly
 projects[panopoly_admin][patch][2228033] = https://www.drupal.org/files/issues/issue-2228033-hide-navbar_0.patch
 
-projects[panopoly_users][version] = 1.13
+projects[panopoly_users][version] = 1.14
 projects[panopoly_users][subdir] = panopoly
 
-projects[panopoly_pages][version] = 1.13
+projects[panopoly_pages][version] = 1.14
 projects[panopoly_pages][subdir] = panopoly
 
 ; The Panopoly Toolset
 
-projects[panopoly_search][version] = 1.13
+projects[panopoly_search][version] = 1.14
 projects[panopoly_search][subdir] = panopoly
 
-projects[panopoly_wysiwyg][version] = 1.13
+projects[panopoly_wysiwyg][version] = 1.14
 projects[panopoly_wysiwyg][subdir] = panopoly
 
 ; Panopoly Contrib
 
-projects[panopoly_demo][version] = 1.13
+projects[panopoly_demo][version] = 1.14
 projects[panopoly_demo][subdir] = panopoly
 
 projects[panopoly_news][version] = 1.2
@@ -53,10 +53,6 @@ projects[panopoly_seo][subdir] = panopoly
 projects[panopoly_seo][download][type] = git
 projects[panopoly_seo][download][revision] = 78a6472
 projects[panopoly_seo][download][branch] = 7.x-1.x
-
-projects[radix_layouts][version] = 3.0
-projects[radix_layouts][subdir] = contrib
-projects[radix_layouts][patch][] = https://www.drupal.org/files/issues/radix_layouts-remove_container_classes-2334871-9.patch
 
 projects[picture][version] = 2.7
 projects[picture][subdir] = contrib
@@ -91,7 +87,7 @@ projects[countries][subdir] = contrib
 projects[countries][version] = 2.3
 
 projects[date_ical][subdir] = contrib
-projects[date_ical][version] = 2.13
+projects[date_ical][version] = 3.3
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.3
@@ -100,7 +96,7 @@ projects[field_extrawidgets][subdir] = contrib
 projects[field_extrawidgets][version] = 1.1
 
 projects[field_redirection][subdir] = contrib
-projects[field_redirection][version] = 2.5
+projects[field_redirection][version] = 2.6
 
 projects[pdf_reader][subdir] = contrib
 projects[pdf_reader][version] = 1.0-rc5
@@ -153,7 +149,7 @@ projects[l10n_client][subdir] = contrib
 projects[l10n_client][version] = 1.3
 
 projects[l10n_update][subdir] = contrib
-projects[l10n_update][version] = 1.0
+projects[l10n_update][version] = 2.0
 
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha3
@@ -185,12 +181,13 @@ projects[references_dialog][subdir] = contrib
 projects[references_dialog][download][type] = git
 projects[references_dialog][download][revision] = c2457782d07791a2263574c979d0f4b1765a85c2
 projects[references_dialog][download][branch] = 7.x-1.x
+projects[references_dialog][patch][2315905] = https://www.drupal.org/files/issues/references_dialog_fix_theme_links-2315905-5.patch.patch
 
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.7
 
 projects[scheduler][subdir] = contrib
-projects[scheduler][version] = 1.2
+projects[scheduler][version] = 1.3
 
 ; Can be removed when http://drupal.org/node/1058912 is resolved
 projects[token_tweaks][version] = 1.x-dev
@@ -423,14 +420,14 @@ projects[vih_ad_push][subdir] = "vih"
 projects[vih_ad_push][download][type] = "git"
 projects[vih_ad_push][download][url] = "https://github.com/vih/vih_ad_push.git"
 projects[vih_ad_push][download][branch] = "7.x-1.x"
-projects[vih_ad_push][download][revision] = "0404a86"
+projects[vih_ad_push][download][revision] = "31d1109"
 
 projects[vih_calendar][type] = "module"
 projects[vih_calendar][subdir] = "vih"
 projects[vih_calendar][download][type] = "git"
 projects[vih_calendar][download][url] = "https://github.com/vih/vih_calendar.git"
 projects[vih_calendar][download][branch] = "7.x-1.x"
-projects[vih_calendar][download][revision] = "fc3513e"
+projects[vih_calendar][download][revision] = "0749cf2a7658fd148528ac11b03436c35a741f6e"
 
 projects[vih_commerce][type] = "module"
 projects[vih_commerce][subdir] = "vih"
@@ -563,7 +560,7 @@ projects[vih_short_course][subdir] = "vih"
 projects[vih_short_course][download][type] = "git"
 projects[vih_short_course][download][url] = "https://github.com/vih/vih_short_course.git"
 projects[vih_short_course][download][branch] = "7.x-1.x"
-projects[vih_short_course][download][revision] = "aebcfd9"
+projects[vih_short_course][download][revision] = "da2401a"
 
 projects[vih_short_course_commerce][type] = "module"
 projects[vih_short_course_commerce][subdir] = "vih"
@@ -598,7 +595,7 @@ projects[vih_golf_courses][subdir] = "vih"
 projects[vih_golf_courses][download][type] = "git"
 projects[vih_golf_courses][download][url] = "https://github.com/vih/vih_golf_courses.git"
 projects[vih_golf_courses][download][branch] = "7.x-1.x"
-projects[vih_golf_courses][download][revision] = "dd9f45c"
+projects[vih_golf_courses][download][revision] = "83b881c"
 
 projects[vih_stories][type] = "module"
 projects[vih_stories][subdir] = "vih"
@@ -626,20 +623,20 @@ projects[vih_viggo][subdir] = "vih"
 projects[vih_viggo][download][type] = "git"
 projects[vih_viggo][download][url] = "https://github.com/vih/vih_viggo.git"
 projects[vih_viggo][download][branch] = "7.x-1.x"
-projects[vih_viggo][download][revision] = "f18c049f0605b2678a2e0ae128b3b34c2be5ac57"
+projects[vih_viggo][download][revision] = "c33a1b0"
 
 ;;;;;;;;;
 ; Custom Themes
 ;;;;;;;;;
 
-projects[radix][version] = 3.0-beta1
+projects[radix][version] = 3.0-beta2
 projects[radix][subdir] = contrib
 
 projects[sport][type] = "theme"
 projects[sport][download][type] = "git"
 projects[sport][download][url] = "https://github.com/vih/sport-theme.git"
 projects[sport][download][branch] = "7.x-1.x"
-projects[sport][download][revision] = "d9bacc5"
+projects[sport][download][revision] = "e1f33e101ea9f3b920bfead911ba2cdf227dbb09"
 
 projects[sport_2014][type] = "theme"
 projects[sport_2014][download][type] = "git"
