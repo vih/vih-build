@@ -602,7 +602,7 @@ projects[vih_stories][subdir] = "vih"
 projects[vih_stories][download][type] = "git"
 projects[vih_stories][download][url] = "https://github.com/vih/vih_stories.git"
 projects[vih_stories][download][branch] = "7.x-1.x"
-projects[vih_stories][download][revision] = "230e6ea"
+projects[vih_stories][download][revision] = "088eca5008f7dbf1bbe6dc920c68fddb7eeb8ca8"
 
 projects[vih_student_quotes][type] = "module"
 projects[vih_student_quotes][subdir] = "vih"
@@ -642,8 +642,4 @@ projects[sport_2014][type] = "theme"
 projects[sport_2014][download][type] = "git"
 projects[sport_2014][download][url] = "https://github.com/vih/sport_2014.git"
 projects[sport_2014][download][branch] = "7.x-3.x"
-<<<<<<< HEAD
 projects[sport_2014][download][revision] = "134c299"
-=======
-projects[sport_2014][download][revision] = "7a694a2e8a46816fe84c43ac3fefaaa9d3eb2629"
->>>>>>> 63bb54fa6281e313b97d7313aeaedc765f84f0c6
