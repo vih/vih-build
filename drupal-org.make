@@ -642,8 +642,4 @@ projects[sport_2014][type] = "theme"
 projects[sport_2014][download][type] = "git"
 projects[sport_2014][download][url] = "https://github.com/vih/sport_2014.git"
 projects[sport_2014][download][branch] = "7.x-3.x"
-<<<<<<< HEAD
 projects[sport_2014][download][revision] = "134c299"
-=======
-projects[sport_2014][download][revision] = "7a694a2e8a46816fe84c43ac3fefaaa9d3eb2629"
->>>>>>> 63bb54fa6281e313b97d7313aeaedc765f84f0c6
