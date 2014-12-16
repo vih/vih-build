@@ -81,7 +81,7 @@ projects[vars][version] = 2.0-alpha10
 ;;;;;;;;;
 
 projects[addressfield][subdir] = contrib
-projects[addressfield][version] = 1.0-beta5
+projects[addressfield][version] = 1.0-rc1
 
 projects[countries][subdir] = contrib
 projects[countries][version] = 2.3
@@ -99,7 +99,7 @@ projects[field_redirection][subdir] = contrib
 projects[field_redirection][version] = 2.6
 
 projects[pdf_reader][subdir] = contrib
-projects[pdf_reader][version] = 1.0-rc5
+projects[pdf_reader][version] = 1.0-rc6
 
 ;;;;;;;;;
 ; Site building tools
@@ -121,7 +121,7 @@ projects[content_type_groups][download][revision] = afd6b0b5711437df05c6c862801b
 projects[content_type_groups][download][branch] = 7.x-1.x
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.3
+projects[context][version] = 3.5
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
@@ -197,7 +197,7 @@ projects[token_tweaks][download][revision] = 75818fbfb97bf8882ca106e6af703be7644
 projects[token_tweaks][download][branch] = 7.x-1.x
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 4.1
+projects[webform][version] = 4.2
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 2.0-beta1
@@ -239,7 +239,7 @@ projects[message_notify][version] = 2.5
 ;;;;;;;;;
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 2.0
+projects[google_analytics][version] = 2.1
 
 projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 1.3
@@ -341,7 +341,7 @@ projects[commerce_backoffice][subdir] = contrib
 projects[commerce_backoffice][version] = 1.4
 
 projects[commerce_cart_expiration][subdir] = contrib
-projects[commerce_cart_expiration][version] = 1.1
+projects[commerce_cart_expiration][version] = 1.2
 
 projects[commerce_checkout_progress][subdir] = contrib
 projects[commerce_checkout_progress][version] = 1.3
@@ -629,7 +629,7 @@ projects[vih_viggo][download][revision] = "74a043a"
 ; Custom Themes
 ;;;;;;;;;
 
-projects[radix][version] = 3.0-beta2
+projects[radix][version] = 3.0-rc1
 projects[radix][subdir] = contrib
 
 projects[sport][type] = "theme"
