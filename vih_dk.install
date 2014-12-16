@@ -13,7 +13,7 @@ function vih_dk_install() {
   // Setting for date api.
   variable_set('date_first_day', 1);
 
-  $theme = 'sport';
+  $theme = 'sport_2014';
   $admin_theme = 'seven';
 
   // Enable standard theme.
