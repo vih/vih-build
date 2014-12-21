@@ -54,7 +54,7 @@ projects[panopoly_seo][download][type] = git
 projects[panopoly_seo][download][revision] = 78a6472
 projects[panopoly_seo][download][branch] = 7.x-1.x
 
-projects[picture][version] = 2.7
+projects[picture][version] = 2.8
 projects[picture][subdir] = contrib
 
 ;;;;;;;:;
@@ -99,7 +99,7 @@ projects[field_redirection][subdir] = contrib
 projects[field_redirection][version] = 2.6
 
 projects[pdf_reader][subdir] = contrib
-projects[pdf_reader][version] = 1.0-rc6
+projects[pdf_reader][version] = 1.0-rc5
 
 ;;;;;;;;;
 ; Site building tools
