@@ -406,7 +406,7 @@ projects[inline_conditions][subdir] = contrib
 projects[inline_conditions][version] = 1.0-alpha4
 
 projects[quickpay][subdir] = contrib
-projects[quickpay][version] = 1.9
+projects[quickpay][version] = 1.10
 
 projects[views_megarow][subdir] = contrib
 projects[views_megarow][version] = 1.4
