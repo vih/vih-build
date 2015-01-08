@@ -121,7 +121,7 @@ projects[content_type_groups][download][revision] = afd6b0b5711437df05c6c862801b
 projects[content_type_groups][download][branch] = 7.x-1.x
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.5
+projects[context][version] = 3.6
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
