@@ -184,7 +184,7 @@ projects[references_dialog][download][branch] = 7.x-1.x
 projects[references_dialog][patch][2315905] = https://www.drupal.org/files/issues/references_dialog_fix_theme_links-2315905-5.patch.patch
 
 projects[rules][subdir] = contrib
-projects[rules][version] = 2.7
+projects[rules][version] = 2.8
 
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.3
