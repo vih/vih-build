@@ -42,7 +42,7 @@ projects[panopoly_wysiwyg][subdir] = panopoly
 
 ; Panopoly Contrib
 
-projects[panopoly_demo][version] = 1.15
+projects[panopoly_demo][version] = 1.14
 projects[panopoly_demo][subdir] = panopoly
 
 projects[panopoly_news][version] = 1.2
