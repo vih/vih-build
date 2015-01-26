@@ -54,7 +54,7 @@ projects[panopoly_seo][download][type] = git
 projects[panopoly_seo][download][revision] = 9070186
 projects[panopoly_seo][download][branch] = 7.x-1.x
 
-projects[picture][version] = 2.8
+projects[picture][version] = 2.9
 projects[picture][subdir] = contrib
 
 ;;;;;;;:;
