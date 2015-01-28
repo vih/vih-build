@@ -73,9 +73,6 @@ libraries[modernizr][download][type] = get
 libraries[modernizr][download][url] = https://github.com/Modernizr/Modernizr/archive/v2.7.1.zip
 libraries[modernizr][overwrite] = TRUE
 
-projects[vars][subdir] = contrib
-projects[vars][version] = 2.0-alpha10
-
 ;;;;;;;;;
 ; Fields
 ;;;;;;;;;
