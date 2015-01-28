@@ -67,12 +67,6 @@ projects[wysiwyg][download][type] = git
 projects[wysiwyg][download][revision] = ee64524b3edb2aa21098a2309b0736e292010247
 projects[wysiwyg][download][branch] = 7.x-2.x
 
-; Modernizr
-libraries[modernizr][directory_name] = modernizr
-libraries[modernizr][download][type] = get
-libraries[modernizr][download][url] = https://github.com/Modernizr/Modernizr/archive/v2.7.1.zip
-libraries[modernizr][overwrite] = TRUE
-
 ;;;;;;;;;
 ; Fields
 ;;;;;;;;;
