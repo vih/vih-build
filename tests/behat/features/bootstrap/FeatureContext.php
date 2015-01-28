@@ -10,15 +10,7 @@ use Behat\Behat\Context\ClosuredContextInterface,
     Behat\Behat\Event\ScenarioEvent,
     Behat\Behat\Exception\PendingException;
 use Drupal\Component\Utility\Random;
-
 require 'vendor/autoload.php';
-
-//
-// Require 3rd-party libraries here:
-//
-//   require_once 'PHPUnit/Autoload.php';
-//   require_once 'PHPUnit/Framework/Assert/Functions.php';
-//
 
 /**
  * Features context.
@@ -26,13 +18,12 @@ require 'vendor/autoload.php';
 class FeatureContext extends RawDrupalContext implements SnippetAcceptingContext {
   /**
    * Initializes context.
-   * Every scenario gets it's own context object.
+   * Every scenario gets its own context object.
    *
    * @param array $parameters context parameters (set them up through behat.yml)
    */
-  public function __construct()
-  {
-    $this->useContext('panels', new PanelsSubContext());
+  public function __construct() {
+    // Initialize your context here
   }
 
   /**
