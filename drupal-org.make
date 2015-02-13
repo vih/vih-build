@@ -318,9 +318,8 @@ projects[commerce_addressbook][version] = 2.0-rc8
 projects[commerce_add_to_cart_notification][type] = "module"
 projects[commerce_add_to_cart_notification][subdir] = "contrib"
 projects[commerce_add_to_cart_notification][download][type] = "git"
-projects[commerce_add_to_cart_notification][download][url] = "git://github.com/vih/commerce_add_to_cart_notification.git"
 projects[commerce_add_to_cart_notification][download][branch] = 7.x-1.x
-projects[commerce_add_to_cart_notification][download][revision] = f28de0f5cfb193c98b7b8559ea7d001a2f01bb2f
+projects[commerce_add_to_cart_notification][download][revision] = 69ee317
 
 projects[commerce_autosku][subdir] = contrib
 projects[commerce_autosku][version] = 1.1
@@ -630,4 +629,4 @@ projects[sport_2014][type] = "theme"
 projects[sport_2014][download][type] = "git"
 projects[sport_2014][download][url] = "https://github.com/vih/sport_2014.git"
 projects[sport_2014][download][branch] = "7.x-3.x"
-projects[sport_2014][download][revision] = "97c2f48"
+projects[sport_2014][download][revision] = "9eb7ae3"
