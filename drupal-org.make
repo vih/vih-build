@@ -315,10 +315,10 @@ projects[commerce][patch][840786] = https://www.drupal.org/files/840786-add-acco
 projects[commerce_addressbook][subdir] = contrib
 projects[commerce_addressbook][version] = 2.0-rc8
 
-projects[commerce_add_to_cart_notification][subdir] = contrib
-projects[commerce_add_to_cart_notification][download][type] = "git"
-projects[commerce_add_to_cart_notification][download][branch] = 7.x-1.x
-projects[commerce_add_to_cart_notification][download][revision] = 69ee317
+projects[commerce_add_to_cart_confirmation][subdir] = contrib
+projects[commerce_add_to_cart_confirmation][download][type] = "git"
+projects[commerce_add_to_cart_confirmation][download][branch] = 7.x-1.x
+projects[commerce_add_to_cart_confirmation][download][revision] = 69ee317
 
 projects[commerce_autosku][subdir] = contrib
 projects[commerce_autosku][version] = 1.1
