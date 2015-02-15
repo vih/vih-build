@@ -553,7 +553,7 @@ projects[vih_short_course_commerce][subdir] = "vih"
 projects[vih_short_course_commerce][download][type] = "git"
 projects[vih_short_course_commerce][download][url] = "https://github.com/vih/vih_short_course_commerce.git"
 projects[vih_short_course_commerce][download][branch] = "7.x-1.x"
-projects[vih_short_course_commerce][download][revision] = "f00bdc1"
+projects[vih_short_course_commerce][download][revision] = "67d3c04f50"
 
 projects[vih_short_course_family][type] = "module"
 projects[vih_short_course_family][subdir] = "vih"
