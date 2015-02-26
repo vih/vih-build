@@ -7,4 +7,4 @@ Feature: Access dashboard
   Scenario: Access the dashboard
     Given I am logged in as a user with the "administrator" role
     When I visit "/admin/dashboard"
-    Then I should see "My dashboard"
+    Then I should see "Dit dashboard"
