@@ -137,7 +137,7 @@ projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.1
 
 projects[image_delta_formatter][subdir] = contrib
-projects[image_delta_formatter][version] = 1.1
+projects[image_delta_formatter][version] = 1.0-rc1
 
 projects[l10n_client][subdir] = contrib
 projects[l10n_client][version] = 1.3
