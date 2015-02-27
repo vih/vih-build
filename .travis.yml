@@ -56,11 +56,22 @@ install:
   # Disable sendmail
   - echo sendmail_path=`which true` >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 
+  # Enable APC
+  - echo "extension=apc.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+  - echo "apc.shm_size=256M" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+
+  # Increase the MySQL connection timeout on the PHP end.
+  - echo "mysql.connect_timeout=3000" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+  - echo "default_socket_timeout=3000" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+
+  # Increase the MySQL server timetout and packet size.
+  - mysql -e "SET GLOBAL wait_timeout = 36000;"
+  - mysql -e "SET GLOBAL max_allowed_packet = 33554432;"
+
 before_script:
 
   - cd drupal
   - drush si vih_dk --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=admin --site-mail=admin@example.com --site-name="vih.dk" --yes
-  - drush pm-disable dblog --yes
   - drush en vih_demo --yes
   - drush runserver --server=builtin 8888 > /dev/null 2>&1 &
   - until netstat -an 2>/dev/null | grep '8888.*LISTEN'; do true; done
@@ -77,4 +88,3 @@ script:
 
   # Run Behat tests
   - ./bin/behat --config behat.travis.yml
-
