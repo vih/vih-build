@@ -102,9 +102,6 @@ projects[adminrole][version] = 1.0
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.5
 
-projects[coffee][version] = 2.2
-projects[coffee][subdir] = contrib
-
 projects[content_type_groups][version] = 1.x-dev
 projects[content_type_groups][subdir] = contrib
 projects[content_type_groups][download][type] = git
