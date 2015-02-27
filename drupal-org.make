@@ -239,7 +239,7 @@ projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 1.3
 
 projects[schemaorg][subdir] = contrib
-projects[schemaorg][version] = 1.0-beta4
+projects[schemaorg][version] = 1.0-rc1
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.1
