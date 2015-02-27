@@ -199,15 +199,6 @@ projects[webform_mailchimp][version] = 2.0-beta1
 projects[views_data_export][subdir] = contrib
 projects[views_data_export][version] = 3.0-beta8
 
-projects[views_infinite_scroll][subdir] = contrib
-projects[views_infinite_scroll][version] = 1.1
-
-; used by views_infinite_scroll - see https://drupal.org/node/1956462 so this is not needed
-libraries[autopager][download][type] = "get"
-libraries[autopager][download][url] = "http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js"
-libraries[autopager][directory_name] = "autopager"
-libraries[autopager][destination] = "libraries"
-
 projects[views_random_seed][subdir] = contrib
 projects[views_random_seed][version] = 1.2
 
