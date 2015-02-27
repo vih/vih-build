@@ -136,6 +136,9 @@ projects[features_override][version] = 2.0-rc2
 projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.1
 
+projects[image_delta_formatter][subdir] = contrib
+projects[image_delta_formatter][version] = 1.1
+
 projects[l10n_client][subdir] = contrib
 projects[l10n_client][version] = 1.3
 
@@ -591,7 +594,7 @@ projects[vih_stories][subdir] = "vih"
 projects[vih_stories][download][type] = "git"
 projects[vih_stories][download][url] = "https://github.com/vih/vih_stories.git"
 projects[vih_stories][download][branch] = "7.x-1.x"
-projects[vih_stories][download][revision] = "41f5469"
+projects[vih_stories][download][revision] = "722994f"
 
 projects[vih_student_quotes][type] = "module"
 projects[vih_student_quotes][subdir] = "vih"
