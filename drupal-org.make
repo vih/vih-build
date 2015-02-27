@@ -67,6 +67,10 @@ projects[wysiwyg][download][type] = git
 projects[wysiwyg][download][revision] = ee64524b3edb2aa21098a2309b0736e292010247
 projects[wysiwyg][download][branch] = 7.x-2.x
 
+projects[entityreference][version] = 1.1
+projects[entityreference][subdir] = contrib
+projects[entityreference][patch][1969018] = https://www.drupal.org/files/issues/1969018-update-field-config-foreign-keys-15.patch
+
 ;;;;;;;;;
 ; Fields
 ;;;;;;;;;
