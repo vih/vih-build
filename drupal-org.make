@@ -196,6 +196,9 @@ projects[webform][version] = 4.3
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 2.0-beta1
 
+projects[views_data_export][subdir] = contrib
+projects[views_data_export][version] = 3.0-beta8
+
 projects[views_infinite_scroll][subdir] = contrib
 projects[views_infinite_scroll][version] = 1.1
 
@@ -510,7 +513,7 @@ projects[vih_lectures][subdir] = "vih"
 projects[vih_lectures][download][type] = "git"
 projects[vih_lectures][download][url] = "https://github.com/vih/vih_lectures.git"
 projects[vih_lectures][download][branch] = "7.x-1.x"
-projects[vih_lectures][download][revision] = "e34f734"
+projects[vih_lectures][download][revision] = "9dcd41d"
 
 projects[vih_lectures_pdf][type] = "module"
 projects[vih_lectures_pdf][subdir] = "vih"
