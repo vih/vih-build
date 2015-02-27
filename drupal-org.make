@@ -102,12 +102,6 @@ projects[adminrole][version] = 1.0
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.5
 
-projects[content_type_groups][version] = 1.x-dev
-projects[content_type_groups][subdir] = contrib
-projects[content_type_groups][download][type] = git
-projects[content_type_groups][download][revision] = afd6b0b5711437df05c6c862801b04ea2479bd50
-projects[content_type_groups][download][branch] = 7.x-1.x
-
 projects[context][subdir] = contrib
 projects[context][version] = 3.6
 
