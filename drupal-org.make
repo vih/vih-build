@@ -606,7 +606,7 @@ projects[vih_viggo][download][revision] = "74a043a"
 ; Custom Themes
 ;;;;;;;;;
 
-projects[radix][version] = 3.0-rc1
+projects[radix][version] = 3.0-rc2
 projects[radix][subdir] = contrib
 
 projects[sport][type] = "theme"
