@@ -109,7 +109,7 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
 projects[draggableviews][subdir] = contrib
-projects[draggableviews][version] = 2.0
+projects[draggableviews][version] = 2.1
 
 projects[emogrifier][subdir] = contrib
 projects[emogrifier][version] = 1.18
