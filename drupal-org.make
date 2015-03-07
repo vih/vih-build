@@ -110,6 +110,7 @@ projects[diff][version] = 3.2
 
 projects[draggableviews][subdir] = contrib
 projects[draggableviews][version] = 2.1
+projects[draggableviews][patch][2210473] = https://www.drupal.org/files/issues/MYISAM_index_support-2210473-11.patch
 
 projects[emogrifier][subdir] = contrib
 projects[emogrifier][version] = 1.18
