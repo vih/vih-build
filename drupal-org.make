@@ -18,7 +18,7 @@ projects[panopoly_theme][subdir] = panopoly
 
 projects[panopoly_magic][version] = 1.20
 projects[panopoly_magic][subdir] = panopoly
-
+we
 projects[panopoly_widgets][version] = 1.20
 projects[panopoly_widgets][subdir] = panopoly
 
@@ -183,7 +183,7 @@ projects[token_tweaks][download][revision] = 75818fbfb97bf8882ca106e6af703be7644
 projects[token_tweaks][download][branch] = 7.x-1.x
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 4.3
+projects[webform][version] = 4.7
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 2.0-beta1
