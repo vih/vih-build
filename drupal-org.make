@@ -18,7 +18,7 @@ projects[panopoly_theme][subdir] = panopoly
 
 projects[panopoly_magic][version] = 1.20
 projects[panopoly_magic][subdir] = panopoly
-we
+
 projects[panopoly_widgets][version] = 1.20
 projects[panopoly_widgets][subdir] = panopoly
 
