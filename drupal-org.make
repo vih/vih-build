@@ -279,7 +279,7 @@ projects[scribd_filter][version] = 1.4
 ;;;;;;;;;
 
 projects[advanced_help][subdir] = contrib
-projects[advanced_help][version] = 1.1
+projects[advanced_help][version] = 1.2
 
 projects[ccl][subdir] = contrib
 projects[ccl][version] = 1.5
