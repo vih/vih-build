@@ -210,7 +210,7 @@ projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
 projects[message][subdir] = contrib
-projects[message][version] = 1.9
+projects[message][version] = 1.10
 
 projects[message_notify][subdir] = contrib
 projects[message_notify][version] = 2.5
