@@ -6,7 +6,7 @@ api = 2
 ;;;;;;;;;
 
 ; The Panopoly Foundation
-
+a
 projects[panopoly_core][version] = 1.20
 projects[panopoly_core][subdir] = panopoly
 
@@ -72,7 +72,7 @@ projects[wysiwyg][download][branch] = 7.x-2.x
 ;;;;;;;;;
 
 projects[addressfield][subdir] = contrib
-projects[addressfield][version] = 1.0-rc1
+projects[addressfield][version] = 1.1
 
 projects[countries][subdir] = contrib
 projects[countries][version] = 2.3
