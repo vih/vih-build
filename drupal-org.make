@@ -141,7 +141,7 @@ projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha3
 
 projects[logintoboggan][subdir] = contrib
-projects[logintoboggan][version] = 1.4
+projects[logintoboggan][version] = 1.5
 
 projects[mimemail][subdir] = contrib
 projects[mimemail][version] = 1.0-beta3
@@ -183,7 +183,7 @@ projects[token_tweaks][download][revision] = 75818fbfb97bf8882ca106e6af703be7644
 projects[token_tweaks][download][branch] = 7.x-1.x
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 4.7
+projects[webform][version] = 4.8
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 2.0-beta1
@@ -367,7 +367,7 @@ projects[commerce_price_savings_formatter][subdir] = contrib
 projects[commerce_price_savings_formatter][version] = 1.4
 
 projects[commerce_reports][subdir] = contrib
-projects[commerce_reports][version] = 4.0-beta1
+projects[commerce_reports][version] = 4.0-beta2
 
 projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.2
