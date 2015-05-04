@@ -6,7 +6,7 @@ api = 2
 ;;;;;;;;;
 
 ; The Panopoly Foundation
-a
+
 projects[panopoly_core][version] = 1.21
 projects[panopoly_core][subdir] = panopoly
 
@@ -399,7 +399,7 @@ projects[vih_ad_push][subdir] = "vih"
 projects[vih_ad_push][download][type] = "git"
 projects[vih_ad_push][download][url] = "https://github.com/vih/vih_ad_push.git"
 projects[vih_ad_push][download][branch] = "7.x-1.x"
-projects[vih_ad_push][download][revision] = "31d1109"
+projects[vih_ad_push][download][revision] = "b30fc6da562f4faa29d042b044972e8a4a8c3b86"
 
 projects[vih_calendar][type] = "module"
 projects[vih_calendar][subdir] = "vih"
@@ -413,7 +413,7 @@ projects[vih_commerce][subdir] = "vih"
 projects[vih_commerce][download][type] = "git"
 projects[vih_commerce][download][url] = "https://github.com/vih/vih_commerce.git"
 projects[vih_commerce][download][branch] = "7.x-1.x"
-projects[vih_commerce][download][revision] = "b91ded5"
+projects[vih_commerce][download][revision] = "bab59ebfa4453d9b0a086e460654188c72a8b7ae"
 
 projects[vih_core][type] = "module"
 projects[vih_core][subdir] = "vih"
@@ -448,7 +448,7 @@ projects[vih_employees][subdir] = "vih"
 projects[vih_employees][download][type] = "git"
 projects[vih_employees][download][url] = "https://github.com/vih/vih_employees.git"
 projects[vih_employees][download][branch] = "7.x-1.x"
-projects[vih_employees][download][revision] = "f4eb61e"
+projects[vih_employees][download][revision] = "ef061a6a986cfbd0c7c0a49786c0d9ba1f157cd0"
 
 projects[vih_facilities][type] = "module"
 projects[vih_facilities][subdir] = "vih"
@@ -497,7 +497,7 @@ projects[vih_lectures][subdir] = "vih"
 projects[vih_lectures][download][type] = "git"
 projects[vih_lectures][download][url] = "https://github.com/vih/vih_lectures.git"
 projects[vih_lectures][download][branch] = "7.x-1.x"
-projects[vih_lectures][download][revision] = "931f736"
+projects[vih_lectures][download][revision] = "ae3b16724eb8444ede08689e8453da724b5dbfab"
 
 projects[vih_lectures_pdf][type] = "module"
 projects[vih_lectures_pdf][subdir] = "vih"
@@ -539,14 +539,14 @@ projects[vih_short_course][subdir] = "vih"
 projects[vih_short_course][download][type] = "git"
 projects[vih_short_course][download][url] = "https://github.com/vih/vih_short_course.git"
 projects[vih_short_course][download][branch] = "7.x-1.x"
-projects[vih_short_course][download][revision] = "99c3b27"
+projects[vih_short_course][download][revision] = "5fb61c46fceef31ac466997a7876c7f2d30cf7a6"
 
 projects[vih_short_course_commerce][type] = "module"
 projects[vih_short_course_commerce][subdir] = "vih"
 projects[vih_short_course_commerce][download][type] = "git"
 projects[vih_short_course_commerce][download][url] = "https://github.com/vih/vih_short_course_commerce.git"
 projects[vih_short_course_commerce][download][branch] = "7.x-1.x"
-projects[vih_short_course_commerce][download][revision] = "67d3c04f50"
+projects[vih_short_course_commerce][download][revision] = "fd71e611eb516099ba46f8a04a165d7ddef6e419"
 
 projects[vih_short_course_family][type] = "module"
 projects[vih_short_course_family][subdir] = "vih"
@@ -560,7 +560,7 @@ projects[vih_short_course_kayak][subdir] = "vih"
 projects[vih_short_course_kayak][download][type] = "git"
 projects[vih_short_course_kayak][download][url] = "https://github.com/vih/vih_short_course_kayak.git"
 projects[vih_short_course_kayak][download][branch] = "7.x-1.x"
-projects[vih_short_course_kayak][download][revision] = "9546812"
+projects[vih_short_course_kayak][download][revision] = "6e720c3578e985eac7cfdd51ef590b04b9dda647"
 
 projects[vih_short_course_sport][type] = "module"
 projects[vih_short_course_sport][subdir] = "vih"
@@ -574,7 +574,7 @@ projects[vih_golf_courses][subdir] = "vih"
 projects[vih_golf_courses][download][type] = "git"
 projects[vih_golf_courses][download][url] = "https://github.com/vih/vih_golf_courses.git"
 projects[vih_golf_courses][download][branch] = "7.x-1.x"
-projects[vih_golf_courses][download][revision] = "83b881c"
+projects[vih_golf_courses][download][revision] = "0ca0c7473ff6fc1df9ac6af860e09c625f56069b"
 
 projects[vih_stories][type] = "module"
 projects[vih_stories][subdir] = "vih"
@@ -588,21 +588,21 @@ projects[vih_student_quotes][subdir] = "vih"
 projects[vih_student_quotes][download][type] = "git"
 projects[vih_student_quotes][download][url] = "https://github.com/vih/vih_student_quotes.git"
 projects[vih_student_quotes][download][branch] = "7.x-1.x"
-projects[vih_student_quotes][download][revision] = "1f5adc5"
+projects[vih_student_quotes][download][revision] = "826b6282ddd9c0a1f94d467b7be6d674a572a3d7"
 
 projects[vih_subjects][type] = "module"
 projects[vih_subjects][subdir] = "vih"
 projects[vih_subjects][download][type] = "git"
 projects[vih_subjects][download][url] = "https://github.com/vih/vih_subjects.git"
 projects[vih_subjects][download][branch] = "7.x-1.x"
-projects[vih_subjects][download][revision] = "4423494"
+projects[vih_subjects][download][revision] = "ab443d01bb4073c66be46b3a0e2ca20bad275aa5"
 
 projects[vih_viggo][type] = "module"
 projects[vih_viggo][subdir] = "vih"
 projects[vih_viggo][download][type] = "git"
 projects[vih_viggo][download][url] = "https://github.com/vih/vih_viggo.git"
 projects[vih_viggo][download][branch] = "7.x-1.x"
-projects[vih_viggo][download][revision] = "74a043a"
+projects[vih_viggo][download][revision] = "bfa2a90faa762f1b25a38b4c4d942b4c79b7cc8f"
 
 ;;;;;;;;;
 ; Custom Themes
