@@ -611,12 +611,6 @@ projects[vih_viggo][download][revision] = "bfa2a90faa762f1b25a38b4c4d942b4c79b7c
 projects[radix][version] = 3.0-rc2
 projects[radix][subdir] = contrib
 
-projects[sport][type] = "theme"
-projects[sport][download][type] = "git"
-projects[sport][download][url] = "https://github.com/vih/sport-theme.git"
-projects[sport][download][branch] = "7.x-1.x"
-projects[sport][download][revision] = "e1f33e101ea9f3b920bfead911ba2cdf227dbb09"
-
 projects[sport_2014][type] = "theme"
 projects[sport_2014][download][type] = "git"
 projects[sport_2014][download][url] = "https://github.com/vih/sport_2014.git"
