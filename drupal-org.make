@@ -382,7 +382,7 @@ projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.5
 
 projects[inline_conditions][subdir] = contrib
-projects[inline_conditions][version] = 1.0-alpha4
+projects[inline_conditions][version] = 1.0-alpha5
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.11
