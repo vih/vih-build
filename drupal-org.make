@@ -183,7 +183,7 @@ projects[token_tweaks][download][revision] = 75818fbfb97bf8882ca106e6af703be7644
 projects[token_tweaks][download][branch] = 7.x-1.x
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 4.8
+projects[webform][version] = 4.9
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 2.0-beta1
@@ -223,7 +223,7 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 2.1
 
 projects[google_analytics_reports][subdir] = contrib
-projects[google_analytics_reports][version] = 1.3
+projects[google_analytics_reports][version] = 3.0-beta1
 
 projects[schemaorg][subdir] = contrib
 projects[schemaorg][version] = 1.0-rc1
@@ -277,9 +277,6 @@ projects[scribd_filter][version] = 1.4
 ;;;;;;;;;
 ; UX Enhancements
 ;;;;;;;;;
-
-projects[advanced_help][subdir] = contrib
-projects[advanced_help][version] = 1.2
 
 projects[ccl][subdir] = contrib
 projects[ccl][version] = 1.5
