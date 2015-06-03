@@ -578,7 +578,7 @@ projects[vih_stories][subdir] = "vih"
 projects[vih_stories][download][type] = "git"
 projects[vih_stories][download][url] = "https://github.com/vih/vih_stories.git"
 projects[vih_stories][download][branch] = "7.x-1.x"
-projects[vih_stories][download][revision] = "ec4a683c1c64aec2dc168d7c1456b72e0bfbcc21"
+projects[vih_stories][download][revision] = "0b88dc5033911bb71cceadbf62d591ad1f320906"
 
 projects[vih_student_quotes][type] = "module"
 projects[vih_student_quotes][subdir] = "vih"
