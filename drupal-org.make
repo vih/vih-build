@@ -480,7 +480,7 @@ projects[vih_kalendersiden][subdir] = "vih"
 projects[vih_kalendersiden][download][type] = "git"
 projects[vih_kalendersiden][download][url] = "https://github.com/vih/vih_kalendersiden.git"
 projects[vih_kalendersiden][download][branch] = "7.x-1.x"
-projects[vih_kalendersiden][download][revision] = "993012627508a2e83d4e5181068bae82d244c4a4"
+projects[vih_kalendersiden][download][revision] = "513a5ec"
 
 projects[vih_landing_pages][type] = "module"
 projects[vih_landing_pages][subdir] = "vih"
