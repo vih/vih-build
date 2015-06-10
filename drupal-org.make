@@ -459,7 +459,7 @@ projects[vih_fields][subdir] = "vih"
 projects[vih_fields][download][type] = "git"
 projects[vih_fields][download][url] = "https://github.com/vih/vih_fields.git"
 projects[vih_fields][download][branch] = "7.x-1.x"
-projects[vih_fields][download][revision] = "bce81e3776349ec4674bc5c0d2b7b60d87cafe39"
+projects[vih_fields][download][revision] = "ba32964"
 
 projects[vih_help][type] = "module"
 projects[vih_help][subdir] = "vih"
