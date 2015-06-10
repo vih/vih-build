@@ -42,6 +42,26 @@ Feature: Anonymous user can buy a course
     #Then I should see the heading "Payment"
     Then I should see the heading "Checkout complete"
 
+  @demo @drush
+  Scenario: Authenticated users should be able to see how many registrations a course has
+    Given I am logged in as a user with the "office" role
+    Given I am on "/kortekurser"
+    When I click "Golf course normal"
+    When I click "Tilmeldinger"
+    Then I should see "tilmeldinger til kurset"
+      And I should see "svend@example.dk"
+      And I should see "Svend Aage Thomsen"
+
+  @demo @drush
+  Scenario: Authenticated users should be able to see how many registrations a course has
+    Given I am logged in as a user with the "teacher" role
+    Given I am on "/kortekurser"
+    When I click "Golf course normal"
+    When I click "Tilmeldinger"
+    Then I should see "tilmeldinger til kurset"
+      And I should see "svend@example.dk"
+      And I should see "Svend Aage Thomsen"
+
   @demo
   Scenario: Buy a basic short course and pay online
     Given I am on "/kortekurser"
