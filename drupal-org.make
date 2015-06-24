@@ -116,11 +116,8 @@ projects[emogrifier][subdir] = contrib
 projects[emogrifier][version] = 1.18
 projects[emogrifier][patch][2200267] = https://www.drupal.org/files/issues/issue-2200267_0.patch
 
-projects[feeds][version] = 2.x-dev
+projects[feeds][version] = 2.0-alpha9
 projects[feeds][subdir] = contrib
-projects[feeds][download][type] = git
-projects[feeds][download][revision] = bd71821a84740a21075e49f5b23a250da586bb67
-projects[feeds][download][branch] = 7.x-2.x
 
 projects[features_override][subdir] = contrib
 projects[features_override][version] = 2.0-rc2
