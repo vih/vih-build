@@ -242,7 +242,7 @@ projects[chart][download][revision] = 860c75c27c296a4135ac1efac773ba1cdf7edf7c
 projects[chart][download][branch] = 7.x-1.x
 
 projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 2.8
+projects[colorbox][version] = 2.9
 
 projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.6
