@@ -370,7 +370,7 @@ projects[eva][download][branch] = 7.x-1.x
 projects[eva][download][revision] = 43eaba47defcf62cd6cff48c819689b68befa59a
 
 projects[inline_entity_form][subdir] = contrib
-projects[inline_entity_form][version] = 1.5
+projects[inline_entity_form][version] = 1.6
 
 projects[inline_conditions][subdir] = contrib
 projects[inline_conditions][version] = 1.0-alpha5
