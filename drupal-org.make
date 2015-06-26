@@ -440,7 +440,7 @@ projects[vih_employees][subdir] = "vih"
 projects[vih_employees][download][type] = "git"
 projects[vih_employees][download][url] = "https://github.com/vih/vih_employees.git"
 projects[vih_employees][download][branch] = "7.x-1.x"
-projects[vih_employees][download][revision] = "7054ea2b0896688e4e951ce34e3d18cd757bc183"
+projects[vih_employees][download][revision] = "68502be"
 
 projects[vih_facilities][type] = "module"
 projects[vih_facilities][subdir] = "vih"
@@ -448,7 +448,7 @@ projects[vih_facilities][download][type] = "git"
 projects[vih_facilities][download][url] = "https://github.com/vih/vih_facilities.git"
 projects[vih_facilities][download][branch] = "7.x-1.x"
 projects[vih_facilities][download][revision] = "0bdaf05"
-
+git co
 projects[vih_fields][type] = "module"
 projects[vih_fields][subdir] = "vih"
 projects[vih_fields][download][type] = "git"
