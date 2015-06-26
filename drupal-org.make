@@ -347,6 +347,7 @@ projects[commerce_google_analytics][version] = 1.1
 
 projects[commerce_message][subdir] = contrib
 projects[commerce_message][version] = 1.0-rc3
+projects[commerce_message][patch][2171201] = https://www.drupal.org/files/issues/undefined_property-2171201-19.patch
 
 projects[commerce_migrate][subdir] = contrib
 projects[commerce_migrate][version] = 1.x-dev
