@@ -489,7 +489,7 @@ projects[vih_lectures][subdir] = "vih"
 projects[vih_lectures][download][type] = "git"
 projects[vih_lectures][download][url] = "https://github.com/vih/vih_lectures.git"
 projects[vih_lectures][download][branch] = "7.x-1.x"
-projects[vih_lectures][download][revision] = "33e9bcc"
+projects[vih_lectures][download][revision] = "101b341"
 
 projects[vih_lectures_pdf][type] = "module"
 projects[vih_lectures_pdf][subdir] = "vih"
