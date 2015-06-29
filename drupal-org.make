@@ -468,7 +468,7 @@ projects[vih_images][subdir] = "vih"
 projects[vih_images][download][type] = "git"
 projects[vih_images][download][url] = "https://github.com/vih/vih_images.git"
 projects[vih_images][download][branch] = "7.x-1.x"
-projects[vih_images][download][revision] = "6d4306c"
+projects[vih_images][download][revision] = "5502311"
 
 projects[vih_kalendersiden][type] = "module"
 projects[vih_kalendersiden][subdir] = "vih"
