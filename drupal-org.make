@@ -75,7 +75,7 @@ projects[countries][subdir] = contrib
 projects[countries][version] = 2.3
 
 projects[date_ical][subdir] = contrib
-projects[date_ical][version] = 3.4
+projects[date_ical][version] = 3.5
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.3
@@ -113,7 +113,7 @@ projects[emogrifier][subdir] = contrib
 projects[emogrifier][version] = 1.18
 projects[emogrifier][patch][2200267] = https://www.drupal.org/files/issues/issue-2200267_0.patch
 
-projects[feeds][version] = 2.0-alpha9
+projects[feeds][version] = 2.0-beta1
 projects[feeds][subdir] = contrib
 
 projects[features_override][subdir] = contrib
@@ -177,7 +177,7 @@ projects[token_tweaks][download][revision] = 75818fbfb97bf8882ca106e6af703be7644
 projects[token_tweaks][download][branch] = 7.x-1.x
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 4.9
+projects[webform][version] = 4.10
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 2.0-beta1
@@ -597,7 +597,7 @@ projects[vih_viggo][download][revision] = "bfa2a90faa762f1b25a38b4c4d942b4c79b7c
 ; Custom Themes
 ;;;;;;;;;
 
-projects[radix][version] = 3.0-rc2
+projects[radix][version] = 3.0-rc3
 projects[radix][subdir] = contrib
 
 projects[sport_2014][type] = "theme"
