@@ -297,7 +297,7 @@ projects[commerce][version] = 1.11
 projects[commerce][patch][840786] = https://www.drupal.org/files/840786-add-account-info-2.patch
 
 projects[commerce_addressbook][subdir] = contrib
-projects[commerce_addressbook][version] = 2.0-rc8
+projects[commerce_addressbook][version] = 2.0-rc9
 
 projects[commerce_add_to_cart_confirmation][subdir] = contrib
 projects[commerce_add_to_cart_confirmation][download][type] = "git"
@@ -332,11 +332,10 @@ projects[commerce_custom_product][download][branch] = 1.x-dev
 projects[commerce_custom_product][download][revision] = 30de35e
 
 projects[commerce_discount][subdir] = contrib
-projects[commerce_discount][version] = 1.0-alpha5
+projects[commerce_discount][version] = 1.0-alpha6
 
 projects[commerce_features][subdir] = contrib
-projects[commerce_features][version] = 1.x-dev
-projects[commerce_features][version] = 1.0
+projects[commerce_features][version] = 1.1
 projects[commerce_features][patch][2342121] = https://www.drupal.org/files/issues/provide_translatables-2342121-2.patch
 
 projects[commerce_google_analytics][subdir] = contrib
@@ -597,7 +596,7 @@ projects[vih_viggo][download][revision] = "bfa2a90faa762f1b25a38b4c4d942b4c79b7c
 ; Custom Themes
 ;;;;;;;;;
 
-projects[radix][version] = 3.0-rc3
+projects[radix][version] = 3.0-rc4
 projects[radix][subdir] = contrib
 
 projects[sport_2014][type] = "theme"
