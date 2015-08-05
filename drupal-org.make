@@ -138,7 +138,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.5
 
 projects[mimemail][subdir] = contrib
-projects[mimemail][version] = 1.0-beta3
+projects[mimemail][version] = 1.0-beta4
 
 projects[multiform][subdir] = contrib
 projects[multiform][version] = 1.1
