@@ -48,7 +48,7 @@ install:
   - cd ../
 
   # Setup files
-  - sudo chmod -R 777 drupal/sites/all
+  - chmod -R 777 drupal/sites/all
 
   # Setup display for Selenium
   - export DISPLAY=:99.0
