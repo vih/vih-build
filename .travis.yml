@@ -1,12 +1,14 @@
 language: php
+sudo: false
 
 php:
-  - 5.4
   - 5.5
 
 matrix:
+  include:
+    - php: 5.6
   allow_failures:
-    - php: 5.5
+    - php: 5.6
   fast_finish: true
 
 mysql:
@@ -14,14 +16,19 @@ mysql:
   username: root
   encoding: utf8
 
+# Cache Composer & Drush directories.
+cache:
+  directories:
+    - $HOME/.composer/cache
+    - $HOME/.drush/cache
+
 install:
-  - sudo apt-get update > /dev/null
   - "mysql -e 'create database drupal;'"
 
-  # Install the latest Drush 6.
+  # Install latest Drush 6.
+  - travis_retry composer self-update && composer --version
+  - travis_retry composer global require "drush/drush:6.*"
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
-  - composer global require drush/drush:6.*
-  - phpenv rehash
 
   # Build Behat dependencies
   - cd ./tests/behat
