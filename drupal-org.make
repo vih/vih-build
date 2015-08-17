@@ -376,7 +376,7 @@ projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.11
 
 projects[views_megarow][subdir] = contrib
-projects[views_megarow][version] = 1.4
+projects[views_megarow][version] = 1.5
 
 ;;;;;;;;;
 ; Custom modules
