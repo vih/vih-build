@@ -265,9 +265,6 @@ projects[zopim][version] = 1.2
 projects[picasa_slideshow_filter][subdir] = contrib
 projects[picasa_slideshow_filter][version] = 1.0-alpha4
 
-projects[scribd_filter][subdir] = contrib
-projects[scribd_filter][version] = 1.4
-
 ;;;;;;;;;
 ; UX Enhancements
 ;;;;;;;;;
