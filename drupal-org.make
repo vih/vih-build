@@ -137,6 +137,12 @@ projects[job_scheduler][version] = 2.0-alpha3
 projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.5
 
+projects[oembed][subdir] = contrib
+projects[oembed][version] = 1.x-dev
+projects[oembed][download][type] = git
+projects[oembed][download][revision] = 1664b19
+projects[oembed][download][branch] = 7.x-1.x
+
 projects[mimemail][subdir] = contrib
 projects[mimemail][version] = 1.0-beta4
 
