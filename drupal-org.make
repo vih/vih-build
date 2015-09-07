@@ -138,7 +138,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.5
 
 projects[media_oembed][subdir] = contrib
-projects[media_oembed][version] = 2.3
+projects[media_oembed][version] = 2.4
 
 projects[mimemail][subdir] = contrib
 projects[mimemail][version] = 1.0-beta4
