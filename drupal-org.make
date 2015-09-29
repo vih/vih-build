@@ -9,6 +9,7 @@ api = 2
 
 projects[panopoly_core][version] = 1.27
 projects[panopoly_core][subdir] = panopoly
+projects[panopoly_core][patch][2576819] = https://www.drupal.org/files/issues/patch_defaultconfig-2576819-2.patch
 
 projects[panopoly_images][version] = 1.27
 projects[panopoly_images][subdir] = panopoly
