@@ -592,6 +592,13 @@ projects[vih_viggo][download][url] = "https://github.com/vih/vih_viggo.git"
 projects[vih_viggo][download][branch] = "7.x-1.x"
 projects[vih_viggo][download][revision] = "bfa2a90faa762f1b25a38b4c4d942b4c79b7cc8f"
 
+projects[vih_footer][type] = "module"
+projects[vih_footer][subdir] = "vih"
+projects[vih_footer][download][type] = "git"
+projects[vih_footer][download][url] = "https://github.com/vih/vih_footer.git"
+projects[vih_footer][download][branch] = "7.x-1.x"
+projects[vih_footer][download][revision] = "c091a9cf81f057452c0cac00b3536799e02965f7"
+
 ;;;;;;;;;
 ; Custom Themes
 ;;;;;;;;;
