@@ -521,7 +521,7 @@ projects[vih_plugins][subdir] = "vih"
 projects[vih_plugins][download][type] = "git"
 projects[vih_plugins][download][url] = "https://github.com/vih/vih_plugins.git"
 projects[vih_plugins][download][branch] = "7.x-1.x"
-projects[vih_plugins][download][revision] = "64088cde69fe71e7260774a154efeddaf1055d3d"
+projects[vih_plugins][download][revision] = "1663d13935ccfc2340e347f2b8fb26938c2866da"
 
 projects[vih_short_course][type] = "module"
 projects[vih_short_course][subdir] = "vih"
