@@ -243,16 +243,20 @@ projects[colorbox][subdir] = contrib
 projects[colorbox][version] = 2.10
 
 projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 1.6
+projects[mandrill][version] = 2.2
+
+; Mandrill PHP Library
+libraries[mandrill][download][type] = "get"
+libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/1.0.52.tar.gz"
+libraries[mandrill][directory_name] = "mandrill"
+libraries[mandrill][destination] = "librari
 
 projects[mailchimp][subdir] = contrib
-projects[mailchimp][version] = 2.x-dev
-projects[mailchimp][download][type] = git
-projects[mailchimp][download][revision] = 28dc12ab0078ac52a48dabf42d40524c78d4c304
-projects[mailchimp][download][branch] = 7.x-2.x
+projects[mailchimp][version] = 3.6
 
+; Mailchimp PHP Library
 libraries[mailchimp][download][type] = "get"
-libraries[mailchimp][download][url] = "https://github.com/lsolesen/mailchimp-api-class/archive/v.1.3.2.zip"
+libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.6.zip"
 libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
 
