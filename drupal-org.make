@@ -249,7 +249,7 @@ projects[mandrill][version] = 2.2
 libraries[mandrill][download][type] = "get"
 libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/1.0.52.tar.gz"
 libraries[mandrill][directory_name] = "mandrill"
-libraries[mandrill][destination] = "librari
+libraries[mandrill][destination] = "libraries"
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 3.6
