@@ -141,9 +141,6 @@ projects[logintoboggan][version] = 1.5
 projects[media_oembed][subdir] = contrib
 projects[media_oembed][version] = 2.4
 
-projects[mimemail][subdir] = contrib
-projects[mimemail][version] = 1.0-beta4
-
 projects[multiform][subdir] = contrib
 projects[multiform][version] = 1.1
 
@@ -207,11 +204,26 @@ projects[views_slideshow][patch][2252161] = https://www.drupal.org/files/issues/
 projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
+projects[mandrill][subdir] = contrib
+projects[mandrill][version] = 2.2
+
+; Mandrill PHP Library
+libraries[mandrill][download][type] = "get"
+libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/1.0.52.tar.gz"
+libraries[mandrill][directory_name] = "mandrill"
+libraries[mandrill][destination] = "libraries"
+
 projects[message][subdir] = contrib
 projects[message][version] = 1.10
 
 projects[message_notify][subdir] = contrib
 projects[message_notify][version] = 2.5
+
+projects[mimemail][subdir] = contrib
+projects[mimemail][version] = 1.0-beta4
+
+projects[smtp][subdir] = contrib
+projects[smtp][version] = 1.2
 
 ;;;;;;;;;
 ; SEO Tools
@@ -241,15 +253,6 @@ projects[chart][download][branch] = 7.x-1.x
 
 projects[colorbox][subdir] = contrib
 projects[colorbox][version] = 2.10
-
-projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 2.2
-
-; Mandrill PHP Library
-libraries[mandrill][download][type] = "get"
-libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/1.0.52.tar.gz"
-libraries[mandrill][directory_name] = "mandrill"
-libraries[mandrill][destination] = "libraries"
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 3.6
