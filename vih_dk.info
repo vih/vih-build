@@ -51,6 +51,7 @@ dependencies[] = vih_dashboard
 dependencies[] = vih_deploy
 dependencies[] = vih_employees
 dependencies[] = vih_facilities
+dependencies[] = vih_footer
 dependencies[] = vih_kalendersiden
 dependencies[] = vih_landing_pages
 dependencies[] = vih_lectures
@@ -66,6 +67,7 @@ dependencies[] = vih_stories
 dependencies[] = vih_student_quotes
 dependencies[] = vih_subjects
 dependencies[] = vih_viggo
+dependencies[] = vih_webform
 
 ;;;;;;;;;;;;;;;;
 ; Files

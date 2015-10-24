@@ -460,6 +460,13 @@ projects[vih_fields][download][url] = "https://github.com/vih/vih_fields.git"
 projects[vih_fields][download][branch] = "7.x-1.x"
 projects[vih_fields][download][revision] = "ba32964"
 
+projects[vih_footer][type] = "module"
+projects[vih_footer][subdir] = "vih"
+projects[vih_footer][download][type] = "git"
+projects[vih_footer][download][url] = "https://github.com/vih/vih_footer.git"
+projects[vih_footer][download][branch] = "7.x-1.x"
+projects[vih_footer][download][revision] = "0f25b34"
+
 projects[vih_help][type] = "module"
 projects[vih_help][subdir] = "vih"
 projects[vih_help][download][type] = "git"
@@ -593,19 +600,19 @@ projects[vih_subjects][download][url] = "https://github.com/vih/vih_subjects.git
 projects[vih_subjects][download][branch] = "7.x-1.x"
 projects[vih_subjects][download][revision] = "803ddd8e14ea6002827f143ccaaf9e05a605269a"
 
+projects[vih_webform][type] = "module"
+projects[vih_webform][subdir] = "vih"
+projects[vih_webform][download][type] = "git"
+projects[vih_webform][download][url] = "https://github.com/vih/vih_webform.git"
+projects[vih_webform][download][branch] = "7.x-1.x"
+projects[vih_webform][download][revision] = "864c6a8"
+
 projects[vih_viggo][type] = "module"
 projects[vih_viggo][subdir] = "vih"
 projects[vih_viggo][download][type] = "git"
 projects[vih_viggo][download][url] = "https://github.com/vih/vih_viggo.git"
 projects[vih_viggo][download][branch] = "7.x-1.x"
 projects[vih_viggo][download][revision] = "bfa2a90faa762f1b25a38b4c4d942b4c79b7cc8f"
-
-projects[vih_footer][type] = "module"
-projects[vih_footer][subdir] = "vih"
-projects[vih_footer][download][type] = "git"
-projects[vih_footer][download][url] = "https://github.com/vih/vih_footer.git"
-projects[vih_footer][download][branch] = "7.x-1.x"
-projects[vih_footer][download][revision] = "0f25b34"
 
 ;;;;;;;;;
 ; Custom Themes
