@@ -9,8 +9,8 @@ Feature: Add landing page
     Given I am logged in as a user with the "administrator" role
     When I visit "/node/add/panopoly-landing-page"
     And I fill in the following:
-      | Title | Testing [random] landing page title |
-      | URL   | lp-[random:1]             |
+      | Title      | Testing [random] landing page title |
+      | Permalink: | lp-[random:1]                       |
     And I press "Create Page"
     Then the "h1" element should contain "Testing [random:1] landing page title"
     When I customize this page with the Panels IPE
