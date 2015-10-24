@@ -605,7 +605,7 @@ projects[vih_footer][subdir] = "vih"
 projects[vih_footer][download][type] = "git"
 projects[vih_footer][download][url] = "https://github.com/vih/vih_footer.git"
 projects[vih_footer][download][branch] = "7.x-1.x"
-projects[vih_footer][download][revision] = "c091a9cf81f057452c0cac00b3536799e02965f7"
+projects[vih_footer][download][revision] = "0f25b34"
 
 ;;;;;;;;;
 ; Custom Themes
