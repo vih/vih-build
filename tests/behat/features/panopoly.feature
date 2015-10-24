@@ -11,7 +11,7 @@ Feature: Add landing page
     And I fill in the following:
       | Title      | Testing [random] landing page title |
       | Permalink: | lp-[random:1]                       |
-    And I press "Create Page"
+    And I press "Publish"
     Then the "h1" element should contain "Testing [random:1] landing page title"
     When I customize this page with the Panels IPE
     And I click "Add new pane"
