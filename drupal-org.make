@@ -178,7 +178,7 @@ projects[token_tweaks][download][revision] = 75818fbfb97bf8882ca106e6af703be7644
 projects[token_tweaks][download][branch] = 7.x-1.x
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 4.11
+projects[webform][version] = 4.12
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 2.0-beta1
@@ -340,7 +340,7 @@ projects[commerce_custom_product][download][branch] = 1.x-dev
 projects[commerce_custom_product][download][revision] = 30de35e
 
 projects[commerce_discount][subdir] = contrib
-projects[commerce_discount][version] = 1.0-alpha6
+projects[commerce_discount][version] = 1.0-alpha7
 
 projects[commerce_features][subdir] = contrib
 projects[commerce_features][version] = 1.1
