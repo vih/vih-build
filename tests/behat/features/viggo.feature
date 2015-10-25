@@ -11,5 +11,6 @@ Feature: Site can import content from Viggo
       | URL | https://vejle.viggo.dk/ExportCalendar/?ViggoId=87&UserId=298&code=17bca452d0b19b39a49d3ffdc1a77faabe5ae617 |
     And I press "Import"
     Then I should see the text "Viggo Kalender"
-      And I should see the text "Last import:"
-      And I should see the text "imported items total."
+    #  NOTE: The following is not solid if it is only a partial import.
+    #  And I should see the text "Last import:"
+    #  And I should see the text "imported items total."
