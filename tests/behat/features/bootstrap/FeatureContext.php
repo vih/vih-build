@@ -32,6 +32,18 @@ class FeatureContext extends DrupalContext
   }
 
   /**
+   * @AfterStep @javascript
+   *
+   * After every step in a @javascript scenario, we want to wait for AJAX
+   * loading to finish.
+   */
+  public function afterStep(StepEvent $event) {
+    if ($event->getResult() === 0) {
+      $this->iWaitForAJAX();
+    }
+  }
+
+  /**
    * @Given /^I log in "([^"]*)" user with the One Time Login Url$/
    */
   public function iLogInUserWithTheOneTimeLoginUrl($role) {
