@@ -45,6 +45,15 @@ class FeatureContext extends DrupalContext
   }
 
   /**
+   * @Given /^(?:|I )wait for AJAX loading to finish$/
+   *
+   * Wait for the jQuery AJAX loading to finish. ONLY USE FOR DEBUGGING!
+   */
+  public function iWaitForAJAX() {
+    $this->getSession()->wait(5000, 'jQuery.active === 0');
+  }
+
+  /**
    * @Given /^I log in "([^"]*)" user with the One Time Login Url$/
    */
   public function iLogInUserWithTheOneTimeLoginUrl($role) {
