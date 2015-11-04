@@ -325,13 +325,7 @@ projects[commerce_checkout_progress][subdir] = contrib
 projects[commerce_checkout_progress][version] = 1.3
 
 projects[commerce_coupon][subdir] = contrib
-projects[commerce_coupon][version] = 1.0-beta7
-
-projects[commerce_coupon_fixed_amount][subdir] = contrib
-projects[commerce_coupon_fixed_amount][version] = 1.0-beta7
-
-projects[commerce_coupon_pct][subdir] = contrib
-projects[commerce_coupon_pct][version] = 1.0-beta7
+projects[commerce_coupon][version] = 2.0-rc2
 
 projects[commerce_custom_product][subdir] = contrib
 projects[commerce_custom_product][version] = 1.x-dev
