@@ -76,7 +76,7 @@ projects[countries][subdir] = contrib
 projects[countries][version] = 2.3
 
 projects[date_ical][subdir] = contrib
-projects[date_ical][version] = 3.5
+projects[date_ical][version] = 3.6
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.3
@@ -145,7 +145,7 @@ projects[multiform][subdir] = contrib
 projects[multiform][version] = 1.1
 
 projects[node_clone][subdir] = contrib
-projects[node_clone][version] = 1.0-rc2
+projects[node_clone][version] = 1.0-rc4
 
 projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.2
@@ -348,10 +348,7 @@ projects[commerce_message][version] = 1.0-rc3
 projects[commerce_message][patch][2171201] = https://www.drupal.org/files/issues/undefined_property-2171201-19.patch
 
 projects[commerce_migrate][subdir] = contrib
-projects[commerce_migrate][version] = 1.x-dev
-projects[commerce_migrate][download][type] = git
-projects[commerce_migrate][download][branch] = 1.x-dev
-projects[commerce_migrate][download][revision] = 46a8c0c
+projects[commerce_migrate][version] = 1.2
 
 projects[commerce_price_savings_formatter][subdir] = contrib
 projects[commerce_price_savings_formatter][version] = 1.4
