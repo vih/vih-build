@@ -145,7 +145,7 @@ projects[multiform][subdir] = contrib
 projects[multiform][version] = 1.1
 
 projects[node_clone][subdir] = contrib
-projects[node_clone][version] = 1.0-rc4
+projects[node_clone][version] = 1.0
 
 projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.2
