@@ -325,6 +325,11 @@ projects[commerce_billy][download][branch] = 1.x
 projects[commerce_billy][download][revision] = 814ec79
 projects[commerce_billy][patch][2093643] = https://www.drupal.org/files/issues/0002-Allow-PDF-s-filename-configuration-and-add-toke.patch
 
+libraries[dompdf][directory_name] = dompdf
+libraries[dompdf][download][type] = get
+libraries[dompdf][download][url] = http://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz
+libraries[dompdf][overwrite] = TRUE
+
 projects[commerce_billy_mail][subdir] = contrib
 projects[commerce_billy_mail][version] = 1.0-beta5
 
