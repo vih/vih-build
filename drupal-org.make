@@ -318,6 +318,16 @@ projects[commerce_autosku][version] = 1.1
 projects[commerce_backoffice][subdir] = contrib
 projects[commerce_backoffice][version] = 1.4
 
+projects[commerce_billy][subdir] = contrib
+projects[commerce_billy][version] = 1.x-dev
+projects[commerce_billy][download][type] = git
+projects[commerce_billy][download][branch] = 1.x
+projects[commerce_billy][download][revision] = 814ec79
+projects[commerce_billy][patch][2093643] = https://www.drupal.org/files/issues/0002-Allow-PDF-s-filename-configuration-and-add-toke.patch
+
+projects[commerce_billy_mail][subdir] = contrib
+projects[commerce_billy_mail][version] = 1.0-beta5
+
 projects[commerce_cart_expiration][subdir] = contrib
 projects[commerce_cart_expiration][version] = 1.2
 
