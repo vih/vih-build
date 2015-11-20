@@ -430,7 +430,7 @@ projects[vih_core][subdir] = "vih"
 projects[vih_core][download][type] = "git"
 projects[vih_core][download][url] = "https://github.com/vih/vih_core.git"
 projects[vih_core][download][branch] = "7.x-1.x"
-projects[vih_core][download][revision] = "d983e6e"
+projects[vih_core][download][revision] = "63a0b67"
 
 projects[vih_dashboard][type] = "module"
 projects[vih_dashboard][subdir] = "vih"
