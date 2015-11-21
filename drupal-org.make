@@ -602,7 +602,7 @@ projects[vih_student_quotes][subdir] = "vih"
 projects[vih_student_quotes][download][type] = "git"
 projects[vih_student_quotes][download][url] = "https://github.com/vih/vih_student_quotes.git"
 projects[vih_student_quotes][download][branch] = "7.x-1.x"
-projects[vih_student_quotes][download][revision] = "5d1d36a"
+projects[vih_student_quotes][download][revision] = "d271f13"
 
 projects[vih_subjects][type] = "module"
 projects[vih_subjects][subdir] = "vih"
