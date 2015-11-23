@@ -45,6 +45,7 @@ dependencies[] = transliteration
 
 ; Custom modules
 dependencies[] = vih_ad_push
+dependencies[] = vih_brochure
 dependencies[] = vih_calendar
 dependencies[] = vih_core
 dependencies[] = vih_dashboard
