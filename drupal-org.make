@@ -616,7 +616,7 @@ projects[vih_webform][subdir] = "vih"
 projects[vih_webform][download][type] = "git"
 projects[vih_webform][download][url] = "https://github.com/vih/vih_webform.git"
 projects[vih_webform][download][branch] = "7.x-1.x"
-projects[vih_webform][download][revision] = "64e0039"
+projects[vih_webform][download][revision] = "73568de"
 
 projects[vih_viggo][type] = "module"
 projects[vih_viggo][subdir] = "vih"
