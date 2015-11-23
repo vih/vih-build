@@ -408,6 +408,13 @@ projects[vih_ad_push][download][url] = "https://github.com/vih/vih_ad_push.git"
 projects[vih_ad_push][download][branch] = "7.x-1.x"
 projects[vih_ad_push][download][revision] = "b30fc6da562f4faa29d042b044972e8a4a8c3b86"
 
+projects[vih_brochure][type] = "module"
+projects[vih_brochure][subdir] = "vih"
+projects[vih_brochure][download][type] = "git"
+projects[vih_brochure][download][url] = "https://github.com/vih/vih_brochure.git"
+projects[vih_brochure][download][branch] = "7.x-1.x"
+projects[vih_brochure][download][revision] = "f39dd4b3fa51e08aba05a69831ee42663e1445a5"
+
 projects[vih_calendar][type] = "module"
 projects[vih_calendar][subdir] = "vih"
 projects[vih_calendar][download][type] = "git"
