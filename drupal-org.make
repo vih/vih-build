@@ -30,6 +30,9 @@ projects[panopoly_users][subdir] = panopoly
 projects[panopoly_pages][version] = 1.29
 projects[panopoly_pages][subdir] = panopoly
 
+projects[panopoly_theme][version] = 1.29
+projects[panopoly_theme][subdir] = panopoly
+
 ; The Panopoly Toolset
 
 projects[panopoly_search][version] = 1.29
