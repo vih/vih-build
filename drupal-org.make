@@ -444,7 +444,7 @@ projects[vih_dashboard][subdir] = "vih"
 projects[vih_dashboard][download][type] = "git"
 projects[vih_dashboard][download][url] = "https://github.com/vih/vih_dashboard.git"
 projects[vih_dashboard][download][branch] = "7.x-1.x"
-projects[vih_dashboard][download][revision] = "872c973"
+projects[vih_dashboard][download][revision] = "66f9b8d"
 
 projects[vih_demo][type] = "module"
 projects[vih_demo][subdir] = "vih"
