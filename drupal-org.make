@@ -423,7 +423,7 @@ projects[vih_calendar][subdir] = "vih"
 projects[vih_calendar][download][type] = "git"
 projects[vih_calendar][download][url] = "https://github.com/vih/vih_calendar.git"
 projects[vih_calendar][download][branch] = "7.x-1.x"
-projects[vih_calendar][download][revision] = "0749cf2a7658fd148528ac11b03436c35a741f6e"
+projects[vih_calendar][download][revision] = "8b324ed"
 
 projects[vih_commerce][type] = "module"
 projects[vih_commerce][subdir] = "vih"
