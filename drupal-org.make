@@ -12,7 +12,7 @@ projects[panopoly_core][subdir] = panopoly
 projects[panopoly_core][patch][2576819] = https://www.drupal.org/files/issues/patch_defaultconfig-2576819-2.patch
 
 projects[panopoly_images][version] = 1.29
-projects[panopoly_images][subdir] = panopolyv
+projects[panopoly_images][subdir] = panopoly
 
 projects[panopoly_magic][version] = 1.29
 projects[panopoly_magic][subdir] = panopoly
@@ -430,7 +430,7 @@ projects[vih_commerce][subdir] = "vih"
 projects[vih_commerce][download][type] = "git"
 projects[vih_commerce][download][url] = "https://github.com/vih/vih_commerce.git"
 projects[vih_commerce][download][branch] = "7.x-1.x"
-projects[vih_commerce][download][revision] = "04493e2"
+projects[vih_commerce][download][revision] = "db87eec"
 
 projects[vih_core][type] = "module"
 projects[vih_core][subdir] = "vih"
