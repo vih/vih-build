@@ -535,7 +535,7 @@ projects[vih_long_course][subdir] = "vih"
 projects[vih_long_course][download][type] = "git"
 projects[vih_long_course][download][url] = "https://github.com/vih/vih_long_course.git"
 projects[vih_long_course][download][branch] = "7.x-1.x"
-projects[vih_long_course][download][revision] = "333258e"
+projects[vih_long_course][download][revision] = "1374665"
 
 projects[vih_migrate][type] = "module"
 projects[vih_migrate][subdir] = "vih"
