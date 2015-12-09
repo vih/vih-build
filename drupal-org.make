@@ -95,7 +95,7 @@ projects[pdf_reader][version] = 1.0-rc5
 ;;;;;;;;;
 
 projects[adminrole][subdir] = contrib
-projects[adminrole][version] = 1.0
+projects[adminrole][version] = 1.1
 
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.5
@@ -223,7 +223,7 @@ projects[mimemail][subdir] = contrib
 projects[mimemail][version] = 1.0-beta4
 
 projects[smtp][subdir] = contrib
-projects[smtp][version] = 1.2
+projects[smtp][version] = 1.3
 
 ;;;;;;;;;
 ; SEO Tools
