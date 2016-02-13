@@ -217,7 +217,7 @@ libraries[mandrill][directory_name] = "mandrill"
 libraries[mandrill][destination] = "libraries"
 
 projects[message][subdir] = contrib
-projects[message][version] = 1.10
+projects[message][version] = 1.11
 
 projects[message_notify][subdir] = contrib
 projects[message_notify][version] = 2.5
@@ -337,7 +337,7 @@ projects[commerce_billy_mail][subdir] = contrib
 projects[commerce_billy_mail][version] = 1.0-beta5
 
 projects[commerce_cart_expiration][subdir] = contrib
-projects[commerce_cart_expiration][version] = 1.2
+projects[commerce_cart_expiration][version] = 1.3
 
 projects[commerce_checkout_progress][subdir] = contrib
 projects[commerce_checkout_progress][version] = 1.3
@@ -362,8 +362,7 @@ projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.1
 
 projects[commerce_message][subdir] = contrib
-projects[commerce_message][version] = 1.0-rc3
-projects[commerce_message][patch][2171201] = https://www.drupal.org/files/issues/undefined_property-2171201-19.patch
+projects[commerce_message][version] = 1.0-rc4
 
 projects[commerce_migrate][subdir] = contrib
 projects[commerce_migrate][version] = 1.2
@@ -387,7 +386,7 @@ projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.6
 
 projects[inline_conditions][subdir] = contrib
-projects[inline_conditions][version] = 1.0-alpha5
+projects[inline_conditions][version] = 1.0-alpha7
 
 ; Old Quickpay payment platform.
 projects[quickpay][subdir] = contrib
