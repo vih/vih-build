@@ -1,0 +1,7 @@
+steps:
+  - name: Probo site setup
+    plugin: Drupal
+    makeFile: build-vih.make
+    profileName: vih_dk
+    runInstall: true
+    revertFeatures: true
