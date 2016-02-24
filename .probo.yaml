@@ -5,3 +5,8 @@ steps:
     profileName: vih_dk
     runInstall: true
     revertFeatures: true
+  - name: Enabling deploy module
+    command: 'drush --root="/var/www/html" en vih_deploy -y'
+  - name: Enable stage_file_proxy
+    command: 'drush --root="/var/www/html" en stage_file_proxy -y'
+    command: 'drush variable-set stage_file_proxy_origin "http://vih.dk"'
