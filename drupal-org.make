@@ -352,7 +352,10 @@ projects[commerce_custom_product][download][branch] = 1.x-dev
 projects[commerce_custom_product][download][revision] = 30de35e
 
 projects[commerce_discount][subdir] = contrib
-projects[commerce_discount][version] = 1.0-alpha7
+projects[commerce_discount][version] = 1.x-dev
+projects[commerce_discount][download][type] = git
+projects[commerce_discount][download][revision] = 061ade2
+projects[commerce_discount][download][branch] = 7.x-1.x
 
 projects[commerce_features][subdir] = contrib
 projects[commerce_features][version] = 1.1
