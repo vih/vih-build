@@ -17,6 +17,7 @@ cache:
   directories:
     - $HOME/.composer/cache
     - $HOME/.drush/cache
+    - tests/behat/vendor
 
 install:
   # Remove xdebug for the moment. We aren't generating code coverage, and it slows us down.
