@@ -330,7 +330,7 @@ projects[commerce_billy][patch][2093643] = https://www.drupal.org/files/issues/0
 
 libraries[dompdf][directory_name] = dompdf
 libraries[dompdf][download][type] = get
-libraries[dompdf][download][url] = http://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz
+libraries[dompdf][download][url] = https://github.com/dompdf/dompdf/releases/download/v0.6.2/dompdf-0.6.2.zip
 libraries[dompdf][overwrite] = TRUE
 
 projects[commerce_billy_mail][subdir] = contrib
