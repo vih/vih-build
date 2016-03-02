@@ -582,7 +582,7 @@ projects[vih_short_course_family][subdir] = "vih"
 projects[vih_short_course_family][download][type] = "git"
 projects[vih_short_course_family][download][url] = "https://github.com/vih/vih_short_course_family.git"
 projects[vih_short_course_family][download][branch] = "7.x-1.x"
-projects[vih_short_course_family][download][revision] = "a284cb0"
+projects[vih_short_course_family][download][revision] = "04a47a4"
 
 projects[vih_short_course_kayak][type] = "module"
 projects[vih_short_course_kayak][subdir] = "vih"
