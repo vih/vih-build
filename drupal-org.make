@@ -393,7 +393,7 @@ projects[inline_conditions][version] = 1.0-alpha7
 
 ; Old Quickpay payment platform.
 projects[quickpay][subdir] = contrib
-projects[quickpay][version] = 1.11
+projects[quickpay][version] = 1.12
 
 ; New Quickpay v10 payment platform.
 projects[quickpay_payment][type] = "module"
