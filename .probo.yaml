@@ -9,9 +9,9 @@ steps:
     databaseUpdates: true
     revertFeatures: true
   - name: Make directory for site
-    command: 'mkdir /var/www/html/sites/vih.local; mkdir /var/www/html/sites/vih.local/files; mkdir /var/www/html/sites/vih.local/private; mkdir /var/www/html/sites/vih.local/private/temp'
+    command: 'mkdir /var/www/html/sites/vih.dk; mkdir /var/www/html/sites/vih.dk/files; mkdir /var/www/html/sites/vih.dk/private; mkdir /var/www/html/sites/vih.dk/private/temp'
   - name: Fix permissions
-    command: 'chown -R www-data:www-data /var/www/html/sites/vih.local; chmod 777 -R /var/www/html/sites/vih.local'
+    command: 'chown -R www-data:www-data /var/www/html/sites/vih.dk; chmod 777 -R /var/www/html/sites/vih.dk'
   - name: Generate login link
     command: 'drush --root="/var/www/html" uli'
   - name: Enable stage_file_proxy
