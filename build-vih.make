@@ -2,8 +2,8 @@
 api = 2
 core = 7.x
 
-includes[] = https://raw.githubusercontent.com/vih/vih-build/7.x-1.x/drupal-org-core.make
-includes[] = https://raw.githubusercontent.com/vih/vih-build/7.x-1.x/drupal-org.make
+includes[] = drupal-org-core.make
+includes[] = drupal-org.make
 
 projects[vih_dk][type] = "profile"
 projects[vih_dk][download][type] = "git"
