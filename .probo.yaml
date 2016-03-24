@@ -3,7 +3,7 @@ assets:
 steps:
   - name: ProboCI site setup
     plugin: Drupal
-    makeFile: build-vih.make
+    makeFile: build-vih-dev.make
     database: vih.sql.gz
     databaseGzipped: true
     databaseUpdates: true
