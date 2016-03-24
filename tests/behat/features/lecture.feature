@@ -11,7 +11,7 @@ Feature: Administrator can create lectures
       | Title | My awesome lecture         |
       | Body | This is an awesome lecture. |
     And I press "Save"
-    Then I should see the text "Foredrag My awesome lecture has been created."
+    Then I should see the text "Lecture My awesome lecture has been created."
 
   @api
   Scenario: An office employee can create a booklet with lectures
@@ -21,4 +21,4 @@ Feature: Administrator can create lectures
       | Title | Lecture booklet           |
       | Body | This is a lecture booklet. |
     And I press "Save"
-    Then I should see the text "Foredragsrække Lecture booklet has been created."
+    Then I should see the text "Lecture calendar Lecture booklet has been created."

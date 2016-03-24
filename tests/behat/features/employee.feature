@@ -21,4 +21,4 @@ Feature: Administrator can create employees
       | Title | Employee context |
       | Body | This is an employee. |
     And I press "Save"
-    Then I should see the text "Underviserprofil Employee context has been created."
+    Then I should see the text "Employee profile Employee context has been created."
