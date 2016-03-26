@@ -5,8 +5,11 @@ themes/*
 .buildpath
 .project
 .DS_Store
-composer.lock
 composer.phar
 bin
 vendor
 tests/behat/behat.yml
+javascript/
+node_modules/
+phantomas/
+shots/
