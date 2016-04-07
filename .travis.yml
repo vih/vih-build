@@ -1,11 +1,11 @@
 language: php
 sudo: false
 
-php:
-  - 5.6
-
 matrix:
   fast_finish: true
+  include:
+    - php: 5.6
+      env: BLACKFIRE=on
 
 mysql:
   database: drupal
