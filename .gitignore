@@ -13,3 +13,4 @@ javascript/
 node_modules/
 phantomas/
 shots/
+.blackfire.travis.ini
