@@ -139,7 +139,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.5
 
 projects[media_oembed][subdir] = contrib
-projects[media_oembed][version] = 2.5
+projects[media_oembed][version] = 2.6
 
 projects[multiform][subdir] = contrib
 projects[multiform][version] = 1.1
@@ -168,7 +168,7 @@ projects[rules][subdir] = contrib
 projects[rules][version] = 2.9
 
 projects[scheduler][subdir] = contrib
-projects[scheduler][version] = 1.3
+projects[scheduler][version] = 1.4
 
 ; Can be removed when http://drupal.org/node/1058912 is resolved
 projects[token_tweaks][version] = 1.x-dev
@@ -191,7 +191,7 @@ projects[views_random_seed][subdir] = contrib
 projects[views_random_seed][version] = 1.2
 
 projects[views_send][subdir] = contrib
-projects[views_send][version] = 1.1
+projects[views_send][version] = 1.2
 
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.1
@@ -236,7 +236,7 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 2.1
 
 projects[google_analytics_reports][subdir] = contrib
-projects[google_analytics_reports][version] = 3.0-beta2
+projects[google_analytics_reports][version] = 3.0
 
 projects[schemaorg][subdir] = contrib
 projects[schemaorg][version] = 1.0-rc1
@@ -304,7 +304,7 @@ projects[i18n][subdir] = contrib
 ;;;;;;;;;
 
 projects[commerce][subdir] = contrib
-projects[commerce][version] = 1.11
+projects[commerce][version] = 1.13
 projects[commerce][patch][840786] = https://www.drupal.org/files/840786-add-account-info-2.patch
 
 projects[commerce_addressbook][subdir] = contrib
@@ -392,11 +392,7 @@ projects[inline_conditions][subdir] = contrib
 projects[inline_conditions][version] = 1.0-alpha7
 
 projects[quickpay][subdir] = contrib
-projects[quickpay][type] = module
-projects[quickpay][version] = 2.x-dev
-projects[quickpay][download][type] = git
-projects[quickpay][download][branch] = 7.x-2.x
-projects[quickpay][download][revision] = c28a817
+projects[quickpay][version] = 2.0
 
 projects[views_megarow][subdir] = contrib
 projects[views_megarow][version] = 1.5
