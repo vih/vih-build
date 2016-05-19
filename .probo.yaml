@@ -1,0 +1,22 @@
+assets:
+  - vih.sql.gz
+steps:
+  - name: ProboCI site setup
+    plugin: Drupal
+    makeFile: build-vih-dev.make
+    database: vih.sql.gz
+    databaseGzipped: true
+    databaseUpdates: true
+    revertFeatures: true
+  - name: Make directory for site
+    command: 'mkdir /var/www/html/sites/vih.dk; mkdir /var/www/html/sites/vih.dk/files; mkdir /var/www/html/sites/vih.dk/private; mkdir /var/www/html/sites/vih.dk/private/temp'
+  - name: Fix permissions
+    command: 'chown -R www-data:www-data /var/www/html/sites/vih.dk; chmod 777 -R /var/www/html/sites/vih.dk'
+  - name: Generate login link
+    command: 'drush --root="/var/www/html" uli'
+  - name: Enable stage_file_proxy
+    command: 'drush --root="/var/www/html" en stage_file_proxy -y; drush variable-set stage_file_proxy_origin "http://vih.dk"; drush variable-set stage_file_proxy_hotlink 1'
+  - name: Reroute e-mails
+    command: 'drush --root="/var/www/html" en reroute_email -y; drush variable-set reroute_email_enable 1; drush variable-set reroute_email_address "webmaster@vih.dk"'
+  - name: Disable certain modules
+    command: 'drush --root="/var/www/html" pm-disable googleanalytics'

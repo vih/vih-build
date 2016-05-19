@@ -1,4 +1,4 @@
-phantomjs_options: --ssl-protocol=tlsv1
+phantomjs_options: --ssl-protocol=tlsv1 --ignore-ssl-errors=true
 
 #Headless browser option
 browser:
@@ -13,8 +13,8 @@ directory: 'shots'
 
 # Add only 2 domains, key will act as a label
 domains:
-  dev: "http://anvil-first.codio.io:3000/"
-  prod: "https://vih.dk"
+  dev: "http://anvil-first.codio.io:3000"
+  prod: "http://vih.dk"
 
 #Type screen widths below, here are a couple of examples
 screen_widths:
