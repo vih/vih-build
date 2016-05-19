@@ -76,7 +76,7 @@ projects[countries][subdir] = contrib
 projects[countries][version] = 2.3
 
 projects[date_ical][subdir] = contrib
-projects[date_ical][version] = 3.8
+projects[date_ical][version] = 3.9
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.3
@@ -101,7 +101,7 @@ projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.5
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.6
+projects[context][version] = 3.7
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
@@ -118,7 +118,7 @@ projects[feeds][version] = 2.0-beta2
 projects[feeds][subdir] = contrib
 
 projects[features_override][subdir] = contrib
-projects[features_override][version] = 2.0-rc2
+projects[features_override][version] = 2.0-rc3
 
 projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.1
@@ -151,7 +151,7 @@ projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.2
 
 projects[optimizely][subdir] = contrib
-projects[optimizely][version] = 2.17
+projects[optimizely][version] = 2.18
 
 projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.6
@@ -208,7 +208,7 @@ projects[mailsystem][download][revision] = 966e13e
 projects[mailsystem][download][branch] = 7.x-2.x
 
 projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 2.2
+projects[mandrill][version] = 2.3
 
 ; Mandrill PHP Library
 libraries[mandrill][download][type] = "get"
@@ -226,14 +226,14 @@ projects[mimemail][subdir] = contrib
 projects[mimemail][version] = 1.0-beta4
 
 projects[smtp][subdir] = contrib
-projects[smtp][version] = 1.3
+projects[smtp][version] = 1.4
 
 ;;;;;;;;;
 ; SEO Tools
 ;;;;;;;;;
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 2.1
+projects[google_analytics][version] = 2.2
 
 projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 3.0
@@ -319,7 +319,7 @@ projects[commerce_autosku][subdir] = contrib
 projects[commerce_autosku][version] = 1.1
 
 projects[commerce_backoffice][subdir] = contrib
-projects[commerce_backoffice][version] = 1.4
+projects[commerce_backoffice][version] = 1.5
 
 projects[commerce_billy][subdir] = contrib
 projects[commerce_billy][version] = 1.x-dev
@@ -340,7 +340,7 @@ projects[commerce_cart_expiration][subdir] = contrib
 projects[commerce_cart_expiration][version] = 1.3
 
 projects[commerce_checkout_progress][subdir] = contrib
-projects[commerce_checkout_progress][version] = 1.3
+projects[commerce_checkout_progress][version] = 1.4
 
 projects[commerce_coupon][subdir] = contrib
 projects[commerce_coupon][version] = 2.0-rc2
@@ -352,13 +352,10 @@ projects[commerce_custom_product][download][branch] = 1.x-dev
 projects[commerce_custom_product][download][revision] = 30de35e
 
 projects[commerce_discount][subdir] = contrib
-projects[commerce_discount][version] = 1.x-dev
-projects[commerce_discount][download][type] = git
-projects[commerce_discount][download][revision] = 061ade2
-projects[commerce_discount][download][branch] = 7.x-1.x
+projects[commerce_discount][version] = 1.0-alpha8
 
 projects[commerce_features][subdir] = contrib
-projects[commerce_features][version] = 1.1
+projects[commerce_features][version] = 1.2
 projects[commerce_features][patch][2342121] = https://www.drupal.org/files/issues/provide_translatables-2342121-2.patch
 
 projects[commerce_google_analytics][subdir] = contrib
@@ -386,7 +383,7 @@ projects[eva][download][branch] = 7.x-1.x
 projects[eva][download][revision] = 43eaba47defcf62cd6cff48c819689b68befa59a
 
 projects[inline_entity_form][subdir] = contrib
-projects[inline_entity_form][version] = 1.6
+projects[inline_entity_form][version] = 1.8
 
 projects[inline_conditions][subdir] = contrib
 projects[inline_conditions][version] = 1.0-alpha7
@@ -395,7 +392,7 @@ projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 2.0
 
 projects[views_megarow][subdir] = contrib
-projects[views_megarow][version] = 1.5
+projects[views_megarow][version] = 1.6
 
 ;;;;;;;;;
 ; Custom modules
