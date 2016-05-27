@@ -322,10 +322,7 @@ projects[commerce_backoffice][subdir] = contrib
 projects[commerce_backoffice][version] = 1.5
 
 projects[commerce_billy][subdir] = contrib
-projects[commerce_billy][version] = 1.x-dev
-projects[commerce_billy][download][type] = git
-projects[commerce_billy][download][branch] = 1.x
-projects[commerce_billy][download][revision] = 814ec79
+projects[commerce_billy][version] = 1.1
 projects[commerce_billy][patch][2093643] = https://www.drupal.org/files/issues/issue-2093643.patch
 
 libraries[dompdf][directory_name] = dompdf
