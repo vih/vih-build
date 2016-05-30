@@ -181,7 +181,10 @@ projects[webform][subdir] = contrib
 projects[webform][version] = 4.12
 
 projects[webform_mailchimp][subdir] = contrib
-projects[webform_mailchimp][version] = 2.0-beta1
+projects[webform_mailchimp][version] = 2.x-dev
+projects[webform_mailchimp][download][type] = git
+projects[webform_mailchimp][download][revision] = ade1ab8
+projects[webform_mailchimp][download][branch] = 7.x-2.x
 projects[webform_mailchimp][patch][2450749] = https://www.drupal.org/files/issues/duplicate_checkboxes-2450749-1.patch
 
 projects[views_data_export][subdir] = contrib
