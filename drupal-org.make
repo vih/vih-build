@@ -201,6 +201,12 @@ projects[views_slideshow][patch][2252161] = https://www.drupal.org/files/issues/
 ; Messages and email
 ;;;;;;;;;
 
+projects[maillog][subdir] = contrib
+projects[maillog][version] = 1.x-dev
+projects[maillog][download][type] = git
+projects[maillog][download][revision] = 06c4bc0
+projects[maillog][download][branch] = 7.x-1.x
+
 projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.x-dev
 projects[mailsystem][download][type] = git
