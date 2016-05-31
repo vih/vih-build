@@ -52,7 +52,7 @@ projects[panopoly_demo][subdir] = panopoly
 projects[panopoly_news][version] = 1.2
 projects[panopoly_news][subdir] = panopoly
 
-projects[panopoly_seo][version] = 1.0-beta6
+projects[panopoly_seo][version] = 1.0-beta7
 projects[panopoly_seo][subdir] = panopoly
 
 ;;;;;;;:;
@@ -181,7 +181,10 @@ projects[webform][subdir] = contrib
 projects[webform][version] = 4.12
 
 projects[webform_mailchimp][subdir] = contrib
-projects[webform_mailchimp][version] = 2.0-beta1
+projects[webform_mailchimp][version] = 2.x-dev
+projects[webform_mailchimp][download][type] = git
+projects[webform_mailchimp][download][revision] = ade1ab8
+projects[webform_mailchimp][download][branch] = 7.x-2.x
 projects[webform_mailchimp][patch][2450749] = https://www.drupal.org/files/issues/duplicate_checkboxes-2450749-1.patch
 
 projects[views_data_export][subdir] = contrib
@@ -200,6 +203,12 @@ projects[views_slideshow][patch][2252161] = https://www.drupal.org/files/issues/
 ;;;;;;;;;
 ; Messages and email
 ;;;;;;;;;
+
+projects[maillog][subdir] = contrib
+projects[maillog][version] = 1.x-dev
+projects[maillog][download][type] = git
+projects[maillog][download][revision] = 06c4bc0
+projects[maillog][download][branch] = 7.x-1.x
 
 projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.x-dev
@@ -322,10 +331,7 @@ projects[commerce_backoffice][subdir] = contrib
 projects[commerce_backoffice][version] = 1.5
 
 projects[commerce_billy][subdir] = contrib
-projects[commerce_billy][version] = 1.x-dev
-projects[commerce_billy][download][type] = git
-projects[commerce_billy][download][branch] = 1.x
-projects[commerce_billy][download][revision] = 814ec79
+projects[commerce_billy][version] = 1.1
 projects[commerce_billy][patch][2093643] = https://www.drupal.org/files/issues/issue-2093643.patch
 
 libraries[dompdf][directory_name] = dompdf
