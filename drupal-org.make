@@ -157,12 +157,8 @@ projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.6
 projects[plupload][patch][2088143] = https://www.drupal.org/files/issues/plupload-1_5_8-drush_make-2088143-7.patch
 
-projects[references_dialog][version] = 1.x-dev
+projects[references_dialog][version] = 1.0-beta2
 projects[references_dialog][subdir] = contrib
-projects[references_dialog][download][type] = git
-projects[references_dialog][download][revision] = c2457782d07791a2263574c979d0f4b1765a85c2
-projects[references_dialog][download][branch] = 7.x-1.x
-projects[references_dialog][patch][2315905] = https://www.drupal.org/files/issues/references_dialog_fix_theme_links-2315905-5.patch.patch
 
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.9
@@ -226,7 +222,7 @@ libraries[mandrill][directory_name] = "mandrill"
 libraries[mandrill][destination] = "libraries"
 
 projects[message][subdir] = contrib
-projects[message][version] = 1.11
+projects[message][version] = 1.12
 
 projects[message_notify][subdir] = contrib
 projects[message_notify][version] = 2.5
@@ -245,7 +241,7 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 2.2
 
 projects[google_analytics_reports][subdir] = contrib
-projects[google_analytics_reports][version] = 3.0
+projects[google_analytics_reports][version] = 3.1
 
 projects[schemaorg][subdir] = contrib
 projects[schemaorg][version] = 1.0-rc1
