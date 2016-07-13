@@ -52,7 +52,7 @@ projects[panopoly_demo][subdir] = panopoly
 projects[panopoly_news][version] = 1.2
 projects[panopoly_news][subdir] = panopoly
 
-projects[panopoly_seo][version] = 1.0-beta7
+projects[panopoly_seo][version] = 1.0-beta8
 projects[panopoly_seo][subdir] = panopoly
 
 ;;;;;;;:;
