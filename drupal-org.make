@@ -139,7 +139,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.5
 
 projects[media_oembed][subdir] = contrib
-projects[media_oembed][version] = 2.6
+projects[media_oembed][version] = 2.7
 
 projects[multiform][subdir] = contrib
 projects[multiform][version] = 1.1
@@ -164,7 +164,7 @@ projects[rules][subdir] = contrib
 projects[rules][version] = 2.9
 
 projects[scheduler][subdir] = contrib
-projects[scheduler][version] = 1.4
+projects[scheduler][version] = 1.5
 
 ; Can be removed when http://drupal.org/node/1058912 is resolved
 projects[token_tweaks][version] = 1.x-dev
@@ -174,7 +174,7 @@ projects[token_tweaks][download][revision] = 75818fbfb97bf8882ca106e6af703be7644
 projects[token_tweaks][download][branch] = 7.x-1.x
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 4.12
+projects[webform][version] = 4.13
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 2.x-dev
@@ -260,7 +260,7 @@ projects[chart][download][revision] = 860c75c27c296a4135ac1efac773ba1cdf7edf7c
 projects[chart][download][branch] = 7.x-1.x
 
 projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 2.10
+projects[colorbox][version] = 2.12
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 3.6
