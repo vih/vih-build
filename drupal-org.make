@@ -52,7 +52,7 @@ projects[panopoly_demo][subdir] = panopoly
 projects[panopoly_news][version] = 1.2
 projects[panopoly_news][subdir] = panopoly
 
-projects[panopoly_seo][version] = 1.0-beta7
+projects[panopoly_seo][version] = 1.0-beta8
 projects[panopoly_seo][subdir] = panopoly
 
 ;;;;;;;:;
@@ -139,7 +139,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.5
 
 projects[media_oembed][subdir] = contrib
-projects[media_oembed][version] = 2.6
+projects[media_oembed][version] = 2.7
 
 projects[multiform][subdir] = contrib
 projects[multiform][version] = 1.1
@@ -157,18 +157,14 @@ projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.6
 projects[plupload][patch][2088143] = https://www.drupal.org/files/issues/plupload-1_5_8-drush_make-2088143-7.patch
 
-projects[references_dialog][version] = 1.x-dev
+projects[references_dialog][version] = 1.0-beta2
 projects[references_dialog][subdir] = contrib
-projects[references_dialog][download][type] = git
-projects[references_dialog][download][revision] = c2457782d07791a2263574c979d0f4b1765a85c2
-projects[references_dialog][download][branch] = 7.x-1.x
-projects[references_dialog][patch][2315905] = https://www.drupal.org/files/issues/references_dialog_fix_theme_links-2315905-5.patch.patch
 
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.9
 
 projects[scheduler][subdir] = contrib
-projects[scheduler][version] = 1.4
+projects[scheduler][version] = 1.5
 
 ; Can be removed when http://drupal.org/node/1058912 is resolved
 projects[token_tweaks][version] = 1.x-dev
@@ -178,7 +174,7 @@ projects[token_tweaks][download][revision] = 75818fbfb97bf8882ca106e6af703be7644
 projects[token_tweaks][download][branch] = 7.x-1.x
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 4.12
+projects[webform][version] = 4.13
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 2.x-dev
@@ -226,7 +222,7 @@ libraries[mandrill][directory_name] = "mandrill"
 libraries[mandrill][destination] = "libraries"
 
 projects[message][subdir] = contrib
-projects[message][version] = 1.11
+projects[message][version] = 1.12
 
 projects[message_notify][subdir] = contrib
 projects[message_notify][version] = 2.5
@@ -245,7 +241,7 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 2.2
 
 projects[google_analytics_reports][subdir] = contrib
-projects[google_analytics_reports][version] = 3.0
+projects[google_analytics_reports][version] = 3.1
 
 projects[schemaorg][subdir] = contrib
 projects[schemaorg][version] = 1.0-rc1
@@ -264,7 +260,7 @@ projects[chart][download][revision] = 860c75c27c296a4135ac1efac773ba1cdf7edf7c
 projects[chart][download][branch] = 7.x-1.x
 
 projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 2.10
+projects[colorbox][version] = 2.12
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 3.6
