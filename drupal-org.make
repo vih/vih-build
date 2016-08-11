@@ -238,7 +238,7 @@ projects[smtp][version] = 1.4
 ;;;;;;;;;
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 2.2
+projects[google_analytics][version] = 2.3
 
 projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 3.1
