@@ -100,6 +100,12 @@ projects[adminrole][version] = 1.1
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.5
 
+projects[coffee][version] = 2.x-dev
+projects[coffee][subdir] = contrib
+projects[coffee][download][type] = git
+projects[coffee][download][revision] = c13015f
+projects[coffee][download][branch] = 7.x-2.x
+
 projects[context][subdir] = contrib
 projects[context][version] = 3.7
 
@@ -238,7 +244,7 @@ projects[smtp][version] = 1.4
 ;;;;;;;;;
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 2.2
+projects[google_analytics][version] = 2.3
 
 projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 3.1
