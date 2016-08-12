@@ -635,7 +635,7 @@ projects[vih_viggo][subdir] = "vih"
 projects[vih_viggo][download][type] = "git"
 projects[vih_viggo][download][url] = "https://github.com/vih/vih_viggo.git"
 projects[vih_viggo][download][branch] = "7.x-1.x"
-projects[vih_viggo][download][revision] = "bfa2a90faa762f1b25a38b4c4d942b4c79b7cc8f"
+projects[vih_viggo][download][revision] = "89cf025"
 
 ;;;;;;;;;
 ; Custom Themes
