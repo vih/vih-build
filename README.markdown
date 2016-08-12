@@ -6,8 +6,7 @@ Instructions on how to build the site from Drupal 7.
 Requirements
 ------------
 
-* [drush](http://drupal.org/project/drush) 
-* [drush_make](http://drupal.org/project/drush_make)
+* [drush](http://drupal.org/project/drush)
 
 Installation
 ------------
@@ -39,3 +38,7 @@ If you want to force a rebuild of everything, you can run this:
 
     drush si vih_dk
 
+Development
+-----------
+
+Development takes place in feature branches. If the automatic tests on TravisCI succeeds the changes can be merged into the 7.x-1.x branch, which is the production branch. The code is automatically deployed to ProboCI for quality assurance.
