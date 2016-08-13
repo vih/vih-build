@@ -1,0 +1,14 @@
+---
+# Beetbox settings.
+beet_project: drupal
+beet_domain: vih.local
+beet_root: "{{ beet_base }}/docroot"
+beet_site_name: vih.dk
+
+# Drupal settings.
+drupal_build_makefile: yes
+drupal_makefile_path: "{{ beet_base }}/build-vih-dev.make"
+drupal_install_profile: vih_dk
+drupal_install_site: yes
+drupal_account_name: admin
+drupal_account_pass: admin
