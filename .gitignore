@@ -13,3 +13,5 @@ javascript/
 node_modules/
 phantomas/
 shots/
+.vagrant
+docroot/
