@@ -7,52 +7,52 @@ api = 2
 
 ; The Panopoly Foundation
 
-projects[panopoly_core][version] = 1.35
+projects[panopoly_core][version] = 1.38
 projects[panopoly_core][subdir] = panopoly
 projects[panopoly_core][patch][2576819] = https://www.drupal.org/files/issues/patch_defaultconfig-2576819-2.patch
 
-projects[panopoly_images][version] = 1.35
+projects[panopoly_images][version] = 1.38
 projects[panopoly_images][subdir] = panopoly
 
-projects[panopoly_magic][version] = 1.35
+projects[panopoly_magic][version] = 1.38
 projects[panopoly_magic][subdir] = panopoly
 
-projects[panopoly_widgets][version] = 1.35
+projects[panopoly_widgets][version] = 1.38
 projects[panopoly_widgets][subdir] = panopoly
 
-projects[panopoly_admin][version] = 1.35
+projects[panopoly_admin][version] = 1.38
 projects[panopoly_admin][subdir] = panopoly
 projects[panopoly_admin][patch][2228033] = https://www.drupal.org/files/issues/issue-2228033-hide-navbar_0.patch
 
-projects[panopoly_users][version] = 1.35
+projects[panopoly_users][version] = 1.38
 projects[panopoly_users][subdir] = panopoly
 
-projects[panopoly_pages][version] = 1.35
+projects[panopoly_pages][version] = 1.38
 projects[panopoly_pages][subdir] = panopoly
 
-projects[panopoly_theme][version] = 1.35
+projects[panopoly_theme][version] = 1.38
 projects[panopoly_theme][subdir] = panopoly
 
 ; The Panopoly Toolset
 
-projects[panopoly_search][version] = 1.35
+projects[panopoly_search][version] = 1.38
 projects[panopoly_search][subdir] = panopoly
 
-projects[panopoly_wysiwyg][version] = 1.35
+projects[panopoly_wysiwyg][version] = 1.38
 projects[panopoly_wysiwyg][subdir] = panopoly
 
-projects[panopoly_test][version] = 1.35
+projects[panopoly_test][version] = 1.38
 projects[panopoly_test][subdir] = panopoly
 
 ; Panopoly Contrib
 
-projects[panopoly_demo][version] = 1.35
+projects[panopoly_demo][version] = 1.38
 projects[panopoly_demo][subdir] = panopoly
 
 projects[panopoly_news][version] = 1.2
 projects[panopoly_news][subdir] = panopoly
 
-projects[panopoly_seo][version] = 1.0-beta6
+projects[panopoly_seo][version] = 1.0-beta8
 projects[panopoly_seo][subdir] = panopoly
 
 ;;;;;;;:;
@@ -100,6 +100,12 @@ projects[adminrole][version] = 1.1
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.5
 
+projects[coffee][version] = 2.x-dev
+projects[coffee][subdir] = contrib
+projects[coffee][download][type] = git
+projects[coffee][download][revision] = c13015f
+projects[coffee][download][branch] = 7.x-2.x
+
 projects[context][subdir] = contrib
 projects[context][version] = 3.7
 
@@ -139,7 +145,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.5
 
 projects[media_oembed][subdir] = contrib
-projects[media_oembed][version] = 2.6
+projects[media_oembed][version] = 2.7
 
 projects[multiform][subdir] = contrib
 projects[multiform][version] = 1.1
@@ -157,18 +163,14 @@ projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.6
 projects[plupload][patch][2088143] = https://www.drupal.org/files/issues/plupload-1_5_8-drush_make-2088143-7.patch
 
-projects[references_dialog][version] = 1.x-dev
+projects[references_dialog][version] = 1.0-beta2
 projects[references_dialog][subdir] = contrib
-projects[references_dialog][download][type] = git
-projects[references_dialog][download][revision] = c2457782d07791a2263574c979d0f4b1765a85c2
-projects[references_dialog][download][branch] = 7.x-1.x
-projects[references_dialog][patch][2315905] = https://www.drupal.org/files/issues/references_dialog_fix_theme_links-2315905-5.patch.patch
 
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.9
 
 projects[scheduler][subdir] = contrib
-projects[scheduler][version] = 1.4
+projects[scheduler][version] = 1.5
 
 ; Can be removed when http://drupal.org/node/1058912 is resolved
 projects[token_tweaks][version] = 1.x-dev
@@ -178,7 +180,7 @@ projects[token_tweaks][download][revision] = 75818fbfb97bf8882ca106e6af703be7644
 projects[token_tweaks][download][branch] = 7.x-1.x
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 4.12
+projects[webform][version] = 4.13
 
 projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 2.x-dev
@@ -204,6 +206,12 @@ projects[views_slideshow][patch][2252161] = https://www.drupal.org/files/issues/
 ; Messages and email
 ;;;;;;;;;
 
+projects[maillog][subdir] = contrib
+projects[maillog][version] = 1.x-dev
+projects[maillog][download][type] = git
+projects[maillog][download][revision] = 06c4bc0
+projects[maillog][download][branch] = 7.x-1.x
+
 projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.x-dev
 projects[mailsystem][download][type] = git
@@ -220,7 +228,7 @@ libraries[mandrill][directory_name] = "mandrill"
 libraries[mandrill][destination] = "libraries"
 
 projects[message][subdir] = contrib
-projects[message][version] = 1.11
+projects[message][version] = 1.12
 
 projects[message_notify][subdir] = contrib
 projects[message_notify][version] = 2.5
@@ -236,10 +244,10 @@ projects[smtp][version] = 1.4
 ;;;;;;;;;
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 2.2
+projects[google_analytics][version] = 2.3
 
 projects[google_analytics_reports][subdir] = contrib
-projects[google_analytics_reports][version] = 3.0
+projects[google_analytics_reports][version] = 3.1
 
 projects[schemaorg][subdir] = contrib
 projects[schemaorg][version] = 1.0-rc1
@@ -258,7 +266,7 @@ projects[chart][download][revision] = 860c75c27c296a4135ac1efac773ba1cdf7edf7c
 projects[chart][download][branch] = 7.x-1.x
 
 projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 2.10
+projects[colorbox][version] = 2.12
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 3.6
@@ -325,10 +333,7 @@ projects[commerce_backoffice][subdir] = contrib
 projects[commerce_backoffice][version] = 1.5
 
 projects[commerce_billy][subdir] = contrib
-projects[commerce_billy][version] = 1.x-dev
-projects[commerce_billy][download][type] = git
-projects[commerce_billy][download][branch] = 1.x
-projects[commerce_billy][download][revision] = 814ec79
+projects[commerce_billy][version] = 1.1
 projects[commerce_billy][patch][2093643] = https://www.drupal.org/files/issues/issue-2093643.patch
 
 libraries[dompdf][directory_name] = dompdf
@@ -393,6 +398,7 @@ projects[inline_conditions][version] = 1.0-alpha7
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 2.0
+projects[quickpay][patch][2781999] = https://www.drupal.org/files/issues/issue-278199.patch.txt
 
 projects[views_megarow][subdir] = contrib
 projects[views_megarow][version] = 1.6
@@ -462,7 +468,7 @@ projects[vih_employees][subdir] = "vih"
 projects[vih_employees][download][type] = "git"
 projects[vih_employees][download][url] = "https://github.com/vih/vih_employees.git"
 projects[vih_employees][download][branch] = "7.x-1.x"
-projects[vih_employees][download][revision] = "c0d40d6"
+projects[vih_employees][download][revision] = "5a0f939"
 
 projects[vih_facilities][type] = "module"
 projects[vih_facilities][subdir] = "vih"
@@ -560,7 +566,7 @@ projects[vih_short_course][subdir] = "vih"
 projects[vih_short_course][download][type] = "git"
 projects[vih_short_course][download][url] = "https://github.com/vih/vih_short_course.git"
 projects[vih_short_course][download][branch] = "7.x-1.x"
-projects[vih_short_course][download][revision] = "dfdc3ab"
+projects[vih_short_course][download][revision] = "567bf64"
 
 projects[vih_short_course_commerce][type] = "module"
 projects[vih_short_course_commerce][subdir] = "vih"
@@ -616,7 +622,7 @@ projects[vih_subjects][subdir] = "vih"
 projects[vih_subjects][download][type] = "git"
 projects[vih_subjects][download][url] = "https://github.com/vih/vih_subjects.git"
 projects[vih_subjects][download][branch] = "7.x-1.x"
-projects[vih_subjects][download][revision] = "f82ec6f"
+projects[vih_subjects][download][revision] = "038fa04"
 
 projects[vih_webform][type] = "module"
 projects[vih_webform][subdir] = "vih"
@@ -630,7 +636,7 @@ projects[vih_viggo][subdir] = "vih"
 projects[vih_viggo][download][type] = "git"
 projects[vih_viggo][download][url] = "https://github.com/vih/vih_viggo.git"
 projects[vih_viggo][download][branch] = "7.x-1.x"
-projects[vih_viggo][download][revision] = "bfa2a90faa762f1b25a38b4c4d942b4c79b7cc8f"
+projects[vih_viggo][download][revision] = "89cf025"
 
 ;;;;;;;;;
 ; Custom Themes
