@@ -398,6 +398,7 @@ projects[inline_conditions][version] = 1.0-alpha7
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 2.0
+projects[quickpay][patch][2781999] = https://www.drupal.org/files/issues/issue-278199.patch.txt
 
 projects[views_megarow][subdir] = contrib
 projects[views_megarow][version] = 1.6
