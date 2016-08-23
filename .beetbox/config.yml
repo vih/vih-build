@@ -9,8 +9,9 @@ beet_site_name: vih.dk
 
 # Drupal settings.
 drupal_build_makefile: yes
-drupal_makefile_path: "{{ beet_base }}/build-vih-dev.make"
+drupal_makefile_path: "{{ beet_base }}/build-vih-dev.make --working-copy"
 drupal_install_profile: vih_dk
 drupal_install_site: yes
 drupal_account_name: admin
 drupal_account_pass: admin
+php_memory_limit: "284M"
