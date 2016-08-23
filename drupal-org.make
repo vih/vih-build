@@ -426,7 +426,7 @@ projects[vih_calendar][subdir] = "vih"
 projects[vih_calendar][download][type] = "git"
 projects[vih_calendar][download][url] = "https://github.com/vih/vih_calendar.git"
 projects[vih_calendar][download][branch] = "7.x-1.x"
-projects[vih_calendar][download][revision] = "8b324ed"
+projects[vih_calendar][download][revision] = "990bade"
 
 projects[vih_commerce][type] = "module"
 projects[vih_commerce][subdir] = "vih"
