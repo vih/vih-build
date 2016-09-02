@@ -37,8 +37,11 @@ projects[panopoly_theme][subdir] = panopoly
 
 ; The Panopoly Toolset
 
-projects[panopoly_search][version] = 1.40
+projects[panopoly_search][version] = 1.x-dev
 projects[panopoly_search][subdir] = panopoly
+projects[panopoly_search][download][type] = git
+projects[panopoly_search][download][revision] = 8c4e1aa
+projects[panopoly_search][download][branch] = 7.x-1.x
 
 projects[panopoly_wysiwyg][version] = 1.40
 projects[panopoly_wysiwyg][subdir] = panopoly
