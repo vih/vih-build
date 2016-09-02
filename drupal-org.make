@@ -1,6 +1,8 @@
 core = 7.x
 api = 2
 
+defaults[projects][subdir] = contrib
+
 ;;;;;;;;;
 ; Panopoly
 ;;;;;;;;;
@@ -63,7 +65,6 @@ projects[panopoly_seo][subdir] = panopoly
 ;;;;;;;;;
 
 projects[wysiwyg][version] = 2.x-dev
-projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][download][type] = git
 projects[wysiwyg][download][revision] = ee64524b3edb2aa21098a2309b0736e292010247
 projects[wysiwyg][download][branch] = 7.x-2.x
@@ -72,136 +73,98 @@ projects[wysiwyg][download][branch] = 7.x-2.x
 ; Fields
 ;;;;;;;;;
 
-projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.2
 
-projects[countries][subdir] = contrib
 projects[countries][version] = 2.3
 
-projects[date_ical][subdir] = contrib
 projects[date_ical][version] = 3.9
 
-projects[email][subdir] = contrib
 projects[email][version] = 1.3
 
-projects[field_extrawidgets][subdir] = contrib
 projects[field_extrawidgets][version] = 1.1
 
-projects[field_redirection][subdir] = contrib
 projects[field_redirection][version] = 2.6
 
-projects[pdf_reader][subdir] = contrib
 projects[pdf_reader][version] = 1.0-rc5
 
 ;;;;;;;;;
 ; Site building tools
 ;;;;;;;;;
 
-projects[adminrole][subdir] = contrib
 projects[adminrole][version] = 1.1
 
-projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.5
 
 projects[coffee][version] = 2.x-dev
-projects[coffee][subdir] = contrib
 projects[coffee][download][type] = git
 projects[coffee][download][revision] = c13015f
 projects[coffee][download][branch] = 7.x-2.x
 
-projects[context][subdir] = contrib
 projects[context][version] = 3.7
 
-projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
-projects[draggableviews][subdir] = contrib
 projects[draggableviews][version] = 2.1
 projects[draggableviews][patch][2210473] = https://www.drupal.org/files/issues/MYISAM_index_support-2210473-11.patch
 
-projects[emogrifier][subdir] = contrib
 projects[emogrifier][version] = 1.18
 projects[emogrifier][patch][2200267] = https://www.drupal.org/files/issues/issue-2200267_0.patch
 
 projects[feeds][version] = 2.0-beta2
-projects[feeds][subdir] = contrib
 
-projects[features_override][subdir] = contrib
 projects[features_override][version] = 2.0-rc3
 
-projects[imagecache_profiles][subdir] = contrib
 projects[imagecache_profiles][version] = 1.1
 
-projects[image_delta_formatter][subdir] = contrib
 projects[image_delta_formatter][version] = 1.0-rc1
 
-projects[l10n_client][subdir] = contrib
 projects[l10n_client][version] = 1.3
 
-projects[l10n_update][subdir] = contrib
 projects[l10n_update][version] = 2.0
 
-projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha3
 
-projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.5
 
-projects[media_oembed][subdir] = contrib
 projects[media_oembed][version] = 2.7
 
-projects[multiform][subdir] = contrib
 projects[multiform][version] = 1.1
 
-projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0
 
-projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.2
 
-projects[optimizely][subdir] = contrib
 projects[optimizely][version] = 2.18
 
-projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.6
 projects[plupload][patch][2088143] = https://www.drupal.org/files/issues/plupload-1_5_8-drush_make-2088143-7.patch
 
 projects[references_dialog][version] = 1.0-beta2
-projects[references_dialog][subdir] = contrib
 
-projects[rules][subdir] = contrib
 projects[rules][version] = 2.9
 
-projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.5
 
 ; Can be removed when http://drupal.org/node/1058912 is resolved
 projects[token_tweaks][version] = 1.x-dev
-projects[token_tweaks][subdir] = contrib
 projects[token_tweaks][download][type] = git
 projects[token_tweaks][download][revision] = 75818fbfb97bf8882ca106e6af703be7644b11bb
 projects[token_tweaks][download][branch] = 7.x-1.x
 
-projects[webform][subdir] = contrib
 projects[webform][version] = 4.13
 
-projects[webform_mailchimp][subdir] = contrib
 projects[webform_mailchimp][version] = 2.x-dev
 projects[webform_mailchimp][download][type] = git
 projects[webform_mailchimp][download][revision] = ade1ab8
 projects[webform_mailchimp][download][branch] = 7.x-2.x
 projects[webform_mailchimp][patch][2450749] = https://www.drupal.org/files/issues/duplicate_checkboxes-2450749-1.patch
 
-projects[views_data_export][subdir] = contrib
 projects[views_data_export][version] = 3.0-beta9
 
-projects[views_random_seed][subdir] = contrib
 projects[views_random_seed][version] = 1.2
 
-projects[views_send][subdir] = contrib
 projects[views_send][version] = 1.2
 
-projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.1
 projects[views_slideshow][patch][2252161] = https://www.drupal.org/files/issues/plupload-1_5_8-drush_make-2088143-7.patch
 
@@ -209,19 +172,16 @@ projects[views_slideshow][patch][2252161] = https://www.drupal.org/files/issues/
 ; Messages and email
 ;;;;;;;;;
 
-projects[maillog][subdir] = contrib
 projects[maillog][version] = 1.x-dev
 projects[maillog][download][type] = git
 projects[maillog][download][revision] = 06c4bc0
 projects[maillog][download][branch] = 7.x-1.x
 
-projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.x-dev
 projects[mailsystem][download][type] = git
 projects[mailsystem][download][revision] = 966e13e
 projects[mailsystem][download][branch] = 7.x-2.x
 
-projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 2.3
 
 ; Mandrill PHP Library
@@ -230,32 +190,26 @@ libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-a
 libraries[mandrill][directory_name] = "mandrill"
 libraries[mandrill][destination] = "libraries"
 
-projects[message][subdir] = contrib
 projects[message][version] = 1.12
 
-projects[message_notify][subdir] = contrib
 projects[message_notify][version] = 2.5
 
-projects[mimemail][subdir] = contrib
 projects[mimemail][version] = 1.0-beta4
 
-projects[smtp][subdir] = contrib
 projects[smtp][version] = 1.4
 
 ;;;;;;;;;
 ; SEO Tools
 ;;;;;;;;;
 
-projects[google_analytics][subdir] = contrib
+projects[facebook_tracking_pixel][version] = 1.0
+
 projects[google_analytics][version] = 2.3
 
-projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 3.1
 
-projects[schemaorg][subdir] = contrib
 projects[schemaorg][version] = 1.0-rc1
 
-projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.1
 
 ;;;;;;;;;
@@ -263,15 +217,12 @@ projects[site_verify][version] = 1.1
 ;;;;;;;;;
 
 projects[chart][version] = 1.x-dev
-projects[chart][subdir] = contrib
 projects[chart][download][type] = git
 projects[chart][download][revision] = 860c75c27c296a4135ac1efac773ba1cdf7edf7c
 projects[chart][download][branch] = 7.x-1.x
 
-projects[colorbox][subdir] = contrib
 projects[colorbox][version] = 2.12
 
-projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 3.6
 
 ; Mailchimp PHP Library
@@ -280,27 +231,22 @@ libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp
 libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
 
-projects[userreport][subdir] = contrib
 projects[userreport][version] = 1.0-alpha4
 
-projects[zopim][subdir] = contrib
 projects[zopim][version] = 1.2
 
 ;;;;;;;;;
 ; Text editor
 ;;;;;;;;;
 
-projects[picasa_slideshow_filter][subdir] = contrib
 projects[picasa_slideshow_filter][version] = 1.0-alpha4
 
 ;;;;;;;;;
 ; UX Enhancements
 ;;;;;;;;;
 
-projects[ccl][subdir] = contrib
 projects[ccl][version] = 1.5
 
-projects[options_element][subdir] = contrib
 projects[options_element][version] = 1.12
 
 ;;;;;;;;;
@@ -308,34 +254,26 @@ projects[options_element][version] = 1.12
 ;;;;;;;;;
 
 projects[variable][version] = 2.5
-projects[variable][subdir] = contrib
 
 projects[i18n][version] = 1.13
-projects[i18n][subdir] = contrib
 
 ;;;;;;;;;
 ; Commerce
 ;;;;;;;;;
 
-projects[commerce][subdir] = contrib
 projects[commerce][version] = 1.13
 projects[commerce][patch][840786] = https://www.drupal.org/files/840786-add-account-info-2.patch
 
-projects[commerce_addressbook][subdir] = contrib
 projects[commerce_addressbook][version] = 2.0-rc9
 
-projects[commerce_add_to_cart_confirmation][subdir] = contrib
 projects[commerce_add_to_cart_confirmation][download][type] = "git"
 projects[commerce_add_to_cart_confirmation][download][branch] = 7.x-1.x
 projects[commerce_add_to_cart_confirmation][download][revision] = 69ee317
 
-projects[commerce_autosku][subdir] = contrib
 projects[commerce_autosku][version] = 1.1
 
-projects[commerce_backoffice][subdir] = contrib
 projects[commerce_backoffice][version] = 1.5
 
-projects[commerce_billy][subdir] = contrib
 projects[commerce_billy][version] = 1.1
 projects[commerce_billy][patch][2093643] = https://www.drupal.org/files/issues/issue-2093643.patch
 
@@ -344,66 +282,48 @@ libraries[dompdf][download][type] = get
 libraries[dompdf][download][url] = https://github.com/dompdf/dompdf/releases/download/v0.6.2/dompdf-0.6.2.zip
 libraries[dompdf][overwrite] = TRUE
 
-projects[commerce_billy_mail][subdir] = contrib
 projects[commerce_billy_mail][version] = 1.0-beta5
 
-projects[commerce_cart_expiration][subdir] = contrib
 projects[commerce_cart_expiration][version] = 1.3
 
-projects[commerce_checkout_progress][subdir] = contrib
 projects[commerce_checkout_progress][version] = 1.4
 
-projects[commerce_coupon][subdir] = contrib
 projects[commerce_coupon][version] = 2.0-rc2
 
-projects[commerce_custom_product][subdir] = contrib
 projects[commerce_custom_product][version] = 1.x-dev
 projects[commerce_custom_product][download][type] = git
 projects[commerce_custom_product][download][branch] = 1.x-dev
 projects[commerce_custom_product][download][revision] = 30de35e
 
-projects[commerce_discount][subdir] = contrib
 projects[commerce_discount][version] = 1.0-alpha8
 
-projects[commerce_features][subdir] = contrib
 projects[commerce_features][version] = 1.2
 projects[commerce_features][patch][2342121] = https://www.drupal.org/files/issues/provide_translatables-2342121-2.patch
 
-projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.1
 
-projects[commerce_message][subdir] = contrib
 projects[commerce_message][version] = 1.0-rc4
 
-projects[commerce_migrate][subdir] = contrib
 projects[commerce_migrate][version] = 1.2
 
-projects[commerce_price_savings_formatter][subdir] = contrib
 projects[commerce_price_savings_formatter][version] = 1.4
 
-projects[commerce_reports][subdir] = contrib
 projects[commerce_reports][version] = 4.0-beta3
 
-projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.2
 
-projects[eva][subdir] = contrib
 projects[eva][version] = 1.x-dev
 projects[eva][download][type] = "git"
 projects[eva][download][branch] = 7.x-1.x
 projects[eva][download][revision] = 43eaba47defcf62cd6cff48c819689b68befa59a
 
-projects[inline_entity_form][subdir] = contrib
 projects[inline_entity_form][version] = 1.8
 
-projects[inline_conditions][subdir] = contrib
 projects[inline_conditions][version] = 1.0-alpha7
 
-projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 2.0
 projects[quickpay][patch][2781999] = https://www.drupal.org/files/issues/issue-278199.patch.txt
 
-projects[views_megarow][subdir] = contrib
 projects[views_megarow][version] = 1.6
 
 ;;;;;;;;;
@@ -646,9 +566,7 @@ projects[vih_viggo][download][revision] = "89cf025"
 ;;;;;;;;;
 
 projects[radix][version] = 3.0-rc4
-projects[radix][subdir] = contrib
 
-projects[radix_views][subdir] = contrib
 projects[radix_views][version] = 1.0
 
 projects[sport_2014][type] = "theme"
