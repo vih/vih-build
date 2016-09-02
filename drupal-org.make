@@ -330,7 +330,7 @@ projects[commerce_add_to_cart_confirmation][download][branch] = 7.x-1.x
 projects[commerce_add_to_cart_confirmation][download][revision] = 69ee317
 
 projects[commerce_autosku][subdir] = contrib
-projects[commerce_autosku][version] = 1.1
+projects[commerce_autosku][version] = 1.2
 
 projects[commerce_backoffice][subdir] = contrib
 projects[commerce_backoffice][version] = 1.5
