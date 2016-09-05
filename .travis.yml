@@ -96,3 +96,8 @@ script:
 
   # Run Behat tests
   - ./bin/behat --config behat.travis.yml
+
+  # Test directories.
+  - test -d ../../../../profiles/vih_dk
+  - test -d ../../../../sites/all/modules/vih
+  - test -d ../../../../sites/all/modules/contrib
