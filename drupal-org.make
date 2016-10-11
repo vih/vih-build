@@ -151,7 +151,7 @@ projects[token_tweaks][download][type] = git
 projects[token_tweaks][download][revision] = 75818fbfb97bf8882ca106e6af703be7644b11bb
 projects[token_tweaks][download][branch] = 7.x-1.x
 
-projects[webform][version] = 4.13
+projects[webform][version] = 4.14
 
 projects[webform_mailchimp][version] = 2.x-dev
 projects[webform_mailchimp][download][type] = git
@@ -159,7 +159,7 @@ projects[webform_mailchimp][download][revision] = ade1ab8
 projects[webform_mailchimp][download][branch] = 7.x-2.x
 projects[webform_mailchimp][patch][2450749] = https://www.drupal.org/files/issues/duplicate_checkboxes-2450749-1.patch
 
-projects[views_data_export][version] = 3.0-beta9
+projects[views_data_export][version] = 3.1
 
 projects[views_random_seed][version] = 1.2
 
@@ -284,7 +284,7 @@ libraries[dompdf][overwrite] = TRUE
 
 projects[commerce_billy_mail][version] = 1.0-beta5
 
-projects[commerce_cart_expiration][version] = 1.3
+projects[commerce_cart_expiration][version] = 1.4
 
 projects[commerce_checkout_progress][version] = 1.4
 
