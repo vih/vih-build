@@ -95,10 +95,7 @@ projects[adminrole][version] = 1.1
 
 projects[calendar][version] = 3.5
 
-projects[coffee][version] = 2.x-dev
-projects[coffee][download][type] = git
-projects[coffee][download][revision] = c13015f
-projects[coffee][download][branch] = 7.x-2.x
+projects[coffee][version] = 2.3
 
 projects[context][version] = 3.7
 
@@ -163,7 +160,7 @@ projects[views_data_export][version] = 3.1
 
 projects[views_random_seed][version] = 1.2
 
-projects[views_send][version] = 1.2
+projects[views_send][version] = 1.3
 
 projects[views_slideshow][version] = 3.1
 projects[views_slideshow][patch][2252161] = https://www.drupal.org/files/issues/plupload-1_5_8-drush_make-2088143-7.patch
@@ -255,7 +252,7 @@ projects[options_element][version] = 1.12
 
 projects[variable][version] = 2.5
 
-projects[i18n][version] = 1.13
+projects[i18n][version] = 1.14
 
 ;;;;;;;;;
 ; Commerce
