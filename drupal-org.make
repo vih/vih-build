@@ -274,6 +274,9 @@ projects[commerce_autosku][version] = 1.1
 
 projects[commerce_backoffice][version] = 1.5
 
+projects[commerce_bank_transfer][version] = 1.0-alpha3
+projects[commerce_bank_transfer][patch][1788790] = http://drupal.org/files/issue-1788790.patch
+
 projects[commerce_billy][version] = 1.1
 projects[commerce_billy][patch][2093643] = https://www.drupal.org/files/issues/issue-2093643.patch
 
