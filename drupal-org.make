@@ -95,10 +95,7 @@ projects[adminrole][version] = 1.1
 
 projects[calendar][version] = 3.5
 
-projects[coffee][version] = 2.x-dev
-projects[coffee][download][type] = git
-projects[coffee][download][revision] = c13015f
-projects[coffee][download][branch] = 7.x-2.x
+projects[coffee][version] = 2.3
 
 projects[context][version] = 3.7
 
@@ -163,7 +160,7 @@ projects[views_data_export][version] = 3.1
 
 projects[views_random_seed][version] = 1.2
 
-projects[views_send][version] = 1.2
+projects[views_send][version] = 1.3
 
 projects[views_slideshow][version] = 3.1
 projects[views_slideshow][patch][2252161] = https://www.drupal.org/files/issues/plupload-1_5_8-drush_make-2088143-7.patch
@@ -255,7 +252,7 @@ projects[options_element][version] = 1.12
 
 projects[variable][version] = 2.5
 
-projects[i18n][version] = 1.13
+projects[i18n][version] = 1.14
 
 ;;;;;;;;;
 ; Commerce
@@ -273,6 +270,9 @@ projects[commerce_add_to_cart_confirmation][download][revision] = 69ee317
 projects[commerce_autosku][version] = 1.1
 
 projects[commerce_backoffice][version] = 1.5
+
+projects[commerce_bank_transfer][version] = 1.0-alpha3
+projects[commerce_bank_transfer][patch][1788790] = http://drupal.org/files/issue-1788790.patch
 
 projects[commerce_billy][version] = 1.1
 projects[commerce_billy][patch][2093643] = https://www.drupal.org/files/issues/issue-2093643.patch
