@@ -9,30 +9,30 @@ defaults[projects][subdir] = contrib
 
 ; The Panopoly Foundation
 
-projects[panopoly_core][version] = 1.40
+projects[panopoly_core][version] = 1.41
 projects[panopoly_core][subdir] = panopoly
 projects[panopoly_core][patch][2576819] = https://www.drupal.org/files/issues/patch_defaultconfig-2576819-2.patch
 
-projects[panopoly_images][version] = 1.40
+projects[panopoly_images][version] = 1.41
 projects[panopoly_images][subdir] = panopoly
 
-projects[panopoly_magic][version] = 1.40
+projects[panopoly_magic][version] = 1.41
 projects[panopoly_magic][subdir] = panopoly
 
-projects[panopoly_widgets][version] = 1.40
+projects[panopoly_widgets][version] = 1.41
 projects[panopoly_widgets][subdir] = panopoly
 
-projects[panopoly_admin][version] = 1.40
+projects[panopoly_admin][version] = 1.41
 projects[panopoly_admin][subdir] = panopoly
 projects[panopoly_admin][patch][2228033] = https://www.drupal.org/files/issues/issue-2228033-hide-navbar_0.patch
 
-projects[panopoly_users][version] = 1.40
+projects[panopoly_users][version] = 1.41
 projects[panopoly_users][subdir] = panopoly
 
-projects[panopoly_pages][version] = 1.40
+projects[panopoly_pages][version] = 1.41
 projects[panopoly_pages][subdir] = panopoly
 
-projects[panopoly_theme][version] = 1.40
+projects[panopoly_theme][version] = 1.41
 projects[panopoly_theme][subdir] = panopoly
 
 ; The Panopoly Toolset
@@ -43,15 +43,15 @@ projects[panopoly_search][download][type] = git
 projects[panopoly_search][download][revision] = 8c4e1aa
 projects[panopoly_search][download][branch] = 7.x-1.x
 
-projects[panopoly_wysiwyg][version] = 1.40
+projects[panopoly_wysiwyg][version] = 1.41
 projects[panopoly_wysiwyg][subdir] = panopoly
 
-projects[panopoly_test][version] = 1.40
+projects[panopoly_test][version] = 1.41
 projects[panopoly_test][subdir] = panopoly
 
 ; Panopoly Contrib
 
-projects[panopoly_demo][version] = 1.40
+projects[panopoly_demo][version] = 1.41
 projects[panopoly_demo][subdir] = panopoly
 
 projects[panopoly_news][version] = 1.2
