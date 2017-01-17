@@ -107,7 +107,7 @@ projects[draggableviews][patch][2210473] = https://www.drupal.org/files/issues/M
 projects[emogrifier][version] = 1.18
 projects[emogrifier][patch][2200267] = https://www.drupal.org/files/issues/issue-2200267_0.patch
 
-projects[feeds][version] = 2.0-beta2
+projects[feeds][version] = 2.0-beta3
 
 projects[features_override][version] = 2.0-rc3
 
@@ -125,7 +125,7 @@ projects[logintoboggan][version] = 1.5
 
 projects[media_oembed][version] = 2.7
 
-projects[multiform][version] = 1.1
+projects[multiform][version] = 1.3
 
 projects[node_clone][version] = 1.0
 
