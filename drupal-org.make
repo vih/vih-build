@@ -37,11 +37,8 @@ projects[panopoly_theme][subdir] = panopoly
 
 ; The Panopoly Toolset
 
-projects[panopoly_search][version] = 1.x-dev
+projects[panopoly_search][version] = 1.41
 projects[panopoly_search][subdir] = panopoly
-projects[panopoly_search][download][type] = git
-projects[panopoly_search][download][revision] = 8c4e1aa
-projects[panopoly_search][download][branch] = 7.x-1.x
 
 projects[panopoly_wysiwyg][version] = 1.41
 projects[panopoly_wysiwyg][subdir] = panopoly
@@ -162,8 +159,7 @@ projects[views_random_seed][version] = 1.2
 
 projects[views_send][version] = 1.3
 
-projects[views_slideshow][version] = 3.1
-projects[views_slideshow][patch][2252161] = https://www.drupal.org/files/issues/plupload-1_5_8-drush_make-2088143-7.patch
+projects[views_slideshow][version] = 3.4
 
 ;;;;;;;;;
 ; Messages and email
@@ -193,7 +189,7 @@ projects[message_notify][version] = 2.5
 
 projects[mimemail][version] = 1.0-beta4
 
-projects[smtp][version] = 1.4
+projects[smtp][version] = 1.6
 
 ;;;;;;;;;
 ; SEO Tools
