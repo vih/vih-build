@@ -159,7 +159,7 @@ projects[views_random_seed][version] = 1.2
 
 projects[views_send][version] = 1.5
 
-projects[views_slideshow][version] = 3.4
+projects[views_slideshow][version] = 3.8
 
 ;;;;;;;;;
 ; Messages and email
