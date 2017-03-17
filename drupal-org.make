@@ -96,7 +96,7 @@ projects[coffee][version] = 2.3
 
 projects[context][version] = 3.7
 
-projects[diff][version] = 3.2
+projects[diff][version] = 3.3
 
 projects[draggableviews][version] = 2.1
 projects[draggableviews][patch][2210473] = https://www.drupal.org/files/issues/MYISAM_index_support-2210473-11.patch
@@ -126,7 +126,7 @@ projects[multiform][version] = 1.3
 
 projects[node_clone][version] = 1.0
 
-projects[oauth][version] = 3.2
+projects[oauth][version] = 3.4
 
 projects[optimizely][version] = 2.18
 
@@ -157,7 +157,7 @@ projects[views_data_export][version] = 3.1
 
 projects[views_random_seed][version] = 1.2
 
-projects[views_send][version] = 1.3
+projects[views_send][version] = 1.5
 
 projects[views_slideshow][version] = 3.4
 
@@ -195,7 +195,7 @@ projects[smtp][version] = 1.6
 ; SEO Tools
 ;;;;;;;;;
 
-projects[facebook_tracking_pixel][version] = 1.0
+projects[facebook_tracking_pixel][version] = 1.1
 
 projects[google_analytics][version] = 2.3
 
@@ -238,7 +238,7 @@ projects[picasa_slideshow_filter][version] = 1.0-alpha4
 ; UX Enhancements
 ;;;;;;;;;
 
-projects[ccl][version] = 1.5
+projects[ccl][version] = 1.6
 
 projects[options_element][version] = 1.12
 
@@ -248,7 +248,7 @@ projects[options_element][version] = 1.12
 
 projects[variable][version] = 2.5
 
-projects[i18n][version] = 1.14
+projects[i18n][version] = 1.15
 
 ;;;;;;;;;
 ; Commerce
@@ -270,7 +270,7 @@ projects[commerce_backoffice][version] = 1.5
 projects[commerce_bank_transfer][version] = 1.0-alpha3
 projects[commerce_bank_transfer][patch][1788790] = http://drupal.org/files/issue-1788790.patch
 
-projects[commerce_billy][version] = 1.1
+projects[commerce_billy][version] = 1.2
 projects[commerce_billy][patch][2093643] = https://www.drupal.org/files/issues/issue-2093643.patch
 
 libraries[dompdf][directory_name] = dompdf
@@ -298,7 +298,7 @@ projects[commerce_features][patch][2342121] = https://www.drupal.org/files/issue
 
 projects[commerce_google_analytics][version] = 1.1
 
-projects[commerce_message][version] = 1.0-rc4
+projects[commerce_message][version] = 1.0-rc5
 
 projects[commerce_migrate][version] = 1.2
 
@@ -317,7 +317,7 @@ projects[inline_entity_form][version] = 1.8
 
 projects[inline_conditions][version] = 1.0-alpha7
 
-projects[quickpay][version] = 2.0
+projects[quickpay][version] = 2.1
 projects[quickpay][patch][2781999] = https://www.drupal.org/files/issues/issue-278199.patch.txt
 
 projects[views_megarow][version] = 1.6
