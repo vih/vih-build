@@ -201,6 +201,10 @@ projects[google_analytics][version] = 2.3
 
 projects[google_analytics_reports][version] = 3.1
 
+projects[google_tag][version] = 1.2-rc3
+
+projects[commerce_google_tag_manager][version] = 2.0-rc3
+
 projects[schemaorg][version] = 1.0-rc1
 
 projects[site_verify][version] = 1.1
